@@ -1,0 +1,23 @@
+xeldor@Ubuntu22:~/Desktop$ ls
+xeldor@Ubuntu22:~/Desktop$ touch fTest.txt
+xeldor@Ubuntu22:~/Desktop$ echo 'Something somewhere' >fTest.txt 
+xeldor@Ubuntu22:~/Desktop$ cat fTest.txt 
+Something somewhere
+xeldor@Ubuntu22:~/Desktop$ ls -alph
+-rw-rw-r--  1 xeldor xeldor   20 Dec  4 10:41 fTest.txt
+xeldor@Ubuntu22:~/Desktop$ sudo chmod 777 fTest.txt 
+[sudo] password for xeldor: 
+xeldor@Ubuntu22:~/Desktop$ ls -alph
+-rwxrwxrwx  1 xeldor xeldor   20 Dec  4 10:41 fTest.txt
+xeldor@Ubuntu22:~/Desktop$ sudo chmod 753 fTest.txt 
+xeldor@Ubuntu22:~/Desktop$ ls -alph
+-rwxr-x-wx  1 xeldor xeldor   20 Dec  4 10:41 fTest.txt
+xeldor@Ubuntu22:~/Desktop$ sudo chmod -r fTest.txt 
+xeldor@Ubuntu22:~/Desktop$ ls -alph
+--wx--x-wx  1 xeldor xeldor   20 Dec  4 10:41 fTest.txt
+xeldor@Ubuntu22:~/Desktop$ sudo chmod -w+r fTest.txt 
+chmod: fTest.txt: new permissions are r-xr-xrwx, not r-xr-xr-x
+xeldor@Ubuntu22:~/Desktop$ ls -alph
+-r-xr-xrwx  1 xeldor xeldor   20 Dec  4 10:41 fTest.txt
+
+

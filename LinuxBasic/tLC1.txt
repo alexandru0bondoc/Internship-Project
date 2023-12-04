@@ -1,1212 +1,0 @@
-Script started on 2023-11-27 12:53:26+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ ouch [K[K[K[K[Ktouch Nr[KetworkChuck
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ mv NetworkChuck NetworkChuck.txt
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ subl Nre[K[KetworkChuck.txt 
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ pwd[K[K[Kcd ~
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ pwd
-[?2004l/home/xeldor
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mMusic[0m     [01;34mPycharmProjects[0m  man.save      [01;34mworkspaceGITHUB[0m
-[01;34mDocuments[0m  [01;34mPictures[0m  [01;34mTemplates[0m        [01;34mmyprojectenv[0m
-[01;34mDownloads[0m  [01;34mPublic[0m    [01;34mVideos[0m           [01;34msnap[0m
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ cd Desktop/
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ pwd
-[?2004l/home/xeldor/Desktop
-[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ ls
-[?2004lNetworkChuck.txt  fileTkN.txt  trackCOM_OUT.txt  trackLinuxChuck.txt
-[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ p[Kcd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ pwd
-[?2004l/home/xeldor
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: /home[01;32mxeldor@Ubuntu22[00m:[01;34m/home[00m$ pwd
-[?2004l/home
-[?2004h]0;xeldor@Ubuntu22: /home[01;32mxeldor@Ubuntu22[00m:[01;34m/home[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ pwd
-[?2004l/
-[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ ls
-[?2004l[0m[01;36mbin[0m    [01;34mdev[0m   [01;36mlib[0m    [01;36mlibx32[0m      [01;34mmnt[0m   [01;34mroot[0m  [01;34msnap[0m      [01;34msys[0m  [01;34mvar[0m
-[01;34mboot[0m   [01;34metc[0m   [01;36mlib32[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msrv[0m       [30;42mtmp[0m
-[01;34mcdrom[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmedia[0m       [01;34mproc[0m  [01;36msbin[0m  swapfile  [01;34musr[0m
-[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ cdd[K ~
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ pwd
-[?2004l/home/xeldor
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ whoami
-[?2004lxeldor
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ cd Desktop/
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ pwd
-[?2004l/home/xeldor/Desktop
-[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: /home[01;32mxeldor@Ubuntu22[00m:[01;34m/home[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ cd ..
-[?2004l[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ pwd
-[?2004l/
-[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ clear
-[?2004l[H[2J[3J[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ ls
-[?2004l[0m[01;36mbin[0m    [01;34mdev[0m   [01;36mlib[0m    [01;36mlibx32[0m      [01;34mmnt[0m   [01;34mroot[0m  [01;34msnap[0m      [01;34msys[0m  [01;34mvar[0m
-[01;34mboot[0m   [01;34metc[0m   [01;36mlib32[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msrv[0m       [30;42mtmp[0m
-[01;34mcdrom[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmedia[0m       [01;34mproc[0m  [01;36msbin[0m  swapfile  [01;34musr[0m
-[?2004h]0;xeldor@Ubuntu22: /[01;32mxeldor@Ubuntu22[00m:[01;34m/[00m$ cd bin
-[?2004l[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ ls
-[?2004l [0m[01;36mGET[0m                                  [01;32mmkfontscale[0m
- [01;36mHEAD[0m                                 [01;36mmkisofs[0m
- [01;36mPOST[0m                                 [01;32mmknod[0m
- [01;36mVBoxAudioTest[0m                        [01;32mmksquashfs[0m
- [01;36mVBoxClient[0m                           [01;32mmktemp[0m
- [01;36mVBoxClient-all[0m                       [01;32mmkzftree[0m
- [01;36mVBoxControl[0m                          [01;32mmmcli[0m
- [01;36mVBoxDRMClient[0m                        [01;32mmokutil[0m
- [01;32mVGAuthService[0m                        [01;32mmonitor-sensor[0m
- [01;36mX[0m                                    [01;32mmore[0m
- [01;36mX11[0m                                  [37;41mmount[0m
- [01;32mXephyr[0m                               [01;32mmountpoint[0m
- [01;32mXorg[0m                                 [01;32mmousetweaks[0m
- [01;32mXwayland[0m                             [01;32mmscompress[0m
-[01;32m'['[0m                                   [01;32mmsexpand[0m
- [01;32maa-enabled[0m                           [01;36mmt[0m
- [01;32maa-exec[0m                              [01;32mmt-gnu[0m
- [01;32maa-features-abi[0m                      [01;32mmtr[0m
- [01;32maconnect[0m                             [01;32mmtr-packet[0m
- [01;32macpi_listen[0m                          [01;32mmtrace[0m
- [01;32madd-apt-repository[0m                   [01;32mmv[0m
- [01;32maddpart[0m                              [01;32mnamei[0m
- [01;36maddr2line[0m                            [01;32mnano[0m
- [01;32mairscan-discover[0m                     [01;32mnautilus[0m
- [01;32malsabat[0m                              [01;32mnautilus-autorun-software[0m
- [01;32malsaloop[0m                             [01;32mnautilus-sendto[0m
- [01;32malsamixer[0m                            [01;36mnawk[0m
- [01;32malsatplg[0m                             [01;36mnc[0m
- [01;32malsaucm[0m                              [01;32mnc.openbsd[0m
- [01;32mamidi[0m                                [01;36mncurses5-config[0m
- [01;32mamixer[0m                               [01;32mncurses6-config[0m
- [01;32mapg[0m                                  [01;36mncursesw5-config[0m
- [01;32mapgbfm[0m                               [01;32mncursesw6-config[0m
- [01;32maplay[0m                                [01;32mneqn[0m
- [01;32maplaymidi[0m                            [01;36mnetcat[0m
- [01;32mapport-bug[0m                           [01;32mnetworkctl[0m
- [01;32mapport-cli[0m                           [01;32mnetworkd-dispatcher[0m
- [01;36mapport-collect[0m                       [37;41mnewgrp[0m
- [01;32mapport-unpack[0m                        [01;32mngettext[0m
- [01;32mappres[0m                               [01;32mnice[0m
- [01;32mappstreamcli[0m                         [01;36mnisdomainname[0m
- [01;36mapropos[0m                              [01;32mnl[0m
- [01;32mapt[0m                                  [01;36mnm[0m
- [01;36mapt-add-repository[0m                   [01;32mnm-applet[0m
- [01;32mapt-cache[0m                            [01;32mnm-connection-editor[0m
- [01;32mapt-cdrom[0m                            [01;32mnm-online[0m
- [01;32mapt-config[0m                           [01;32mnmcli[0m
- [01;32mapt-extracttemplates[0m                 [01;32mnmtui[0m
- [01;32mapt-ftparchive[0m                       [01;36mnmtui-connect[0m
- [01;32mapt-get[0m                              [01;36mnmtui-edit[0m
- [01;32mapt-key[0m                              [01;36mnmtui-hostname[0m
- [01;32mapt-mark[0m                             [01;32mnohup[0m
- [01;32mapt-sortpkgs[0m                         [01;32mnotify-send[0m
- [01;32maptdcon[0m                              [01;32mnproc[0m
- [01;32mapturl[0m                               [01;32mnroff[0m
- [01;32mapturl-gtk[0m                           [01;32mnsenter[0m
- [01;36mar[0m                                   [01;32mnslookup[0m
- [01;32march[0m                                 [01;32mnspr-config[0m
- [01;36marecord[0m                              [01;32mnss-config[0m
- [01;32marecordmidi[0m                          [01;32mnstat[0m
- [01;32marm2hpdl[0m                             [01;32mnsupdate[0m
- [01;36mas[0m                                   [01;32mntfs-3g[0m
- [01;32maseqdump[0m                             [01;32mntfs-3g.probe[0m
- [01;32maseqnet[0m                              [01;32mntfscat[0m
- [01;32maspell[0m                               [01;32mntfscluster[0m
- [01;32maspell-import[0m                        [01;32mntfscmp[0m
- [01;32matobm[0m                                [01;32mntfsdecrypt[0m
- [01;32mavahi-browse[0m                         [01;32mntfsfallocate[0m
- [01;36mavahi-browse-domains[0m                 [01;32mntfsfix[0m
- [01;32mavahi-publish[0m                        [01;32mntfsinfo[0m
- [01;36mavahi-publish-address[0m                [01;32mntfsls[0m
- [01;36mavahi-publish-service[0m                [01;32mntfsmove[0m
- [01;32mavahi-resolve[0m                        [01;32mntfsrecover[0m
- [01;36mavahi-resolve-address[0m                [01;32mntfssecaudit[0m
- [01;36mavahi-resolve-host-name[0m              [01;32mntfstruncate[0m
- [01;32mavahi-set-host-name[0m                  [01;32mntfsusermap[0m
- [01;32mavinfo[0m                               [01;32mntfswipe[0m
- [01;36mawk[0m                                  [01;32mnumfmt[0m
- [01;32maxfer[0m                                [01;32mnvidia-detector[0m
- [01;32mb2sum[0m                                [01;32moakdecode[0m
- [01;32mbaobab[0m                               [01;32mobexctl[0m
- [01;32mbase32[0m                               [01;36mobjcopy[0m
- [01;32mbase64[0m                               [01;36mobjdump[0m
- [01;32mbasename[0m                             [01;32moclock[0m
- [01;32mbasenc[0m                               [01;32mod[0m
- [01;32mbash[0m                                 [01;32moem-getlogs[0m
- [01;32mbashbug[0m                              [01;36mon_ac_power[0m
- [01;32mbc[0m                                   [01;32moomctl[0m
- [01;32mbdftopcf[0m                             [01;36mopen[0m
- [01;32mbdftruncate[0m                          [01;32mopenssl[0m
- [01;32mbitmap[0m                               [01;32mopenvt[0m
- [01;32mbluemoon[0m                             [01;32mopldecode[0m
- [01;32mbluetooth-sendto[0m                     [01;32morca[0m
- [01;32mbluetoothctl[0m                         [01;32morca-dm-wrapper[0m
- [01;32mbmtoa[0m                                [01;32mos-prober[0m
- [01;32mboltctl[0m                              [01;32mp11-kit[0m
- [01;32mbootctl[0m                              [01;32mpa-info[0m
- [01;32mbrltty[0m                               [01;32mpacat[0m
- [01;32mbrltty-ctb[0m                           [01;32mpacmd[0m
- [01;32mbrltty-trtxt[0m                         [01;32mpactl[0m
- [01;32mbrltty-ttb[0m                           [01;32mpadsp[0m
- [01;32mbroadwayd[0m                            [01;36mpager[0m
- [01;36mbrowse[0m                               [01;36mpamon[0m
- [01;32mbtattach[0m                             [01;32mpaperconf[0m
- [01;32mbtmgmt[0m                               [01;36mpaplay[0m
- [01;32mbtmon[0m                                [01;36mparec[0m
- [01;32mbunzip2[0m                              [01;36mparecord[0m
- [01;32mbusctl[0m                               [01;32mpartx[0m
- [01;32mbusybox[0m                              [37;41mpasswd[0m
- [01;32mbwrap[0m                                [01;32mpaste[0m
- [01;32mbzcat[0m                                [01;36mpasteurize[0m
- [01;36mbzcmp[0m                                [01;32mpasuspender[0m
- [01;32mbzdiff[0m                               [01;32mpatch[0m
- [01;36mbzegrep[0m                              [01;32mpathchk[0m
- [01;32mbzexe[0m                                [01;32mpax11publish[0m
- [01;36mbzfgrep[0m                              [01;36mpdb3[0m
- [01;32mbzgrep[0m                               [01;36mpdb3.10[0m
- [01;32mbzip2[0m                                [01;32mpdf2dsc[0m
- [01;32mbzip2recover[0m                         [01;32mpdf2ps[0m
- [01;36mbzless[0m                               [01;32mpdfattach[0m
- [01;32mbzmore[0m                               [01;32mpdfdetach[0m
- [01;36mc++[0m                                  [01;32mpdffonts[0m
- [01;36mc++filt[0m                              [01;32mpdfimages[0m
- [01;36mc89[0m                                  [01;32mpdfinfo[0m
- [01;32mc89-gcc[0m                              [01;32mpdfseparate[0m
- [01;36mc99[0m                                  [01;32mpdfsig[0m
- [01;32mc99-gcc[0m                              [01;32mpdftocairo[0m
- [01;32mc_rehash[0m                             [01;32mpdftohtml[0m
- [01;32mcalibrate_ppa[0m                        [01;32mpdftoppm[0m
- [01;32mcanberra-gtk-play[0m                    [01;32mpdftops[0m
- [01;32mcancel[0m                               [01;32mpdftotext[0m
- [01;36mcaptoinfo[0m                            [01;32mpdfunite[0m
- [01;32mcat[0m                                  [01;32mpeekfd[0m
- [01;32mcatman[0m                               [01;32mperl[0m
- [01;32mcautious-launcher[0m                    [01;32mperl5.34-x86_64-linux-gnu[0m
- [01;36mcc[0m                                   [01;32mperl5.34.0[0m
- [01;32mcd-create-profile[0m                    [01;32mperlbug[0m
- [01;32mcd-fix-profile[0m                       [01;32mperldoc[0m
- [01;32mcd-iccdump[0m                           [01;32mperli11ndoc[0m
- [01;32mcd-it8[0m                               [01;32mperlivp[0m
- [01;32mchacl[0m                                [01;32mperlthanks[0m
- [30;43mchage[0m                                [01;32mpf2afm[0m
- [01;36mchardet[0m                              [01;32mpfbtopfa[0m
- [01;32mchardetect[0m                           [01;32mpgrep[0m
- [01;32mchattr[0m                               [01;32mpic[0m
- [01;32mchcon[0m                                [01;36mpico[0m
- [01;32mcheck-language-support[0m               [01;32mpiconv[0m
- [01;32mcheese[0m                               [01;36mpidof[0m
- [37;41mchfn[0m                                 [01;32mpidwait[0m
- [01;32mchgrp[0m                                [01;36mpinentry[0m
- [01;32mchmod[0m                                [01;32mpinentry-curses[0m
- [01;32mchoom[0m                                [01;32mpinentry-gnome3[0m
- [01;32mchown[0m                                [01;36mpinentry-x11[0m
- [01;32mchrt[0m                                 [01;32mping[0m
- [37;41mchsh[0m                                 [01;36mping4[0m
- [01;32mchvt[0m                                 [01;36mping6[0m
- [01;32mciptool[0m                              [01;32mpinky[0m
- [01;32mckbcomp[0m                              [01;32mpipewire[0m
- [01;32mcksum[0m                                [01;32mpipewire-media-session[0m
- [01;32mclear[0m                                [01;32mpkaction[0m
- [01;32mclear_console[0m                        [01;32mpkcheck[0m
- [01;32mcmp[0m                                  [01;32mpkcon[0m
- [01;32mcodepage[0m                             [37;41mpkexec[0m
- [01;32mcol[0m                                  [01;32mpkg-config[0m
- [01;32mcolcrt[0m                               [01;36mpkill[0m
- [01;32mcolormgr[0m                             [01;32mpkmon[0m
- [01;32mcolrm[0m                                [01;32mpkttyagent[0m
- [01;32mcolumn[0m                               [01;32mpl2pm[0m
- [01;32mcomm[0m                                 [01;32mpldd[0m
- [01;36mcompose[0m                              [01;32mplog[0m
- [01;32mcorelist[0m                             [01;32mplymouth[0m
- [01;32mcp[0m                                   [01;32mpmap[0m
- [01;32mcpan[0m                                 [01;32mpng-fix-itxt[0m
- [01;32mcpan5.34-x86_64-linux-gnu[0m            [01;32mpngfix[0m
- [01;32mcpio[0m                                 [01;32mpnm2ppa[0m
- [01;36mcpp[0m                                  [01;32mpod2html[0m
- [01;36mcpp-11[0m                               [01;32mpod2man[0m
- [30;43mcrontab[0m                              [01;32mpod2text[0m
- [01;32mcsplit[0m                               [01;32mpod2usage[0m
- [01;36mctstat[0m                               [01;32mpodchecker[0m
- [01;32mcupstestppd[0m                          [01;32mpoff[0m
- [01;32mcut[0m                                  [01;32mpon[0m
- [01;32mcvt[0m                                  [01;32mpowerprofilesctl[0m
- [01;32mcvtsudoers[0m                           [01;32mppdc[0m
- [01;32mdash[0m                                 [01;32mppdhtml[0m
- [01;32mdate[0m                                 [01;32mppdi[0m
- [01;32mdbus-cleanup-sockets[0m                 [01;32mppdmerge[0m
- [01;32mdbus-daemon[0m                          [01;32mppdpo[0m
- [01;32mdbus-monitor[0m                         [01;32mpphs[0m
- [01;32mdbus-run-session[0m                     [01;32mpr[0m
- [01;32mdbus-send[0m                            [01;32mprecat[0m
- [01;32mdbus-update-activation-environment[0m   [01;32mpreconv[0m
- [01;32mdbus-uuidgen[0m                         [01;32mpreunzip[0m
- [01;32mdbxtool[0m                              [01;32mprezip[0m
- [01;32mdc[0m                                   [01;32mprezip-bin[0m
- [01;32mdconf[0m                                [01;36mprint[0m
- [01;32mdd[0m                                   [01;32mprintafm[0m
- [01;32mddstdecode[0m                           [01;32mprintenv[0m
- [01;32mdeallocvt[0m                            [01;32mprinter-profile[0m
- [01;32mdeb-systemd-helper[0m                   [01;32mprintf[0m
- [01;32mdeb-systemd-invoke[0m                   [01;32mprlimit[0m
- [01;32mdebconf[0m                              [01;36mpro[0m
- [01;32mdebconf-apt-progress[0m                 [01;32mprove[0m
- [01;32mdebconf-communicate[0m                  [01;32mprtstat[0m
- [01;32mdebconf-copydb[0m                       [01;32mps[0m
- [01;32mdebconf-escape[0m                       [01;32mps2ascii[0m
- [01;32mdebconf-set-selections[0m               [01;32mps2epsi[0m
- [01;32mdebconf-show[0m                         [01;32mps2pdf[0m
- [01;32mdebian-distro-info[0m                   [01;32mps2pdf12[0m
- [01;32mdeja-dup[0m                             [01;32mps2pdf13[0m
- [01;32mdelpart[0m                              [01;32mps2pdf14[0m
- [01;32mdelv[0m                                 [01;32mps2pdfwr[0m
- [01;36mdesktop-file-edit[0m                    [01;32mps2ps[0m
- [01;32mdesktop-file-install[0m                 [01;32mps2ps2[0m
- [01;32mdesktop-file-validate[0m                [01;36mps2txt[0m
- [01;32mdevdump[0m                              [01;36mpsfaddtable[0m
- [01;32mdf[0m                                   [01;36mpsfgettable[0m
- [01;32mdfu-tool[0m                             [01;36mpsfstriptable[0m
- [01;32mdh_bash-completion[0m                   [01;32mpsfxtable[0m
- [01;32mdh_installxmlcatalogs[0m                [01;32mpsicc[0m
- [01;32mdh_perl_openssl[0m                      [01;32mpslog[0m
- [01;32mdiff[0m                                 [01;32mpstree[0m
- [01;32mdiff3[0m                                [01;36mpstree.x11[0m
- [01;32mdig[0m                                  [01;32mptar[0m
- [01;32mdir[0m                                  [01;32mptardiff[0m
- [01;32mdircolors[0m                            [01;32mptargrep[0m
- [01;32mdirmngr[0m                              [01;32mptx[0m
- [01;32mdirmngr-client[0m                       [01;32mpulseaudio[0m
- [01;32mdirname[0m                              [01;32mpw-cat[0m
- [01;32mdirsplit[0m                             [01;32mpw-cli[0m
- [01;36mdistro-info[0m                          [01;32mpw-dot[0m
- [01;32mdmesg[0m                                [01;36mpw-dsdplay[0m
- [01;36mdnsdomainname[0m                        [01;32mpw-dump[0m
- [01;32mdo-release-upgrade[0m                   [01;32mpw-link[0m
- [01;36mdomainname[0m                           [01;32mpw-loopback[0m
- [01;32mdpkg[0m                                 [01;32mpw-metadata[0m
- [01;32mdpkg-architecture[0m                    [01;32mpw-mididump[0m
- [01;32mdpkg-buildflags[0m                      [01;36mpw-midiplay[0m
- [01;32mdpkg-buildpackage[0m                    [01;36mpw-midirecord[0m
- [01;32mdpkg-checkbuilddeps[0m                  [01;32mpw-mon[0m
- [01;32mdpkg-deb[0m                             [01;36mpw-play[0m
- [01;32mdpkg-distaddfile[0m                     [01;32mpw-profiler[0m
- [01;32mdpkg-divert[0m                          [01;36mpw-record[0m
- [01;32mdpkg-genbuildinfo[0m                    [01;32mpw-reserve[0m
- [01;32mdpkg-genchanges[0m                      [01;32mpw-top[0m
- [01;32mdpkg-gencontrol[0m                      [01;32mpw-v4l2[0m
- [01;32mdpkg-gensymbols[0m                      [01;32mpwd[0m
- [01;32mdpkg-maintscript-helper[0m              [01;32mpwdx[0m
- [01;32mdpkg-mergechangelogs[0m                 [01;32mpy3clean[0m
- [01;32mdpkg-name[0m                            [01;32mpy3compile[0m
- [01;32mdpkg-parsechangelog[0m                  [01;36mpy3versions[0m
- [01;32mdpkg-query[0m                           [01;36mpydoc3[0m
- [01;32mdpkg-realpath[0m                        [01;32mpydoc3.10[0m
- [01;32mdpkg-scanpackages[0m                    [01;36mpygettext3[0m
- [01;32mdpkg-scansources[0m                     [01;32mpygettext3.10[0m
- [01;32mdpkg-shlibdeps[0m                       [01;36mpython3[0m
- [01;32mdpkg-source[0m                          [01;32mpython3-futurize[0m
- [01;32mdpkg-split[0m                           [01;32mpython3-pasteurize[0m
- [01;32mdpkg-statoverride[0m                    [01;32mpython3.10[0m
- [01;32mdpkg-trigger[0m                         [01;32mpzstd[0m
- [01;32mdpkg-vendor[0m                          [01;32mqpdldecode[0m
- [01;36mdriverless[0m                           [01;32mquirks-handler[0m
- [01;36mdriverless-fax[0m                       [01;36mranlib[0m
- [01;32mdu[0m                                   [01;36mrbash[0m
- [01;32mdumpkeys[0m                             [01;36mrcp[0m
- [01;32mduplicity[0m                            [01;32mrctest[0m
- [01;32mdvipdf[0m                               [01;32mrdiffdir[0m
- [01;36mdwp[0m                                  [01;32mrdma[0m
- [01;32mecho[0m                                 [01;36mreadelf[0m
- [01;32med[0m                                   [01;32mreadlink[0m
- [01;36medit[0m                                 [01;32mrealpath[0m
- [01;36meditor[0m                               [01;32mred[0m
- [01;32meditres[0m                              [01;32mremmina[0m
- [01;32mefibootdump[0m                          [01;32mremmina-file-wrapper[0m
- [01;32mefibootmgr[0m                           [01;32mremmina-gnome[0m
- [01;32megrep[0m                                [01;32mremotinator[0m
- [01;32meject[0m                                [01;32mrendercheck[0m
- [01;36melfedit[0m                              [01;32mrenice[0m
- [01;32menc2xs[0m                               [01;36mreset[0m
- [01;32mencguess[0m                             [01;32mresizecons[0m
- [01;32menchant-2[0m                            [01;32mresizepart[0m
- [01;32menchant-lsmod-2[0m                      [01;32mresolvectl[0m
- [01;32menv[0m                                  [01;32mrev[0m
- [01;32menvsubst[0m                             [01;32mrfcomm[0m
- [01;32meog[0m                                  [01;32mrgrep[0m
- [01;32meps2eps[0m                              [01;32mrhythmbox[0m
- [01;32meqn[0m                                  [01;32mrhythmbox-client[0m
- [01;32mesc-m[0m                                [01;36mrlogin[0m
- [01;32meutp[0m                                 [01;32mrm[0m
- [01;32mevince[0m                               [01;32mrmdir[0m
- [01;32mevince-previewer[0m                     [01;36mrnano[0m
- [01;32mevince-thumbnailer[0m                   [01;32mroutef[0m
- [01;36mex[0m                                   [01;32mroutel[0m
- [01;32mexpand[0m                               [01;32mrpcgen[0m
- [30;43mexpiry[0m                               [01;32mrrsync[0m
- [01;32mexpr[0m                                 [01;36mrsh[0m
- [01;32mfactor[0m                               [01;32mrstart[0m
- [01;32mfaillog[0m                              [01;32mrstartd[0m
- [01;32mfaked-sysv[0m                           [01;32mrsync[0m
- [01;32mfaked-tcp[0m                            [01;32mrsync-ssl[0m
- [01;36mfakeroot[0m                             [01;36mrtstat[0m
- [01;32mfakeroot-sysv[0m                        [01;32mrun-mailcap[0m
- [01;32mfakeroot-tcp[0m                         [01;32mrun-parts[0m
- [01;32mfallocate[0m                            [01;32mrun-with-aspell[0m
- [01;32mfalse[0m                                [01;32mruncon[0m
- [01;32mfc-cache[0m                             [01;36mrview[0m
- [01;32mfc-cat[0m                               [01;32mrygel[0m
- [01;32mfc-conflist[0m                          [01;32msane-find-scanner[0m
- [01;32mfc-list[0m                              [01;32msavelog[0m
- [01;32mfc-match[0m                             [01;32msbattach[0m
- [01;32mfc-pattern[0m                           [01;32msbkeysync[0m
- [01;32mfc-query[0m                             [01;32msbsiglist[0m
- [01;32mfc-scan[0m                              [01;32msbsign[0m
- [01;32mfc-validate[0m                          [01;32msbvarsign[0m
- [01;32mfgconsole[0m                            [01;32msbverify[0m
- [01;32mfgrep[0m                                [01;32mscanimage[0m
- [01;32mfile[0m                                 [01;32mscp[0m
- [01;32mfile-roller[0m                          [01;32mscp-dbus-service[0m
- [01;32mfile2brl[0m                             [01;32mscreendump[0m
- [01;32mfincore[0m                              [01;32mscript[0m
- [01;32mfind[0m                                 [01;32mscriptlive[0m
- [01;32mfindmnt[0m                              [01;32mscriptreplay[0m
- [01;32mfirefox[0m                              [01;32msdiff[0m
- [01;32mflock[0m                                [01;32msdptool[0m
- [01;32mfmt[0m                                  [01;32mseahorse[0m
- [01;32mfold[0m                                 [01;32msed[0m
- [01;32mfonttosfnt[0m                           [01;36msee[0m
- [01;32mfoo2ddst[0m                             [01;32mselect-default-iwrap[0m
- [01;32mfoo2ddst-wrapper[0m                     [01;32mselect-editor[0m
- [01;32mfoo2hbpl2[0m                            [01;32msensible-browser[0m
- [01;32mfoo2hbpl2-wrapper[0m                    [01;32msensible-editor[0m
- [01;32mfoo2hiperc[0m                           [01;32msensible-pager[0m
- [01;32mfoo2hiperc-wrapper[0m                   [01;32mseq[0m
- [01;32mfoo2hp[0m                               [01;32msession-migration[0m
- [01;32mfoo2hp2600-wrapper[0m                   [01;32msessreg[0m
- [01;32mfoo2lava[0m                             [01;32msetarch[0m
- [01;32mfoo2lava-wrapper[0m                     [01;32msetfacl[0m
- [01;32mfoo2oak[0m                              [01;32msetfont[0m
- [01;32mfoo2oak-wrapper[0m                      [01;32msetkeycodes[0m
- [01;32mfoo2qpdl[0m                             [01;32msetleds[0m
- [01;32mfoo2qpdl-wrapper[0m                     [01;32msetlogcons[0m
- [01;32mfoo2slx[0m                              [01;32msetmetamode[0m
- [01;32mfoo2slx-wrapper[0m                      [01;32msetpci[0m
- [01;32mfoo2xqx[0m                              [01;32msetpriv[0m
- [01;32mfoo2xqx-wrapper[0m                      [01;32msetsid[0m
- [01;32mfoo2zjs[0m                              [01;32msetterm[0m
- [01;36mfoo2zjs-icc2ps[0m                       [01;32msetupcon[0m
- [01;32mfoo2zjs-pstops[0m                       [01;32msetxkbmap[0m
- [01;32mfoo2zjs-wrapper[0m                      [01;32msftp[0m
- [01;36mfoomatic-rip[0m                         [01;36msg[0m
- [01;32mfprintd-delete[0m                       [01;36msh[0m
- [01;32mfprintd-enroll[0m                       [01;32msha1sum[0m
- [01;32mfprintd-list[0m                         [01;32msha224sum[0m
- [01;32mfprintd-verify[0m                       [01;32msha256sum[0m
- [01;32mfree[0m                                 [01;32msha384sum[0m
- [01;36mftp[0m                                  [01;32msha512sum[0m
- [01;32mfunzip[0m                               [01;32mshasum[0m
- [01;32mfuser[0m                                [01;32mshotwell[0m
- [01;36mfusermount[0m                           [01;32mshowconsolefont[0m
- [37;41mfusermount3[0m                          [01;32mshowkey[0m
- [01;36mfuturize[0m                             [01;32mshowrgb[0m
- [01;36mfwupdagent[0m                           [01;32mshred[0m
- [01;32mfwupdate[0m                             [01;32mshuf[0m
- [01;32mfwupdmgr[0m                             [01;32msimple-scan[0m
- [01;32mfwupdtool[0m                            [01;36msize[0m
- [01;36mg++[0m                                  [01;32mskill[0m
- [01;36mg++-11[0m                               [01;32mslabtop[0m
- [01;32mgamemoded[0m                            [01;32msleep[0m
- [01;32mgamma4scanimage[0m                      [01;36mslogin[0m
- [01;32mgapplication[0m                         [01;32mslxdecode[0m
- [01;32mgatttool[0m                             [01;32msmproxy[0m
- [01;32mgcalccmd[0m                             [01;32msnap[0m
- [01;36mgcc[0m                                  [01;36msnapctl[0m
- [01;36mgcc-11[0m                               [01;32msnapfuse[0m
- [01;36mgcc-ar[0m                               [01;36msnice[0m
- [01;36mgcc-ar-11[0m                            [01;32msoelim[0m
- [01;36mgcc-nm[0m                               [01;36msoffice[0m
- [01;36mgcc-nm-11[0m                            [01;32msoftware-properties-gtk[0m
- [01;36mgcc-ranlib[0m                           [01;32msort[0m
- [01;36mgcc-ranlib-11[0m                        [01;32msotruss[0m
- [01;32mgcore[0m                                [01;32mspa-acp-tool[0m
- [01;36mgcov[0m                                 [01;32mspa-inspect[0m
- [01;36mgcov-11[0m                              [01;32mspa-json-dump[0m
- [01;36mgcov-dump[0m                            [01;32mspa-monitor[0m
- [01;36mgcov-dump-11[0m                         [01;32mspa-resample[0m
- [01;36mgcov-tool[0m                            [01;32mspd-conf[0m
- [01;36mgcov-tool-11[0m                         [01;32mspd-say[0m
- [01;32mgcr-viewer[0m                           [01;32mspdsend[0m
- [01;32mgdb[0m                                  [01;32mspeaker-test[0m
- [01;32mgdb-add-index[0m                        [01;32mspeech-dispatcher[0m
- [01;32mgdbtui[0m                               [01;32mspice-vdagent[0m
- [01;32mgdbus[0m                                [01;32msplain[0m
- [01;32mgdialog[0m                              [01;32msplit[0m
- [01;32mgdk-pixbuf-csource[0m                   [01;32msplitfont[0m
- [01;32mgdk-pixbuf-pixdata[0m                   [01;32msprof[0m
- [01;32mgdk-pixbuf-thumbnailer[0m               [01;36msqfscat[0m
- [01;32mgdm-screenshot[0m                       [01;36msqfstar[0m
- [01;32mgdmflexiserver[0m                       [01;32mss[0m
- [01;32mgedit[0m                                [01;32mssh[0m
- [01;32mgencat[0m                               [01;32mssh-add[0m
- [01;32mgenisoimage[0m                          [30;43mssh-agent[0m
- [01;36mgeqn[0m                                 [01;32mssh-argv0[0m
- [01;32mgetconf[0m                              [01;32mssh-copy-id[0m
- [01;32mgeteltorito[0m                          [01;32mssh-keygen[0m
- [01;32mgetent[0m                               [01;32mssh-keyscan[0m
- [01;32mgetfacl[0m                              [01;32mstart-pulseaudio-x11[0m
- [01;32mgetkeycodes[0m                          [01;32mstartx[0m
- [01;32mgetopt[0m                               [01;32mstat[0m
- [01;32mgettext[0m                              [01;36mstatic-sh[0m
- [01;32mgettext.sh[0m                           [01;32mstdbuf[0m
- [01;36mghostscript[0m                          [01;32mstrace[0m
- [01;36mginstall-info[0m                        [01;32mstrace-log-merge[0m
- [01;32mgio[0m                                  [01;32mstreamzip[0m
- [01;36mgio-querymodules[0m                     [01;36mstrings[0m
- [01;32mgipddecode[0m                           [01;36mstrip[0m
- [01;32mgit[0m                                  [01;32mstty[0m
- [01;36mgit-receive-pack[0m                     [37;41msu[0m
- [01;32mgit-shell[0m                            [37;41msudo[0m
- [01;36mgit-upload-archive[0m                   [01;36msudoedit[0m
- [01;36mgit-upload-pack[0m                      [01;32msudoreplay[0m
- [01;36mgjs[0m                                  [01;32msum[0m
- [01;32mgjs-console[0m                          [01;32mswitcherooctl[0m
- [01;32mgkbd-keyboard-display[0m                [01;32msync[0m
- [01;36mglib-compile-schemas[0m                 [01;32msystem-config-printer[0m
- [01;36mgmake[0m                                [01;32msystem-config-printer-applet[0m
- [01;32mgnome-calculator[0m                     [01;32msystemctl[0m
- [01;32mgnome-calendar[0m                       [01;36msystemd[0m
- [01;36mgnome-characters[0m                     [01;32msystemd-analyze[0m
- [01;32mgnome-control-center[0m                 [01;32msystemd-ask-password[0m
- [01;32mgnome-disk-image-mounter[0m             [01;32msystemd-cat[0m
- [01;32mgnome-disks[0m                          [01;32msystemd-cgls[0m
- [01;32mgnome-extensions[0m                     [01;32msystemd-cgtop[0m
- [01;32mgnome-font-viewer[0m                    [01;32msystemd-cryptenroll[0m
- [01;36mgnome-help[0m                           [01;32msystemd-delta[0m
- [01;36mgnome-keyring[0m                        [01;32msystemd-detect-virt[0m
- [01;32mgnome-keyring-3[0m                      [01;32msystemd-escape[0m
- [01;32mgnome-keyring-daemon[0m                 [01;32msystemd-hwdb[0m
- [01;32mgnome-language-selector[0m              [01;32msystemd-id128[0m
- [01;32mgnome-logs[0m                           [01;32msystemd-inhibit[0m
- [01;32mgnome-power-statistics[0m               [01;32msystemd-machine-id-setup[0m
- [01;32mgnome-session[0m                        [01;32msystemd-mount[0m
- [01;32mgnome-session-custom-session[0m         [01;32msystemd-notify[0m
- [01;32mgnome-session-inhibit[0m                [01;32msystemd-path[0m
- [01;32mgnome-session-properties[0m             [01;32msystemd-run[0m
- [01;32mgnome-session-quit[0m                   [01;32msystemd-socket-activate[0m
- [01;32mgnome-shell[0m                          [01;32msystemd-stdio-bridge[0m
- [01;32mgnome-shell-extension-tool[0m           [01;32msystemd-sysext[0m
- [01;32mgnome-shell-perf-tool[0m                [01;32msystemd-sysusers[0m
- [01;32mgnome-system-monitor[0m                 [01;32msystemd-tmpfiles[0m
- [01;32mgnome-terminal[0m                       [01;32msystemd-tty-ask-password-agent[0m
- [01;32mgnome-terminal.real[0m                  [01;36msystemd-umount[0m
- [01;32mgnome-terminal.wrapper[0m               [01;32mtabs[0m
- [01;36mgnome-text-editor[0m                    [01;32mtac[0m
- [01;32mgnome-thumbnail-font[0m                 [01;32mtail[0m
- [01;32mgnome-todo[0m                           [01;32mtar[0m
- [01;36mgnome-www-browser[0m                    [01;32mtaskset[0m
- [01;36mgold[0m                                 [01;32mtbl[0m
- [37;41mgpasswd[0m                              [01;36mtclsh[0m
- [01;32mgpg[0m                                  [01;32mtclsh8.6[0m
- [01;32mgpg-agent[0m                            [01;32mtcltk-depends[0m
- [01;32mgpg-connect-agent[0m                    [01;32mtcpdump[0m
- [01;32mgpg-wks-server[0m                       [01;32mtee[0m
- [01;32mgpg-zip[0m                              [01;36mtelnet[0m
- [01;32mgpgcompose[0m                           [01;32mtelnet.netkit[0m
- [01;32mgpgconf[0m                              [01;32mtempfile[0m
- [01;32mgpgparsemail[0m                         [01;32mterminator[0m
- [01;32mgpgsm[0m                                [01;32mtest[0m
- [01;32mgpgsplit[0m                             [01;36mthunderbird[0m
- [01;32mgpgtar[0m                               [01;32mtic[0m
- [01;32mgpgv[0m                                 [01;32mtificc[0m
- [01;36mgpic[0m                                 [01;32mtime[0m
- [01;36mgprof[0m                                [01;32mtimedatectl[0m
- [01;32mgpu-manager[0m                          [01;32mtimeout[0m
- [01;32mgrdctl[0m                               [01;32mtload[0m
- [01;32mgrep[0m                                 [01;32mtnftp[0m
- [01;32mgresource[0m                            [01;32mtoe[0m
- [01;32mgroff[0m                                [01;32mtop[0m
- [01;32mgrog[0m                                 [01;32mtotem[0m
- [01;32mgrops[0m                                [01;32mtotem-video-thumbnailer[0m
- [01;32mgrotty[0m                               [01;32mtouch[0m
- [01;32mgroups[0m                               [01;32mtput[0m
- [01;32mgrub-editenv[0m                         [01;32mtr[0m
- [01;32mgrub-file[0m                            [01;32mtracepath[0m
- [01;32mgrub-fstest[0m                          [01;32mtracker3[0m
- [01;32mgrub-glue-efi[0m                        [01;32mtransicc[0m
- [01;32mgrub-kbdcomp[0m                         [01;32mtransmission-gtk[0m
- [01;32mgrub-menulst2cfg[0m                     [01;32mtransset[0m
- [01;32mgrub-mkfont[0m                          [01;32mtroff[0m
- [01;32mgrub-mkimage[0m                         [01;32mtrue[0m
- [01;32mgrub-mklayout[0m                        [01;32mtruncate[0m
- [01;32mgrub-mknetdir[0m                        [01;32mtrust[0m
- [01;32mgrub-mkpasswd-pbkdf2[0m                 [01;32mtset[0m
- [01;32mgrub-mkrelpath[0m                       [01;32mtsort[0m
- [01;32mgrub-mkrescue[0m                        [01;32mtty[0m
- [01;32mgrub-mkstandalone[0m                    [01;32mtzselect[0m
- [01;32mgrub-mount[0m                           [01;36mua[0m
- [01;36mgrub-ntldr-img[0m                       [01;32mubuntu-advantage[0m
- [01;32mgrub-render-label[0m                    [01;36mubuntu-bug[0m
- [01;32mgrub-script-check[0m                    [01;36mubuntu-core-launcher[0m
- [01;32mgrub-syslinux2cfg[0m                    [01;32mubuntu-distro-info[0m
- [01;32mgs[0m                                   [01;32mubuntu-drivers[0m
- [01;32mgsbj[0m                                 [01;32mubuntu-report[0m
- [01;32mgsdj[0m                                 [01;32mubuntu-security-status[0m
- [01;32mgsdj500[0m                              [01;32mucf[0m
- [01;32mgsettings[0m                            [01;32mucfq[0m
- [01;32mgslj[0m                                 [01;32mucfr[0m
- [01;32mgslp[0m                                 [01;32muclampset[0m
- [01;32mgsnd[0m                                 [01;32mucs2any[0m
- [01;32mgst-device-monitor-1.0[0m               [01;32mudevadm[0m
- [01;32mgst-discoverer-1.0[0m                   [01;32mudisksctl[0m
- [01;32mgst-inspect-1.0[0m                      [01;32mul[0m
- [01;32mgst-launch-1.0[0m                       [01;32mumax_pp[0m
- [01;32mgst-play-1.0[0m                         [37;41mumount[0m
- [01;32mgst-stats-1.0[0m                        [01;32muname[0m
- [01;32mgst-tester-1.0[0m                       [01;32munattended-upgrade[0m
- [01;32mgst-typefind-1.0[0m                     [01;36munattended-upgrades[0m
- [01;36mgstreamer-codec-install[0m              [01;32muncompress[0m
- [01;36mgtbl[0m                                 [01;32munexpand[0m
- [01;32mgtf[0m                                  [01;32municode_start[0m
- [01;32mgtk-builder-tool[0m                     [01;32municode_stop[0m
- [01;32mgtk-encode-symbolic-svg[0m              [01;32muniq[0m
- [01;32mgtk-launch[0m                           [01;32munity-scope-loader[0m
- [01;32mgtk-query-settings[0m                   [01;32munlink[0m
- [01;32mgtk-update-icon-cache[0m                [01;36munlzma[0m
- [01;32mgtk4-builder-tool[0m                    [01;32munmkinitramfs[0m
- [01;32mgtk4-encode-symbolic-svg[0m             [01;32munopkg[0m
- [01;32mgtk4-launch[0m                          [01;32munshare[0m
- [01;32mgtk4-query-settings[0m                  [01;32munsquashfs[0m
- [01;32mgtk4-update-icon-cache[0m               [01;36munxz[0m
- [01;32mgunzip[0m                               [01;32munzip[0m
- [01;32mgzexe[0m                                [01;32munzipsfx[0m
- [01;32mgzip[0m                                 [01;36munzstd[0m
- [01;32mh2ph[0m                                 [01;32mupdate-alternatives[0m
- [01;32mh2xs[0m                                 [01;32mupdate-desktop-database[0m
- [01;32mhardlink[0m                             [01;32mupdate-manager[0m
- [01;32mhbpldecode[0m                           [01;32mupdate-mime-database[0m
- [01;32mhciattach[0m                            [01;32mupdate-notifier[0m
- [01;32mhciconfig[0m                            [01;32mupower[0m
- [01;32mhcitool[0m                              [01;32muptime[0m
- [01;36mhd[0m                                   [01;32musb-creator-gtk[0m
- [01;32mhead[0m                                 [01;32musb-devices[0m
- [01;32mhelpztags[0m                            [01;32musb_printerid[0m
- [01;32mhex2hcd[0m                              [01;32musbhid-dump[0m
- [01;32mhexdump[0m                              [01;32musbreset[0m
- [01;32mhipercdecode[0m                         [01;32musers[0m
- [01;32mhost[0m                                 [01;32mutmpdump[0m
- [01;32mhostid[0m                               [01;32muuidgen[0m
- [01;32mhostname[0m                             [01;32muuidparse[0m
- [01;32mhostnamectl[0m                          [01;32mvdir[0m
- [01;36mhp-align[0m                             [01;36mvi[0m
- [01;36mhp-check[0m                             [01;36mview[0m
- [01;36mhp-clean[0m                             [01;32mviewres[0m
- [01;36mhp-colorcal[0m                          [01;32mvim.tiny[0m
- [01;36mhp-config_usb_printer[0m                [01;32mvm-support[0m
- [01;36mhp-doctor[0m                            [01;32mvmhgfs-fuse[0m
- [01;36mhp-firmware[0m                          [01;32mvmstat[0m
- [01;36mhp-info[0m                              [01;32mvmtoolsd[0m
- [01;36mhp-levels[0m                            [01;32mvmware-alias-import[0m
- [01;36mhp-logcapture[0m                        [01;32mvmware-checkvm[0m
- [01;36mhp-makeuri[0m                           [01;32mvmware-hgfsclient[0m
- [01;36mhp-pkservice[0m                         [01;32mvmware-namespace-cmd[0m
- [01;36mhp-plugin[0m                            [01;32mvmware-rpctool[0m
- [01;32mhp-plugin-ubuntu[0m                     [01;32mvmware-toolbox-cmd[0m
- [01;36mhp-probe[0m                             [01;36mvmware-user[0m
- [01;36mhp-query[0m                             [37;41mvmware-user-suid-wrapper[0m
- [01;36mhp-scan[0m                              [01;32mvmware-vgauth-cmd[0m
- [01;36mhp-setup[0m                             [01;32mvmware-vmblock-fuse[0m
- [01;36mhp-testpage[0m                          [01;32mvmware-xferlogs[0m
- [01;36mhp-timedate[0m                          [01;32mvmwarectrl[0m
- [01;32mhwe-support-status[0m                   [01;32mvmwgfxctrl[0m
- [01;36mi386[0m                                 [01;32mvstp[0m
- [01;36mi686-linux-gnu-pkg-config[0m            [01;32mw[0m
- [01;32mibus[0m                                 [30;43mwall[0m
- [01;32mibus-daemon[0m                          [01;32mwatch[0m
- [01;32mibus-setup[0m                           [01;32mwatchgnupg[0m
- [01;32mibus-table-createdb[0m                  [01;32mwc[0m
- [01;32miceauth[0m                              [01;32mwdctl[0m
- [01;32mico[0m                                  [01;32mwget[0m
- [01;32miconv[0m                                [01;32mwhatis[0m
- [01;32mid[0m                                   [01;32mwhereis[0m
- [01;32miecset[0m                               [01;36mwhich[0m
- [01;32mijs_pxljr[0m                            [01;32mwhich.debianutils[0m
- [01;32mim-config[0m                            [01;32mwhiptail[0m
- [01;32mim-launch[0m                            [01;32mwho[0m
- [01;32minfo[0m                                 [01;32mwhoami[0m
- [01;36minfobrowser[0m                          [01;32mwhoopsie[0m
- [01;32minfocmp[0m                              [01;32mwhoopsie-preferences[0m
- [01;36minfotocap[0m                            [01;36mwish[0m
- [01;32minputattach[0m                          [01;32mwish8.6[0m
- [01;32minstall[0m                              [01;32mword-list-compress[0m
- [01;32minstall-info[0m                         [01;32mwpa_passphrase[0m
- [01;32minstall-printerdriver[0m                [01;36mwrite[0m
- [01;32minstmodsh[0m                            [30;43mwrite.ul[0m
- [01;32mintel-virtual-output[0m                 [01;36mx-session-manager[0m
- [01;32mionice[0m                               [01;36mx-terminal-emulator[0m
- [01;32mip[0m                                   [01;36mx-www-browser[0m
- [01;32mipcmk[0m                                [01;32mx11perf[0m
- [01;32mipcrm[0m                                [01;32mx11perfcomp[0m
- [01;32mipcs[0m                                 [01;36mx86_64[0m
- [01;32mipod-read-sysinfo-extended[0m           [01;32mx86_64-linux-gnu-addr2line[0m
- [01;32mipod-time-sync[0m                       [01;32mx86_64-linux-gnu-ar[0m
- [01;32mippfind[0m                              [01;32mx86_64-linux-gnu-as[0m
- [01;32mipptool[0m                              [01;32mx86_64-linux-gnu-c++filt[0m
- [01;36miptables-xml[0m                         [01;36mx86_64-linux-gnu-cpp[0m
- [01;32mischroot[0m                             [01;32mx86_64-linux-gnu-cpp-11[0m
- [01;32misdv4-serial-debugger[0m                [01;32mx86_64-linux-gnu-dwp[0m
- [01;32misdv4-serial-inputattach[0m             [01;32mx86_64-linux-gnu-elfedit[0m
- [01;32misodump[0m                              [01;36mx86_64-linux-gnu-g++[0m
- [01;32misoinfo[0m                              [01;32mx86_64-linux-gnu-g++-11[0m
- [01;32misovfy[0m                               [01;36mx86_64-linux-gnu-gcc[0m
- [01;32mispell-wrapper[0m                       [01;32mx86_64-linux-gnu-gcc-11[0m
- [01;32mjoin[0m                                 [01;36mx86_64-linux-gnu-gcc-ar[0m
- [01;32mjournalctl[0m                           [01;32mx86_64-linux-gnu-gcc-ar-11[0m
- [01;32mjpgicc[0m                               [01;36mx86_64-linux-gnu-gcc-nm[0m
- [01;32mjson_pp[0m                              [01;32mx86_64-linux-gnu-gcc-nm-11[0m
- [01;32mkbd_mode[0m                             [01;36mx86_64-linux-gnu-gcc-ranlib[0m
- [01;32mkbdinfo[0m                              [01;32mx86_64-linux-gnu-gcc-ranlib-11[0m
- [01;32mkbxutil[0m                              [01;36mx86_64-linux-gnu-gcov[0m
- [01;32mkernel-install[0m                       [01;32mx86_64-linux-gnu-gcov-11[0m
- [01;32mkerneloops-submit[0m                    [01;36mx86_64-linux-gnu-gcov-dump[0m
- [01;32mkeyring[0m                              [01;32mx86_64-linux-gnu-gcov-dump-11[0m
- [01;32mkill[0m                                 [01;36mx86_64-linux-gnu-gcov-tool[0m
- [01;32mkillall[0m                              [01;32mx86_64-linux-gnu-gcov-tool-11[0m
- [01;32mkmod[0m                                 [01;36mx86_64-linux-gnu-gold[0m
- [01;32mkmodsign[0m                             [01;32mx86_64-linux-gnu-gprof[0m
- [01;32ml2ping[0m                               [01;36mx86_64-linux-gnu-ld[0m
- [01;32ml2test[0m                               [01;32mx86_64-linux-gnu-ld.bfd[0m
- [01;32mlaptop-detect[0m                        [01;32mx86_64-linux-gnu-ld.gold[0m
- [01;32mlast[0m                                 [01;32mx86_64-linux-gnu-lto-dump-11[0m
- [01;36mlastb[0m                                [01;32mx86_64-linux-gnu-nm[0m
- [01;32mlastlog[0m                              [01;32mx86_64-linux-gnu-objcopy[0m
- [01;32mlavadecode[0m                           [01;32mx86_64-linux-gnu-objdump[0m
- [01;32mlcf[0m                                  [01;36mx86_64-linux-gnu-pkg-config[0m
- [01;36mld[0m                                   [01;32mx86_64-linux-gnu-ranlib[0m
- [01;36mld.bfd[0m                               [01;32mx86_64-linux-gnu-readelf[0m
- [01;36mld.gold[0m                              [01;32mx86_64-linux-gnu-size[0m
- [01;32mldd[0m                                  [01;32mx86_64-linux-gnu-strings[0m
- [01;32mless[0m                                 [01;32mx86_64-linux-gnu-strip[0m
- [01;32mlessecho[0m                             [01;32mx86_64-pc-linux-gnu-pkg-config[0m
- [01;36mlessfile[0m                             [01;32mxargs[0m
- [01;32mlesskey[0m                              [01;32mxauth[0m
- [01;32mlesspipe[0m                             [01;32mxbiff[0m
- [01;32mlexgrog[0m                              [01;32mxbrlapi[0m
- [01;32mlibnetcfg[0m                            [01;32mxcalc[0m
- [01;36mlibpng-config[0m                        [01;32mxclipboard[0m
- [01;32mlibpng16-config[0m                      [01;32mxclock[0m
- [01;36mlibreoffice[0m                          [01;32mxcmsdb[0m
- [01;32mlibwacom-list-devices[0m                [01;32mxconsole[0m
- [01;32mlibwacom-list-local-devices[0m          [01;32mxcursorgen[0m
- [01;32mlibwacom-show-stylus[0m                 [01;32mxcutsel[0m
- [01;32mlibwacom-update-db[0m                   [01;32mxdg-dbus-proxy[0m
- [01;32mlink[0m                                 [01;32mxdg-desktop-icon[0m
- [01;32mlinkicc[0m                              [01;32mxdg-desktop-menu[0m
- [01;32mlinux-boot-prober[0m                    [01;32mxdg-email[0m
- [01;32mlinux-check-removal[0m                  [01;32mxdg-icon-resource[0m
- [01;32mlinux-update-symlinks[0m                [01;32mxdg-mime[0m
- [01;32mlinux-version[0m                        [01;32mxdg-open[0m
- [01;36mlinux32[0m                              [01;32mxdg-screensaver[0m
- [01;36mlinux64[0m                              [01;32mxdg-settings[0m
- [01;32mlistres[0m                              [01;32mxdg-user-dir[0m
- [01;32mln[0m                                   [01;32mxdg-user-dirs-gtk-update[0m
- [01;32mlnstat[0m                               [01;32mxdg-user-dirs-update[0m
- [01;32mloadkeys[0m                             [01;32mxditview[0m
- [01;32mloadunimap[0m                           [01;32mxdpyinfo[0m
- [01;32mlocalc[0m                               [01;32mxdriinfo[0m
- [01;32mlocale[0m                               [01;32mxedit[0m
- [01;32mlocale-check[0m                         [01;32mxev[0m
- [01;32mlocalectl[0m                            [01;32mxeyes[0m
- [01;32mlocaledef[0m                            [01;32mxfd[0m
- [01;32mlodraw[0m                               [01;32mxfontsel[0m
- [01;32mloffice[0m                              [01;32mxgamma[0m
- [01;32mlofromtemplate[0m                       [01;32mxgc[0m
- [01;32mlogger[0m                               [01;32mxhost[0m
- [01;32mlogin[0m                                [01;32mxinit[0m
- [01;32mloginctl[0m                             [01;32mxinput[0m
- [01;32mlogname[0m                              [01;32mxkbbell[0m
- [01;32mloimpress[0m                            [01;32mxkbcomp[0m
- [01;32mlomath[0m                               [01;32mxkbevd[0m
- [01;32mlook[0m                                 [01;32mxkbprint[0m
- [01;32mloweb[0m                                [01;32mxkbvleds[0m
- [01;32mlowntfs-3g[0m                           [01;32mxkbwatch[0m
- [01;32mlowriter[0m                             [01;32mxkeystone[0m
- [01;32mlp[0m                                   [01;32mxkill[0m
- [01;32mlp_solve[0m                             [01;32mxload[0m
- [01;32mlpoptions[0m                            [01;32mxlogo[0m
- [01;32mlpq[0m                                  [01;32mxlsatoms[0m
- [01;32mlpr[0m                                  [01;32mxlsclients[0m
- [01;32mlprm[0m                                 [01;32mxlsfonts[0m
- [01;32mlpstat[0m                               [01;32mxmag[0m
- [01;32mls[0m                                   [01;32mxman[0m
- [01;32mlsattr[0m                               [01;32mxmessage[0m
- [01;32mlsb_release[0m                          [01;32mxmodmap[0m
- [01;32mlsblk[0m                                [01;32mxmore[0m
- [01;32mlscpu[0m                                [01;32mxprop[0m
- [01;32mlshw[0m                                 [01;32mxqxdecode[0m
- [01;32mlsinitramfs[0m                          [01;32mxrandr[0m
- [01;32mlsipc[0m                                [01;32mxrdb[0m
- [01;32mlslocks[0m                              [01;32mxrefresh[0m
- [01;32mlslogins[0m                             [01;32mxset[0m
- [01;32mlsmem[0m                                [01;32mxsetmode[0m
- [01;36mlsmod[0m                                [01;32mxsetpointer[0m
- [01;32mlsns[0m                                 [01;32mxsetroot[0m
- [01;32mlsof[0m                                 [01;32mxsetwacom[0m
- [01;32mlspci[0m                                [01;32mxsm[0m
- [01;32mlspgpot[0m                              [01;32mxstdcmap[0m
- [01;32mlsusb[0m                                [01;32mxsubpp[0m
- [01;36mlto-dump-11[0m                          [01;32mxvidtune[0m
- [01;32mluit[0m                                 [01;32mxvinfo[0m
- [01;32mlwp-download[0m                         [01;32mxwd[0m
- [01;32mlwp-dump[0m                             [01;32mxwininfo[0m
- [01;32mlwp-mirror[0m                           [01;32mxwud[0m
- [01;32mlwp-request[0m                          [01;32mxxd[0m
- [01;36mlzcat[0m                                [01;32mxz[0m
- [01;36mlzcmp[0m                                [01;36mxzcat[0m
- [01;36mlzdiff[0m                               [01;36mxzcmp[0m
- [01;36mlzegrep[0m                              [01;32mxzdiff[0m
- [01;36mlzfgrep[0m                              [01;36mxzegrep[0m
- [01;36mlzgrep[0m                               [01;36mxzfgrep[0m
- [01;36mlzless[0m                               [01;32mxzgrep[0m
- [01;36mlzma[0m                                 [01;32mxzless[0m
- [01;32mlzmainfo[0m                             [01;32mxzmore[0m
- [01;36mlzmore[0m                               [01;32myelp[0m
- [01;32mm2300w[0m                               [01;32myes[0m
- [01;32mm2300w-wrapper[0m                       [01;36mypdomainname[0m
- [01;32mm2400w[0m                               [01;32mzcat[0m
- [01;32mmake[0m                                 [01;32mzcmp[0m
- [01;32mmake-first-existing-target[0m           [01;32mzdiff[0m
- [01;32mmako-render[0m                          [01;32mzdump[0m
- [01;32mman[0m                                  [01;32mzegrep[0m
- [01;32mman-recode[0m                           [01;32mzenity[0m
- [01;32mmandb[0m                                [01;32mzfgrep[0m
- [01;32mmanpath[0m                              [01;32mzforce[0m
- [01;32mmapscrn[0m                              [01;32mzgrep[0m
- [01;32mmawk[0m                                 [01;32mzip[0m
- [01;32mmcookie[0m                              [01;32mzipcloak[0m
- [01;32mmd5sum[0m                               [01;32mzipdetails[0m
- [01;36mmd5sum.textutils[0m                     [01;32mzipgrep[0m
- [01;32mmdig[0m                                 [01;32mzipinfo[0m
- [01;32mmemusage[0m                             [01;32mzipnote[0m
- [01;32mmemusagestat[0m                         [01;32mzipsplit[0m
- [01;32mmesa-overlay-control.py[0m              [01;32mzjsdecode[0m
- [01;32mmesg[0m                                 [01;32mzless[0m
- [01;32mmigrate-pubring-from-classic-gpg[0m     [01;32mzmore[0m
- [01;32mmimeopen[0m                             [01;32mznew[0m
- [01;32mmimetype[0m                             [01;32mzstd[0m
- [01;32mmin12xxw[0m                             [01;36mzstdcat[0m
- [01;32mmk_modmap[0m                            [01;32mzstdgrep[0m
- [01;32mmkdir[0m                                [01;32mzstdless[0m
- [01;32mmkfifo[0m                               [01;36mzstdmt[0m
- [01;32mmkfontdir[0m
-[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ [H[2J]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ cat ls
-[?2004lELF          >    °j      @                 @ 8  @         @       @       @       Ø      Ø                                                                                        (4      (4                    @       @       @      F1     F1                   €      €      €     Xt      Xt                                      x      @%                   ˜
-     ˜     ˜     À      À                   8      8      8      0       0                    h      h      h      D       D              Såtd   8      8      8      0       0              Påtd   ÌÍ     ÌÍ     ÌÍ     l      l             Qåtd                                                  Råtd                                           /lib64/ld-linux-x86-64.so.2               GNU   À          € À                   GNU ‰IÊú˜ÁcæçäRøU$œ         GNU                      q         „°‰@£q   v   z   ¶úëŒÇà`~jšu>[ÑeÎm†ğ–|Nı<­9“˜<­M>¥                            ‚                     £                     -                     O                                           [                                           z                      ¸                     r                     Á                      L                      `                                          Æ                     î                      Ø                     è                     W                     h                                          †                     å                      a                     |                     S                     İ                     ü                                          Š                     ½                     Ù                     z                     Æ                      ¿                                            õ                     `                                          ª                      Í                     /                     S                      ª                     l                                          ¯                     ©                     u                     ï                     K                     ˜                     R                     q                     §                     ^                                           k                     D                     ’                                                               r                     K                     İ                      Ñ                     ±                     Z                     ã                     5                     ¡                                          õ                                           É                     Ÿ                     ê                     %                     j                     Ö                     ™                     m                      ‡                      º                     –                     İ                      Ÿ                     ²                     É                     	                     x                     Q                     "                                           Ş                     8                     8                                          D                     ‹                     ì                                           ?                     X                                                               ı                      a                     ¦                     ±                      „                     ‘                     /                       Àü      (      ö     ü                 à     7          "                   7                     ç    €ü             €                      <    °     &       .          …        __cxa_finalize __libc_start_main __cxa_atexit obstack_alloc_failed_handler stdout __overflow fputs_unlocked __printf_chk abort malloc statx __stack_chk_fail nl_langinfo strchr __ctype_b_loc strlen __ctype_get_mb_cur_max mempcpy mbstowcs __mbstowcs_chk iswprint wcswidth wcstombs wcwidth __snprintf_chk snprintf sigismember signal sigemptyset sigaction sigaddset strcmp strncmp dcgettext stderr __fprintf_chk setlocale getenv strrchr error __errno_location strcoll memcpy __fpending fileno __freading fflush fclose lseek fseeko _exit fputc_unlocked fwrite_unlocked tcgetpgrp fflush_unlocked sigprocmask raise readlink realloc __memcpy_chk calloc localeconv __sprintf_chk memmove _setjmp __assert_fail getpwuid strcpy getgrgid stpncpy getxattr _obstack_begin _obstack_begin_1 _obstack_newchunk _obstack_allocated_p _obstack_free _obstack_memory_used unsetenv tzset localtime_r gmtime_r memset clock_gettime opendir dirfd closedir readdir fnmatch program_invocation_name __progname_full bindtextdomain isatty ioctl getopt_long optind optarg program_invocation_short_name __progname gethostname fwrite getcwd lstat mbsinit mbrtowc iswcntrl memcmp strtoumax __ctype_toupper_loc strftime mktime __ctype_tolower_loc timegm _ITM_deregisterTMCloneTable __gmon_start__ _ITM_registerTMCloneTable freecon lgetfilecon libselinux.so.1 libc.so.6 LIBSELINUX_1.0 GLIBC_2.28 GLIBC_2.14 GLIBC_2.33 GLIBC_2.17 GLIBC_2.4 GLIBC_2.34 GLIBC_2.3.4 GLIBC_2.2.5 GLIBC_2.3                                                       	             
-                                                                        ğ‡Û   4       	 *         ˆ‘–   C     ”‘–  
- N     ³‘–  	 Y     —‘–   d     ii   o     ´‘–   y     ti	   „     ui	        ii   œ                   B     (            Q     @             ¯      H             °      P            Ğ¯      X            À°      `            °‚      h            à‚      p            À‚      x            ƒ      €            €±      ˆ             ²                  ²      ˜            °³                   ğœ      ¨            Ğ›      °            p      ¸            ğ      À            `­      È             ®      Ğ            À­      Ø            à®      à            €      è            Ğ€      ğ            À      ø             ‚                    ˆ                  Pˆ                  0ˆ                   ‰      @            `§      H            p¬      P            Ğ§      X            P­      `            àŒ      h            €      p            0      x            0      €             ¤      ˆ             ¥                   ¥      ˜            €¦                   °Š      ¨            ğ‰      °            ‹      ¸            p‹      À            @¨      È             ©      Ğ            °¨      Ø            ğ©      à                  è            à      ğ            à      ø            0                   Àª                   «                  0«                  €¬                   à      (            0Œ      0            0‘      8            €‘      @            aœ     H            T     P            Y     X            „œ     €            ]     ˆ            b                 h     ˜            r     À                  È            {     Ğ                 Ø            …     à            ‹     è            ]     ğ                 ø            –                  “                  š     (            ¢     0            §     8            ®     @            ¹     H            À     P            É     `            ×     h            f›     p            İ     x            á     €            ç     ˆ            î                 ô                  ]     ¨            áœ     °            Óœ     ¸            ı     À            ›     à            „Ÿ                  y                   Ÿ     @            Ÿ     `            Ÿ     €            !Ÿ                  B     À            9Ÿ     à            ?Ÿ                  IŸ                  YŸ     @            bŸ     `            uŸ     €            Óœ                  ¶œ     À            }Ÿ     à            ˆŸ                  r                  h     @            Q     `            —Ÿ     €            °Ä                  °Ÿ     À            µŸ     à                              ¼Ÿ                  ÈŸ     @            ĞŸ     `                 €            ÛŸ                  èœ     À            åŸ     à            Úœ                  øŸ                  áœ     @                   `            ñœ     €            ùœ                        À                  à                               %                   ›     `            jœ     h            *      p            -      x            rŸ     €            ‹     ˆ            0                  3      ˜            6                   9      ¨            Z     °            <      ¸            ?      À            B      È            "      Ğ            E      Ø            H      à            K      è            N      ğ            6Ÿ     ø            Q                   T                  W                  Z                  ]      @            ÈŸ     H            `      P            f      X            s      `            €      h            	›     p            ”      x            y      €            „œ     ˆ            œ                                        ™      È             ¤      Ø             ‰™     ø              ›     (!            §      8!            ­      H!            ¼      X!            ³      h!            ¹      x!            ¹      ¨!            ¿      ¸!            ³      È!            Å      Ø!            Ë      è!            Ñ      ø!            ×      "            İ      "            ã      8"            é      @"            í      H"            ÷      h"            @4     p"            `"             v           ˜                                       ¨                   °                   ¸        >           À        A           È        C           Ğ        x           Ø        e           à        j           è        u           ğ        o           p                   x                   €                   ˆ                                      ˜                            	           ¨        
-           °                   ¸                   À                   È                   Ğ                   Ø                   à                   è                   ğ                   ø                                                                                                                    (                   0                   8                   @                    H        !           P        "           X        #           `        $           h        %           p        &           x        '           €        (           ˆ        )                   *           ˜        +                    ,           ¨        -           °        .           ¸        /           À        0           È        1           Ğ        2           Ø        3           à        4           è        5           ğ        6           ø        7                    8                   9                   :                   ;                    <           (        =           0        ?           8        @           @        B           H        D           P        E           X        F           `        G           h        H           p        I           x        J           €        K           ˆ        L                   M           ˜        N                    O           ¨        P           °        Q           ¸        R           À        S           È        T           Ğ        U           Ø        V           à        W           è        X           ğ        Z           ø        [                    \                   ]                   ^                   _                    `           (        a           0        b           8        c           @        d           H        f           P        g           X        h           `        i           h        k           p        l           x        m           €        n           ˆ        p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   óúHƒìH‹±ß H…ÀtÿĞèÅ+  èĞ0 HƒÄÃ           ÿ5*Ü òÿ%+Ü  óúh    òéáÿÿÿóúh   òéÑÿÿÿóúh   òéÁÿÿÿóúh   òé±ÿÿÿóúh   òé¡ÿÿÿóúh   òé‘ÿÿÿóúh   òéÿÿÿóúh   òéqÿÿÿóúh   òéaÿÿÿóúh	   òéQÿÿÿóúh
-   òéAÿÿÿóúh   òé1ÿÿÿóúh   òé!ÿÿÿóúh   òéÿÿÿóúh   òéÿÿÿóúh   òéñşÿÿóúh   òéáşÿÿóúh   òéÑşÿÿóúh   òéÁşÿÿóúh   òé±şÿÿóúh   òé¡şÿÿóúh   òé‘şÿÿóúh   òéşÿÿóúh   òéqşÿÿóúh   òéaşÿÿóúh   òéQşÿÿóúh   òéAşÿÿóúh   òé1şÿÿóúh   òé!şÿÿóúh   òéşÿÿóúh   òéşÿÿóúh   òéñıÿÿóúh    òéáıÿÿóúh!   òéÑıÿÿóúh"   òéÁıÿÿóúh#   òé±ıÿÿóúh$   òé¡ıÿÿóúh%   òé‘ıÿÿóúh&   òéıÿÿóúh'   òéqıÿÿóúh(   òéaıÿÿóúh)   òéQıÿÿóúh*   òéAıÿÿóúh+   òé1ıÿÿóúh,   òé!ıÿÿóúh-   òéıÿÿóúh.   òéıÿÿóúh/   òéñüÿÿóúh0   òéáüÿÿóúh1   òéÑüÿÿóúh2   òéÁüÿÿóúh3   òé±üÿÿóúh4   òé¡üÿÿóúh5   òé‘üÿÿóúh6   òéüÿÿóúh7   òéqüÿÿóúh8   òéaüÿÿóúh9   òéQüÿÿóúh:   òéAüÿÿóúh;   òé1üÿÿóúh<   òé!üÿÿóúh=   òéüÿÿóúh>   òéüÿÿóúh?   òéñûÿÿóúh@   òéáûÿÿóúhA   òéÑûÿÿóúhB   òéÁûÿÿóúhC   òé±ûÿÿóúhD   òé¡ûÿÿóúhE   òé‘ûÿÿóúhF   òéûÿÿóúhG   òéqûÿÿóúhH   òéaûÿÿóúhI   òéQûÿÿóúhJ   òéAûÿÿóúhK   òé1ûÿÿóúhL   òé!ûÿÿóúhM   òéûÿÿóúhN   òéûÿÿóúhO   òéñúÿÿóúhP   òéáúÿÿóúhQ   òéÑúÿÿóúhR   òéÁúÿÿóúhS   òé±úÿÿóúhT   òé¡úÿÿóúhU   òé‘úÿÿóúhV   òéúÿÿóúhW   òéqúÿÿóúhX   òéaúÿÿóúhY   òéQúÿÿóúhZ   òéAúÿÿóúh[   òé1úÿÿóúh\   òé!úÿÿóúh]   òéúÿÿóúh^   òéúÿÿóúh_   òéñùÿÿóúh`   òéáùÿÿóúha   òéÑùÿÿóúhb   òéÁùÿÿóúhc   òé±ùÿÿóúòÿ%Ù D  óúòÿ%5Ù D  óúòÿ%=Ù D  óúòÿ%µÕ D  óúòÿ%­Õ D  óúòÿ%¥Õ D  óúòÿ%Õ D  óúòÿ%•Õ D  óúòÿ%Õ D  óúòÿ%…Õ D  óúòÿ%}Õ D  óúòÿ%uÕ D  óúòÿ%mÕ D  óúòÿ%eÕ D  óúòÿ%]Õ D  óúòÿ%UÕ D  óúòÿ%MÕ D  óúòÿ%EÕ D  óúòÿ%=Õ D  óúòÿ%5Õ D  óúòÿ%-Õ D  óúòÿ%%Õ D  óúòÿ%Õ D  óúòÿ%Õ D  óúòÿ%Õ D  óúòÿ%Õ D  óúòÿ%ıÔ D  óúòÿ%õÔ D  óúòÿ%íÔ D  óúòÿ%åÔ D  óúòÿ%İÔ D  óúòÿ%ÕÔ D  óúòÿ%ÍÔ D  óúòÿ%ÅÔ D  óúòÿ%½Ô D  óúòÿ%µÔ D  óúòÿ%­Ô D  óúòÿ%¥Ô D  óúòÿ%Ô D  óúòÿ%•Ô D  óúòÿ%Ô D  óúòÿ%…Ô D  óúòÿ%}Ô D  óúòÿ%uÔ D  óúòÿ%mÔ D  óúòÿ%eÔ D  óúòÿ%]Ô D  óúòÿ%UÔ D  óúòÿ%MÔ D  óúòÿ%EÔ D  óúòÿ%=Ô D  óúòÿ%5Ô D  óúòÿ%-Ô D  óúòÿ%%Ô D  óúòÿ%Ô D  óúòÿ%Ô D  óúòÿ%Ô D  óúòÿ%Ô D  óúòÿ%ıÓ D  óúòÿ%õÓ D  óúòÿ%íÓ D  óúòÿ%åÓ D  óúòÿ%İÓ D  óúòÿ%ÕÓ D  óúòÿ%ÍÓ D  óúòÿ%ÅÓ D  óúòÿ%½Ó D  óúòÿ%µÓ D  óúòÿ%­Ó D  óúòÿ%¥Ó D  óúòÿ%Ó D  óúòÿ%•Ó D  óúòÿ%Ó D  óúòÿ%…Ó D  óúòÿ%}Ó D  óúòÿ%uÓ D  óúòÿ%mÓ D  óúòÿ%eÓ D  óúòÿ%]Ó D  óúòÿ%UÓ D  óúòÿ%MÓ D  óúòÿ%EÓ D  óúòÿ%=Ó D  óúòÿ%5Ó D  óúòÿ%-Ó D  óúòÿ%%Ó D  óúòÿ%Ó D  óúòÿ%Ó D  óúòÿ%Ó D  óúòÿ%Ó D  óúòÿ%ıÒ D  óúòÿ%õÒ D  óúòÿ%íÒ D  óúòÿ%åÒ D  óúòÿ%İÒ D  óúòÿ%ÕÒ D  óúòÿ%ÍÒ D  óúòÿ%ÅÒ D  óúòÿ%½Ò D  óúòÿ%µÒ D  óúòÿ%­Ò D  óúòÿ%¥Ò D  óúòÿ%Ò D  Pè
-úÿÿèúÿÿè úÿÿèûùÿÿèöùÿÿèñùÿÿèìùÿÿèçùÿÿèâùÿÿfóúAWAVAUATUSHƒìxH‹.dH‹%(   H‰D$h1ÀH…í„¦  A‰şH‰óH‰ï¾/   è¯ûÿÿI‰ÄH…ÀtOLhL‰èH)èHƒø~?I|$úº   H5ãN è‘ùÿÿ…Àu%º   H5ÖN L‰ïL‰íèvùÿÿ…À„Ö  fD  H‹	Ò H‰-’Ö ¿   H5ëM H‰(H-ÊK èOıÿÿH5‘N H‰ïè`úÿÿH‰ïèúÿÿH=ál  ÇwÒ    èÂ" ¿   H¸       €ÇEÙ     Æ:Ù HÇ'Ù     H‰Ù HÇÙ ÿÿÿÿÆjÔ  è)ùÿÿ…À…	  Ç£Ô    1ÀH=N ˆDÔ Çå     Ç˜å     Æ
-Ö  ÆÖ  ÆoÔ  ÇYÔ     Æ_Ô  ÇˆØ    Æ}Ø  ÆwØ  ÇÄÕ     HÇ±Õ     HÇÕ     ÆÔ  èÊ÷ÿÿH‰ÅH…Àt-L%û7 H54Ë H‰ÇL‰âè)ß  …Àˆ–  H˜A‹„‰•Ó H=gM HÇCÕ P   è~÷ÿÿH‰ÅH…Àt	€8 …–  HD$P¾T  ¿   H‰D$H‰Â1Àèÿùÿÿƒøÿt·D$Rf…À…%  H=M è0÷ÿÿHÇİÔ    H‰ÅH…Àt*H‹T$1öHL H‰Çè÷ú  …À…Y  H‹D$PH‰«Ô ÆD$' Hl$HL%Ä ÆD$ L-–s L=1 HÇD$    fD  I‰èL‰áL‰êH‰ŞD‰÷ÇD$Hÿÿÿÿè„øÿÿƒøÿt-ƒ   =  ‡  Ic‡Lø>ÿàÆZÔ ÇÀÒ     ë²Hƒ=ZÒ  „ò  H‹5Ô 1Ò¹   D‹%OÒ H‰ğH÷ñHƒúHƒØÿH‰âÓ ‹€Ò ƒø„˜  ƒø„  …Àt	H…ö„‚  Aƒü‡x  ¸J   D‰áHÓè¨…  ÆŞÑ  è\  H‰åÔ ‹#Ò ƒúvXJşH5lL H1¶„ÉtBH…ÀH=ºÑ HEøHƒÇf‰ÈƒáHƒÂÀè¶ÀH4‡D‹D‰ÀÓè÷ĞƒàÓà¶
-D1À‰„ÉuÒèíŒ  H‰Ó H…À„&  ‹H‰Ê÷Òâ   1Ê€=OÕ  ‰P‹šÑ t…Ò„Ô
-  Æ5Õ  ‹—â ƒèƒøw€|$ „   …Ò„¹
-  H‹Î €=VÑ  ‹ ‰D$…w  €=…Õ  tÆ{Õ ƒ=oÕ „  €=^Õ  tOLu  H  1ö¿   Hğ  èKÒ  H‰,Õ H…À„Ä  L‹tÍ H‹­Í 1Ò1öH=²Ô èMª  H=„I èôÿÿH‰Çè™f  H‰rÔ ‹Ğá ƒèƒàıtƒ=©Ğ  …Æ  ÆJÔ 1ÀˆAÔ €%:Ô €=2Ô  …j  €=UÓ  …á  ¿ N  E‰õHÇ,Ó d   è_‹  HÇÓ     H‰Ó è¸O  D+l$E…íî
-  Lcd$D  J‹<ãHÒH º   1öIƒÄè˜  E9æàHƒ=ÀÒ  …  H‹KÔ AƒíI‰Ä×
-  I‰ÄH…À„  I½       €L‹t$ëCA¶T$I‹t$èpÉ  I‹<$è'óÿÿI‹|$èóÿÿL‰çèóÿÿL‹%îÓ ÆïÓ M…ä„¿   I‹D$H‹ªÓ I‹<$H‰ÇÓ H…Ût¢H…ÿuH‹NÓ H‰ÂH+<Ó Hƒú†  HPğ¹   L‰öH‰ßH‰$Ó H‹PğH‹@øH‰T$PH‰êH‰D$Xè’   I‰ÇH…À„Œ  H‹D$HHƒk Hƒ8 „÷  L‰ÿèjòÿÿI‹<$èaòÿÿI‹|$èWòÿÿL‰çèOòÿÿL‹%(Ó M…ä…Aÿÿÿ€=ÀÎ  t€=¯Ó  …V
-  €=ZÒ  …º  H‹=ÍÒ H…ÿtHƒ  …;  èu  ‹æÒ H‹T$hdH+%(   …ë  HƒÄx[]A\A]A^A_ÃH‰ĞÏ éÏúÿÿH‰ïèóF  1ÿº   H5ím I‰ÄèóÿÿL‰á1ö1ÿH‰Â1Àè¼öÿÿéBúÿÿH‰Çè_D  „À…ZúÿÿH‰ïè¯F  1ÿº   H5ñm I‰ÄèIóÿÿL‰á1ö1ÿH‰Â1Àèxöÿÿé&úÿÿÆyÍ  è÷ˆ  H‰€Ğ Aƒü…‘ûÿÿH…ÀHlÍ HEÈ‹q‰ò÷Òƒâ1ò‰QéoûÿÿH‹EÊ H‹ H‰D$é€úÿÿH‹1Ê H2 L›L  HÄ½ H=<G H‹0èUJ  HŞ1 ‹‰eŞ é@úÿÿH‹ñÉ Hâ1 L[L  HÄ½ H=õF H‹0èJ  H¾1 ÆD$‹‰$Ş éûùÿÿÇ©Ì    ÇWÎ    HÇŒÌ    HÇIÊ    éÌùÿÿÆÌ  éÀùÿÿH‹qÉ LâK  H«0 HäÃ H=²F H‹0è•I  H50 ‹†‰EÌ é€ùÿÿH‹1É H¢0 L›K  Hä» H=`F H‹0èUI  H~0 ‹‰IÌ é@ùÿÿH‹ñÈ H‹0H…ö„f  Hf0 Hß» LHK  H=F èI  HE0 ‹ƒú„2  1Àƒú…,  ¿   èdğÿÿ…À•À¶Àé  ¿   èİ†  H‹~È H‹H‰H‹AÍ H‰:Í H‰Pé©øÿÿÆìÏ éøÿÿH÷D Ç˜Ë     H‰D$é‚øÿÿH‹3È Hä/ LJ  H†» H=EE H‹0èWH  HÀ/ ‹‰SË éBøÿÿÇ<Ë    é3øÿÿÇmÏ    é$øÿÿH‹ÕÇ H‹0H…ö„3  HJ/ L3J  H¼º H=äD èğG  H)/ ‹ƒø„ÿ  ƒø„ä  ÆÕÊ  éÈ÷ÿÿH‹yÇ H‹8è‰A  …À…Ê  ‹cÊ ‰Ì H‹NÊ H‰È é’÷ÿÿÆ³Û é†÷ÿÿÇˆÊ    éw÷ÿÿH‹(Ç H‹8è¸@  „À…`÷ÿÿH‹Ç H‹8èC  º   H5îC 1ÿH‰Ãè›ïÿÿI‰Ø1ö¿   H‰ÁHãC 1ÀèÀòÿÿÇ:Û    ÆD$é÷ÿÿÇ"Û    éıöÿÿÇÛ    ÆD$ééöÿÿÆòÉ éİöÿÿÆsË éÑöÿÿÆ†É éÅöÿÿÇ¿É    é¶öÿÿÇ¸É     Æ)Ç  é öÿÿÇ¢É    é‘öÿÿÆ›É é…öÿÿÇ3É °   ÇáÊ °   HÇÉ    HÇÓÆ    éVöÿÿÇXÉ     ÆÊÆ  é@öÿÿƒ=EÉ  ÇÇÊ    ÇIÚ ÿÿÿÿ„¤
-  Æ(É  ÆÉ  ÆòË  ÆD$é öÿÿÆ:Í éôõÿÿÇ
-Ú    éåõÿÿÇ›È    éÖõÿÿÇdÊ    éÇõÿÿÆÀÈ é»õÿÿÇÕÙ    ÆD$é§õÿÿÇÁÙ ÿÿÿÿÆD$é“õÿÿ1ÿº   H5LB èàíÿÿH‹T$1öH/A H‰D$(H‹Å L‹ L‰ÇL‰D$8èğ  …À‰D$0„>  èUìÿÿ‹T$0L‹D$8H‰Áƒú„ß  ƒú…Ü  Ç     éÑ  Ç6Ù    ÆD$éõÿÿÇÈ    éùôÿÿÆªË éíôÿÿÇïÇ    éŞôÿÿH=›A èbƒ  H=A èVƒ  éÁôÿÿÇOÉ    é²ôÿÿƒ=·Ç  „¥ôÿÿÇ§Ç    é–ôÿÿPH‹6Ä L¬A LµA j HÀA H> H‹8H5> 1Àè¿_  1ÿèˆğÿÿÇ’Ë    éIôÿÿH‹úÃ H‹8èÊ‚  é5ôÿÿÇoË    é&ôÿÿÆ£Ä  éôÿÿÇĞÆ    éôÿÿÇÁÆ     éüóÿÿÆ5Ë éğóÿÿ¿   èfëÿÿ…À„
-üÿÿÆßÆ HÇDÈ     éÇóÿÿ¸   ˆ¤É €%É é°óÿÿ€=‘É  …õÿÿHƒ|$ „õ  L‹l$L%{* ëf„     IƒÅº   L‰æL‰ïèŒêÿÿ…À…Z  ¿   èJi  „ÀuÖéõôÿÿÇ K   L‰ÆHÃ 1ÿH‰L$0è5ì  H‹L$0I‰À‹1ƒşu1öH‹L$(HÔ? ¿   1Àè¬îÿÿH‹D$PH‰xÇ éûòÿÿH‹CHƒèH‰Cˆ©  fïíóH*èH‹CH…Àˆu  fïäóH*àH‹C(ó óYÄ/Å†ÃöÿÿH‰ßèmi  H‹C(ó óYÄ/Å†¦öÿÿóY`€x „-
-  /%ng ƒ
-  óH,ôH‰ßèÿj  „À…uöÿÿH‹{HëH‹GH‰D$èÓèÿÿH‹|$H…ÿuèHÇCH    éJöÿÿ€=vÉ  …â  º   1öH=ü< èüˆ  Hƒ=ÜÇ  L‹%mÉ …  M…ä„?öÿÿIƒ|$ … õÿÿÆSÉ  éõÿÿH‰ïè=  1ÿº   H5e I‰Äè(êÿÿL‰á1ö1ÿH‰Â1ÀèWíÿÿéñÿÿH=ù> èfèÿÿI‰ÄH‰Çèk;  M…ä„~
-  ‹DÄ ‰öÅ H‹/Ä H‰ğÁ €|$' „ÉñÿÿÇÄ     HÇÄ    é¯ñÿÿHƒ=Â uH‹
-Â f8[„‘  H=ğÁ èËc  H=ôÁ è¿c  H‹ÀÀ H‹8è€íÿÿ1ÿè	   ‹É …Ût€    ¿   èŞçÿÿƒëuñ‹=ëÈ …ÿ„2õÿÿèÆçÿÿé(õÿÿ€=ÊÃ  …-óÿÿ€=ÍÃ  … óÿÿ€=ğÇ  ÆcÇ  ¸   …óÿÿ€=ŸÃ  …óÿÿƒ=Ã  …öòÿÿ¶ÇÇ éêòÿÿH‹QÀ Il$H‰(éîÿÿ…Ò„¹üÿÿÇvÔ    éññÿÿH< º   ¾   H=; è@‹  éşÿÿÆD$'é!ğÿÿ€=[Ç  ¸   uƒ=Ã tƒ=Ã ÀƒàşƒÀ‰9Ç éËñÿÿè«~  €=%Ç  „€  Hƒ=Å  „Şòÿÿèk¸  Hƒ=#Ç  „şóÿÿH‹^¿ H‹8H‹G(H9G0†	  HPH‰W(Æ 
-HƒŠÂ H‹ëÆ é¨òÿÿ1ÀH5=Ä ëB ¹   ƒø@&ƒê0ƒú	vƒø~tBƒø-t<ƒø.”Áƒø_”Â	ÑD  HƒÀH=   t.‰ÂHƒøZv¹PŸ¹   ƒúvÜƒø~u¿¹   HƒÀH=   uÒH‰\$A¼"   E1ÿD  M…ÿ„¿   H¸SUUUUUUUI9Ä‡µ   L‰àHÑèMdL‰ÿL‰æèÖéÿÿI‰ÇH…À„“   K\'şÆ è½åÿÿIt$ÿL‰ÿÇ     I‰Åè§êÿÿ…Àu3€; u–L‰ÿH‹\$èçÿÿHpL9æ‚L  L‰=MÄ éñÿÿ„     A‹E ƒø$v7L‰ÿH‹\$èÊäÿÿH : H‰Ä éĞğÿÿ€    M…ä‰Vÿÿÿèò{  fH»şï¿ÿïÿÿÿH£Ãƒÿÿÿë³L‹%“½ L‹-Ì½ 1Ò1öH=QÄ M‰àL‰éèfš  M‰àL‰é1Ò1öH=ÕÃ èPš  éWğÿÿH=°; èäÿÿH‰D$HH…À„V  €8 „M  H‰ÇfÇD$e??ÆD$g è4„  H‰5Â H‰D$PL‹d$HA¶$<*„2  <:„  „À„  ˆD$eA¶D$„À„´   ˆD$fID$H‰D$HA€|$=…š   E1íH5š9 Ld$eëf„     IƒÅHu¶ J‹4èH…öt=L‰çèôæÿÿ…ÀuàIcÍH¶½ 1ÒH‰îHÁáH‹|$HÁH‹D$PH‰AèG	  „À…GÿÿÿL‰çèw8  º   H5Á: 1ÿI‰ÅèåÿÿL‰é1ö1ÿH‰Â1Àè@èÿÿº   H5|` 1ÿèíäÿÿ1ö1ÿH‰Â1ÀèèÿÿH‹= Á èóâÿÿH‹=Á ëL‹g èáâÿÿL‰çH…ÿuïÆZ¿  Hƒ=z½ „J  €=‡Ã  …şíÿÿ€=8¿  „øíÿÿ¿   è@]  „À…ßíÿÿ¿   è.]  „À…ƒ  ¿   è]  „À„Âíÿÿƒ=ù¾  „®íÿÿé°íÿÿH5;Â H=ÿ9 è  H5ÈÁ H=ö9 èl  H‹uÁ H…À„_  ‹Hãµ H5ô_ ¿   H‹Ğ1ÀèÌæÿÿéëïÿÿH@¾ éÎìÿÿ¿   èñâÿÿƒøÀƒÀ‰o¾ é?õÿÿH‰ÂƒàfïäHÑêH	ÂóH*âóXäévøÿÿH‰ÂƒàfïíHÑêH	ÂóH*êóXíéBøÿÿÆÈ½ èFy  H‰ÏÀ éåëÿÿA€} +L‰l$„ƒ  L%3­ H‹|$HÇ! L‰æèÉ  H…Àˆ•  Hƒø„    H…À„ï  HƒèuHƒ8 H‰ñ¼ H‰â¼ è=  é<ìÿÿÇš½    ¸   Ç?½    éåèÿÿH/3 ºë  H5i5 H=…8 è›ãÿÿH=J8 èáÿÿH…Àt	€8 …ııÿÿH=58 èõàÿÿH…À„~  €8 „u  L-ü! H‰\$L%8 H‰ÃM‰ïL‡ıëH‰ïè}âÿÿHlH‰èL)èH=Ï  ‡0  º   L‰æH‰ïèöàÿÿ…ÀuÍ1ÒH}H‰Şèãÿÿ…Àu»H‹\$L‰ıéoıÿÿHƒø…ÿÿÿ¿   è_  „À„õşÿÿH‹5Ğ» º   1ÿèäáÿÿH‹5Å» º   1ÿH‰¯» èÊáÿÿH‰«» é¼şÿÿ¾   1ÿè²€  éoùÿÿH¼ é•ıÿÿH‹t$H‰ÂH=¼6 è=8  H‹¹ º   1ÿH5­6 H‹+èpáÿÿH‰ÇH‰îH-®6 èÎâÿÿHX5 H‹;IƒÄH‰ê¾   1Àè1åÿÿI‹$H…ÉuáH‹+H5~\ 1ÿº   è"áÿÿH‰ÇH‰îè‡âÿÿ¿   èİ*  1ÿèÖ*  Hƒ=n¹ …a÷ÿÿH‹i¹ €8m…Q÷ÿÿéd÷ÿÿ€=Ä¿  …=êÿÿéküÿÿó\%U] óH,ôL1îéåõÿÿóY`éÉõÿÿIƒÄL‰d$Hé¼úÿÿ¿(   IƒÄèFv  H‹|$º   H‰îI‰ÅH‹¿¼ L‰d$HL‰éL‰-°¼ I‰E H‹D$PI‰Eèn  „À„VûÿÿH‹D$HHPH‰T$H€8=…?ûÿÿH‹D$PH‹|$1ÒIMH‰îI‰Eè3  „À…3úÿÿéûÿÿH‹\$L‰ıÆ¯º  é^ûÿÿH=ı4 èVŞÿÿH‰D$H…À…ñóÿÿH4 H‰D$é}üÿÿIƒÅ¾
-   L‰ïè6àÿÿI‰ÄH…À„Ç   Lx¾
-   L‰ÿèàÿÿH…À…Ä   AÆ$ L‰-t¹ L‰=u¹ é†üÿÿL‰ÿè0âÿÿH…ÀLEøé øÿÿH=^4 èÈİÿÿH…À…mõÿÿé‚õÿÿH‹=+¸ º   H55 èŞÿÿ…À…–úÿÿÆ¾ éŠúÿÿH‚4 H‰¹ H‰ù¸ éüÿÿH4 H‰æ¸ Hu4 H‰à¸ éñûÿÿM‰ïéPÿÿÿ¾
-   èßÿÿéâöÿÿL‰ïè$2  º   H5Õ3 1ÿI‰Äè¾ŞÿÿL‰á1ö¿   H‰Â1ÀèêáÿÿHÿ. º  H591 H=°Z èkßÿÿHÔ. º  H51 H=1Z èLßÿÿH‹õµ º7   ¾   H=tX H‹è,âÿÿèçÜÿÿH‹˜µ ‹T$H‹-V¶ H‹ƒøwpƒèH5X Hş1 HDğHcÂ…Òx<HÁàM‹,L%2 º   1ÿè÷İÿÿI‰ÙM‰èL‰áH‰Â1ö‰ï1Àè áÿÿè{ÜÿÿèŞÿÿL%Í1 fÇD$e  Ll$eI)Äë»H5}1 ƒøt™ëĞóú1íI‰Ñ^H‰âHƒäğPTE1À1ÉH=QâÿÿÿÃ´ ôf.„     H=‘· HŠ· H9øtH‹¦´ H…Àt	ÿà€    Ã€    H=a· H5Z· H)şH‰ğHÁî?HÁøHÆHÑştH‹´ H…ÀtÿàfD  Ã€    óú€=%·  u{UHƒ=‚´  H‰åATStH‹=“´ è&ÛÿÿH¤ H¤ H)ÃI‰ÄH‹ó¶ HÁûHƒëH9Øs!fD  HƒÀH‰Õ¶ AÿÄH‹Ê¶ H9Øråèÿÿÿ[A\Æ®¶ ]Ã@ Ã€    óúé'ÿÿÿ€    óúH‹1ÒH÷öH‰ĞÃóúH‹1ÀH9tÃH‹FH9G”ÀÃ@ óú‹Ş» …Àu‰=Ô» Ãff.„     óú‹¾» …Àu‹°» ƒÀ‰§» ÃfóúéÚÿÿ€    AU‰ĞI‰ûI‰òATA‰ÔUH‰ÍSH‹H‹¿   ¶LGÿHsH LNÿ€ú\t,t€ú=„Ã   ~IHƒÁˆVÿHƒÇHƒÆ¶LNÿLGÿ€ú\uÔ¶QLi„Ò„Ò  DJĞA€ùHw`E¶ÁNcƒIØ>Aÿà„Òt€ú:u®¸   [M‰I‰
-L‰E ]A\A]Ã€ú^u’¶QDjÀA€ı>w5ƒâHƒÁHƒÇHƒÆˆVşé|ÿÿÿº   L‰éˆVÿHƒÇHƒÆécÿÿÿD  HƒÁ€ú?t1Àë™ E„äu‘é5ÿÿÿfD  º   HƒÇHƒÆˆVşé)ÿÿÿ L‰éD‰ÊD¶EHĞA€ù‡ÿÿÿ„     HƒÁATĞĞD¶EHĞA€ùvéˆVÿHƒÇHƒÆéßşÿÿD¶ALI1ÒIIÿA€øF6@ A€ø@   EhĞA€ı	‡£şÿÿÁâATĞE¶IƒÁIIÿA€øF~ÎEhŸA€ı‡{şÿÿÁâAT©ëÖº	   L‰ééüşÿÿº   L‰ééïşÿÿº   L‰ééâşÿÿº   L‰ééÕşÿÿº
-   L‰ééÈşÿÿº    L‰éé»şÿÿº   L‰éé®şÿÿ ÁâATÉékÿÿÿ L‰é1ÀéLşÿÿº   é„şÿÿº   ézşÿÿf.„     H‹¶„À„’   1ÉE1À1öë#f„     <ZD1É<ALLÆHƒÂH‰¶„Àt'„Éuâ<.tN<Z:<@âƒè0<
-LCÆHƒÂH‰¶„ÀuÙL‰ÀÃ DHŸ1ÉA€ùv¸<~LEÆë°@ DHŸA€ùwêë @ M…À¹   LDÂëfE1ÀL‰ÀÃf„     óúH‰ø1ÒHÁÈH÷öH‰ĞÃff.„     óúH9ş”ÀÃD  óúH‹H¾„Òt11À€    HÁÀ	HƒÁHĞH¾„Òuí1ÒH÷öH‹GH1Ğ1ÒH÷öH‰ĞÃH‹G1ÒH1Ğ1ÒH÷öH‰ĞÃff.„      óúUH‰ıH‹?èPÖÿÿH‰ï]éGÖÿÿ€    H‰øH‰÷¾òƒîAD¶@ƒş‡¶   AƒàßA8Ğ@”Æ@„ötA¸   „ÒuD‰ÀÃE1ÀD‰ÀÃ¾Ñ¶pƒêAƒú‡   ƒæß@8Î”Â„ÒtØA¸   „ÉtÊH9øtÅ¹	   ëf.„     HƒÁ@8òu5D¶Aq¿D‰ÊƒşwAƒÁ ƒÂ D¶EP¿D‰ÆAƒúwAƒÀ ƒÆ „ÒuÂE9ÁA”ÀE¶ÀéfÿÿÿfD8Â@”ÆéIÿÿÿ@ @8ñ”ÂéqÿÿÿD  ATUSH‰ûH…ÒtlH‰ÕLbÿ¸à  H…öL‰c0HDğH‹C8H‰3öCPtXH‹{HÿĞH‰CH…ÀtPJT H÷İH!êH‰SH‰SH‹HÂH‰H‰S HÇ@    ¸   €cPù[]A\Ã A¼   ½   ë H‰÷ÿĞë§HÚ® ÿ„     H9÷ƒÇ   AUATI‰ôUSH‰ûHƒìL‹-¸­ ëDfD  L‰à1ÒH÷ñ1ÒI‰ÁH‰èH÷ñI9ÁvBL9ÆssHFH‰G(Æ	H‰Ø1ÒH÷ñHÙH‰ËH)ÓL9ãs4I‹} H‹7² HkH‹w(L‹G0H…Éu¦L9Æs!HFH‰G(Æ H‰ëL9ãrÌHƒÄ[]A\A]Ã ¾    è~ÖÿÿëŞ@ ¾	   ènÖÿÿH‹ß± ë…D  Ãff.„     @ AUATUSHƒìH‹FH‹^H‰ÅH)İHƒı†’   H9Ø„”   H‹V0L‹%Â¬ L-3& HĞH÷ÒH!ĞH‹V I‰ÀL+FH‰ÑH+NI9ÈHFĞHƒåøHİH‰VH‰VI‹4$è©Öÿÿf„     H‹L‰î¿   1ÀHƒÃèú×ÿÿH9ëuåI‹<$H‹G(H;G0sHPH‰W(Æ 
-HƒÄ[]A\A]Ã€NPécÿÿÿX¾
-   []A\A]éwÕÿÿ€    €=z¯ À0À  €=i¯  t€Ì‹Z¯ …Òub‹dÀ ƒú‡+ÙÿÿHD% ‹‘	È€=­¬  u€=GÀ  „     €=‘¬  tƒÈ‹&À ƒút]~KƒútNƒúuc	ÈÃfD  ‹À ƒút=~+ƒút.ƒú…½Øÿÿ‹ç¿ ƒú‡®ØÿÿHÇ$ ‹‘	ÈÃƒÂƒúwÃ€    €ÌÃ@   ézÿÿÿéyØÿÿétØÿÿ@ AVI‰ÖAUI‰õATA‰ÌUH‰ıSH‹wL‰ïÿU0H;EƒNØÿÿH‰ÃHÁãH] I‰H‹3H…ötqL9î„¹   L‰ïÿU8„ÀtUH‹E„ätXH‹SH…Ò„Š   óoHÇ    H‹MHH‰J[H‰UH]A\A]A^Ã€    H‹0L9ît(L‰ïÿU8„ÀuH‹[H‹CH…Àuá1À[]A\A]A^ÃfD  H‹SH‹E„ätåH‹JH‰KHÇ    H‹MHH‰J[H‰UH]A\A]A^ÃHÇ    ë¸€    H‰ğéLÿÿÿ„     AWAVI‰şAUATA‰ÔUH‰õSHƒìH‹H;^réı    HƒÃH9]†ì   L‹;M…ÿtêL‹kM…ítjI‹vë H‹HI‰ML‰hH…ÒtMI‰ÕM‹} L‰ÿAÿV0I‹vH9ğƒïÖÿÿHÁàII‹UHƒ8 uÃL‰8I‹FHIƒFIÇE     I‰EM‰nHH…Òu³L‹;HÇC    E„ä…fÿÿÿI‹vL‰ÿAÿV0I‰ÅI;Fƒ‘ÖÿÿIÁåM.Iƒ}  tXI‹FHH…ÀtZH‹PI‰VHI‹UL‰8H‰PI‰EHÇ    HƒÃHƒmH9]‡ÿÿÿHƒÄ¸   []A\A]A^A_Ãf.„     M‰} IƒFë½¿   è«ÏÿÿH…ÀuŸHƒÄ1À[]A\A]A^A_ÃD  UD‰ÅSH‰Ó‰Ê‰éHì  dH‹%(   H‰„$  1ÀI‰àè"Ôÿÿ…Ày&H‹”$  dH+%(   …L  HÄ  []ÃD  ‹Œ$ˆ   ‹”$Œ   H¾     ğÿÿH‰ÏHÁá HÁçH!ñç ÿ H	ù¶úHÁâH	ùH¿  ğÿÿ  H!úH	Ê‹L$H‰H‹T$ H‰K‹Œ$€   H‰S·T$I‰ÈHÁá ‰SH‹T$IÁàH!ñAà ÿ H‰S‹”$„   L	Á¶òHÁâH	ñH!ú‹t$H	Êå   H‰S(H‹T$(H‰s8‹t$HH‰S0H‹T$0H‰sP‹t$xH‰S@H‹T$@H‰s`‹t$hH‰SHH‹T$pH‰spH‰SXH‹T$`H‰Sh„ÙşÿÿöD$t H‹T$P‹|$XH‰SXH‰{`é¼şÿÿf.„     HÇC`ÿÿÿÿHÇCXÿÿÿÿéşÿÿèöÏÿÿfD  AW1öAVAUATUSHì˜  dH‹%(   H‰„$ˆ  1ÀH|$pH‰|$`Hi© H‹0¶„ÒtfD  ¶H€ú%t‰ÊHƒÀ„Òuí1Àë€ù%„G  €ùbuãH‰7HƒÆHƒşu´HÇD$   Hƒ|$p „”  H„$€   A¿   H‰D$HH„$ÿ   H‰D$PH„$ÿ  H‰D$8L‹d$PÇD$0  HÇD$     L‹t$HM‰å@ ‹|$0è7Ñÿÿ¾%   H‰ÇH‰Åè7ÏÿÿH‰D$H…À…Á  è$Óÿÿ¶U H‰ïL‰t$(H‹ ·Pf% f‰D$6è³ÎÿÿI‰ÄH‰Ãè˜ÎÿÿL‹T$(M‰áHÇD$    Hƒø‡  H9\$ƒ  H‹\$I‰ÙE1äfƒ|$6 …«  ¸   IT$ÿL‰÷I9ÁIFÁƒør‰ÁH‰îÁéóH¥H‰õ1É¨t
-‹M ‰¹   ¨t·t f‰4HƒÁ¨t	¶t @ˆ4LğH‰ÁL9ès&M…äuë@ L9ésHƒÁL‰şÆAÿ H)ÎHÖHÆuåÆ H‹|$L‰L$(èÓËÿÿH‹|$èÉËÿÿL‹L$(MÌIƒü‡Ÿ  H‹D$ H9ØHCØƒD$0Iƒí€Iƒî€H‰\$ L;l$8…şÿÿH9\$†ô  H‹D$ H‰D$éRşÿÿ@ M‰áH‹D$H9Ø†åşÿÿI‰ÄI)Üfƒ|$6 uéáşÿÿ@ M9êsIƒÂL‰ğAÆBÿ L)ĞLàuçL‰èL)ĞL9ÈH‰îL‰×L‰L$(IGÁH‰ÂèĞÿÿL‹L$(H‰Áéÿÿÿf1Ò1ÿH‰îL‰d$Xè?ÌÿÿHƒøÿ„Í  HƒÀH<…    H‰D$@H‰|$hèÚÊÿÿH…À„©  H‹T$@H‰îH‰ÇH‰D$H¹ÿÿÿÿÿÿÿ?è‚ËÿÿL‹T$(L‹L$XH…À„şÿÿH‹\$H‹|$hÇD;ü    ‹;…ÿ„Æ  L‰T$X1ÀH‰l$(‰ÅD  è{Ğÿÿ…ÀuÇıÿ  ½   ‹{HƒÃ…ÿuáL‹T$XH‹t$@‰ëH‹|$H‹l$(L‰T$(èQËÿÿ„ÛL‹T$(„%  H‹t$1Ò1ÿL‰T$èqÏÿÿL‹T$L`L‰çL‰T$(èûÉÿÿH‰D$H…À„,  H‹l$1ÛL‹T$(‹} …ÿtgL‰d$(I‰ìH‰İH‹\$L‰T$@ë! H˜HèH9Ãr3A‹|$IƒÄ…ÿ„Å   H‰Åè­ÍÿÿƒøÿuØ¸   AÇ$ıÿ  HèH9ÃsÍH‰ëL‹T$@L‰åL‹d$(ÇE     H‹l$L‰âH‹t$L‰T$(H‰ïè²ÎÿÿL‹T$(I‰Áé¨üÿÿD  ¶PHƒÀé–ûÿÿÆ¨ª @ H‹„$ˆ  dH+%(   …K  HÄ˜  []A\A]A^A_ÃHcØH9\$ƒqıÿÿIƒÄéàşÿÿ„     L‰åL‹T$@L‹d$(H‰ÃéXÿÿÿHƒ|$x …`ûÿÿë•H‹t$@H‹|$L‰T$(èÉÉÿÿL‹T$(HcØë£H‹D$HE1äH¨   H9¤ H‹\$HIiü   N‹,àH‹D$`N‹<àHù© L48ë^ M‰ùM)éIù€   %ÿÿÿHƒìIGº   L‰÷PLÊ HÇÁÿÿÿÿ1ÀS¾€   AUèoÈÿÿHƒÄ ƒø‡êşÿÿHƒë€Iƒî€H9İt M…ÿu L‰éHÉ L‰÷1À¾€   èGÊÿÿëÊIƒü„¨şÿÿA¼   é@ÿÿÿ¸   éüÿÿèÁÉÿÿH‹„$ˆ  dH+%(   uèH‹|$HÄ˜  []A\A]A^A_éƒÇÿÿ AWAVAUATUSHì¨   dH‹%(   H‰„$˜   1À@„ÿuwH´ ½   L%D¨ Lk,ëfD  L9ët"‹+HƒÃ‰îL‰çèÃÌÿÿ…Àtç1ö‰ïè–ÊÿÿL9ëuŞH‹„$˜   dH+%(   …6  HÄ¨   []A\A]A^A_Ã„     L%Ù§ H6 A¿   I‰æL‰çLk,H‰İèzÊÿÿë„     D‹} HƒÅ1öL‰òD‰ÿè«ÇÿÿHƒ<$tD‰şL‰çè¹ÌÿÿL9íuÔfo|§ fo„§ Ç„$ˆ      ½   fo|§ fo„§ L=ìÿÿfo%…§ fo-§ D$fo5§ fo=˜§ L$T$(\$8d$Hl$Xt$h|$xë	 ‹+HƒÃ‰îL‰çèËÿÿ…ÀtƒıH‚ëÿÿL‰ö‰ïIDÇ1ÒH‰$èŞÆÿÿL9ëuÉé³şÿÿèÏÇÿÿff.„     @ óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹GHH9FH|ÒuªH‹6H‹?éÈÿÿff.„     @ óúH‹GHH9FH|"uH‹6H‹?éUÈÿÿD  ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óúH‹VHH‰ğH9WH|uH‹7H‹8éÈÿÿf¸   Ãf.„     ¸ÿÿÿÿÃf.„     óúH‰ğ‹·¨   ‹ˆ¨   ƒù”Âƒù	”Á	Êƒşt*ƒş	t%‹¬   á ğ  „Òt5ù @  tI¸   Ã€    „Òu8‹¬   â ğ  ú @  t$¸ÿÿÿÿÃf‹¬   â ğ  ú @  t·ù @  tÜH‹pHH9wH|Òu«H‹7H‹8éMÇÿÿff.„     fóúH‹6H‹?é1ÇÿÿóúI‰ğH‹7I‹8éÇÿÿff.„      óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „ÀtHú @  t¸   Ãf.„     „ÀtH‹6H‹?é±Æÿÿ‹†¬   % ğ  = @  tâ¸ÿÿÿÿÃ„     ‹†¬   % ğ  = @  t¦ú @  tØH‹6H‹?ékÆÿÿff.„     óúH‰ğ‹·¨   ‹ˆ¨   ƒù”Âƒù	”Á	Êƒşt*ƒş	t%‹¬   á ğ  „ÒtEù @  t¸   Ã€    „ÒtH‹7H‹8éÆÿÿ‹¬   â ğ  ú @  tà¸ÿÿÿÿÃfD  ‹¬   â ğ  ú @  t§ù @  tØH‹7H‹8é¹Åÿÿf„     AVAUATUH‰õSH‰ûHƒì dH‹%(   H‰D$1Àè‰ÅÿÿA‰Ä…Àt4¶„À„#  ¶U „Òt€;.u
-€{ „  €} .u:€} u4A¼   H‹D$dH+%(   …J  HƒÄ D‰à[]A\A]A^Ãf.„     €;.u¶K¾.   9Îu
-€{ „°  €} .„z  <.”Á€ú.t„É…”  €ú.”Â<.„r  „Òu‚H|$H‰\$H‰l$è²éÿÿH|$I‰Æè¥éÿÿI‰ÅM…ö„a  I)ŞH…À„º  I)íM9î„q  1É1ÒI9ÖwI9Í†1ÿÿÿI9ÖvNf.„     ¶¾ğƒî0ƒş	v5¶ğ~Ğƒÿ	w`I9ÍtD¶D D‰ÆE¶À1ÿA@Ğƒø	w}HƒÂHƒÁI9Öw¼D¶D A¾ğI9Í†İ   A¾Àƒè0ƒø	†Í   I9Öt¼¶4~Ğ‰ğƒÿ	v«‰÷<ZL  <@R  <~„ä  ¾   I9ÍtC¶t 1ÀD¶ÆEHĞAƒù	v$D‰À@€şZ/  @€ş@@€ş~„Ÿ  A€   9ø„Wÿÿÿ)Ç…ÿDEçé5şÿÿ ¶M¾.   9Î…uşÿÿ€} „şÿÿéfşÿÿƒî0ƒş	‡ÇşÿÿA¼ÿÿÿÿéûıÿÿf„     HƒÂ¾<@€ÿ0tòA€ø0u@ HƒÁ¾t @€ş0tñGĞƒø	w±I‰ÈH‰ĞE1ÒI)ĞNL DFĞAƒø	‡ıÿÿ)÷E…ÒDD×HƒÀ¾<H‰ÆH)ÖDGĞLA¾4Aƒø	vÈ@¾Öƒê0ƒú	†dÿÿÿE…Ò…Ä   H‰ÂL‰Ùéşÿÿ@ D@ŸA€ø‡®şÿÿ1ÀI9Í…¶şÿÿéêşÿÿfDNŸA€ù†ÚşÿÿéÄşÿÿD  „Ò„Šıÿÿ„É„‚ıÿÿHƒÃHƒÅéuıÿÿ L‹t$I)ŞH…À…šıÿÿL‹l$I)íé™ıÿÿf.„     L‰òH‰îH‰ßèB¿ÿÿ…À…yıÿÿL‹t$I)ŞëÉƒÈÿé`şÿÿƒÏÿéşÿÿè‹ÀÿÿE‰Ôé•üÿÿL‹l$é<ıÿÿf„     óúH‹6H‹?éüÿÿóúI‰ğH‹7I‹8éşûÿÿff.„      óú‹–¨   ‹¨   ƒú	”Àƒú”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „ÀtHú @  t¸   Ãf.„     „ÀtH‹6H‹?é‘ûÿÿ‹†¬   % ğ  = @  tâ¸ÿÿÿÿÃ„     ‹†¬   % ğ  = @  t¦ú @  tØH‹6H‹?éKûÿÿff.„     óúH‰ğ‹·¨   ‹ˆ¨   ƒù	”Âƒù”Á	Êƒşt*ƒş	t%‹¬   á ğ  „ÒtEù @  t¸   Ã€    „ÒtH‹7H‹8éáúÿÿ‹¬   â ğ  ú @  tà¸ÿÿÿÿÃfD  ‹¬   â ğ  ú @  t§ù @  tØH‹7H‹8é™úÿÿf„     óúH‹V1ÀH9WtÃ€    H‹NH9OuîHƒìH‹6H‹?èÀÿÿ…À”ÀHƒÄÃD  óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹—ˆ   H‹†ˆ   H‹€   H9€   ¾|–)Ğu½H‹6H‹?éG¿ÿÿ€    óúH‹—ˆ   H‹†ˆ   H‹€   H9€   .|)ĞuH‹6H‹?é¿ÿÿD  Ã€    ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óúH‰òH‹ˆ   H‹‡ˆ   H‹·€   H9²€   +|!)ÈuH‹7H‹:éª¾ÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰ò‹·¨   ‹Š¨   ƒù”Àƒù	”Á	Èƒşt*ƒş	t%‹¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹‚¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹‚¬   % ğ  = @  t¹ù @  tÜH‹Šˆ   H‹‡ˆ   H‹·€   H9²€   ¾|™)Èu½H‹7H‹:éÇ½ÿÿ€    óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹WxH‹FxH‹NpH9OpÊ|¢)ĞuÉH‹6H‹?é½ÿÿ óúH‹WxH‹FxH‹NpH9Op*| )ĞuH‹6H‹?éé¼ÿÿf„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰òH‹NxH‹GxH‹wpH9rp'|)ÈuH‹7H‹:é–¼ÿÿfD  Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹WxH‹FxH‹NpH9OpÊ|¢)ĞuÉH‹6H‹?éÃ»ÿÿ óúH‰ò‹·¨   ‹Š¨   ƒù”Àƒù	”Á	Èƒşt*ƒş	t%‹¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹‚¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹‚¬   % ğ  = @  t¹ù @  tÜH‹JxH‹GxH‹wpH9rpÊ|¥)ÈuÉH‹7H‹:é»ÿÿ óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹WhH‹FhH‹N`H9O`Ê|¢)ĞuÉH‹6H‹?écºÿÿ óúH‹WhH‹FhH‹N`H9O`*| )ĞuH‹6H‹?é9ºÿÿf„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰òH‹NhH‹GhH‹w`H9r`'|)ÈuH‹7H‹:éæ¹ÿÿfD  Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰ò‹·¨   ‹Š¨   ƒù”Àƒù	”Á	Èƒşt*ƒş	t%‹¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹‚¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹‚¬   % ğ  = @  t¹ù @  tÜH‹JhH‹GhH‹w`H9r`Ê|¥)ÈuÉH‹7H‹:é¹ÿÿ óúH‹WxH‹FxH‹NpH9Op*| )ĞuH‹6H‹?éé¸ÿÿf„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰òH‹NxH‹GxH‹wpH9rp'|)ÈuH‹7H‹:é–¸ÿÿfD  Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‰ò‹·¨   ‹Š¨   ƒù”Àƒù	”Á	Èƒşt*ƒş	t%‹¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹‚¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹‚¬   % ğ  = @  t¹ù @  tÜH‹JxH‹GxH‹wpH9rpÊ|¥)ÈuÉH‹7H‹:éÃ·ÿÿ AWº   AVAUATU‰ıSHìˆ   L‹%	’ dH‹%(   H‰D$x1À…ÿt1H5 1ÿèïµÿÿL‰á¾   H‰ÂH‹m H‹81ÀèÃ¹ÿÿ‰ïèœ¹ÿÿ1ÿH5“ è¾µÿÿL‰â¿   H‰Æ1ÀèŒ¸ÿÿH‹íŒ 1ÿº   H5 L‹#èµÿÿH‰ÇL‰æèô¶ÿÿL‹#º   1ÿH5û ènµÿÿL‰æH‰ÇèÓ¶ÿÿL‹#º   1ÿH5* èMµÿÿL‰æH‰Çè²¶ÿÿL‹#º   1ÿH5 è,µÿÿL‰æH‰Çè‘¶ÿÿL‹#º   1ÿH5˜ èµÿÿL‰æH‰Çèp¶ÿÿL‹#º   1ÿH5ç èê´ÿÿL‰æH‰ÇèO¶ÿÿL‹#º   1ÿH56 èÉ´ÿÿL‰æH‰Çè.¶ÿÿL‹#º   1ÿH5½ è¨´ÿÿL‰æH‰Çè¶ÿÿL‹#º   1ÿH5Ü è‡´ÿÿL‰æH‰ÇèìµÿÿL‹#º   1ÿH5³ èf´ÿÿL‰æH‰ÇèËµÿÿL‹#º   1ÿH5â èE´ÿÿL‰æH‰ÇèªµÿÿL‹#º   1ÿH5Y è$´ÿÿL‰æH‰Çè‰µÿÿL‹#º   1ÿH5à è´ÿÿL‰æH‰ÇèhµÿÿL‹#º   1ÿH5W èâ³ÿÿL‰æH‰ÇèGµÿÿL‹#º   1ÿH5 èÁ³ÿÿL‰æH‰Çè&µÿÿL‹#º   1ÿH5 è ³ÿÿL‰æH‰ÇèµÿÿL‹#º   1ÿH5\ è³ÿÿL‰æH‰Çèä´ÿÿL‹#º   1ÿH5k è^³ÿÿL‰æH‰ÇèÃ´ÿÿL‹#º   1ÿH5š è=³ÿÿL‰æH‰Çè¢´ÿÿL‹#º   1ÿH5A è³ÿÿL‰æH‰Çè´ÿÿ1ÿL‹#º   H5 ! èû²ÿÿL‰æH‰Çè`´ÿÿL‹#º   1ÿH5Ï! èÚ²ÿÿL‰æH‰Çè?´ÿÿL‹#º   1ÿH5>" è¹²ÿÿL‰æH‰Çè´ÿÿL‹#º   1ÿH5•# è˜²ÿÿL‰æH‰Çèı³ÿÿL‹#º   1ÿH5ä$ èw²ÿÿL‰æH‰ÇèÜ³ÿÿL‹#º   1ÿH5ó$ èV²ÿÿL‰æH‰Çè»³ÿÿL‹#º   1ÿH5
-% è5²ÿÿL‰æH‰Çèš³ÿÿL‹#º   1ÿH5Á% è²ÿÿL‰æH‰Çèy³ÿÿL‹#º   1ÿH5' èó±ÿÿL‰æH‰ÇèX³ÿÿº   L‹#1ÿH5( èÒ±ÿÿL‰æH‰Çè7³ÿÿH
- H‰âHÃ H‰$Hy ¾l   ¿s   H‰D$HÛ H‰D$Hg H‰D$Hq H‰L$0Hˆ H‰D$ Hc H‰L$@Hz H‰D$(H‰D$8H‰D$HH‰L$PH‰D$XHÇD$`    HÇD$h    fD  H‹BHƒÂH…Àt¶9Îuì¶H9Ïuä€x uŞL‹bH5& º   1ÿM…ä„Ã   èæ°ÿÿL-·' H ¿   H‰ÆL‰éL5 1ÀèŸ³ÿÿ¿   1öèƒ³ÿÿH‰ÇH…Àtº   H5ï èZ¯ÿÿ…À…ı   1ÿº   H5Ø è°ÿÿL‰êL‰ñ¿   H‰Æ1ÀL-P èC³ÿÿM9ôH¶ LEè1ÿH5”' º   èB°ÿÿL‰éL‰â¿   H‰Æ1Àè³ÿÿéUúÿÿè#°ÿÿL-ô& ¿   HR H‰ÆL‰é1Àèã²ÿÿ¿   1öèÇ²ÿÿH‰ÇH…Àtº   H53 è®ÿÿ…Àu;º   H5" 1ÿèÇ¯ÿÿL% L‰ê¿   H‰ÆL‰áL-“  1Àè„²ÿÿéJÿÿÿL5å  M‰ôL‹;1ÿº   H5„& è¯ÿÿH‰ÇL‰şèä°ÿÿéİşÿÿff.„     @ óúPXº   H5½  1ÿHƒìèC¯ÿÿH© ¾   H‰ÁH‹½† H‹81Àè³ÿÿ‹==‡ èè²ÿÿ„     Hƒì1öH` dH‹%(   H‰D$1ÀH‰âè;±  …Àt7ƒøu*HÇ÷Š ÿÿÿÿ¸   H‹T$dH+%(   u$HƒÄÃD  1Àëâ@ H‹$H‰ÅŠ ¸   ëÌèÉ®ÿÿf„     ATUSH‰ûHƒìdH‹%(   H‰D$1ÀH…ÿ„$  1í€;'u	HƒÃ½   L%Åë  H5v H‰ßL‰âè#”  …Àx?HÇ„ˆ    H˜A,„1À‰-~ˆ H‹T$dH+%(   …[  HƒÄ[]A\Ãf„     H‰æHÿ  H?ˆ H‰ßè7°  …ÀuK¶QĞH‹$€ú	wë(f¶sHƒÃVĞ€ú	vH9Ùuë€yÿB„É   @€Í€ƒÍ ‰-ü‡ H‹í‡ ë Çæ‡     H‹×‡ H…Ò…XÿÿÿH=ÿ  èÒ«ÿÿHƒøHÀ%   H   H‰©‡ ¸   é)ÿÿÿ€    H=2 èœ«ÿÿH‰ÃH…À…ÄşÿÿH=©ş  è„«ÿÿH‰ÃH…À…¬şÿÿH=›ş  èl«ÿÿH…Àt4HÇL‡    1ÀÇH‡     éÅşÿÿ Í€  €yşi….ÿÿÿé&ÿÿÿHÇ‡    1ÀÇ‡     é‘şÿÿèâ¬ÿÿfH‰şH†„ 1ÿé?­  ff.„     @ óúAUATUSH‰óHƒì‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt0ƒù	t+‹—¬   â ğ  „ÀtKú @  t]¸   HƒÄ[]A\A]Ã „ÀuF‹ƒ¬   % ğ  = @  t4HƒÄ¸ÿÿÿÿ[]A\A]Ãf.„     ‹†¬   % ğ  = @  t£ú @  tÌL‹'¾.   L‰çè†¬ÿÿL‹+¾.   H‰ÅL‰ïès¬ÿÿH‰ÆH…Àt;H…íHÿ  HDèH‰ïè5­ÿÿ…À…_ÿÿÿHƒÄL‰îL‰ç[]A\A]é­ÿÿ„     H5Öş  H…íuÇëÕfóúAUI‰õ¾.   ATUL‹'L‰çè¬ÿÿM‹m ¾.   H‰ÅL‰ïèğ«ÿÿH…Àt+H‰ÆH…íH‹ş  HDèH‰ïè²¬ÿÿ…Àt]A\A]Ã„     H5fş  H…íuÚ]L‰îL‰çA\A]é„¬ÿÿ@ óúAUI‰ıATUL‹&¾.   L‰çè„«ÿÿM‹m ¾.   H‰ÅL‰ïèp«ÿÿH…Àt+H‰ÆH…íHş  HDèH‰ïè2¬ÿÿ…Àt]A\A]Ã„     H5æı  H…íuÚ]L‰îL‰çA\A]é¬ÿÿ@ óúAUATUSH‰ûHƒì‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt0ƒù	t+‹—¬   â ğ  „ÀtKú @  t]¸   HƒÄ[]A\A]Ã „ÀuF‹†¬   % ğ  = @  t4HƒÄ¸ÿÿÿÿ[]A\A]Ãf.„     ‹†¬   % ğ  = @  t£ú @  tÌL‹&¾.   L‰çèfªÿÿL‹+¾.   H‰ÅL‰ïèSªÿÿH‰ÆH…Àt;H…íHîü  HDèH‰ïè«ÿÿ…À…_ÿÿÿHƒÄL‰îL‰ç[]A\A]éøªÿÿ„     H5¶ü  H…íuÇëÕfAUATI‰üUH‰õHƒì@dH‹%(   H‰D$81ÀHƒúÿº   „¢   H5âú  1ÿè©ÿÿI‰ÅL‰æHç€ ¿   è©  H‰âH‰î1ÿHÇ$   I‰ÄHÇD$    HÇD$    HÇD$    HÇD$     HÇD$(    HÇD$0    èO©  H‰ÁH‹D$8dH+%(   u2HƒÄ@M‰àL‰ê1ö]1ÿA\1ÀA]éÂ«ÿÿfH5%ú  1ÿèr¨ÿÿI‰ÅéYÿÿÿè•¨ÿÿD  AWAVI‰ÖH‰ÊAUM‰ÅATI‰üUH‰õL‰öSH‰ïH‰ËHƒìè  H…ÀxHƒÄ[]A\A]A^A_ÃH‰ÂL‰çH‰îèÂşÿÿH‹› º   1ÿH5áù  L‹ èõ§ÿÿH‰ÇL‰æèZ©ÿÿI‹6H…ö„   H‰İE1Ò1ÛL%¯ L=Áù  ë@fD  L‰â1ÿèV¨  L‰ú¾   H‰ÁH‹4 H‹81ÀèŠ«ÿÿI‰êHƒÃHƒÅI‹4ŞH…ötFH…ÛtÁ‹E A9u¹L‰â1ÿL‰T$è
-¨  Hdù  ¾   H‰ÁH‹ä~ H‹81Àè:«ÿÿL‹T$ë¬ H‹É~ H‹8H‹G(H;G0sHPH‰W(Æ 
-AÿÕHÇÀÿÿÿÿéâşÿÿ¾
-   è¨§ÿÿëåfD  AUATI‰ôH‰ÖS‰û1ÿHƒì@dH‹%(   H‰D$81ÀH‰âHÇ$   HÇD$    HÇD$    HÇD$    HÇD$     HÇD$(    HÇD$0    è7§  I‰Åè?¥ÿÿ1ÿL‰éL‰â‹01Àè¾©ÿÿ„Ût*Ç|…    H‹D$8dH+%(   u&HƒÄ@[A\A]ÃfD  ‹V… …ÀuÖÇH…    ëÊèe¦ÿÿD  óúATº   H5Æş  1ÿL‹%‚ è¦ÿÿL‰á¾   H‰ÂH‹} H‹81Àèä©ÿÿ¿   èº©ÿÿf.„     Hƒ=@ƒ  ATUStU1íL%} f„     H‹© H‹èH‹;èÍ£ÿÿH‹{èÄ£ÿÿH‹{è»£ÿÿH‹»°   L9çtèê¥ÿÿHƒÅH9-ç‚ w½[]ÆÀ  HÇÑ‚     A\ÆL  Ç     Ç     Ç*     Ç     Ç     Ç      ÇZ     Çè€     ÇÚ€     ÇÌ€     Ãff.„     ATUS…ÿtXA‰üƒÿ
-tD‰à[]A\Ã„     H‹.H‰óH5Éö  H‰ïèK¦ÿÿ…Àu×H‰ïA¼ÿÿÿÿè	¥ÿÿHÇ    èM£ÿÿÇ =   ëµD  è;£ÿÿA¼ÿÿÿÿÇ _   ëff.„     fAUATUH‰ıSHƒìH‹¼ dH‹%(   H‰D$1ÀH¥~ H…ÛHDØèé¢ÿÿH|$H‰ê¾   D‹(D‹Cÿs0I‰Ä‹ÿs(LKèáŠ  E‰,$ZY¶L$8M t!¸   H‹T$dH+%(   uHƒÄ[]A\A]ÃH‰ïH‰Ãèõ£ÿÿH9Ø•ÀëÑèø£ÿÿ„     óúH‹—ˆ   H‹†ˆ   H‹€   H9€   N|<)Ğu0ATUHƒìH‹/L‹&è6¢ÿÿÇ     HƒÄL‰æH‰ï]A\éŞ¥ÿÿfD  Ã€    ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óúH‹–ˆ   H‹‡ˆ   H‹€   H9€   N|<)Ğu0ATUHƒìH‹.L‹'è¶¡ÿÿÇ     HƒÄL‰æH‰ï]A\é^¥ÿÿfD  Ã€    ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹—ˆ   H‹†ˆ   H‹€   H9€   ¾|–)Ğu½ATUHƒìH‹/L‹&è° ÿÿÇ     HƒÄL‰æH‰ï]A\éX¤ÿÿ„     óú‹¨   H‰ú‹¿¨   ƒù”Àƒù	”Á	Èƒÿt*ƒÿ	t%‹Š¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¹ù @  tÜH‹ˆ   H‹‚ˆ   H‹º€   H9¾€   ¾|™)Èu½ATUHƒìH‹.L‹"èĞŸÿÿÇ     HƒÄL‰æH‰ï]A\éx£ÿÿ„     óúH‹WxH‹FxH‹NpH9OpJ|@)Ğu4ATUHƒìH‹/L‹&è‚ŸÿÿÇ     HƒÄL‰æH‰ï]A\é*£ÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‹VxH‹GxH‹OpH9NpJ|@)Ğu4ATUHƒìH‹.L‹'èŸÿÿÇ     HƒÄL‰æH‰ï]A\éº¢ÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‹WhH‹FhH‹N`H9O`J|@)Ğu4ATUHƒìH‹/L‹&è¢ÿÿÇ     HƒÄL‰æH‰ï]A\éJ¢ÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‹VhH‹GhH‹O`H9N`J|@)Ğu4ATUHƒìH‹.L‹'è2ÿÿÇ     HƒÄL‰æH‰ï]A\éÚ¡ÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹WhH‹FhH‹N`H9O`Ê|¢)ĞuÉATUHƒìH‹/L‹&è<ÿÿÇ     HƒÄL‰æH‰ï]A\éä ÿÿ@ óú‹¨   H‰ú‹¿¨   ƒù”Àƒù	”Á	Èƒÿt*ƒÿ	t%‹Š¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¹ù @  tÜH‹NhH‹BhH‹z`H9~`Ê|¥)ÈuÉATUHƒìH‹.L‹"èlœÿÿÇ     HƒÄL‰æH‰ï]A\é ÿÿ@ óúH‹WxH‹FxH‹NpH9OpJ|@)Ğu4ATUHƒìH‹/L‹&è"œÿÿÇ     HƒÄL‰æH‰ï]A\éÊŸÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óúH‹VxH‹GxH‹OpH9NpJ|@)Ğu4ATUHƒìH‹.L‹'è²›ÿÿÇ     HƒÄL‰æH‰ï]A\éZŸÿÿf.„     Ã€    ¸   Ãf¸ÿÿÿÿÃf.„     óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹WxH‹FxH‹NpH9OpÊ|¢)ĞuÉATUHƒìH‹/L‹&è¼šÿÿÇ     HƒÄL‰æH‰ï]A\édÿÿ@ óúé'ÿÿÿ€    óú‹¨   H‰ú‹¿¨   ƒù”Àƒù	”Á	Èƒÿt*ƒÿ	t%‹Š¬   á ğ  „Àt5ù @  tG¸   Ã€    „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¹ù @  tÜH‹NxH‹BxH‹zpH9~pÊ|¥)ÈuÉATUHƒìH‹.L‹"èÜ™ÿÿÇ     HƒÄL‰æH‰ï]A\é„ÿÿ@ óúé'ÿÿÿ€    óúH‹GHH9FH|Bu0ATUHƒìH‹/L‹&è™ÿÿÇ     HƒÄL‰æH‰ï]A\é6ÿÿfD  ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óúH‹FHH9GH|Bu0ATUHƒìH‹.L‹'è.™ÿÿÇ     HƒÄL‰æH‰ï]A\éÖœÿÿfD  ¸   Ãf.„     ¸ÿÿÿÿÃf.„     óú‹–¨   ‹¨   ƒú	”Àƒú”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹GHH9FH|ÒuªATUHƒìH‹/L‹&èH˜ÿÿÇ     HƒÄL‰æH‰ï]A\éğ›ÿÿóú‹–¨   ‹¨   ƒú	”Àƒú”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜH‹FHH9GH|ÒuªATUHƒìH‹.L‹'èˆ—ÿÿÇ     HƒÄL‰æH‰ï]A\é0›ÿÿóúATUHƒìL‹&H‹/èZ—ÿÿÇ     HƒÄL‰æH‰ï]A\é›ÿÿfóúATUHƒìL‹'H‹.è*—ÿÿÇ     HƒÄL‰æH‰ï]A\éÒšÿÿfóú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜATUHƒìL‹&H‹/èt–ÿÿÇ     HƒÄL‰æH‰ï]A\éšÿÿff.„     óú‹–¨   ‹¨   ƒú”Àƒú	”Â	Ğƒùt-ƒù	t(‹—¬   â ğ  „Àt8ú @  tJ¸   Ãf.„     „Àu6‹†¬   % ğ  = @  t$¸ÿÿÿÿÃ@ ‹†¬   % ğ  = @  t¶ú @  tÜATUHƒìL‹'H‹.è´•ÿÿÇ     HƒÄL‰æH‰ï]A\é\™ÿÿff.„     óúAVAUATI‰ô¾.   UHƒìL‹/L‰ïèn—ÿÿM‹4$¾.   H‰ÅL‰÷èZ—ÿÿI‰ÄHıé  M…äLDàH…íHDèè=•ÿÿL‰æÇ     H‰ïèì˜ÿÿ…ÀuHƒÄL‰öL‰ï]A\A]A^éÒ˜ÿÿfHƒÄ]A\A]A^Ã@ óúAVAUATI‰üUHƒìL‹.¾.   L‰ïèŞ–ÿÿM‹4$¾.   H‰ÅL‰÷èÊ–ÿÿI‰ÄHmé  M…äLDàH…íHDèè­”ÿÿL‰æÇ     H‰ïè\˜ÿÿ…ÀuHƒÄL‰öL‰ï]A\A]A^éB˜ÿÿfHƒÄ]A\A]A^Ã@ óúAVAUATUS‹–¨   H‰ó‹¨   ƒú”Àƒú	”Â	Ğƒùt2ƒù	t-‹—¬   â ğ  „ÀtEú @  tW¸   []A\A]A^Ã€    „Àu>‹ƒ¬   % ğ  = @  t,[¸ÿÿÿÿ]A\A]A^Ã@ ‹†¬   % ğ  = @  t©ú @  tÔL‹/¾.   L‰ïè¾•ÿÿL‹3¾.   H‰ÅL‰÷è«•ÿÿI‰ÄHNè  M…äLDàH…íHDèè“ÿÿL‰æÇ     H‰ïè=—ÿÿ…À…Uÿÿÿ[L‰ö]L‰ïA\A]A^é"—ÿÿfóúAVAUATUS‹–¨   H‰û‹¨   ƒú”Àƒú	”Â	Ğƒùt2ƒù	t-‹—¬   â ğ  „ÀtEú @  tW¸   []A\A]A^Ã€    „Àu>‹†¬   % ğ  = @  t,[¸ÿÿÿÿ]A\A]A^Ã@ ‹†¬   % ğ  = @  t©ú @  tÔL‹.¾.   L‰ïè®”ÿÿL‹3¾.   H‰ÅL‰÷è›”ÿÿI‰ÄH>ç  M…äLDàH…íHDèè~’ÿÿL‰æÇ     H‰ïè-–ÿÿ…À…Uÿÿÿ[L‰ö]L‰ïA\A]A^é–ÿÿfATUS‰ÓH…ÿ„‘   I‰üè©“ÿÿL‰çH‰Æè>w  H‹-¿j L‰ç)Ã¸    H‹u HØèÑ”ÿÿL‰çLcãèv“ÿÿIÄ H‹} H‹G(H;G0s2HPH‰W(Æ  ƒësâH‹Ãm []IDA\H‰³m Ãf.„     ¾    è¦“ÿÿëÍ@ H‰ñ¿   1ÀLcãH5üä  èÇ•ÿÿë³D  USHì   Hƒ$ Hì   Hƒ$ Hƒì8H‰ûHl$ H|$‰ÑdH‹%(   H‰„$(   1ÀH‰òLL$LD$H‰ŞH‰l$èö  H‹|$H9ït
-H9ßtè’ÿÿ¶D$HD$H‹”$(   dH+%(   u
-HÄ8   []Ãèv’ÿÿfD  AWH‰ğAVHÑèAUATUH‰ÍSH‰ûHƒì8H‰t$H)ÆH‰D$HÇH‰T$H‰D$(Hƒş‡ñ  „Ã   Hƒ|$…ç   L‹3H‹D$L‰0H‹D$(HÇ$    E1ÿL‹l$L‹ @ L‰æL‰÷IƒÇÿÕ…À~$N‰dûøIƒÅL9l$t8N‹$ëL‰÷IƒÇL‰æÿÕ…ÀÜHƒ$H‹$N‰tûøH9D$„[  H‹T$L‹4Âë¨H‹$L‹d$J<ûH‹L$HƒÄ8I)Ä[]Jå    H4ÁA\A]A^A_é,“ÿÿ@ L‹0L‹`I‰ÇL‰æL‰÷ÿÑ…À#ÿÿÿHƒ|$M‰'M‰w„ÿÿÿ H‹D$H‹t$HÁèH)ÆH‰D$ L<ÃHƒş‡  „3  Hƒ|$ ‡Ö   L‹3„ÿ   M‹?HÇ$    L‹d$ L‹l$@ L‰şL‰÷IƒÅÿÕ…À~#M‰}øIƒÄL9d$t?N‹<ãL‰÷IƒÅL‰şÿÕ…ÀİHƒ$H‹$M‰uøH9D$ t	L‹4Ãë³ H‹D$L‰$$H‰D$ H‹$H‹T$ L‰ïH)ÂH4ÃHÁâè&’ÿÿH‹D$L‹0éEşÿÿf„     HƒÄ8[]A\A]A^A_ÃH‹T$H‹|$(èÁıÿÿéşÿÿH‹T$H‹t$ H‰éH‰ßè§ıÿÿL‹3éÿÿÿH‹T$H‰éL‰ÿèıÿÿéìşÿÿL‹cL‰÷L‰æÿÕ…À~ÓL‰sM‰æL‰#éâşÿÿM‹'M‹oL‰çL‰îÿÕ…À¶şÿÿM‰/M‰géªşÿÿ„     ATUSH…ÿtgH‰ıèÿÿHX¸v   H9ÃHCÃH‰ÇHƒÇHƒçøèÿÿI‰ÄH…Àt(HÇ     ¸   I|$	H‰ÚfA‰D$H‰îè‘ÿÿAÆD	 L‰à[]A\Ã€    ¿€   è6ÿÿI‰ÄH…Àtß1ÒIÇ$    L‰àfA‰T$[]A\ÃfD  AVAUATUH‰ıSèàÿÿ‹] H‰ïI‰ÄèÒÿÿƒã H‰ï…ÀxwèC‘ÿÿ…ÀuOH‰ïè7‘ÿÿ…À…   H‰ïèçÿÿ…ÀtOè>ÿÿH‰ïD‹0I‰Åè@ÿÿE…öt?E‰u …ÛtC ¸ÿÿÿÿ[]A\A]A^ÃfH‰ïèhÿÿ1öº   ‰ÇèÿÿHƒøÿu•H‰ïèüÿÿ…Û…œ   …ÀtÅM…äu»èÖŒÿÿ[]ƒ8	A\•ÀA]A^¶À÷ØÃf÷E    „dÿÿÿH‹EH9Etº   1öH‰ïè:‘ÿÿéFÿÿÿD  H‹E H9E(uİHƒ}H uÖH‰ïè×ÿÿ1öº   ‰Çè‰ÿÿHƒøÿ„ÿÿÿƒe ïH‰…   é ÿÿÿ€    …À… ÿÿÿè;ŒÿÿÇ     éÿÿÿóúH‹½d ATH‹8è‹şÿÿ…Àt?º   H5qß  1ÿèTÿÿI‰Äèü‹ÿÿ1ÿL‰áHCß  ‹01Àèwÿÿ‹=Qe èŒÿÿ@ H‹±d H‹8è9şÿÿ…ÀuA\Ã‹=,e èç‹ÿÿ€    AWI‰òI‰ËAVAUATUH‰ıSHìX  L‰„$À   L‰Œ$È   „Àt@)„$Ğ   )Œ$à   )”$ğ   )œ$   )¤$  )¬$   )´$0  )¼$@  dH‹%(   H‰„$˜   1ÀLŒ$    1ÿE1ÀH„$  ÇD$     º    HŒ$  ÇD$$0   1ÛHt$@H‰D$(L‰L$0ë2f.„     ‰ĞA¸   ƒÂLÈH‹ H‰ŞH…Àt+HƒÃHƒû
-„Ò  ƒú/vÓH‰È¿   HƒÁH‹ H‰ŞH…ÀuÕ@„ÿtH‰L$(E„Àt‰T$ L‰ÑM‰ÙLİ  H‰ïH&Ş  ¾   1Àè¥ÿÿ1ÿº   H5Ş  è¢‹ÿÿA¸ä  ¾   H‰ïH‰ÁH
-É  1ÀèsÿÿH‰î¿
-   è6ÿÿ1ÿº   H5ğ èc‹ÿÿ¾   H‰ïHŒ H‰Â1Àè:ÿÿH‰î¿
-   èıŒÿÿHƒû	‡’   HÄ  HcšHĞ>ÿàL‹L$xL‹D$p1ÿº   H‹L$hH5% L‹|$`L‹t$XL‹l$PL‰L$H‹\$HL‹d$@L‰D$H‰$èÙŠÿÿH‰ÂPL‹L$¾   H‰ï1ÀAQL‹D$M‰éAPH‹L$I‰ØQL‰áAWAVè•ÿÿHƒÄ0H‹„$˜   dH+%(   …C  HÄX  []A\A]A^A_ÃL‹L$xL‹D$pº   H5² L‹”$€   H‹L$hL‹|$`L‹t$XL‰L$L‹l$PH‹\$HL‰T$L‰D$L‹d$@H‰$1ÿè"ŠÿÿL‹T$H‰ÂARé>ÿÿÿL‹d$@1ÿº   H5"Ü  èû‰ÿÿ¾   H‰ïH‰ÂL‰á1ÀèÖÿÿé@ÿÿÿH‹\$HL‹d$@1ÿº   H5ûÛ  èÄ‰ÿÿI‰ØL‰á¾   H‰ÂH‰ï1ÀèœÿÿéÿÿÿL‹l$PH‹\$H1ÿº   L‹d$@H5ÓÛ  è…‰ÿÿM‰éI‰Ø¾   H‰ÂL‰áH‰ï1ÀèZÿÿéÄşÿÿº   H5Ù  1ÿL‹t$XL‹l$PH‹\$HL‹d$@è>‰ÿÿAPH‰ÂAV¾   H‰ïM‰éI‰ØL‰á1Àèÿÿ^_éwşÿÿL‹|$`º   H5§  1ÿL‹t$XL‹l$PH‹\$HL‹d$@èìˆÿÿAWH‰Âë¬H‹L$hº   H5œ  1ÿL‹|$`L‹t$XL‹l$PH‹\$HH‰$L‹d$@è°ˆÿÿQH‰ÂH‹L$M‰éI‰Ø¾   H‰ï1ÀQL‰áAWAVèzŒÿÿHƒÄ éàıÿÿL‹D$pH‹L$hº   1ÿH5Y  L‹|$`L‹t$XL‹l$PH‹\$HL‰D$H‰$L‹d$@èBˆÿÿL‹D$H‰ÂAPëŠL‰ÑM‰ÙLkÙ  H‰ïH„Ú  ¾   1ÀèŒÿÿº   H5xÚ  1ÿè ˆÿÿA¸ä  ¾   H‰ïH‰ÁHhÅ  1ÀèÑ‹ÿÿH‰î¿
-   è”‰ÿÿº   H5P  1ÿèÁ‡ÿÿHò  ¾   H‰ïH‰Â1Àè˜‹ÿÿH‰î¿
-   è[‰ÿÿL‹L$xL‹D$pº   L‹”$€   H‹L$hH5Ø  L‹|$`L‹t$XL‰L$L‹l$PH‹\$HL‰T$L‰D$L‹d$@H‰$éıÿÿèr‡ÿÿfóú‰ÿH“_ E1ÀHÁçHøH‹H…ÒtH‹HHƒútA¸   HƒútD‰ÀÃ€    €90A•ÀD‰ÀÃD  ¶ƒè0u¶Aƒè0…ÀA•ÀD‰ÀÃ€    óú@„ÿtO‰ñá ğ  ù €  u1Àƒ=Ra „ˆ   Ã€    ¸/   ù @  tk1Àù    ”Áƒ=%a u'ÃfD  1ÀƒútÉƒút\ƒú	tWƒú”Áƒ=ş` tx¸@   „Éu§@„ÿtJæ ğ  ¸|   ş   tgş À  ”Àë<@ Ã€    ƒæI÷ŞÀƒà*ÃD  ¸/   Ãf.„     ¸|   ƒútƒú”À÷Øƒà=Ãf.„     Ã€    Ã€    Ãff.„     @ óú€=Ue  SH‰ûtH‹ğ\ H‹{º   H‹3[H‹é3ˆÿÿ ¿   Æ$e èŸ‡ÿÿ…ÀyHƒ=û]  t!H=ê] è¥ÿÿÿë´ ¿   èö»ÿÿëÙ@ H=©] è„ÿÿÿH=Í] èxÿÿÿH=¡] èlÿÿÿéxÿÿÿ€    AVAUL-u] ATMeUH-'d SHì   dH‹%(   H‰„$ˆ   1ÀH‰ãëZ€    H‹!\ H‹8èáˆÿÿH‰ÚH‰î1ÿè4ƒÿÿD‹5ed ‹[d …Àt[ƒèA¾   ‰Hd D‰÷è,ƒÿÿ1ÒH‰Ş¿   èı‚ÿÿ‹/d …Àu
-‹!d …Àt1€=d  tL‰ïè¨şÿÿL‰çè şÿÿé{ÿÿÿ 1öD‰÷èî…ÿÿë¨@ H‹„$ˆ   dH+%(   uHÄ   []A\A]A^ÃèP„ÿÿóúAWAVAUATUH‰ıS»€   Hì¨   dH‹%(   H‰„$˜   1ÀH…öA•ÆtH^Hş  ¸  HCØI¼ÿÿÿÿÿÿÿ?HD$H‰$Hû€   uDL‹,$E1ÿE„öu8H‰ÚL‰îH‰ïèƒÿÿH‰ÂH…ÀxeH9Ó‡„   L‰ÿè¤ÿÿL9ãw/HÛHû€   t¼H‰ßè›ÿÿI‰ÅH…À„Û   I‰Çë¯f.„     H¸ÿÿÿÿÿÿÿH9ÃtyH»ÿÿÿÿÿÿÿérÿÿÿfH‰D$èÖÿÿH‹T$ƒ8"t‡L‰ÿE1ÿè1ÿÿë€    AÆD  LbM…ÿtAL9ãw\H‹„$˜   dH+%(   ubHÄ¨   L‰ø[]A\A]A^A_Ã@ èsÿÿE1ÿÇ    ëÄL‰çèà€ÿÿH‰ÇH…Àt$L‰âL‰îè„ÿÿI‰Çë¤L‰ÿL‰æè=…ÿÿH…ÀLEøëE1ÿë‹èª‚ÿÿf.„     óúAT1öUHì  dH‹%(   H‰„$  1Àè…ÿÿH…À„‡   H‰ÇH‰ÅE1äèQ‚ÿÿH=   v)H‹„$  dH+%(   ucHÄ  D‰à]A\Ã„     H‰çHP¹  H‰îè¼ƒÿÿ€<$CH‰ÇtH5QÔ  ègƒÿÿ…ÀA•Äë¦€    €|$ t˜ëÜ€    E1äëŠèŞÿÿff.„      óúH‹G(HQ¿  H9Ğtló@/øı  vQóòı  /ÈvDóH/åı  v6ó/ş  r)óXÆı  óP/ÑvóÀı  /Úr
-/Á¸   wH‰W(1ÀÃfD  ¸   Ãf.„     óú€~ uFH…ÿˆı   fïÀóH*ÇE1Àó^F/mı  ƒÛ   /dı  ‚÷   ó\Vı  óH,øHºÿ?I¹«ªªªªªªª¸
-   H9ÇHCÇI‰ÀIƒÈIƒøÿtyD  L‰ÀI÷áH‰ĞHƒâşHÑèHÂL‰ÀH)ĞIƒø	†“   H…ÀtB¿   ¾	   ¹   ë€    HƒÇH…Òt!HƒÁL‰À1ÒHşH÷ñL9ÆrãL‰À1ÒH÷ñH…ÒuIƒÀIƒøÿuŒE1ÀL‰ÀÃL‰ÀHÁè=•ÀIºà<¶ÀråH…ÀuàL‰ÀÃH‰øƒçfïÀHÑèH	øóH*ÀóXÀéîşÿÿ¹   ë óH,øéÿÿÿAUATUH‰ıH‰÷SHƒìhL‹e(dH‹%(   H‰D$X1ÀL‰æè”şÿÿH…À„û   H‰ÃH9E„Ş   ¾   H‰ÇèÿÿH‰$H…À„Ô   H‰\$HÁãI‰å1ÒHØH‰îL‰ïL‰d$(H‰D$H‹E0HÇD$    H‰D$0H‹E8HÇD$     H‰D$8H‹E@H‰D$@H‹EHH‰D$HèH¬ÿÿA‰Ä„ÀuyH‹D$Hº   L‰îH‰ïH‰EHè(¬ÿÿ„À„ƒÿÿ1ÒL‰îH‰ïè¬ÿÿ„À„{ƒÿÿH‹<$èò|ÿÿH‹D$XdH+%(   uaHƒÄhD‰à[]A\A]Ã@ A¼   ëÖ„     E1äëÉ H‹} è¯|ÿÿH‹$H‰E H‹D$H‰EH‹D$H‰EH‹D$H‰EH‹D$HH‰EHëèŒ~ÿÿff.„     óúATI‰üUSHƒ@ H‹/H‹GtWHƒ  tPH9Åré‚   fD  I‹D$HƒÅH9èv2H‹} H…ÿtéH‰ëë@ H‹;AÿT$@H‹[H…ÛuïI‹D$HƒÅH9èwÏI‹,$H9Ås3€    H‹]H…Ût€    H‰ßH‹[èÔ{ÿÿH…ÛuïHƒÅI9l$wÔI‹\$HH…Ûtf.„     H‰ßH‹[è¤{ÿÿH…ÛuïI‹<$è–{ÿÿ[L‰ç]A\éŠ{ÿÿf.„     óúAUATUSHƒìdH‹%(   H‰D$1ÀH…ö„ŞÿÿI‰åI‰Ô1ÉH‰ûL‰êH‰õèC©ÿÿH…Àt.I‰$1ÀH‹T$dH+%(   …¸  HƒÄ[]A\A]Ãf„     H‹CH…ÀxfïíóH*èH‹CH…Àˆ   fïäóH*àH‹C(ó@óYÄ/è‡’   L‹$$Iƒ<$ „Ã   H‹CHH…À„Ö   H‹PH‰SHI‹T$H‰(H‰PI‰D$¸   HƒC éVÿÿÿfD  H‰ÂƒàfïíHÑêH	ÂH‹CóH*êóXíH…À‰qÿÿÿH‰ÂƒàfïäHÑêH	ÂóH*âóXäé\ÿÿÿ@ H‰ßèxúÿÿH‹C((Ìó@óYÈ/é†MÿÿÿóY`€x tL/%uø  rK¸ÿÿÿÿéÉşÿÿI‰,$¸   HƒC HƒCé°şÿÿ„     ¿   èæyÿÿH…ÀtÆéÿÿÿ@ óYàë®f/%%ø  s7óH,ôH‰ßèºûÿÿ„Àt›1ÉL‰êH‰îH‰ßè–§ÿÿH…À„»şÿÿé€ÿÿ„     ó\%ä÷  óH,ôHºş?ëºèw{ÿÿ€    óúAWAVAUM‰ÅATI‰üUSH‰ËHì˜   H‰4$L‰D$‰T$HdH‹%(   H‰„$ˆ   ‰Ğƒâ ‰T$0ƒàƒú‰D$Àƒàè   ‰D$4è>zÿÿL‹8I‰ÆL‰ÿèğzÿÿI‹NM‹vH‰ÅHƒèHƒø¸   L‰÷H‰L$8HCèH Í  LCøè¼zÿÿHƒøHîÍ  LGğH‹$H‡  H‰D$I9İ†¥  H‹D$1ÒH÷óH‰ÇH…Ò…¨  L‰à1ÒH÷÷H‰ÁH’1ÒHÀH÷÷HÒA‰ÁH9×†‘  1ÿH…Ò@•ÇD‹\$HAƒã„=  D‹D$41ÛL‰ÆI9È†M  ƒ|$L‹D$„.  D‹T$E…Òu$DÏ…ÿ~HƒÁE…Ût‹D$4H9È„	  €    H¾ÍÌÌÌÌÌÌÌL‰Å H‰ÈHƒíH÷æH‰ÈHÁêH<’HÿH)øƒÀ0ˆE H‰ÈH‰ÑHƒø	wÓöD$H„$  L‰÷M‰ÄL‰D$@IÇÅÿÿÿÿè‘yÿÿI)ìH‰î¹)   I‰ÇHD$PL‰âH‰ÇH‰D$è{ÿÿ‰\$ H‹l$@L‰ãL‹d$8ë> I9İH‹D$LGëL)ëH4L)íL‰êH‰ïè{ÿÿH…Û„  L)ıL‰úL‰öH‰ïèízÿÿA¶$„Àt¼<~‡ä  H9ØHGÃH)ÃI‰ÅH‹D$H4IƒÄë«H‰Ø1ÒI÷õH…ÒuI÷äH‰Á¿  H‹D$H‰\$ ßl$ H‰D$ ßl$ H…Àˆ  L‰d$ Şùßl$ M…äˆó   ŞÉöD$H„  ÛD$41ÛÙÀë@ İÙÙÊÙÀƒÃØÊÙËÛórƒûuêİÚİÚë@ İÚİÚL}Şñƒ|$0HƒÕƒ|$„  Û-Äô  ßñ†œ  Ù¢ô  ÙÉÛñƒ|  İÙÙ|$N·D$N€Ìf‰D$LÙÀÙl$Lß|$ Ùl$NH‹D$ H‰D$ ßl$ H…ÀyØZô  ‹L$…É…N  ÙÉÛéz
-„J  İÙëİÙ@ HƒÀH‰D$ ßl$ ‰)  Øô  ÙÉé   Øô  ŞÉöD$H…ÿÿÿë# Øúó  L‰d$ Şùßl$ M…ä‰ÛşÿÿëÌ@ ƒ|$„‡   Û-çó  ßñv}ÙÉó  ÙÉÛñƒ  İÙÙ|$N·D$N€Ìf‰D$LÙÀÙl$Lß|$ Ùl$NH‹D$ H‰D$ ßl$ H…ÀyØó  D‹D$E…Àu'ÙÉßézt!İØëİØHƒÀH‰D$ßl$ˆ%  ë@ İÙHƒìHÇÂÿÿÿÿ¾   1ÀH‹\$H%É  Û<$H‰ßè{ÿÿH‰ß»ÿÿÿÿè°vÿÿ^_H‰ÂI‰ÄH‹l$H‹4$H)ÕH‰ïè¤yÿÿND% öD$H…ÜüÿÿöD$H€tƒûÿ„„  ‹D$H%   ‰Æ	Ş…Á  H‹D$Æ  H‹„$ˆ   dH+%(   …€  HÄ˜   H‰è[]A\A]A^A_ÃD  I‰İH‹t$1Ûé#ıÿÿf„     ‹\$ ë†f.„     …ÿ@•Ç@¶ÿƒÃM9Ğ‡R  ƒû„³ûÿÿH‰È1Ò‰ùI÷ğÑùI‰Â’1ÒAA÷öQA‰ÁL‰Ñ×9Öw¸9ş@’Ç@¶ÿƒÇë³f„     ÙÀë@ ÙÉëÙÉfÛ|$ Hƒì¾   1ÀL‹d$HÇÂÿÿÿÿHÑÇ  L‰çÛ<$èÃyÿÿL‰çè[uÿÿ^_Ûl$ H9èH‰Â‡¹  öD$HtH‹$€|ÿ0„Ã  İØë	€    İØI‰ÔM)üésşÿÿ D‹\$H1ÿE1ÉAƒã…Ãúÿÿ»ÿÿÿÿéÌúÿÿf.„     H‹L$Hƒù†û  ‹T$4»   ¸    H¯ÂH9ÁvƒÃƒûuï‹t$H‰ğ%   ƒæ@tH‹4$Hˆ  Æ†‡   H‰L$…Û„è  H‹t$D‹L$0HVE…Éu	ƒû„Ä  HcÛHú±  ¶ˆ…À„·  D‹D$0E…À…Î  HBÆBH‰D$éÜıÿÿD  HƒìHÆ  HÇÂÿÿÿÿ1ÀÙÀÛ<$L‹d$¾   L‰çÛ|$0èixÿÿL‰çètÿÿH‰ÂXYÛl$ H9ê†¦şÿÿÙYğ  ÜÉŞùHƒìHÇÂÿÿÿÿ1ÀL‹|$H)Æ  ¾   L‰ÿÛ<$èxÿÿL‰ÿè´sÿÿA]A_H‰ÂI‰ÄéıüÿÿD  öD$H@„ışÿÿéáşÿÿÙúï  ÜÉÛ-ğ  ßòv—Ùäï  ÙÊÛòƒN  İÚÙÉÙ|$N·D$N€Ìf‰D$LÙÀÙl$Lß|$ Ùl$NH‹D$ H‰D$ ßl$ H…ÀyØšï  ‹T$…Òu*ÛéİÙzt$İØëİØHƒÀH‰D$ßl$ˆK  ë	€    İÙÙÉéÿÿÿ€    H‰ÈHcÿƒàHø•À¶ÀDÈƒøÅøÿÿéİøÿÿD  ¿   ¸   BøéføÿÿfD  Ù|$NÜáÙÉ·D$N€Ìf‰D$LÙl$Lß|$ Ùl$NH‹D$ Hºø?ézúÿÿÆFiHVé%şÿÿ ÙÚî  ƒ|$ÜÉ…Õşÿÿéqşÿÿ„     Ù|$NÜáÙÉ·D$N€Ìf‰D$LÙl$Lß|$ Ùl$NH‹D$ Hºø?éóúÿÿÙ|$NÜâÙÊ·D$N€Ìf‰D$LÙl$Lß|$ Ùl$NÙÉH‹D$ Hºø?é¨şÿÿƒû„õ÷ÿÿƒÃöD$H„`  AÆ@ÿ1Ihÿé:ûÿÿØ+î  éØúÿÿØ î  ÙÉéÊıÿÿÆk…À…WıÿÿH‰T$é:ûÿÿ Iƒú	‡`÷ÿÿƒ|$twD‹d$E…äuy…ÿtuPƒø	„á   B0H‹4$L††  ˆ††  ‰èI)èƒısp@öÅ…n  …ÀtA¶Aˆ¨u1ÿE1Éƒ|$…÷ÿÿé1÷ÿÿA·TşfA‰T şëİ ‰Âƒâúƒú‹…À…f  L‹D$öD$Hu¼¸0   é|ÿÿÿ1ÛékúÿÿI‹IxM‰ùHƒçøI‰ ‰èI‹TøI‰T øL‰ÀH)øI)Áèƒàøƒø‚uÿÿÿƒàøA‰Â1À‰ÂƒÀI‹4H‰4D9ĞrîéVÿÿÿIJIƒú	„   1ÿé{ÿÿÿH‰èAÆ@ÿ0H÷ĞIÀ‰èƒıs2ƒå…œ   …À„zşÿÿA¶Aˆ¨„kşÿÿA·TşfA‰T şéZşÿÿI‹IHL‰şHƒáøI‰ ‰èI‹TøI‰T øL‰ÀH)ÈH)Æèƒàøƒø‚%şÿÿƒàø1Ò‰×ƒÂL‹>L‰99Ârïé
-şÿÿL‹D$é¡şÿÿA‹A‰A‹TüA‰T üéŒşÿÿèÍoÿÿA‹A‰A‹TüA‰T üéÑıÿÿH‹T$…À…Mûÿÿé5ùÿÿƒÀ0é$şÿÿff.„      ATUH‰ıSHì   D¶%úI dH‹%(   H‰„$˜  1À€=áI  „ª   ƒ=ÏI „-  Hc^I HƒÃE„ä„	  HcFI HƒÀHÃ€=”I  …Î   ‹•Ä   H‹5AL H‹} èøÛÿÿL‹rI …Àt‹•¨   ‹u0¶½¸   èåçÿÿ<IƒØÿH‹„$˜  dH+%(   …-  HÄ   L‰À[]A\Ãf„     1ÛE„ä„zÿÿÿƒ=I …_ÿÿÿ€½¸    ¸   „XÿÿÿH‹}XL‹›H H‰æ¹   ‹•H èøòÿÿH‰ÇèPnÿÿHƒÀé)ÿÿÿ€    ƒ=ÅH „“   HcLH HƒÀHÃéÿÿÿ€=™H  uäéÿÿÿfÆD$ H‹O I¸ÍÌÌÌÌÌÌÌH|$„     H‰ÈHƒïI÷àH‰ÈHÁêH4’HöH)ğƒÀ0ˆH‰ÈH‰ÑHƒø	wÔè¿mÿÿHXE„ä…*ÿÿÿ€=+H  „—şÿÿD  H‹½°   è”mÿÿHƒÀécÿÿÿè–mÿÿfD  AWAVAUATUSHƒìHƒ=²J  „T  @¾ÇL‹-D A‰ş1Û‰D$E1äë+ L‰åH…Û…¼   H‰îL‰ÿHƒÃèM“  H9nJ †   H‹éH Hƒ=I  L‹<ØtÃL‰ÿèƒıÿÿH…Û„*  H‹óH Il$H(H…ÒtH9ÊvpHÇÂıÿÿÿH)ÂL9âraI‰ÌfD  I‹} A¹    º    H‹G(H;G0s]HHH‰O(Dˆ0I‹} H‹G(H;G0svHHH‰O(ˆéKÿÿÿ€    Il$I‰ìë®fD  I‹} I‰ÄA¹
-   1íº
-   H‹G(H;G0r£‹t$D‰L$ˆT$èÀlÿÿI‹} ¶T$D‹L$H‹G(H;G0r’„     D‰Îè˜lÿÿé×şÿÿ L‹-1C f„     I‹} H‹G(H;G0s2HPH‰W(Æ 
-HƒÄ[]A\A]A^A_Ã„     L‰åIÄé‰şÿÿD  HƒÄ¾
-   []A\A]A^A_é(lÿÿ„     óúU‰õSH‰û¿   HƒìèÇmÿÿH…ÀtdH‰Ç¶ „ÀtZƒàß<UuD¶Gƒàß<TuH¶Gƒàß<Fu=€-u7€8u1€ u+€;`Hµ½  H¡½  HEÂHƒÄ[]Ã<Gu¶Gƒàß<Btƒı	H„½  HÌ¾  HEÂHƒÄ[]Ãf€1uÜ€8uÖ€0uĞ€3uÊ€0uÄ1É1ÒH5Q½  è’’ÿÿ…Àt°€;`H6½  H*½  HEÂHƒÄ[]ÃfóúPXº   H5í»  1ÿHƒìèsjÿÿ‹=B Hi¼  1öH‰Á1ÀèšmÿÿèõhÿÿD  SH‰ûèwhÿÿH…ÀuH…Ûu[Ãè¦ÿÿÿfD  USHƒìèÕhÿÿ¿8   ‹(H‰ÃèÆÿÿÿfonD fovD fo~D H‹‡D ‰+ H‰P0HP HƒÄ[]Ãff.„     @ SH‰û¿   èògÿÿH…ÀtH‹æE H‰H‰ÜE H‰P[ÃèÿÿÿATUSH‹ıF H‰ØHÑèHØH;ME v_H‹=lE è—gÿÿ¸   H÷ãÂH…À¸   ¶ÒHHĞH…Ò…  H,[HÁåH‰ïètgÿÿH…Àu	H…í…c  H‰E H[H‰ìD H…Ût*H‹E H‹F HØD  H‰HƒÀHÂÈ   H9Èuíƒ=²T ÿtfH=åC è@jÿÿóú‹=šT …ÀuRH‹-»D H‹5,F 1Òƒÿ„Œ   úH˜¶˜G ‰ÒHP¶ŞD HPHAHr0 H‹ĞHƒşwht~[]A\Ãƒÿ„©   H‹5ØE H‹-YD H…ö„}   H‹ÉE H‰èHLõ H‰HƒÀHÂÈ   H9Áuí¸   1Òƒÿ…tÿÿÿ‹çS éiÿÿÿfHTõ H‰ïèÓÕÿÿ[]A\ÃfD  H‹] L‹eH‰ßL‰æÿÑ…ÀjÿÿÿL‰e H‰][]A\Ãƒÿ…Tÿÿÿ¸   ë¦è>ıÿÿHß¥  º  H5]º  H=_º  èhÿÿff.„     @ AWAVAUATA‰ôUSH‰ûHƒìè§gÿÿHƒÀHkø€£   è¤eÿÿI‰ÆH…À„’   ¶L‰õ„ÀtdL-·C L=º  ëfD  ˆE HƒÅ¶„Àt@HƒÃ</uE„äuM¶ĞD¶ÀA€|  uÖH‰ïL‰ùHÇÂÿÿÿÿ1À¾   HƒÅèkÿÿ¶„ÀuÀÆE  HƒÄL‰ğ[]A\A]A^A_Ã@ ÆE /HƒÅë•èAüÿÿAWAVAUATU‰ıSHƒìL‹-!D L‹5ºB H‹‹A M9õM‰ôMFåI9Ì†  L‰ğH‹=vA HÑèI9Äƒ_  ¸0   I÷äÂ¶ÒH…Àˆ—  H…Ò…  KdH‰$HÁàH‰Ãu	H…ÿ…‘  H‰ŞèğhÿÿH‹$H…ÀI‰Çu	H…Û…W  O4$HYL‰ğ1öL‰=ÿ@ H‰ÚH)ÈH‰$Lò@’ÆH÷âÂ¶ÒH…ö…   H…Ò…  HÑèHkĞ€
-  HÅ    H‰×H‰T$èùcÿÿH‹$H…ÀuH‹T$H…Ò…Ş  Hİ    J4õ   L9ñsD  HRI‰DøHĞHƒÂH9òuëL‰5\@ M…ätPH‹=X@ ODd1ö¹   @ H‹DÏøÆDÏèHƒÆH‰LÏğH0f„     HÇ    HƒÀH9ÂuğHƒÁI9ÈuÇ1ÛM…í„ç   @ H‹A H‹<Øè¨õÿÿL‹iB I‰ÁM…ä„…   L‹A H‹5Ï? 1ÉëT ID
-ÿ1ÒH÷ñ1ÒI‰ÀH‰ØI÷ğI‰ÀH‹V1ÀI9ø•ÀJÂIAH‹:H9ÇsI‰ÀI)øLFH‰L9^’HƒÆI9ÌtH‰ÏHƒÁ€> të@„íuH‰Ø1ÒH÷ñI‰Ğë©HƒÃL9Ó‚KÿÿÿIƒüv(H‹>? KdHDÂèë IƒìHƒèIƒüt€8 tíHƒÄL‰à[]A\A]A^A_Ã¸   I÷æÂ¶ÒH…Àx<H…Òu7KvH‰$HÁàH‰ÃuH…ÿu-H‰ŞèfÿÿH‹$H…ÀI‰Ç…¶ıÿÿH…Û„­ıÿÿè?ùÿÿ€    èãaÿÿE1ÿH‹$éıÿÿèÒaÿÿE1ÿH‹$é{ıÿÿfD  ATU‰ıSH‹k> H…Ûuë,@ H‹[H…Ût9+uó1À€{ tHC[]A\Ãf.„     ‰ïL%´¶  è2cÿÿ¿   H…ÀtL‹ L‰çè]cÿÿHxHƒçøè`aÿÿH‰ÃH…Àt"‰(HxL‰æè
-bÿÿH‹ë= H‰ä= H‰Cë‹èqøÿÿUS‰ûHƒì(dH‹%(   H‰D$1À€=?  tGH‰åA‰ØH“³  1ÀH‰ïº   ¾   è>gÿÿH‰ïèÖbÿÿH‹T$dH+%(   u7HƒÄ([]Ã€    èóşÿÿH‰ÅH…Àt¬H‰Çè£bÿÿH‰ïH‰Æè8F  1Ò…ÀHÂë¹èšbÿÿf.„     ATU‰ıSH‹#= H…Ûuë,@ H‹[H…Ût9+uó1À€{ tHC[]A\Ãf.„     ‰ïL%tµ  è’bÿÿ¿   H…ÀtL‹ L‰çèbÿÿHxHƒçøè `ÿÿH‰ÃH…Àt"‰(HxL‰æèÊ`ÿÿH‹£< H‰œ< H‰Cë‹è1÷ÿÿóúATUH‰ıHƒìèÍaÿÿL`L‰çèÑ_ÿÿH…ÀtHƒÄL‰âH‰îH‰Ç]A\éwcÿÿèòöÿÿfAUA‰ÕATI‰ôUH‰ı¿    SHƒìè“_ÿÿH…ÀtKH‰ÃM…ätL‰çèÿÿÿI‰ÄL‰cH…ítH‰ïèzÿÿÿH‰ÅH‹0@ H‰+DˆkH‰CH‰@ HƒÄ[]A\A]Ãè~öÿÿff.„      AWAVAUATU@¶îSH‰ûHƒì(H…ÿtHƒ=¶?  tH‰ş1Ò1ÿèPÿÿÿH‹1> LhÿH…À„X  @ H‹¡< N‹$èA‹„$¨   ƒø”Âƒø	”ÀÂA‰Ò„¾  M‹<$H…Û„!  E¶A€û/…ó  L‰ú¶BHƒÂ</tô„À„ü  H‰Ö1ÿëD  @„ÿtH‰ò1ÿ¶FHƒÆ„Àt</uæ¶FHƒÆD‰×„Àuí€:.„.  A€û/„´  ¶I‰Ş</uf.„     A¶FIƒÆ</tó„Àt8L‰ò1öë„     @„ötI‰Ö1ö¶BHƒÂ„Àt</uæ¶BHƒÂD‰Ö„ÀuíL‰÷èÏ_ÿÿI‰ÂIƒú†â  C€|ÿ/IBÿ„&  I)ŞL‰ÿKH‰T$è_ÿÿH‹T$H‰$E1Ò¸/   €|ÿ/¹    DÁA•ÂˆD$H‹$H‰T$L‰T$H|L×èm]ÿÿL‹T$H‹T$H…ÀI‰Æ„Ê  H‰ŞH‰ÇL‰T$è7bÿÿ¶L$L‹T$L‰şH‹$ˆJ<èbÿÿ‰êL‰÷Æ  I‹t$èiıÿÿL‰÷è]ÿÿAƒ¼$¨   	„   fIƒíƒşÿÿH‹'< H…Ò„R  H‹5Ÿ: H<ÖH‰ğ1ÒfD  H‹ƒ¹¨   	H‰Ö•ÁHƒÀ¶ÉHÊH9ÇuàH‰á; HƒÄ([]A\A]A^A_Ãf.„     I‹t$‰êL‰ÿèÑüÿÿAƒ¼$¨   	…rÿÿÿI‹<$èY\ÿÿI‹|$èO\ÿÿI‹|$èE\ÿÿI‹¼$°   HÚ5 H9Ç„=ÿÿÿèh^ÿÿIƒíƒFıÿÿé3ÿÿÿf„     1À€z.”À¶D„À„
-ÿÿÿ</…´ıÿÿIƒíƒıÿÿéışÿÿ I)ŞL‰ÿL‰T$KH‰T$èÇ]ÿÿL‹T$H‹T$H‰$M…Ò…şÿÿÆD$ é.şÿÿfD  D‰ØL‰úE„Û…ıÿÿéXıÿÿI‰Âé¸ıÿÿ1ÒéİşÿÿèÈòÿÿ„     UH‰åAWI‰ÏAVA‰öAUATI‰üSHìØ  ‰•ıÿÿL‹-: H‹—: H‹=ˆ: dH‹%(   H‰EÈ1ÀI9İ„ 	  KD­ H€HÇ1ÀH{H‰ÙHÇƒÀ       HƒçøHÇ    H)ùÁÈ   ÁéóH«D‰³¨   ÇƒÄ   ÿÿÿÿ€=ù6  u€=ñ6  …¾	  €½ıÿÿ ¶5: „Z  A¶$M‰å€ú/tE¶E„À…A  @„ö…µ  D‹D; L{D‰• ıÿÿè€‡ÿÿD‹• ıÿÿAƒú‡¿  Aƒú‡õ  è`‡ÿÿL‰ú¹   L‰îA‰À¿œÿÿÿE1ÿèµŠÿÿ…À…º  Æƒ¸   Aƒş„l  ‹C0% ğ  = €  „Y  D‹6 E…Û„É  €=r6  …¼  ‹C0% ğ  =    „4  º   = @  „a
-  ‹=O6 L‹kX‰“¨   …ÿ„Ù  €=:6  …Ì  €=6  …E  ¶!6 „À…ø  L‰çè ùÿÿHƒÀ8 H‰H‹EÈdH+%(   …Q  HeØL‰è[A\A]A^A_]Ã@„ö…W  €=z9  …Ê   Aƒş„Ğ  ¶º5 „À…á  €=S9  „¤  ºA   L£òs'ƒ=Æ9 „Ã  €=½9  …   €=±9  uv„Àur€=9  „e  E…öt`E1íAƒş…;ÿÿÿƒ=@5 tJ€=;5  „%ÿÿÿ¿   èCÓÿÿ„Àu/¿   è5Óÿÿ„Àu!¿   è'Óÿÿ„Àu¿   èÓÿÿ„À„éşÿÿA¶$M‰å€ú/„ØıÿÿE¶M‰åE„À„ÈıÿÿL‰ç@ˆµ
-ıÿÿˆ•ıÿÿDˆ… ıÿÿè3ZÿÿL‰ÿI‰Åè(ZÿÿH‰ç¶µ
-ıÿÿ¶•ıÿÿIDD¶… ıÿÿH‰ÁH% ğÿÿHƒáğH)ÇH9ü„ñ  Hì   HƒŒ$ø   ëå€    L‹4 ‹4 ¹   L‰ïL½0ıÿÿL‰şèTŞÿÿH‰ÇI‰Æè©YÿÿL‰÷H‰Æè>=  9¼3 }‰´3 ‹54 …ö…Şıÿÿ€=€1  ……	  €=r1  …(	  €=	E  …ó  €=Ô3  tH‹»°   èFYÿÿ;`3 b  ‹À3 …É…•ıÿÿÆ…$ıÿÿ H‹K(H½$ıÿÿI¸ÍÌÌÌÌÌÌÌH‰ÈHƒïI÷àH‰ÈHÁêH4’HöH)ğƒÀ0ˆH‰ÈH‰ÑHƒø	wÔèßXÿÿ;¡4 ~‰™4 ‹C0% °  =    …ö  L‹{@Æ…Dıÿÿ LµDıÿÿH¹ÍÌÌÌÌÌÌÌL‰÷L‰øL‰şHÁèHÁî %ÿ  æ ğÿÿ	Æ@ H‰ğHƒïH÷áH‰ğHÁêL’MÀL)ÀƒÀ0ˆH‰ğH‰ÖHƒø	wÔèOXÿÿD‹ 4 D9È~	‰õ3 A‰ÁL‰ùÆ…Dıÿÿ A¶ÇL‰÷I¸ÍÌÌÌÌÌÌÌHÁé0É	Á€    H‰ÈHƒïI÷àH‰ÈHÁêH4’HöH)ğƒÀ0ˆH‰ÈH‰ÑHƒø	wÔD‰ıÿÿèØWÿÿ‹†3 D‹ıÿÿ9Ğ~‰u3 ‰ÂAD;d3 üÿÿé%  f„     Aƒú…AûÿÿL‰úA‰À1ÉL‰î¿œÿÿÿA¿   èû…ÿÿ…À„Fûÿÿº   H5+ª  1ÿè@WÿÿD‹½ıÿÿL‰êE1íH‰ÆA¶ÿè'°ÿÿE„ÿ…Éûÿÿé±ûÿÿf„     H‹É1 H9C„Ü
-  L³°   L‰ïL‰öE„ÿ„é  èäZÿÿL‰ö‰Çèê±ÿÿ…Àˆé  H‹³°   H=Ê¨  èOXÿÿ‹e1 …Ò„q  …À„  ‹C0Æ‹2 Çƒ¼      % ğ  =    …Ìúÿÿ€=g5  „Û   H‹sHL‰ïèLÒÿÿH‰CI‰ÇH…À„	  A€?/„ƒ   A¶E 1öM‰î</@”ÆuA¶FIƒÆ</tó„Àt9L‰ò1Éë„     „ÉtI‰Ö1É¶BHƒÂ„Àt</uç¶BHƒÂ¹   „ÀuëM)îëC€|5ÿ/IFÿ…Æ  I‰ÆI9öwèM…ö…¯  L‰ÿèôÿÿI‰ÂH…À…ü  E1ÒL‰×èĞSÿÿ‹C0% ğ  =    …äùÿÿº   éêùÿÿ €=10  „šùÿÿ¿   è9Îÿÿ„À„ˆùÿÿèTÿÿL‹sL;5)0 Ç _   tL‰50 ÆƒÀ    é]ùÿÿfD  €½ıÿÿ „şøÿÿA‰À1ÉL‰úL‰î¿œÿÿÿD‰• ıÿÿè·ƒÿÿD‹• ıÿÿAƒút…Àˆ2  ‹S0â ğ  ú @  …¸øÿÿ…À…%  D¶½ıÿÿéËøÿÿ„     A¶$€ú/„r  E¶M‰åE„À…ƒúÿÿL‰ïèj1  H‰CH…À…6øÿÿ1ÿº   H5[§  èŠTÿÿ¶½ıÿÿL‰êH‰Æèx­ÿÿéøÿÿ H‹K Æ…Dıÿÿ H½DıÿÿI¸ÍÌÌÌÌÌÌÌ@ H‰ÈHƒïI÷àH‰ÈHÁêH4’HöH)ğƒÀ0ˆH‰ÈH‰ÑHƒø	wÔè?Tÿÿ;a. «øÿÿ‰U. é øÿÿ„     è+XÿÿL‰ö‰Çè¯ÿÿ…À‰ıÿÿè”RÿÿI‰Ç‹ ƒø_”Áƒø=”Âƒè	Êƒàït„ÉtH‹CH‰z. Hw+ H‰ƒ°   „Ò„ô  D‹I. E…Ò„¤  Çƒ¼       ‹C0% ğ  =    …¾÷ÿÿD‹. E…É„ïüÿÿéİüÿÿf¸  I÷åÂ¶ÒH…ÀˆQ  H…Ò…H  KD­ H€HÁàH‰Âu	H…ÿ…}  H‰ÖH‰• ıÿÿèÆUÿÿH‰ÇH…ÀuH‹• ıÿÿH…Ò…  HH‰=c0 H‰d0 éçõÿÿ€    L‰çèh®ÿÿ¶Ğ‰“Ä   „À„)öÿÿÆ- éöÿÿ ‰ò, é“ùÿÿD  L‹¹* H‹{HHµ0ıÿÿ¹   ‹›. èF×ÿÿH‰ÇI‰Æè›RÿÿL‰÷H‰Æè06  9:. íöÿÿ‰.. éâöÿÿf„     M‰åé–ıÿÿ„     …ÀA•ÆèåPÿÿI‰ÇH‹ã, H9C„Á  AÇ    ‹C0% ğ  =    …w  E„ö„jşÿÿÇƒ¼      ÆÙ- é^şÿÿ„     áÿ  H)ÌH…É…î  LT$A¶IƒâğM‰ÕA€ø.t_L‰ùëfA‰ø¶yI‰ÂIBHƒÁDˆ@ÿ@„ÿuåI9Ïs€yÿ/tÆ /IBL‰á„Òt@ HƒÁˆHƒÀ¶„ÒuïÆ  éïôÿÿ€    L‰Ğ@„ÿtÍë—fD  €½ıÿÿ º   „õÿÿ€=0 ÒƒâƒÂéyõÿÿfA¾   L‰ÿè2QÿÿITH‰×H‰• ıÿÿè.OÿÿI‰ÂH…À„ê  C€|5ÿ/tIƒÆL‰×L‰òL‰îL‰• ıÿÿè‘SÿÿL‰şH‰Çè¶OÿÿL‹• ıÿÿD‹ƒÄ   E…À„  ƒ=L+ w€=ˆ/  „áúÿÿ1ÉL‰ÖA¸   ¿œÿÿÿH•0ıÿÿL‰• ıÿÿèÿÿL‹• ıÿÿ…À…¯úÿÿ‹…HıÿÿÆƒ¹   ‰ƒ¬   é—úÿÿ€    ‹{4è@íÿÿ;, ùöÿÿ‰
-, éîöÿÿf„     €=U,  D‹C8„  L‰ÿº   ¾   1ÀHº   ètTÿÿL‰ÿèPÿÿ9Æ+ ˜öÿÿ‰º+ éöÿÿD  ‹{4èÈìÿÿ;¦+ göÿÿ‰š+ é\öÿÿÇƒ¼       H•0ıÿÿL‰î1ÿH¸       HÇ…0ıÿÿ   H‰…8ıÿÿHÇ…@ıÿÿ    HÇ…Hıÿÿ    HÇ…Pıÿÿ    HÇ…Xıÿÿ    HÇ…`ıÿÿ    èâO  A‹7H;¡  1ÿH‰Á1ÀèlRÿÿéûÿÿ€    ºA   L£òƒÁôÿÿé#ôÿÿ@ H‹• ıÿÿH…Ò„şÿÿècäÿÿ E1öé¶üÿÿ„     HƒLø éıÿÿD  è{Mÿÿƒ8„òÿÿfº   H5˜¡  1ÿè­NÿÿL‰ê¿   E1íH‰Æèš§ÿÿé@óÿÿD  1É1ÒH5z¡  L‰ïèRÿÿH…Àˆz  „ÿ  Çƒ¼      ÆI* éÎúÿÿ„     E1íéàòÿÿ„     €=á(  „#óÿÿ¿   èéÆÿÿ„À…Ñóÿÿ¿   è×Æÿÿ„À…¿óÿÿ¿   èÅÆÿÿ„À…­óÿÿéèòÿÿ„     D‰ÇD‰…ıÿÿèëÿÿD‹…ıÿÿH…ÀI‰Æ„¿ıÿÿH‰ÇèæMÿÿL‰÷H‰Æè{1  1Ò…ÀHÂéÃıÿÿ€    èÃKÿÿ1ÿéúÿÿ@ H‹{L‰• ıÿÿè©ÿÿL‹• ıÿÿ„À„ÊüÿÿÇƒÄ   ÿÿÿÿé»üÿÿf.„     AÇ_   éMûÿÿ@ º   H5j   1ÿè=Mÿÿ¶½ıÿÿL‰êH‰Æè+¦ÿÿL‹{M…ÿ…Âöÿÿé^÷ÿÿA¶$€ú/…Ìòÿÿè6xÿÿL{M‰åé„õÿÿA‹ƒø=„˜   ƒø&t_Xƒøt\ƒøtS¹   Pêƒâïtƒø_uH‹CH‰x' ¶¥( 1ÒE„öu7f‰“¼   ˆ( …É„ùÿÿèGKÿÿI‰Çééüÿÿƒø_u­1Éë»E„ö„éøÿÿ1É¸   º   ë¿‹C0% ğ  = @  tA‹1Éé~ÿÿÿ‹C0% ğ  = @  …<úÿÿ1É1ÒH5EŸ  L‰ïèĞOÿÿH…Àx)…·ıÿÿëÃèÎJÿÿÇ _   I‰ÇHÒ# H‰ƒ°   é^øÿÿA‹ƒø=…ÿÿÿéêùÿÿèLÿÿff.„     óú€gPşH‰O8L‰G@é›tÿÿff.„     óú€OPH‰O8L‰G@L‰OHéwtÿÿ€    óúAV1ÉAUATUSH‰ûL‹oL+oH‹LîL‰èH‹o’ÁHw0@’ÇHÁèH9ÖHDdHBòH9ğHCğH…É…Î   @¶ÿH…ÿ…Á   H‹C8I‰ööCPu}H‰÷ÿĞI‰ÄM…ä„£   K4L‰cH‹sL‰êI‰l$H‰C I‰$H‹C0MtH÷ĞI!ÆL‰÷èáLÿÿ¶SPöÂuH‹C0HLH÷ĞH!ÈH9Ct+L‰sMîL‰s€cPı[]A\A]A^Ã H‹{HÿĞI‰Äë€D  H‹EƒâI‰D$H‹C@tH‹{HH‰îÿĞë¸ H‰ïÿĞë®Hº" ÿ„     AWAVAUATUSHì   Hƒ$ Hì   Hƒ$ HƒìXL‹´$   I‰üI‰ÍE‰Ç‰ÑdH‹%(   H‰„$H   1ÀE1ÀHD$@H‰òL‰ËH|$8LL$7L‰æH‰D$H‰D$8èjE  €|$7 H‰ÅH‹3! H‰D$t	E„ÿ…K  M…ít5¿   èŒÂÿÿL%" Mx„À…™  L‰ÇèñÃÿÿL‰ïèéÃÿÿL‰ÿèáÃÿÿM…ö„8  D¶-İ# E„í…Ÿ  I‰êE1ÉH‹=ú& 1öL‰T$(L‰L$ èÉáÿÿ¾   L‰÷I‰Çè¹áÿÿH¯œ  L‰úH5‹œ  €8/I‰ÀHŸ  ¿   HEÈ1ÀL‰D$èLÿÿL‰ÿè>GÿÿH‹|$è4GÿÿL‹L$ L‹T$(H…Û„³  €=R'  t$H‹SH‹C H)ĞHƒø†ã  H‹t# H‰HƒCH‹D$H‹|$8L‰Ò¾   H‹LÏèWKÿÿH‹H# Hè€=ş&  H‰7# tH‹KH‹S H)ÊHƒú†¸  H‰HƒCM…ötHH‹\$º   ¾   H=¼›  H‹èıJÿÿE„ít%H‹D$8H‹;¶T(ÿH‹G(H;G0ƒ  HHH‰O(ˆH‹|$8L9çtH;|$tè=Fÿÿ¶D$7HèH‹”$H   dH+%(   …š  HÄX   []A\A]A^A_Ã@ D¶-," E„í„Pşÿÿ€|$7 …  H‹D$8LUş¶H‹D$H‹8H‹G(H;G0ƒ)  HHA¹   H‰O(ˆéşÿÿD  H‹8H‹G(H;G0ƒï   HPH‰W(Æ  Hƒ" éŒıÿÿ€    I‰êE1ÉE1íH…Û…MşÿÿH‹D$H‹|$8L‰Ò¾   H‹LÏèÑIÿÿH-Â! é¥şÿÿD  L‰ÇèXÁÿÿL‰ÿèPÁÿÿMGğéNıÿÿ€    ¾   H‰ßL‰T$ L‰L$èIûÿÿH‹SL‹T$ L‹L$éóıÿÿfD  ¾   H‰ßè#ûÿÿH‹KH‹P! é+şÿÿ I‰êE1ÉE1íé!ıÿÿf¶òè8Gÿÿé`şÿÿ ¾    è&Gÿÿéÿÿÿ¶òL‰T$èGÿÿL‹T$A¹   éãüÿÿèFÿÿff.„     @ óúAWAVAUI‰ÕATA‰ôUSH‰ûHƒì¶Ö  H‰L$@„ötTH‹o„À…ˆ  HƒìÿsH‹5j# 1É‹“Ä   AƒôM‰éH‰ïE¶ÄèûÿÿI‰ÄèÇÀÿÿY^HƒÄL‰à[]A\A]A^A_Ã H‹/„Àt±€=ª$  ¶‡¹   …U  ‹s0¶Ğ¶‹¸   „É…i  ‹‹¨   Hsƒ  ‹ˆƒø”Áƒø„ñ  …Ò…é  „É„á  €=R$  ¹Ğ   u¿   è¾ÿÿ<HÉHƒá HÁĞ   H¢ HÁHƒy u¿   èî½ÿÿ„À„ÿÿÿ1ÉHƒìÿs‹“Ä   M‰éAƒôH‹5i" H‰ïE¶ÄèúÿÿI‰ÄèÕ¿ÿÿHƒ=u  XZ„%  H=^ è¿ÿÿH‹ò  H…É„äşÿÿH‹D$1ÒH÷ñ1ÒH‰ÆH‹D$IDÿH÷ñH9Æ„¿şÿÿH=m èØ¾ÿÿé®şÿÿ €¿¹    ‹·¬   u9¿   è7½ÿÿºÿÿÿÿ„À„»şÿÿ¹À   éÿÿÿ„À„£şÿÿ‹³¬   é›şÿÿD  ¶‹¸   1Ò„É„—şÿÿ‰ğ% ğ  = €  „U  = @  „º  =    „  ¹€   =   „¶şÿÿ¹   = À  „¦şÿÿ¹    = `  „–şÿÿ=    ¹°   ¸Ğ   HEÈé~şÿÿ€    H= èô½ÿÿH== èè½ÿÿH= èÜ½ÿÿé¾şÿÿ€    H‰ïè¨CÿÿH‹Á I‰ÇH…É„„   D  H‹I9×rnM‰úL‹YI)ÒIêM9ÓtvH…Òtq1ÀLrÿëf„     „Òt=HƒÀ@8Öu4E¶Ap¿D‰ÂƒşwAƒÀ ƒÂ A¶<DO¿‰şAƒùwƒÇ ƒÆ I9Æu¿A9øtH‹I H…Éu¹P   éıÿÿ€    HƒÁé˜ıÿÿ€    ÷Æ   t¿   è~»ÿÿ„Àt
-¹   égıÿÿ÷Æ   u0¿   è^»ÿÿ„À„¦   €»À    „™   ¹P  é6ıÿÿ€    ¿   è.»ÿÿ„ÀtÂ¹  éıÿÿ‰ğ%  =  „¢   @öÆt¿   èşºÿÿ¹0  „À…èüÿÿæ   ¹`   „×üÿÿ¿   èÖºÿÿ<HÉ€á@HÁ   é¹üÿÿf¸   éuüÿÿfD  ƒæIt¿   è¡ºÿÿ„Àt
-¹à   éŠüÿÿHƒ{(†8şÿÿ¿   è~ºÿÿ„À„&şÿÿ¹`  écüÿÿ¿   èbºÿÿ¹@  „À…LüÿÿéBÿÿÿHÁàH‰Áé;üÿÿ@ óúH‹GH…Àt) H9ÆvH90sH‹@H…Àuí1ÀÃf.„     ¸   ÃÃf„     óúATI‰ôUSH‹wH‰ûH…öuëB€    H‹{HÿĞ€KPH…ít,H‰îL9æsH‹L9às1H‹nH‹C@öCPuÓH‰÷ÿĞ€KPH…íuÔM…ä…†Eÿÿ[]A\Ã€    L‰cL‰cH‰C H‰s[]A\Ãff.„     óúH‹GE1ÀH…ÀtH‹H)ÂH‹@IĞH…ÀuîL‰ÀÃf.„     óúAWAVAUATUSHƒìL‹f0M…ä„±   H‰ıI‰õL9æwHV8¸   I9ÔrqA€<$ H]	t}D  L‰æH‰ßè½Aÿÿ…ÀtI€; uLu	I9Ş…   €} tyH‰ßè)@ÿÿH\€; uÇH‹E H…Àt¾HX	L‰æH‰ÅH‰ßètAÿÿ…Àu·I‰]0¸   HƒÄ[]A\A]A^A_Ã„     H“  ë×€    HƒÄ¸   []A\A]A^A_Ã@ L‰çè°?ÿÿI‰ÇHPH‰ØL)ğHĞrCHƒøvwL‰æH‰ßè]AÿÿBÆD; ë…D  L‰çèØ¯ÿÿH‰E H…ÀtÆ@ HX	ébÿÿÿ1Àédÿÿÿèæ=ÿÿÇ    1ÀéRÿÿÿf„     óúAUL-q’  ATUSH‰ûL‰ïHƒìè`=ÿÿH‰ÅH…Àth€{ u:H‰ïèj¯ÿÿI‰ÄH…Àt€{ ulL‰ïèDBÿÿ…ÀuuèË@ÿÿHƒÄL‰à[]A\A]ÃD  H{	H‰ÆA¼   è6@ÿÿ…Àu°HƒÄL‰à[]A\A]Ã@ €{ A¼   u’HƒÄL‰à[]A\A]ÃfD  Hs	º   L‰ïèÿ=ÿÿ…Àt‹è=ÿÿ‹H‰ÅIƒütL‰çM‹$$è_<ÿÿM…äuï‰] E1äHƒÄ[L‰à]A\A]ÃfD  óúAUATUSH‰ûHƒìèº<ÿÿ€{ D‹ H‰ÅuFH=U‘  èbAÿÿ…ÀtOD‹e E1í€    H‰ßH‹èõ;ÿÿH…ÛuğD‰e HƒÄD‰è[]A\A]ÃfD  Hs	º   H=‘  èC=ÿÿ…Àu±èš?ÿÿA½   ë²fAVI‰öAUATUH‰ÕHƒìH…ÿtzI‰üèRşÿÿI‰ÅH…ÀtHH‰îL‰÷è/<ÿÿH…Àt*H‰îL‰çèÏüÿÿ„ÀtIƒıu5HƒÄH‰è]A\A]A^ÃfD  IƒıtL‰ïèÿÿÿHƒÄ1À]A\A]A^Ã@ L‰ïèèşÿÿ„Àu¿ëàfHƒÄL‰÷H‰Ö]A\A]A^éª=ÿÿf.„     AWAVAUATUSHì   Hƒ$ Hì8  ¶—¸   dH‹%(   H‰„$(  1ÀH‰ı„Ò„n  ‹G0¹-   ‰Ææ ğ  ş €  tT¹d   ş @  tG¹b   ş `  t:¹c   ş    t-¹l   ş    t ¹p   ş   tş À  ¹s   ¾?   EÎˆŒ$Ä   ‰Áá   ƒùÉƒá»ƒÁrˆŒ$Å   ‰Áá€   ƒùÉƒá¶ƒÁwˆŒ$Æ   ‰Áƒá@ƒùÉöÄ…Ä  ƒáµƒÁxˆŒ$Ç   ‰Áƒá ƒùÉƒá»ƒÁrˆŒ$È   ‰ÁƒáƒùÉƒá¶ƒÁwˆŒ$É   ‰ÁƒáƒùÉöÄ„Ö  ƒáàƒÁsˆŒ$Ê   ‰ÁƒáƒùÉƒá»ƒÁrˆŒ$Ë   ‰ÁƒáƒùÉƒá¶ƒÁwˆŒ$Ì   ‰ÁƒáöÄ„}  ƒùÀƒààƒÀtA»    €=!  ˆ„$Í   fD‰œ$Î   „=  ‹…¼   ƒø„˜  ƒø…-  ‹Á& Æ„$Î   +ƒø…%  H‹EhH‹M`ÆD$H‰L$0H‰D$8L¤$à  €={  M‰æ…™  €=j  te¾   H  „Ò…  D‹=á H‰ßèU  A‰ÀD‰øD)À…À~LcøL‰÷¾    L‰úMşèr;ÿÿ¶HƒÃIƒÆAˆFÿ„ÀuíAÆFÿ ¶•¸   H=­  „Ò…Ä  HƒìD‹! 1ÀH“  WHÇÂÿÿÿÿL‰÷¾   L„$Ô   è“>ÿÿL‰÷è+:ÿÿ€=\  AXIAYL‹5= …G  €=  u€=  „™  I‹6L‰çL)ãè;;ÿÿH\ €=â  …·  €=Ô  …‚  €=k%  …%  €=6  L‰ã…G  €½¸    „  ‹E0% °  =    „  H‹}HL‹z H´$ğ   ¹   ‹_ è
-¾ÿÿH‰ÇI‰Åè_9ÿÿH‰ÆéÛ   €    ‹‡¨   H+w  Aº??  €=  fD‰”$Í   ¶Æ„$Ï    ˆ„$Ä   H¸????????H‰„$Å   …ÃıÿÿÆ„$Î    ‹”$ ƒø„Ûıÿÿw1…À„  H‹…ˆ   H‹€   ÆD$H‰L$0H‰D$8éÆıÿÿ€    ƒø…É  H‹EpH‹MxH‰D$0H!ÈHƒøÿH‰L$8•D$é“ıÿÿ@ ¾   L-½‹  D‹=% L‰ïè  A‰ÀD‰øD)À…À~LcøH‰ß¾    L‰úLûè*9ÿÿA¶E IƒÅHƒÃˆCÿ„ÀuìÆCÿ Æ€½¸    t€|$ …»  L-U‹  D‹­ E…Àˆ  M‰éHM‹  H‰ß1ÀHÇÂÿÿÿÿ¾   èD<ÿÿH‰ßèÜ7ÿÿL,I‹6L‰çM)åè9ÿÿL‰é1öH‰ïH› L-, è?ñÿÿ‹•¨   I‰Äƒútq‹ …À…ã  H‹„$(  dH+%(   …‘  HÄ8  []A\A]A^A_Ãf.„     €=#  …Zıÿÿ€=Ì  „™ıÿÿéHıÿÿƒáàƒÁsé7ûÿÿD  Hƒ} t–I‹º   ¾   H=mŠ  è9ÿÿ1ÒKL%H‰ï¾   Hƒq è„ğÿÿ‹r …Ò„Sÿÿÿ‹µ¬   1Ò¿   è¤\  é<ÿÿÿ€    I‹º   ¾   H=ÿ‰  è/9ÿÿHƒ é“üÿÿfÆ„$   H‹M(H¼$  I¸ÍÌÌÌÌÌÌÌfH‰ÈHƒïI÷àH‰ÈHÁêH4’HöH)ğƒÀ0ˆH‰ÈH‰ÑHƒø	wÔéëûÿÿ€    L‚‰  „Òt]H‹M H…ÉtTÆ„$   LŒ$  H¿ÍÌÌÌÌÌÌÌf.„     H‰ÈIƒéH÷çH‰ÈHÁêH4’HöH)ğƒÀ0AˆH‰ÈH‰ÑHƒø	wÓ L¤$à  D‹ù 1Àº;  H‰  ¾   L‰çè:ÿÿL‰çè®5ÿÿ¶•¸   M4é½úÿÿfD  ‹N €½¸    H=Åˆ  ‹u4…[  è¶¡ÿÿ€=ï  L‰ã„¹ûÿÿH‹½°   ‹y 1öè’¡ÿÿé ûÿÿD  ‹ €½¸    H=uˆ  ‹u8…Û  èf¡ÿÿéWûÿÿ‹Ş €½¸    H=Mˆ  ‹u4…ƒ  è>¡ÿÿé"ûÿÿf„     ƒùÀƒàµƒÀxé~ùÿÿƒáµƒÁxé%ùÿÿD  H‹ExH‹MpÆD$H‰L$0H‰D$8é»ùÿÿ@ ‹u0¶½¸   èqZ  é	ıÿÿ@ Æ„$Î   .é‘ûÿÿ H‹M@D‹5 Æ„$ä    H¼$ä   D‹ D‹ I¹ÍÌÌÌÌÌÌÌH‰ÎCDHÁîA)À@0ö¶Á	ÆfD  H‰ğHƒïI÷áH‰ğHÁêL<’MÿL)øƒÀ0ˆH‰ğH‰ÖHƒø	wÔH‰ÈHÁé Æ„$   LŒ$  HÁèá ğÿÿH¾ÍÌÌÌÌÌÌÌ%ÿ  	Áf.„     H‰ÈIƒéH÷æH‰ÈHÁêL<’MÿL)øƒÀ0AˆH‰ÈH‰ÑHƒø	wÓ1ÀE…ÀW¾   ASDHÀH‰ßHÖ†  HÇÂÿÿÿÿEĞèÙ7ÿÿHc" ^_H\é4ûÿÿfD  L‹=™ Ll$@Ht$0L‰êL‰ÿè”õÿÿH…À„  H‹ H‹L$0H‹5  H‹T$8H9Á|*9Öy&H5á 1ÿèz2ÿÿH‹L$0H‹T$8H‹É H‹5Ê H¸T=ÿH9Ï|4  9Ö‰,  H9ÁŒÚ    ‰Ğ)ğÁèé  D  H‹}XL‹İ H´$ğ   ¹   ‹Ò è5·ÿÿH‰ÇH‰ÃèŠ2ÿÿH‰Æé¾÷ÿÿf1ÿ€=“  …nıÿÿ‰÷H‰t$‰T$è¡ÎÿÿH‹t$‹T$H‰ÇéMıÿÿ1ÿ€=c  …ıÿÿ‰÷H‰t$‰T$è±ÏÿÿH‹t$‹T$H‰Çéõüÿÿ1ÿ€=3  …–üÿÿ‰÷H‰t$‰T$èAÎÿÿH‹t$‹T$H‰ÇéuüÿÿH‹) Ht$(L¼$€   HÇD$(    L‰úH‰ÏH‰L$èôÿÿH…Àte€=C  H‹p H‹L$tHc”$   H: HÁâHÂH¼$ğ   HƒìE1ÉE1Àj ¾é  QL‰ùjÿH‰|$(èJ8  HƒÄ H‹|$H…ÀH‰ÆuÇï     E1ÀéCùÿÿèâ  ‰Ü A‰À…À‰-ùÿÿëÖ€    €; u¹    Lkf‰é:ùÿÿ€½¸    „êøÿÿH‹L$0Æ„$ä    L¬$ä   H¾ÍÌÌÌÌÌÌÌH…Éˆš   D  H‰ÈIƒíH÷æHÁêH’HÀH)ÁƒÁ0AˆM H‰ÑH…ÒuÙé˜øÿÿ1À€=/  ‰ÑtOHcT$PH@H‚H+ HÁâHÂHƒìE1ÉE1À¾é  QH‰ßL‰éAWjÿèE7  HƒÄ H…À„0ÿÿÿHÃé-ÿÿÿH	
- H‹Âë¿L‰î¿0   I¸gfffffffH‰ÈI‰õHƒîI÷èH‰ÈHÁø?HÁúH)ÂH’G)ÈH‰ÑˆH…ÒuÒÆFÿ-Iƒíéá÷ÿÿ¸   éAÿÿÿèö/ÿÿép4ÿÿƒ=e
- ‡  AWH¶h  AVAUATUSHƒì(‹D
- Hc‚HĞ>ÿàfD  Hƒ=   „2  1ÿè£ÈÿÿH@H‰$H‹L
- LtĞèH‹H H‹(H‰ïèí¿ÿÿ1öH‰ïI‰ÇI‹FL‹ èyU  Hƒ=™ †  H‹l E1í»   H‰D$ëcD  H‹D$H‹8H‹G(H;G0ƒ)  HPE1íH‰W(Æ 
-H‹Õ
- L‰îL‹$ØHƒÃL‰çèU  L‰çèj¿ÿÿH;+ I‰ÇI‹FL‹$èƒ²  H‰Ø1ÒH÷4$H‰ÕH…Òt‘MìK</L‰æM‰åèÿWÿÿë¡D  ¿,   HƒÄ([]A\A]A^A_éÁÿÿHƒ=Ğ  „  H‹£ L-´ 1ÛMe@H‰D$Il$ĞëLfH‹)
- H‹<ØèPñÿÿH‹D$H‹8H‹G(H;G0ƒâ  HPH‰W(Æ 
-HƒŸ HƒÃH9d †œ  €=—  t­¿   è£¦ÿÿ„ÀtŸL‰ïè¨ÿÿL‰çè¨ÿÿH‰ïè¨ÿÿë…D  Hƒ=   „X  H‹ó 1ÛH‰D$@ H‹‰	 1öH‹<ØèÎS  H‹D$H‹8H‹G(H;G0ƒX  HPH‰W(Æ 
-HƒÃH9Ê
- wÀé   Hƒ=p	  „  ¿   èpÆÿÿH@H‰ÁH‹ L|ĞèH‹
- 1ÒH÷ñHƒúHƒØÿH‰D$H…À„±   HÇD$    H‹C H‰D$fD  L‹d$E1íE1öë LõJ<3H‰îI‰îè>VÿÿH‹· J‹<àH‰<$èZ½ÿÿH‹<$L‰öH‰ÃI‹GJ‹,(IƒÅèßR  Ld$L;%û	 r±H‹D$H‹8H‹G(H;G0ƒ›   HPH‰W(Æ 
-HƒD$H‹D$H9D$…jÿÿÿHƒÄ([]A\A]A^A_Ã ¿    é»ıÿÿfD  ¾
-   èÎ,ÿÿéşÿÿf„     ¾
-   è¶,ÿÿé¤şÿÿH‹R H‰D$D  H‹D$H‹8H‹G(H;G0s/HPH‰W(Æ 
-ë‡¾
-   èv,ÿÿéaÿÿÿ¾
-   E1íèd,ÿÿéÓüÿÿHƒÄ(¾
-   []A\A]A^A_éG,ÿÿÃfD  AWAVI‰öAUI‰ıATUSHì  ‰T$ˆT$dH‹%(   H‰„$  1Àè*ÿÿL‰ïÇ     H‰Åè(+ÿÿH…À„¶  L‹= 
- I‰ÄM…ÿ„u  H‰Çèä,ÿÿHT$pA¸   ‰Ç…ÀˆË  ¹   H5p~  è®Yÿÿ…ÀˆÉ  H‹D$x¿   H‹\$pH‰D$è)ÿÿI‰ÀH…À„¼  H‹D$I‰XL‰ÆL‰ÿHT$(L‰D$I‰ è`­ÿÿƒøÿ„’  …À…¶   H‹D$(H…À„|  L‹D$L9À„š   L‰Çè«(ÿÿL‰îHT$01ÿH¸       HÇD$0   H‰D$8HÇD$@    HÇD$H    HÇD$P    HÇD$X    HÇD$`    è×*  º   H5ó£  1ÿI‰Åè!*ÿÿL‰é1ö1ÿH‰Â1ÀèP-ÿÿL‰çè8+ÿÿÇ
-	    é]  H‹Š H‹‹ H)ÂHƒú†:  H‹L$HPH‰f H‰XH‰èâƒÿÿ€=›  „O  €=t  H‹ï  u$H‹;H‹G(H;G0ƒB  HPH‰W(Æ 
-Hƒ €=Ò  Æ9  …®  E1ÿ€=ë  …`  M…öH‹5S ºÿÿÿÿLç MDõHƒìA¸   1ÉAWL‰÷è½ŞÿÿL‰ÿèE'ÿÿH‹¾   º   H=Y~  è¬+ÿÿHƒœ Y^HÇD$    ¶D$‰D$ÇE     L‰çè+ÿÿH‰ÃH…À„õ   Lp‹ ƒø„r  €{.„H  …À…`  L‹=Ñ M…ÿuéO  €    M‹M…ÿ„;  I‹?º   L‰öèk)ÿÿ…Àuß€    èK£ÿÿévÿÿÿ€=g  „WÿÿÿéŸşÿÿ1ÉL‰î¿œÿÿÿèåVÿÿ…À‰7ıÿÿ1ÿº   H5Ï¡  è*(ÿÿ¶|$L‰êH‰ÆèÿÿH‹„$  dH+%(   …ã  HÄ  L‰ç[]A\A]A^A_é)ÿÿf.„     ‹U …Òt,1ÿº   H5a{  èÆ'ÿÿ‹|$L‰êH‰Æè·€ÿÿƒ} K„=ÿÿÿL‰çèÕ(ÿÿ…À…%  èø½ÿÿ€=q  …  ‹1 …Àt€=*  „Ê   €=Å  H‹®ş  …=  º   H5{  1ÿèM'ÿÿH‹3H‰ÅH‰Çè¯(ÿÿH‰ïèW'ÿÿH‹;HÅ H‹G(H;G0ƒÜ  HPH‰W(Æ  ‹f H‹|$¹   Ht$pL‹H Hƒˆ è««ÿÿH‹3H‰ÅH‰ÇèM(ÿÿH‰ïèõ&ÿÿH‹;Hc H‹G(H;G0ƒ‰  HPH‰W(Æ 
-HƒB Hƒ=
-  …L  H‹„$  dH+%(   …e  HÄ  []A\A]A^A_Ã …À„øıÿÿ1À€{.”À€| „äıÿÿ@ L‹=y M…ÿuë*fM‹M…ÿtI‹?º   L‰öè'ÿÿ…Àuãé®ıÿÿfD  ¶C1öƒè<w¶ÀHAd  ‹41ÒL‰éL‰÷è¡ÈÿÿHD$ƒ=‘  …oıÿÿƒ=œ ÿ…bıÿÿ€={   …Uıÿÿ€=  …Hıÿÿè¼ÿÿèîõÿÿèÉÿÿé4ıÿÿ¾   H= èóÙÿÿH‹$ é©ûÿÿ1öL‰ïè}Äÿÿéíıÿÿ1ÿº   H5y  èe%ÿÿ¶|$L‰êH‰ÆèU~ÿÿé³ıÿÿH‹„$  dH+%(   …  HÄ  []A\A]A^A_écõÿÿH‹º   ¾   H=zx  èª'ÿÿHƒšÿ  éıÿÿL‰ïèµ  I‰ÇH…À…Œûÿÿ1ÿº   H5§w  èÖ$ÿÿL‰êH‰Æ¶D$‰ÇèÄ}ÿÿébûÿÿH‹º   ¾   H=x  èF'ÿÿHƒ6ÿ  é,ûÿÿH5x  º   1ÿè†$ÿÿH‰ÆH‹„$  dH+%(   uP¶|$HÄ  L‰ê[]A\A]A^A_éR}ÿÿ¾
-   èè$ÿÿéºúÿÿ¾    èÙ$ÿÿé ıÿÿ¾
-   èÊ$ÿÿésıÿÿè¹ÿÿèK$ÿÿf.„     óúAWI‰ÿ¿P   AVI‰ÖAUI‰ÍATUL‰ÅSHƒìè"ÿÿI‰ÄH…Àt{H™a  H‰ÇH‰X(è-¢ÿÿ„ÀtyH‰ŞL‰ÿè®¢ÿÿI‰D$H‰ÃH…Àta¾   H‰Çè$%ÿÿI‰$H…ÀtKHÁãM‰t$0HØM‰l$8I‰D$IÇD$    IÇD$     I‰l$@IÇD$H    HƒÄL‰à[]A\A]A^A_Ã L‰çE1äèe!ÿÿëŞ óúAWAVAUATUSHì  dH‹%(   H‰„$ø   1ÀH…ÿ„‹  ¶I‰ÿ„Ò„  €ú/„¸  1ö1ÿè$ÿÿI‰ÆH…À„$  H‰Çèû"ÿÿM$H‰ÅL‰ãH=ÿ  †İ  A¶„Ò„,  HD$`L‰|$ M‰øH‰$HD$@HÇD$    HÇD$(    HÇD$0    H‰D$‰Ğ€ú/u@ A¶@IƒÀ</tó„À„û   M‰ÅM‰ïA¶UIƒÅ„Òt€ú/uëM9Å„Ú   L‰íL)ÅHƒı„"  Hƒıu<.„Ì  A€|$ÿ/t	AÆ$/IƒÄI,H9ÃwWL)óM)ôL‰D$HDHÃ   Hı   HMØH…Ûu	M…ö…Ê  L‰÷H‰Şè$ÿÿL‹D$H…ÀI‰Æu	H…Û…  LóMôL‰çL‰ÆM$,H‰êè‘#ÿÿAÆ$ H‹4$L‰÷èĞ"ÿÿ…Àu‹D$x% ğ  =    t|A¶U M‰è„Ò…éşÿÿ@ IFI9Ä†k  A€|$ÿ/…_  L‰àIƒìéX   ¿   ˆ$ècÿÿI‰ÆH…À„q  Æ /¶$H˜   L`éWşÿÿ<.…äşÿÿM‰èë Hƒ|$ „Ò  H‹D$ H‹l$H‹|$H‰D$@H‹D$hH‹uH‰D$HH‹D$`H‰D$PÿU0H‰ÂH;Eƒn  H‹l$HÁâHU H‹2H…ötHL‰d$L‹d$H‰\$8H‰Óë
-€    H‹3L9æ„C  L‰çÿU8„À…Æ  H‹[H…ÛuİL‹d$H‹\$8¿   èÿÿI‰ÀH…À„  H‹|$ L‰D$èv¾ÿÿL‹D$H‹T$H‹|$I‰ H‹D$hL‰ÆI‰@H‹D$`I‰@èª¢ÿÿƒøÿ„K  …Àu*H‹D$@H…À„9  L‹D$L9ÀtI‹8èıÿÿH‹|$èóÿÿH‹´$   L‰÷è£›ÿÿH…À„I  H‰ÇH‰D$èÍÿÿL‰ïI‰ÇèÂÿÿHƒ|$0 L‹D$H‰Â„m  ILH9L$0‚®  H‹l$(HƒÂL‰îL‰D$J|= I‰íè"ÿÿH‹t$L‰úH‰ïè@!ÿÿL‹D$H‰l$ IFA€8/„  I9Ä‡¹  L‰ÇèGÿÿé¦ıÿÿLÛFÿÿHd`ÿÿ1ö¿   HfFÿÿèñúÿÿH‰D$H…À…ÿıÿÿë;ID$AÆ$ H9Øt<M)ôI\$IƒüÿuM…öuL‰÷H‰Şès!ÿÿI‰ÆH…ÀuH…Ûtè!´ÿÿL‰÷E1öèÅÿÿH‹|$(è»ÿÿH‹|$H…ÿt	è< ÿÿ@ H‹„$ø   dH+%(   …"  HÄ  L‰ğ[]A\A]A^A_Ã@ A€x.…)üÿÿIFM‰èI9Ä†ÉüÿÿIƒìM9ô†¼üÿÿA€|$ÿ/„ıÿÿIƒìM9ôuëéıÿÿfD  L‰÷E1öè%ÿÿL‹D$éBüÿÿè¦ÿÿE1öÇ    é`ÿÿÿL‰÷¾   è‹ ÿÿI‰ÆH…À„ÿÿÿL$(H˜   éúúÿÿèjÿÿƒ8…)ÿÿÿéöşÿÿ@ H‰ÚL‹d$H‹\$8Hƒ: „6ıÿÿA¶WM‰èéüÿÿè/ÿÿE1öÇ    ééşÿÿèÿÿƒ8uÖH‹|$(I‰ÇèzÿÿL‰÷E1öèoÿÿH‹|$èõÿÿAÇ   é±şÿÿL‹d$H‹\$8ëœAÆ/I‰ÄéòıÿÿIDL‰D$ H‰Á¸   H‰T$H9ÁHCÁH‰ÇH‰D$0è&ÿÿH‹T$L‹D$ H…ÀH‰D$(…`ıÿÿé#şÿÿf„     H‹|$(H‰ÎH‰D$8L‰D$ H‰L$èdÿÿH‰D$(H…À„ğıÿÿH‹L$H‹T$8L‹D$ H‰L$0éıÿÿHÇD$    HÇD$(    éûÿÿIƒìM9æƒ:ıÿÿA€|$ÿ/„.ıÿÿIƒìM9æuëé ıÿÿèzÿÿéù ÿÿD  óúAWI‰ÿAVAUATUSH7Hƒì8dH‹%(   H‰D$(1ÀH‰\$èÿÿHƒø†s  E1äL;|$ƒ  Ll$ Lt$ A¶<_$  <@ß   <#Ì   <Ï   IÇE     ë0f.„     ºÿÿÿD)â9Ğp  AÄL‰ïIßè²ÿÿ…À…   H‹l$L‰éL‰şL‰÷L)ıH‰êèÁÿÿH‰ÃHƒøıvH…ít1ÿèì˜ÿÿ„À„¬   HƒûÿtYHƒûş„  H…Û¸   ‹|$HDØèoÿÿ…À‰wÿÿÿ‹|$è^ÿÿ…À…yÿÿÿAüÿÿÿ„Ù   AƒÄécÿÿÿƒè%<‡1ÿÿÿIƒÇAƒÄL9|$‡úşÿÿH‹D$(dH+%(   …©   HƒÄ8D‰à[]A\A]A^A_Ã@ ƒèa<v¼éèşÿÿ@ A¶?»   ‰|$ébÿÿÿfD  E1äI9ßs¦èóÿÿE1äH‹D  A¶IƒÇ·BöÄ@u¨uAüÿÿÿ„tÿÿÿAƒÄL9|$uÓédÿÿÿfD  L‹|$AƒÄéEÿÿÿfA¼ÿÿÿéCÿÿÿèPÿÿóúAWAVAUATI‰ôUH‰ıSHƒìH‰T$èÿÿM‹<$M…ÿ„®   ÆD$ H‰ÃE1öIÇÅÿÿÿÿë0D  H‹D$B‹°B9¨¹   ¶D$EÁˆD$IƒÆO‹<ôM…ÿt=H‰ÚH‰îL‰ÿè_ÿÿ…ÀuáL‰ÿè³ÿÿH9ÃtFIƒıÿu°M‰õIƒÆO‹<ôM…ÿuË„     €|$ HÇÀşÿÿÿLEèHƒÄL‰è[]A\A]A^A_ÃfD  M‰õëãIÇÅÿÿÿÿëÚf.„     óúAWA‰ËAVIÇÆÿÿÿÿAUI‰ıATI‰ôUSHìÈ   H‹„$   H‰¼$˜   H‰T$H‰„$   H‹„$  D‰D$xL‰L$H‰„$ˆ   dH‹%(   H‰„$¸   1ÀD‰\$ èÆÿÿ‹\$xD‹\$ H‰D$XƒãAƒû
-‡TÿÿHd•  D‰ØHc‚HĞ>ÿàAƒû
-tbH-*•  1ÿº   D‰\$ H‰îèfÿÿD‹\$ H9èH‰„$   „7  H-(l  1ÿº   D‰\$ H‰îè5ÿÿD‹\$ H9èH‰„$ˆ   „é  E1ÿ…Û„c  …ÛH‹œ$ˆ   D‰\$ ½   •D$&H‰ßèÿÿH‰\$HD‹\$ H‰D$ÆD$ 1öÆD$| HÇD$P    @ˆl$%M‰âM‰ôM‰îE‰İA‰óE1É„     M9á@•ÅIƒüÿuH‹D$B€< @•Å@„í„¹  AƒıH‹|$•À"D$%JA‰À„ÿ  H‹D$H…À„q
-  JIƒüÿuBHƒøv<L‰T$@Dˆ\$8L‰L$0H‰T$(DˆD$'èSÿÿL‹T$@D¶\$8L‹L$0H‹T$(I‰ÄD¶D$'L9â‡
-  H‹T$H‹t$HH‰ßL‰T$8Dˆ\$0L‰L$(DˆD$'è6ÿÿD¶D$'L‹L$(…ÀD¶\$0L‹T$8…Ø	  €|$& …v  ¶€û?Y  „ÛˆD  €û?‡;  H•“  ¶ÃHc‚HĞ>ÿà@ D‰ÁD  D‰Å1ÀA‰È‰ÙfD  H‹t$H…öt‰ÊÀê¶Ò‹–Óêƒâu	E„À„„  Aƒı”Â€|$& ‰Ğ…  D‰Øƒğ Ğt/M9úvCÆ>'IWI9ÒvCÆD>$IWI9ÒvCÆD>'IƒÇA‰ÃM9×sCÆ>\IƒÇIƒÁM9×sCˆ>¶D$ IƒÇ¾    @„íDÆˆD$ éşÿÿfD  €û|uV1íAƒı”À€|$& ‰Â„´   „À„¬   ¶l$%M‰õA»   M‰æM‰Ô‰è„À…z  ƒd$xıHÇD$    é¬üÿÿ@ E1ÀHƒ|$X…b  f„     L‰T$8Dˆ\$0L‰L$(DˆD$'è§ÿÿD¶D$'L‹L$(¿   H‰Â¶ÃD¶\$0L‹T$8H‹öDB@@•Å”Â"T$%„Ò…Ş   Aƒı”Â‰Ù¶D$%ƒğĞ„oşÿÿ1À€|$& …bşÿÿfE„À…|şÿÿƒğIƒÁD!Øé   …Û…Ñ  H9g  ÆD$& ½   1öH‰D$HA»   A¿   HÇD$   ÆD$| ÆD$ HÇD$P    M…ä„˜üÿÿAÆE "éüÿÿÆD$&½   H+h  E1ÿA»   HÇD$   H‰D$HéLüÿÿÆD$& ½   E1ÿHÇD$    HÇD$H    é(üÿÿ…Û„  ÆD$&1íë¨H„f  ÆD$&½   E1ÿHÇD$   A»   H‰D$HéêûÿÿÆD$& 1íE1ÿHÇD$    HÇD$H    éÉûÿÿE1ÀAƒı„Ø	  Aƒıu*öD$xt#IAL9àsH‹|$B€|?„k  f„     1Ò1í¹?   ésşÿÿE1ÀAƒı„M	  @ˆl$|1Ò¹'   éUşÿÿ¹r   1íAƒı”Â€|$& ‰Ğ„òüÿÿf„     ¶l$%E‰ëM‰õM‰æM‰Ô!è„À„†ıÿÿƒd$xıèÿÿHÇD$    H‰D$X½   HÀf  ÆD$& 1öA»   H‰D$HA¿   HÇD$   ÆD$| ÆD$ HÇD$P    M…ä„Õúÿÿ1Àé6  D  ¹f   Aƒı”À€|$& u1íé€üÿÿAƒı¹b   ”À€|$& tæ¶l$&E‰ëM‰õM‰æM‰Ô!èéFÿÿÿ¹n   1íé
-ÿÿÿ¹a   ë­€|$& …™  E1ÀAƒıD‰Ø”Âƒğ Ğ„M	  M9úvCÆ>'IOI9ÊvCÆD>$IOI9ÊvCÆD>'IwI9ò‡#	  IƒÇA‰Ã1í¹0   éûÿÿ¹#   D‰ÀM…É…ü  ‰ËéüÿÿD  E1À¹	   »t    €|$% …   1í1À€|$& …ûÿÿé¹üÿÿ¹v   1íé@şÿÿD‰Á»    éğúÿÿ¶€û?Ì   „Ûˆ÷ûÿÿ€û?‡îûÿÿHH  ¶ÃHc‚HĞ>ÿà¹   »f   ë‹¹	   »t   Aƒı”À"D$&A‰À„mÿÿÿésûÿÿ¹   »b   éYÿÿÿ€|$% …¶şÿÿE1À1ÉöD$x„IÿÿÿIƒÁé-ùÿÿ¹   »v   é&ÿÿÿ»    éûÿÿ¹   »r   ë¹
-   »n   ëƒ¹   »a   éõşÿÿD  €ûzs€û@„%ûÿÿK¿¸   HºÿÿÿSÿÿÿHÓàH…Ğ…tûÿÿ©   ¤…¦úÿÿ€û\…óúÿÿAƒı„  ¶T$%"T$&Hƒ|$ •À ÂA‰Ğ…  ¹\   éşÿÿ€    €û}„‡  ß  ¹~   €û~„3şÿÿHƒ|$X„§úÿÿH„$°   HÇ„$°       H‰D$`Iƒüÿu7H‹|$L‰T$8Dˆ\$0L‰L$(DˆD$'èÚÿÿL‹T$8L‹L$(D¶\$0D¶D$'I‰ÄH„$¬   DˆD$}1ÿH‰D$8L‰L$0L‰d$(Dˆ\$@ˆl$'L‰¼$€   L‰T$pD‰l$@L‰t$hL‹t$`ˆ\$~H‰ûH‹D$0H‹l$(L‰ñH‹|$8L<H‹D$L)ıN,8H‰êL‰îèyÿÿI‰ÄHƒøı†l  H…í„c  1ÿèœŒÿÿ„À„ÿ  Iƒüÿ„]  Iƒüş„t  ƒ|$@u€|$& …†  ‹¼$¬   èÿÿ¿    …À¶D$'DÇL‰÷LãˆD$'èÔÿÿ…À„Vÿÿÿ¶l$'H‰ßD¶D$}L‹L$0L‹d$(‰êD¶\$¶\$~L‹¼$€   L‹t$hƒòL‹T$pD‹l$@"T$%Hƒÿ†\ùÿÿH‰ù@ˆl$'H‹|$1ö¶l$&LÉé´    Aƒı@”Æ‰ğ@„í…ÿ  D‰Øƒğ@ ğt/M9úvCÆ>'IwI9òvCÆD>$IwI9òvCÆD>'IƒÇA‰ÃM9úvCÆ>\IGI9Âv‰ØÀèƒÀ0CˆD>IGI9Âv‰ØÀèƒàƒÀ0CˆD>ƒãIƒÁIƒÇƒÃ0L9É†’  ‰ÖM9úvCˆ>B¶IƒÇ„Ò…Gÿÿÿ‰ğƒğD!ØE„ÀtM9úvCÆ>\IƒÇIƒÁL9É†%  „À„i  M9úvCÆ>'IGI9ÂvCÆD>'IƒÇE1ÀE1Ûë‘¹{   €û{…d÷ÿÿIƒüÿ„™  f.„     Iƒü„6ûÿÿfD  Aƒı”Â1íéøÿÿf¶€û?X„Ûˆx÷ÿÿ€û?‡o÷ÿÿHÌ‹  ¶ÃHc‚HĞ>ÿà 1Éé9öÿÿf„     E1À1íéíöÿÿE1À¹#   éÉúÿÿ1Ééûÿÿf€ûzŸ   €û@„÷ÿÿK¿¸   HºÿÿÿSÿÿÿHÓà1ÉH…Ğ…Şõÿÿ‰ÙE1À©   ¤…Nÿÿÿ€û\…àöÿÿ¶t$&@„t$%„i  Hƒ|$ „]  IƒÁD‰Ø1í¹\    „À„$öÿÿM9úvCÆ>'IGI9ÂvCÆD>'IƒÇE1Ûéÿõÿÿ €û}t{~*1À€û~…nöÿÿM…É„  ¹~   AƒıA‰À”Â1íéÈöÿÿE1À¹{   €û{„‚şÿÿ¹|   €û|„˜şÿÿé.öÿÿ ¹}   Iƒüÿ…qşÿÿH‹D$€x …rşÿÿéùÿÿD  E1À¹}   é7şÿÿ €ûzC€û@„åõÿÿK¿¸   HºÿÿÿSÿÿÿHÓàD‰ÁH…Ğ…©ôÿÿ‰Ù©   ¤…şÿÿéÉşÿÿ€    €û}„wÿÿÿ~D‰À€û~„#ÿÿÿéõÿÿ¹{   €û{„Âıÿÿ¹|   €û|„Øıÿÿénõÿÿ¶|$&Aƒı”ÀM…ÿ‰ú”Á!Â„Ñ…}  ƒ÷‰ú@ ø„ñ  €|$| „ä  €|$  …  M…ÒM‰õ¶l$%D‰Ş”ÀHƒ|$P M‰æ•Â Ğ„ë  L‹d$PˆD$|H;^  A¿   A»   AÆE 'ÆD$& HÇD$   H‰D$Hédòÿÿ €|$& „üıÿÿ¶l$%E‰ëM‰õM‰æM‰Ô‰èé†ôÿÿD  €|$& uÜM…Ò„  Hƒ|$P …  L‰T$PE1Ò@ˆl$|IƒÇ1ÀE1Û¹'   éxóÿÿ@ €|$& uœ1í1À¹?   é_óÿÿ M…ä„ûúÿÿIƒüÿ…£úÿÿH‰ßD¶D$}L‹L$01íL‹d$(D¶\$¶\$~L‹¼$€   L‹t$hL‹T$pD‹l$@¶T$%éóúÿÿ@ Iƒü†púÿÿH‹D$J4 JT8Lşë HƒÂH9Ö„Múÿÿ¶ƒè[<!wéH¿+      H£ÇsÙ¶l$%L‹t$(L‹l$hL‹d$p@„í…ïõÿÿƒd$xı1íèøÿÿHÇD$    H‰D$XéíõÿÿD  L‰şM9úvD‰ØAÆ6\A‰ÃL~Aƒı„É   IA¹0   L9àsH‹D$B¶DˆD$'ƒè0<	†¯   ¶D$%ƒğĞ‰è½    „ òÿÿéòÿÿM9úvCÆ>'IGI9ÂvCÆD>\IGI9Â†aşÿÿCÆD>'éVşÿÿ¶l$'‰ÙéüÿÿE‰ëM‰õM‰æM‰Ôé–òÿÿ¶T$%1íé²ùÿÿ¶l$'‰ÙéòÿÿA¶} A¼   ‰¼$¬   éùÿÿE1ÀéEúÿÿ‰è¹0   1íé„ñÿÿM9úvCÆ>0HFI9ÂvAÆD60L~¹0   é*ÿÿÿH‹”$   ¶„À„ŠïÿÿfD  M9üvCˆD= IƒÇB¶:„ÀuééhïÿÿL‹d$(H‰ßL‰øL‹L$0D¶D$}¶\$~H‰úD¶\$L‹¼$€   L‹t$hL‹T$pD‹l$@H‹L$L9àrëD  HƒÂII9Äv€< uíH‰×¶T$%1íé¥øÿÿ¶€ù>‡‘óÿÿHº    ‚£ pHÓêƒâ…ï   1í¹?   éğñÿÿHhY  ÆD$&½   E1ÿHÇD$   H‰D$HéÔîÿÿ‰ÂH‹D$HH…Àt0„Òt,¶„Ét%H‹´$˜   L‰úL)øI9ÒvˆHƒÂ¶„ÉuìI‰×M9ú‡Å   H‹„$¸   dH+%(   …£  HÄÈ   L‰ø[]A\A]A^A_ÃE‰ëM‰õM‰æM‰Ôé·ğÿÿD‰ŞH‰Çè«šÿÿD‹\$ H‰„$ˆ   éúíÿÿD‰ŞH‰ÇèšÿÿD‹\$ H‰„$   é¬íÿÿ€|$& u®M9úvCÆ>?IWI9ÒvCÆD>"IWI9ÒvCÆD>"IWI9ÒvCÆD>?IƒÇ1Ò1íI‰Áé'ıÿÿH‹„$˜   BÆ8 é)ÿÿÿE‰ëM‰õM‰æM‰ÔAƒû„òÿÿéğÿÿ¶T$|éÁşÿÿè‚ÿÿA½   E1ÿHÇD$   H‰D$XHäW  H‰D$HöD$xu,M‰õM‰æL‹d$Péˆğÿÿ¶l$%M‰õM‰æM‰Ô@„í…òÿÿé(üÿÿ¶D$ L‹T$PÆD$| E1ÛHÇD$P    ˆD$&ˆD$%é9íÿÿ…Ût0HÈX  ÆD$&1íE1ÿHÇD$   H‰D$Héèìÿÿ¹\   1íéƒñÿÿ1íéÑñÿÿèäÿÿAƒıD‰Å¹~   A‰À”Âé®ïÿÿ‰Ù1íéWñÿÿ@ óúAWAVAUI‰õATUH‰ÕSHƒìhH‹7H‰|$0L‰D$ L‰L$8dH‹%(   H‰T$X1ÒH…íH¬Ş  H‰t$HDêD‹e Aƒü–Â"Ş  ˆT$/…H  E1ÿ…É„   èÈÿÿD‹ELMD‰áD‹¾    L‰êI‰ÆD‰T$ÿu0ÿu(H‹|$ L‰L$èµêÿÿD‹T$H=ÿ  I‰ÄE‰Y^L‹$‡è  H‹D$ÆD$/¶ A8E uL‰ïèÍÿÿL9à•D$/E…ÿt L‰ãéğ   „     L‰ïè¨ÿÿL‰l$I‰ÄHƒ|$  txèƒÿÿHƒø‡!  H‹\$J,#H9İ†Ô  èÂÿÿH‹H‰Ø1Ûf.„     ¶·Qfâ @fƒúHƒÛÿHƒÀH9Åuã€=iİ   …Í   H‹D$8Æ  éİ   f„     €=Fİ   …ª   H‹D$8Æ  éÂ   fD  …É…f  L‰ïèğÿÿH‰ÃL`H=ÿ  ‡¸  H‹|$L‰âL‰îèÿÿÆD$/ è³ÿÿH‹t$H<H‰|$Hƒø‡›   L‹|$L‹t$M9÷s%èçÿÿL‰úL‰÷¶2H‹öDq@uÆ?HƒÂH9úuçI‰Ü¶šÜ  „Àt¶D$/ƒğ"‡Ü  H‹t$8Hƒ|$  ˆtH‹D$ H‰H‹D$0H‹t$H‰0H‹D$XdH+%(   …œ  HƒÄhL‰à[]A\A]A^A_ÃH9şƒk  HD$LI‰ô1ÛI‰÷H‰D$Hl$PA¶<_4  <@   <#ì   <ğ   HÇD$P    M‰ıë&fD  AÆ$?H‰ïMõHƒÃL‹$$è ÿÿ…À…¦   L‹|$H‹|$H‰éL‰îM)ïL‰úè­ÿÿI‰ÆID$H‰$IƒşıvM…ÿt1ÿèÏ~ÿÿ„À„·   Iƒşÿ„ı   Iƒşş„  ‹|$LM…ö¸   LDğèNÿÿ…Àˆnÿÿÿ1Ò@ A¶L AˆHƒÂI9ÖuíMõMôH˜H‰ïHÃèúÿÿ…À„ZÿÿÿM‰ïë!D  PÛ€ú‡ÿÿÿAˆ$IƒÇHƒÃIƒÄL;|$‚ÑşÿÿL+d$éCşÿÿ€    PŸ€úvÌé×şÿÿ A¶} A¾   ‰|$Lè¬ÿÿ…ÀˆÌşÿÿA¶U IƒÅAˆ$L‹$$égÿÿÿfD  H‹|$L‰æèûãÿÿHcØéıÿÿ M‰ïHƒÃIƒÇAÆ$?L‹$$ékÿÿÿ€    L‹|$HƒÃëàL‰çè-şşÿH‰D$H…À…2ıÿÿèZ•ÿÿf.„     HpL‰L$H‰÷H‰4$èûışÿH‹4$L‹L$H…ÀH‰D$uH…öuÄE‹D‹EL‰ê‹M D‰$ÿu0ÿu(H‹|$ èbæÿÿD‹T$E‰XZé»ûÿÿ1ÛéYüÿÿE1ä1ÛéıÿÿA¿   éJûÿÿè’ÿşÿfóúAWAVAUI‰õATI‰ÔUSHcßHƒì(èğışÿD‹5)Ù  H‹-BÙ  H‰D$‹ ‰D$D9ó|`D{HÙ  Ic÷HÁæH9Å„  H‰ïè¯ÿÿH‰ÅH…À„3  H‰üØ  IcşD‰ú1öH‰ùD)òHÁáHcÒHÁâH| èÉÿşÿD‰=²Ø  HÁãA‹$M|$L‰êHİA‹\$M‰ùH‹u L‹uAÿt$0Aÿt$(ƒËA‰ØL‰÷H‰t$(èRåÿÿY^H‹t$H9ÆwjHpHKê  H‰u I9ÆtL‰÷H‰t$èuüşÿH‹t$H‰÷H‰t$èsüşÿH‹t$H…ÀI‰ÆuH…öuqL‰uA‹$L‰êM‰ùAÿt$0A‰ØL‰÷Aÿt$(èŞäÿÿXZH‹D$‹L$‰HƒÄ(L‰ğ[]A\A]A^A_Ã€    H‰÷èüşÿH‰ÅH…ÀtfoĞ×  H‰-Ù×  E éÔşÿÿè+“ÿÿff.„     óúAWI‰÷AVI‰ÎAUI‰ÕATUH‰ıSHƒì8dH‹%(   H‰D$(1ÀH…öHD$ LDøè!üşÿÇ     I‰Ä¶] èÏÿÿH‹H‰èë€    ¶XHƒÀ¶ÓöDQ uî€û-td1ÒL‰şH‰ïèŒ ÿÿI‹H‰ÃH9ÍtYA‹$…Àu9E1ä¶)@„í…º   I‰] H‹D$(dH+%(   …Ì  HƒÄ8D‰à[]A\A]A^A_ÃA¼   ƒø"t¿A¼   ëÇD  ¶)H‰L$@„ítæ@¾õL‰÷E1ä»   èışÿH‹L$H…ÀtÈE»</‡  ¶øA¹   H¾E‰0 D  A¸   H£ÆH‰|$rFU¾€ú5w1H5[|  ¶ÒHc–Hğ>ÿàf@¾õL‰÷H‰L$è¯üşÿH‹L$H…Àu˜I‰] AƒÌé"ÿÿÿ¾0   L‰÷D‰L$D‰D$H‰L$è|üşÿH‹L$A¸   A¹   H…Àtˆ¶A<D„{  <it<B„o  H‹D$H¦|  Hc‚HĞ>ÿàE1É€yBA”ÁGL	éEÿÿÿIcèMcÉ¾   1ÿfD  H‰ØH÷åH‰Ã€A  ƒîuìA	üIÉD‰àƒÈM‰A€9 DEàéfşÿÿIcèMcÉH‰ØH÷åpH÷åpH‰ÃëÏIcèMcÉH‰ØH÷åH‰Ãq¾A¼   HƒËÿë² IcèMcÉH‰ØH÷å€  H÷å€ü  H÷å€ó  H‰Ã1ÀA	ÄëH‰ØMcÉHÁè6u·HÁã
-élÿÿÿMcÉH…Ûx¦HÛé\ÿÿÿMcÉéTÿÿÿIcèMcÉ¾   1ÿH‰ØH÷åH‰Ã€®  ƒîuìé+ÿÿÿMcÉH‰ØHÁè7…`ÿÿÿHÁã	éÿÿÿIcèMcÉ¾   1ÿH‰ØH÷åH‰Ã€?  ƒîuìéëşÿÿIcèMcÉ¾   1ÿf.„     H‰ØH÷åH‰Ã€ó   ƒîuìé»şÿÿIcèMcÉ¾   1ÿf.„     H‰ØH÷åH‰Ã€í   ƒîuìé‹şÿÿA¹   ½   éZşÿÿA¹   ½   é¥şÿÿA¹   ½   éµşÿÿA¹   ½   émşÿÿA¹   ½   éVÿÿÿA¹   ½   évÿÿÿA¹   ½   éĞşÿÿA¹   éşÿÿA¹   éİşÿÿA¹   ½   ééşÿÿA¹   A¸   éıÿÿA¹   A¸è  éğüÿÿ¿   HƒËÿéÿşÿÿ¿   HƒËÿé±ıÿÿ¿   HƒËÿé³şÿÿ¿   HƒËÿéÿÿÿèQùşÿ¸   HƒËÿéşÿÿ¿   HƒËÿéDşÿÿD  óúAWI‰ûAVI‰ÎAUI‰ÕATUSHì  H‹y0D‹yH‹„$X  H‰t$D‰L$$D‹”$P  H‰D$DˆD$#dH‹%(   H‰„$  1ÀH…ÿHöK  HEÇH‰D$(Aƒÿö   AƒïA¶E E1ä„ÀtqD‰|$PL‰İIcÚL‰t$<%„æ   1À…ÛH‹T$A¾   HIÃH…ÀLEğL)âI9ÖsTH…ítƒû~   A¶E HƒÅˆEÿMôM‰îA¶FMnHÇÃÿÿÿÿ„Àu¢I‰ëM…ÛtHƒ|$ tAÆ ëL9d$uÏ E1äH‹„$  dH+%(   …  HÄ  L‰à[]A\A]A^A_Ãf„     HXÿH‰ï¾    H‰ÚHİè™øşÿéfÿÿÿ@ E…ÿ¸   DDøéışÿÿ€    ¶L$#E1ÿE1ÛˆL$@E¾EIƒÅAHİD‰ÆD‰Ç€ù<w-Iº %     º   HÓâL…Ò…–  €ù;„‡  ƒâ…v  Aƒè0Aƒø	†6  @€şEt(@€şOt"@€şzwGH‘x  @¶ÖHc‘HÊ>ÿâ€    A¶uMu@€şzwHRz  @¶ÖHc‘HÊ>ÿâ@ M‰õM‰îf.„     IFÿAVI‰Ç‰Ñ)ÁA€?%H@ÿuïHcÉ…Ûˆ  Aƒû-„ú  HcÓH9ÑH‰ÓHCÙH‹D$L)àH9Ø†|şÿÿH…í„„  H9Êv6H)ÊH‰L$0Ll Aƒû0„¨  Aƒû+„  H‰ï¾    L‰íè%÷şÿH‹L$0€|$@ „J  H‰L$@LiÿèWôşÿH‹L$@fC¶4/H‹‹²BˆT- IƒísêHÍé  f1Ûë'@ A¾U ƒê0ÓpA¾}IƒÅWĞ‰şƒú	‡ŸşÿÿkÛ
-qØ»ÿÿÿëİf„     E‰Ãé/şÿÿ1ÿH‹T$‹JD‹RD‹r‰ÈD‰ÒÁøD)òÂ~  %  DLœHcÂA‰ĞHiÀ“$I’AÁøHÁè ĞÁøD)ÀDÅ    A)ÀD‰Ğ)ĞBD …Àˆ  A¸m  AöÁu:AiÑ)\ÂA¸n  ÂP¸A‰ÑAÁÉAù(\wÁÊE1Àú×£ A’ÀAÀm  E)ÂE‰ĞE)ğAÀ~  IcĞE‰ÁE)ÂHiÒ“$I’AÁùHÁê DÂÁúD)ÊDÕ    A)ÑGD
-E…ÀAIÀAÁøAƒÀ@€şG„  @€şg…Q  HcÑ‰ÈHiÒ…ëQÁøHÁú%)Â‰ÈkÒd)ĞDÀHcĞA‰ÁHiÒ…ëQAÁùHÁú%D)ÊDkÊdD)È‰Âˆ›  E…Û„­  M‰îAƒû+„²  ÆD$H ¸   E1ÿÇD$0   1É@ ƒÿO…o  „À„g  º %  E1íf‰”$û   @ˆ¼$ı   H„$ş   @ˆ0H‹L$H”$û   H¼$   Æ@ ¾   D‰\$0èÄöşÿH‰ÁH…À„ŒûÿÿD‹\$0LxÿAƒû-„ı  …Ûˆõ  HcÓI9×H‰ÓICßH‹D$L)àH9Ø†‡ûÿÿH…í„   I9×s=L)úH‰L$HHD H‰D$0Aƒû0„  Aƒû+„  H‰ï¾    è.ôşÿH‹l$0H‹L$HE„í…—  €|$@ „t  LişM…ÿt-èRñşÿH´$  f.„     B¶.H‹‹ŠBˆT- IƒísêLıIÜé³úÿÿM‰õƒÿE…-ıÿÿéüÿÿM‰î1ÿ¶D$@E„ÿAEÇˆD$@ƒÿE„àûÿÿE1íA¸ %  fD‰„$û   …ÿ…—şÿÿH„$ı   éšşÿÿM‰õA¶EÿM}ÿM‰ş<%…²ûÿÿ¹   éÄûÿÿM‰îH‹D$L)àAƒû-„`  …ÛˆX  HcÓA½   H…ÒLEêI9Åƒ:úÿÿH…ít:ƒû~-HƒêH\ Aƒû0„  Aƒû+„  H‰ï¾    H‰İèëòşÿÆE 	HƒÅMìé¿ùÿÿM‰î1ÿH‹D$¾k   ‹PE…Û¸_   ÇD$0   DDØ‰ĞÆD$H 1ÉÁèA‰Ç‰Ğ÷ĞÁèéŠıÿÿM‰î1ÿH‹D$ÆD$H ¾j   ÇD$0   ‹@ƒøÿPAœÇÀ1ÉéWıÿÿM‰î1ÿH‹D$¾e   ‹PëŠM‰î1ÿH‹D$ÇD$0   ¾d   ‹Pë‚M‰î1ÿ¶D$@E„ÿ¾B   AEÇE1íˆD$@éxşÿÿM‰î¶D$@E„ÿ¾A   AEÇˆD$@¸ %  E1íf‰„$û   H„$ı   éıÿÿ1ÿA¶EMuA¹   <:„  ¾:   <z…ıùÿÿH‹D$‹H …ÉˆøÿÿH‹P(A¿   …ÒxA¿    uH‹D$(€8-A”ÇHcÂ‰ÑLiÀÅ³¢‘ÁùHiÀ‰ˆˆˆIÁè HÁè AĞĞAÁøÁøE‰Â)ÈA)ÊHcÈA‰ÀHiÉ‰ˆˆˆAÁøHÁé ÁÁùD)ÁDkÁ<‰ÁkÀ<D)ÁA‰ĞA)ÀIƒù„e  ‡š  M…É„ë  AkÒdD‰øÆD$HÇD$0   ƒğÊ¹   éÛûÿÿM‰î¶D$@E„ÿ¾a   AEÇˆD$@éÑşÿÿM‰î1ÿE1í¶L$@E„ÿ¸    ¾p   EEïEÈˆL$@éıÿÿM‰îH‹D$L)àAƒû-„  …Ûˆ†  HcÓA½   H…ÒLEêI9Åƒ†÷ÿÿH…í„‚ıÿÿƒû~-HƒêH\ Aƒû0„  Aƒû+„  H‰ï¾    H‰İè3ğşÿÆE 
-HƒÅéCıÿÿM‰î1ÿH‹D$ÆD$H ¾m   ÇD$0   ‹@ƒøÿPAœÇÀ1ÉéãúÿÿM‰î1ÿ‹T$P¾l   éıÿÿM‰î1ÿé6üÿÿM‰îH‹D$ÆD$H E1ÿ1ÉÇD$0   ‹@€PÁúƒÂD  L”$  A¹ÍÌÌÌM‰Õ€    L‰ïöÁt	AÆEÿ:Hƒï‰Ğ‰ÖÑùLoÿI¯ÁHÁè#D€EÀD)ÆƒÆ0@ˆwÿƒú	w…É„W  ‰Âë»M‰îH‹D$Hƒ|$ óo` óo óoPH‹@0)d$0H‰„$°   D‰\$0)„$€   )”$   )¤$    „ø  H‹|$èÑ®ÿÿD‹\$0H…ÀI‰Å„©  L¼$€   L‰ÿèPğşÿD‹\$0HƒøÿH‰D$x„±  H‹|$L‰şD‰\$0è*­ÿÿD‹\$0„Àu	HÇD$xÿÿÿÿIƒıtL‰ïD‰\$0èe¯ÿÿD‹\$0„À„A  H‹L$xH‰ÈL”$  ¾0   HÁè?M‰ÕI‰Çf„     H¸gfffffffH÷éH‰ÈHÁø?HÁúH)ÂH<’H‰ĞHÿH)ùH‰ÊH‰Á‰ğ)ĞƒÂ0E„ÿEĞIƒíAˆU H…Éu¸ÆD$H ÇD$0    E…Û„ß
-  Aƒû-•À…ÛH\$0M)êE„ÿ…]
-  €|$H …  IcÊD9ÓÂ
-  „À„º
-  HcÓH‰ËH9ÊHCÚH‹D$L)àH9Ø†°ôÿÿH…í„¸ùÿÿH9Êv6H)ÊH‰L$0L| Aƒû0„_  Aƒû+„U  H‰ï¾    L‰ıèYíşÿH‹L$0€|$@ „a
-  LyÿH…É„RöÿÿH‰L$@è‚êşÿH‹L$@D  C¶t= H‹‹²BˆT= Iƒïséé"öÿÿM‰î¶L$@1ÀE„ÿH‹|$(D‰\$0EÈˆL$@è	ìşÿD‹\$0I‰ÅAƒû-„  …Ûˆ
-  HcÛH9ØH‰ØICÅH‰D$0H‹D$L)àH;D$0†ÂóÿÿH…ítuI9İs/L)ëH‰ÚH\ Aƒû0„·  Aƒû+„­  H‰ï¾    H‰İèqìşÿE„ÿ…ñ  €|$@ „Ñ  I]ÿM…ít!èŸéşÿH‹L$(H‰Æ¶H‹‹ˆD HƒësìLíLd$0é
-óÿÿM‰î1ÿE1Éé_úÿÿM‰îE…Ûu…Ûˆ  Kú1ÀL=¸g  …ÉIÁ‰D$0@ D¶D$@HƒìE‰Ù1ÿ‹„$h  L‰úHÇÆÿÿÿÿPÿt$(‹D$HPH‹L$0D‰\$hD‰D$`è²ñÿÿD‹\$hHƒÄ D‹D$@I‰ÅAƒû-„R	  …ÛˆJ	  HcÓH9ĞI‰ÒLCĞH‹\$L)ãL9Ó†‰òÿÿH…í„’   L9êvQL)êL‰T$XHD D‰\$TH‰D$@D‰D$HAƒû0„
-  Aƒû+„
-  H‰ï¾    è&ëşÿH‹l$@L‹T$XD‹\$TD‹D$HL‰T$@HƒìH‰ïE‰Ù‹„$h  L‰úH‰ŞLíPÿt$(‹D$HPH‹L$0èßğÿÿL‹T$`HƒÄ MÔé²ñÿÿM‰îÇD$0ÿÿÿÿL=nf  éÇşÿÿM‰î1ÿH‹D$‹Hù”øÿÿl  AœÇ=l  ÀƒàÈHcĞÁøHiÒ…ëQHÁú%)ÂƒÂù”øÿÿÀE…Û…Ä
-  ƒ|$$+D‹\$$„¾
-  ÆD$H ¾C   ÇD$0   é)õÿÿM‰î…Û¸	   ‹”$`  A½	   NØë HiÀgfff‰ÑAƒíÁùHÁø")È‰ÂHcÂA9İàHiÈgfff‰ÖÁşHÁù")ñ4‰‰Ñö)ñAƒı„"	  …Ét·McıL‰şE…í„N  HŒ4   A}ÿH´4ÿ   H)şë	€    H˜HiÀgfff‰×HƒéÁÿHÁø")ø<€ÿ)úƒÂ0ˆ‰ÂH9ÎuÕE…Û¸0   DDØH‹D$L)àL9ø†xğÿÿH…ítO€|$@ „F  IWÿH‰T$0M…ÿt3D‰\$@èˆæşÿH‹T$0D‹\$@H¼$   H‰Á¶4H‹‹°ˆD HƒêsìLıMüAƒû-„ğÿÿD)ëHcÓˆğÿÿH‹D$L)àH9ÂƒúïÿÿH…í„W  H…Ò„´ïÿÿH\ IÔAƒû0„¬  Aƒû+„¢  H‰ï¾    H‰İè¤èşÿéƒïÿÿM‰î1ÿH‹D$ÇD$0   ¾M   ‹PéËõÿÿM‰î1ÿ¾c   E1íéÑôÿÿM‰î1ÿH‹D$HcPH‰ĞHiÒ…ëQ‰ÁÁùHÁú%)ÊkÊd‰Â)Êy‰ÑƒÂd÷Ù=“øÿÿNÑ¾y   E…Û…ğòÿÿ‹D$$ƒø+„¾  A‰ÃÆD$H ¾y   E1ÿÇD$0   ¸   éàòÿÿM‰î1ÿ¾x   E1íéGôÿÿM‰î1ÿH‹D$¾Y   ‹Pú”øÿÿAœÇÂl  E…Û….  D‹\$$Aƒû+„  ÆD$H 1ÉÇD$0    ‰Ğ÷ØE„ÿEĞéá÷ÿÿM‰î1ÿ¾X   E1íéÚóÿÿM‰î1ÿH‹t$ÇD$0   ‹F‹vPHcÂ‰ÑHiÀ“$I’ÁùHÁè ĞÁø)ÈÅ    )Á‰È)ĞD0¾W   HcĞHiÒ“$I’HÁê ÂÁøÁú)ÂéZôÿÿM‰î1ÿH‹L$ÇD$0   ¾U   ‹A+AƒÀHcĞHiÒ“$I’HÁê ÂÁøÁú)ÂéôÿÿM‰îÇD$0ÿÿÿÿL=„b  éËúÿÿM‰î1ÿH‹D$ÇD$0   ¾S   ‹éèóÿÿM‰îÇD$0ÿÿÿÿL=;  é–úÿÿM‰î1ÿA½   é°õÿÿM‰î1ÿÇD$0   ‹T$P¾I   é¦óÿÿM‰î1ÿH‹D$ÇD$0   ¾H   ‹Pé‡óÿÿM‰î1ÿH‹D$ÇD$0   ¾w   ‹PéhóÿÿM‰î1ÿH‹D$ÇD$0   ¾u   ‹@PHcÂ‰ÑHiÀ“$I’ÁùHÁè ĞÁø)ÈÅ    )Á)ÊƒÂéóÿÿH‹L$M‰îL)áAƒû-„  …Ûˆ  HcÓA½   H…ÒLEêI9ÍƒµìÿÿH…í„±òÿÿƒû~1HƒêH\ Aƒû0„½  Aƒû+„³  H‰ï¾    H‰İèbåşÿA¶ˆE HƒÅéoòÿÿƒÿE…ûÿÿé”íÿÿ…ÿ„&ùÿÿé‡íÿÿƒÿO…³üÿÿéyíÿÿ…ÿ„VúÿÿélíÿÿƒÿE…áòÿÿé^íÿÿ…ÿ„ôòÿÿéQíÿÿ…ÿ„ôÿÿéDíÿÿƒÿO…gıÿÿé6íÿÿ¾q   ƒÿO„Ùïÿÿé õÿÿƒÿO…ÙüÿÿéíÿÿƒÿE…Süÿÿé¸ïÿÿƒÿE…üùÿÿéªïÿÿƒÿE„¡ïÿÿƒÿO…¸üÿÿéâìÿÿH‹L$L)á…ÿ„ºşÿÿM‰÷¹   éáìÿÿƒÿE…5şÿÿé·ìÿÿƒÿE…üñÿÿé©ìÿÿƒÿE…òÿÿé›ìÿÿƒÿE…!ôÿÿéìÿÿƒÿE…FôÿÿéìÿÿƒÿE…PñÿÿéqìÿÿƒÿE…ƒñÿÿécìÿÿƒÿE…˜üÿÿéUìÿÿƒÿE…FıÿÿéGìÿÿƒÿE…äüÿÿé9ìÿÿƒÿE…Fûÿÿé+ìÿÿƒÿE…aıÿÿéìÿÿƒÿE…nıÿÿéìÿÿM‰õéÙñÿÿIƒÁC¶D Ot <:…ÙñÿÿëçfD  L‰û1ÒéïÿÿfD  H‰Ë1Òé	ìÿÿfD  A¿-   sÿ‰òD)Ò…Ò~f„ÀtbAƒû_„^  H‹D$L)àHƒø†^êÿÿH…ítDˆ} HƒÅIƒÄIcÊAƒû-t:H‰Ë1Ò…öˆvõÿÿ‰óébõÿÿ„     ¸   A»0   éõÿÿ1ÒëšAƒû-…<õÿÿH‰Ë1Òé?õÿÿH‰ÊL‰îH‰ïH‰L$@èÅãşÿH‹L$@éáëÿÿH‰ÊL‰şH‰ïH‰L$@è¨ãşÿH‹L$@éÄëÿÿA‰×é=êÿÿÆD$@é3êÿÿH´$  L‰úH‰ïèyãşÿéªîÿÿLişM…ÿ„îÿÿèÒåşÿH´$  f.„     B¶.H‹‹ŠBˆT- IƒísêékîÿÿM‰ê1Òé¹öÿÿA¿+   é¾şÿÿH‰ï¾0   è#âşÿH‹l$0H‹L$HéğíÿÿH‰ï¾0   L‰ıèâşÿH‹L$0é¦ôÿÿ‰ÙH‹\$)ÑHcÒIÔL)ãH…í„Ÿ   H‰ï¾    H‰T$0L‰T$X‰L$TD‰\$Hè¿áşÿH‹T$0HÕHƒû†Åèÿÿ‹L$TD‹\$HL‹T$XqÿéVşÿÿH‰ï¾0   L‰íè‡áşÿH‹L$0é]êÿÿIƒù…/  E…À…²  …É…TğÿÿD‰øÆD$HD‰ÒÇD$0   ƒğé7ìÿÿ€    Hƒû†NèÿÿqÿIƒÄIcÊéûıÿÿH‰ï¾0   èáşÿH‹l$@D‹D$HD‹\$TL‹T$XéïõÿÿHƒø†èÿÿA½   H…í…µğÿÿé îÿÿHƒø†ñçÿÿA½   H…í…ßíÿÿéâíÿÿL‰l$01ÛéüóÿÿA¿   ¾   éáöÿÿHƒù†·çÿÿA½   H…í…2ûÿÿé¨íÿÿÇD$0   ¸'  Aƒû+…  9Ğs&D‰øÆD$HA»+   ƒğéDëÿÿÇD$0   ¾y   E1ÿ;\$0D‰øA»+   ŸD$HƒğéëÿÿAƒé¸m  AöÁu3AiÑ)\Â¸n  ÂP¸ÁÊú(\wD‰ÈA¸  ™A÷ø÷ÚÀn  DĞA‰ÀE)ğAÀ~  IcĞE‰ÁD)ÀHiÒ“$I’AÁùHÁê DÂA¸ÿÿÿÿÁúD)ÊDÕ    A)ÑBDéêÿÿAƒû+…BõÿÿÇD$0   ¾C   ¸c   éÿÿÿ¸”øÿÿB”l  M‰îD)À9ÁAœÇE…Û…ÔşÿÿD‹\$$Aƒû+„î  9ÁÆD$H M‰îÇD$0   Àé êÿÿHcĞÇD$0   M‰îHiÒ“$I’HÁê ÂÁøÁú)ÂƒÂéVìÿÿH´$À   H|$xD‰\$0èÄÜşÿD‹\$0H…À„Nğÿÿ‹„$„   ‹”$    ‹Œ$à   ‹¼$€   ‰D$0‹„$Ä   …Ò”D$n…É‹´$À   D‹„$Ğ   ‰D$H‹„$ˆ   ”D$oD‹Œ$”   D‹”$Ô   ‰D$T‹„$È   ‰D$X‹„$Œ   ‰D$`‹„$Ì   ‰D$d‹„$   ‰D$h¶D$o8D$nt	Ê‰¬ïÿÿ‹D$hE1Ñ‹T$`1÷3T$dD1ÀD	È	Ğ‹T$T3T$X	Ğ‹T$03T$H	Ğ	ø„SïÿÿérïÿÿH¼$   Iƒÿƒ  AöÇ…À  M…ÿ„Öôÿÿ¶„$   ˆE AöÇ„ÁôÿÿB·„<ş   fB‰D=şé­ôÿÿ@ kÉdD‰øÆD$HAiÒ'  ÇD$0	   ƒğÊ¹   DÂé|èÿÿH‹t$(L‰êH‰ïèlŞşÿéDñÿÿI]ÿM…í„7ñÿÿèÅàşÿH‹L$(H‰Æ¶H‹‹ˆD HƒësìéñÿÿA¶M‰÷éËéÿÿH‰ï¾0   H‰İè(İşÿéğìÿÿAkÒdD‰øÆD$HÇD$0   ƒğÊ1ÉéóçÿÿH¼$€   èöŞşÿD‹\$0H‰ÁévîÿÿH‰ï¾0   H‰İèÙÜşÿéééÿÿH‰ï¾0   H‰İèÄÜşÿéNğÿÿH‰ï¾0   H‰İè¯ÜşÿA¶éH÷ÿÿ¸”øÿÿD)À9ÁN  ÷ÚE…Û…SçÿÿD‹\$$M‰îAƒû+…NçÿÿÇD$0   E1ÿéüÿÿH‹„$   HUHƒâøH‰E J‹„<ø   J‰D=øH‰èH)ĞH)ÇLøHƒàøHƒø‚óÿÿHƒàø1ÉH‹4H‰4
-HƒÁH9ÁrïéóÿÿH‰ï¾0   H‰İèÜşÿéáâÿÿD¶D$@Hƒì1ÿL=¥W  ‹„$h  L‰úA¹+   HÇÆÿÿÿÿPÿt$(jH‹L$0D‰D$`è½áÿÿHƒÄ 1ÒD‹D$@I‰ÅI‰ÂA»+   ÇD$0   éğÿÿÇD$0   ¾Y   ¸'  éûÿÿIÔé^âÿÿE1ÿéõñÿÿD‰øÆD$H ƒğéLæÿÿÇD$0   M‰î¸'  éÙúÿÿèxÚşÿƒÂdE…Û„±şÿÿéÿåÿÿHƒÉÿé»ìÿÿ‹„$   ‰E B‹„<ü   B‰D=üéòÿÿfóúHƒì@¶ÿè/Sÿÿ„Àt&H‹<±  H‹:H‹W(H;W0sHJH‰O(ˆHƒm´  HƒÄÃ¶ğèhÚşÿëéfD  óúATI‰ôSH‰ûHì¨  dH‹%(   H‰„$˜  1À€=:´   t¿   èFRÿÿ„À…v  €=(´   …¹   €=´   t8€»¸    H»,  …|  1Òƒ=÷³  t‹‡³  H5¯,  ¿   1ÀèÜşÿ€=É³   t+1Òƒ=Ê³  H‹‹°   t‹O³  H5{,  ¿   1ÀèÜÛşÿL‰á1Ò1öH‰ßè’ÿÿ‹‹³  …À…·   H‹„$˜  dH+%(   …%  HÄ¨  [A\ÃD  €»¸    L,  tPH‹K H…ÉtGÆD$ LD$H¿ÍÌÌÌÌÌÌÌ H‰ÈIƒèH÷çH‰ÈHÁêH4’HöH)ğƒÀ0Aˆ H‰ÈH‰ÑHƒø	wÓ 1Òƒ=û²  t‹²  L‰ÁH5°+  ¿   1ÀèÛşÿé»şÿÿ@ ‹“¨   ‹s0¶»¸   èşÿÿé/ÿÿÿfD  H=a°  è<RÿÿH=•°  è0RÿÿH=Y°  è$Rÿÿéaşÿÿ€    ‹*²  H‹{X¹   H‰æL‹²  èz\ÿÿ1Òƒ=]²  H‰Á…_şÿÿé`şÿÿèÎ×şÿf.„     @ óúH‹-¯  1öéşÚşÿf.„     @ óúH‹Ÿ  Hƒøÿt/UH‰åSHó  Hƒì€    ÿĞH‹CøHƒëHƒøÿuğH‹]øÉÃfÃ   óúHƒìèúşÿHƒÄÃ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        €íşÿ€íşÿ€íşÿ€íşÿ€íşÿ€íşÿ€íşÿ€íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ*íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿÇíşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿkîşÿ0íşÿ¢îşÿ¬îşÿ0íşÿ0íşÿDîşÿQîşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ0íşÿ^îşÿ0íşÿ0íşÿ0íşÿxîşÿ0íşÿ*îşÿ0íşÿ7îşÿ0íşÿÇíşÿ{<ÿÿ	=ÿÿ;=ÿÿu=ÿÿ·=ÿÿ>ÿÿ7>ÿÿ›>ÿÿú;ÿÿ¤<ÿÿ„˜ÿÿ4™ÿÿœ™ÿÿl—ÿÿl˜ÿÿêÙşÿÓåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÎÙşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿ¿Ùşÿ¢Ùşÿ“Ùşÿ‡ÙşÿÉåşÿxÙşÿZÚşÿKÚşÿ7ÚşÿÉåşÿÉåşÿ(ÚşÿÉåşÿuÚşÿÉåşÿÉåşÿfÚşÿ„ÚşÿdÙşÿíØşÿÙØşÿÉåşÿÉåşÿÅØşÿÉåşÿ¹ØşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿªØşÿ›ØşÿŒØşÿ€ØşÿÉåşÿ@Øşÿ*Øşÿû×şÿï×şÿÉåşÿUŞşÿÂÎşÿà×şÿ»ÎşÿÊ×şÿ»×şÿ¯×şÿ£×şÿ—×şÿƒ×şÿt×şÿ`×şÿ	×şÿúÖşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿÉåşÿîÖşÿ¸Öşÿ\ÖşÿMÖşÿ>ÖşÿşÕşÿãÕşÿ×Õşÿ©Õşÿ@Õşÿ ÕşÿÀÔşÿ´Ôşÿ…Ôşÿ@Ôşÿ ÔşÿìÓşÿ°              Copyright %s %d Free Software Foundation, Inc.   KMGTPEZY             €?ÍÌL?ôı´?                            
-         	         ?pcdb-lswd      sort_files                                                                                                   posix-                                      	                                                                                                                      ÿÿÿÿ                                        # Configuration file for dircolors, a utility to help you set the # LS_COLORS environment variable used by GNU ls with the --color option. # Copyright (C) 1996-2020 Free Software Foundation, Inc. # Copying and distribution of this file, with or without modification, # are permitted provided the copyright notice and this notice are preserved. # The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the # slackware version of dircolors) are recognized but ignored. # Below are TERM entries, which can be a glob patterns, to match # against the TERM environment variable to determine if it is colorizable. TERM Eterm TERM ansi TERM *color* TERM con[0-9]*x[0-9]* TERM cons25 TERM console TERM cygwin TERM dtterm TERM gnome TERM hurd TERM jfbterm TERM konsole TERM kterm TERM linux TERM linux-c TERM mlterm TERM putty TERM rxvt* TERM screen* TERM st TERM terminator TERM tmux* TERM vt100 TERM xterm* # Below are the color init strings for the basic file types. # One can use codes for 256 or more colors supported by modern terminals. # The default color codes use the capabilities of an 8 color terminal # with some additional attributes as per the following codes: # Attribute codes: # 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed # Text color codes: # 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white # Background color codes: # 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white #NORMAL 00 # no color code at all #FILE 00 # regular file: use no color at all RESET 0 # reset to "normal" color DIR 01;34 # directory LINK 01;36 # symbolic link. (If you set this to 'target' instead of a  # numerical value, the color is as for the file pointed to.) MULTIHARDLINK 00 # regular file with more than one link FIFO 40;33 # pipe SOCK 01;35 # socket DOOR 01;35 # door BLK 40;33;01 # block device driver CHR 40;33;01 # character device driver ORPHAN 40;31;01 # symlink to nonexistent file, or non-stat'able file ... MISSING 00 # ... and the files they point to SETUID 37;41 # file that is setuid (u+s) SETGID 30;43 # file that is setgid (g+s) CAPABILITY 30;41 # file with capability STICKY_OTHER_WRITABLE 30;42 # dir that is sticky and other-writable (+t,o+w) OTHER_WRITABLE 34;42 # dir that is other-writable (o+w) and not sticky STICKY 37;44 # dir with the sticky bit set (+t) and not other-writable # This is for files with execute permission: EXEC 01;32 # List any file extensions like '.gz' or '.tar' that you would like ls # to colorize below. Put the extension, a space, and the color init string. # (and any comments you want to add after a '#') # If you use DOS-style suffixes, you may want to uncomment the following: #.cmd 01;32 # executables (bright green) #.exe 01;32 #.com 01;32 #.btm 01;32 #.bat 01;32 # Or if you want to colorize scripts even if they do not have the # executable bit actually set. #.sh 01;32 #.csh 01;32  # archives or compressed (bright red) .tar 01;31 .tgz 01;31 .arc 01;31 .arj 01;31 .taz 01;31 .lha 01;31 .lz4 01;31 .lzh 01;31 .lzma 01;31 .tlz 01;31 .txz 01;31 .tzo 01;31 .t7z 01;31 .zip 01;31 .z 01;31 .dz 01;31 .gz 01;31 .lrz 01;31 .lz 01;31 .lzo 01;31 .xz 01;31 .zst 01;31 .tzst 01;31 .bz2 01;31 .bz 01;31 .tbz 01;31 .tbz2 01;31 .tz 01;31 .deb 01;31 .rpm 01;31 .jar 01;31 .war 01;31 .ear 01;31 .sar 01;31 .rar 01;31 .alz 01;31 .ace 01;31 .zoo 01;31 .cpio 01;31 .7z 01;31 .rz 01;31 .cab 01;31 .wim 01;31 .swm 01;31 .dwm 01;31 .esd 01;31 # image formats .jpg 01;35 .jpeg 01;35 .mjpg 01;35 .mjpeg 01;35 .gif 01;35 .bmp 01;35 .pbm 01;35 .pgm 01;35 .ppm 01;35 .tga 01;35 .xbm 01;35 .xpm 01;35 .tif 01;35 .tiff 01;35 .png 01;35 .svg 01;35 .svgz 01;35 .mng 01;35 .pcx 01;35 .mov 01;35 .mpg 01;35 .mpeg 01;35 .m2v 01;35 .mkv 01;35 .webm 01;35 .webp 01;35 .ogm 01;35 .mp4 01;35 .m4v 01;35 .mp4v 01;35 .vob 01;35 .qt 01;35 .nuv 01;35 .wmv 01;35 .asf 01;35 .rm 01;35 .rmvb 01;35 .flc 01;35 .avi 01;35 .fli 01;35 .flv 01;35 .gl 01;35 .dl 01;35 .xcf 01;35 .xwd 01;35 .yuv 01;35 .cgm 01;35 .emf 01;35 # https://wiki.xiph.org/MIME_Types_and_File_Extensions .ogv 01;35 .ogx 01;35 # audio formats .aac 00;36 .au 00;36 .flac 00;36 .m4a 00;36 .mid 00;36 .midi 00;36 .mka 00;36 .mp3 00;36 .mpc 00;36 .ogg 00;36 .ra 00;36 .wav 00;36 # https://wiki.xiph.org/MIME_Types_and_File_Extensions .oga 00;36 .opus 00;36 .spx 00;36 .xspf 00;36 dev_ino_pop main                                                                    @   €           %lu %.*s%s%s test invocation Multi-call invocation sha224sum sha2 utilities sha256sum sha384sum sha512sum 
-%s online help: <%s>
- GNU coreutils en_ Full documentation <%s%s>
- memory exhausted BLOCKSIZE POSIXLY_CORRECT eEgGkKmMpPtTyYzZ0 invalid argument %s for %s ambiguous argument %s for %s Valid arguments are: 
-  - %s , %s unlabeled %*lu  write error Written by %s.
- Written by %s and %s.
- Written by %s, %s, and %s.
- %s (%s) %s
- (C) POSIX . %.0Lf %.1Lf â€™ ¡¯ " ¡e â€˜ GB18030 src/ls.c sort_type != sort_version %%%02x error canonicalizing %s cannot access %s system.posix_acl_access system.posix_acl_default cannot read symbolic link %s ]8;;file://%s%s%s ]8;; TZ ? %s %*s     %*s, %*s   ->  cannot open directory %s reading directory %s closing directory %s total invalid %s%s argument '%s' %s%s argument '%s' too large -- full-iso lc /.libs/ lt- /usr/share/locale QUOTING_STYLE COLUMNS TABSIZE invalid line width %s: %s .*~ invalid tab size --sort --time --format --color --hyperlink --indicator-style --quoting-style David MacKenzie Richard M. Stallman 8.32 LS_BLOCK_SIZE *=>@| TIME_STYLE invalid time style format %s time style Valid arguments are:
-   - [posix-]%s
- %Y-%m-%d %H:%M:%S.%N %z %Y-%m-%d %H:%M %Y-%m-%d  LS_COLORS COLORTERM TERM  unrecognized prefix: %s target found //DIRED// //SUBDIRED// human-readable si long-iso none slash file-type classify yes force never no auto if-tty verbose long commas horizontal across vertical single-column atime use ctime status birth creation extension directory dired full-time group-directories-first inode kibibytes numeric-uid-gid no-group hide-control-chars reverse almost-all ignore-backups dereference-command-line hide ignore dereference literal quote-name recursive show-control-chars tabsize time-style block-size context author help rc ec fi di ln pi bd cd mi ex do su sg ow tw ca mh cl shell shell-always shell-escape shell-escape-always c-maybe clocale [ 01;34 01;36 01;35 01;33 01;32 37;41 30;43 37;44 34;42 30;42 30;41 [K %b %e  %Y %b %e %H:%M      Try '%s --help' for more information.
-  Usage: %s [OPTION]... [FILE]...
-        List information about the FILEs (the current directory by default).
-Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
- 
-Mandatory arguments to long options are mandatory for short options too.
-        -a, --all                  do not ignore entries starting with .
-  -A, --almost-all           do not list implied . and ..
-      --author               with -l, print the author of each file
-  -b, --escape               print C-style escapes for nongraphic characters
-        --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
-                               e.g., '--block-size=M'; see SIZE format below
-       -B, --ignore-backups       do not list implied entries ending with ~
-  -c                         with -lt: sort by, and show, ctime (time of last
-                               modification of file status information);
-                               with -l: show ctime and sort by name;
-                               otherwise: sort by ctime, newest first
-         -C                         list entries by columns
-      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
-                               if omitted), 'auto', or 'never'; more info below
-  -d, --directory            list directories themselves, not their contents
-  -D, --dired                generate output designed for Emacs' dired mode
-    -f                         do not sort, enable -aU, disable -ls --color
-  -F, --classify             append indicator (one of */=>@|) to entries
-      --file-type            likewise, except do not append '*'
-      --format=WORD          across -x, commas -m, horizontal -x, long -l,
-                               single-column -1, verbose -l, vertical -C
-      --full-time            like -l --time-style=full-iso
-        -g                         like -l, but do not list owner
-          --group-directories-first
-                             group directories before files;
-                               can be augmented with a --sort option, but any
-                               use of --sort=none (-U) disables grouping
-      -G, --no-group             in a long listing, don't print group names
-          -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
-      --si                   likewise, but use powers of 1000 not 1024
-     -H, --dereference-command-line
-                             follow symbolic links listed on the command line
-      --dereference-command-line-symlink-to-dir
-                             follow each command line symbolic link
-                               that points to a directory
-      --hide=PATTERN         do not list implied entries matching shell PATTERN
-                               (overridden by -a or -A)
-         --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
-                               (default if omitted), 'auto', or 'never'
-              --indicator-style=WORD  append indicator with style WORD to entry names:
-                               none (default), slash (-p),
-                               file-type (--file-type), classify (-F)
-  -i, --inode                print the index number of each file
-  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
-         -k, --kibibytes            default to 1024-byte blocks for disk usage;
-                               used only with -s and per directory totals
-       -l                         use a long listing format
-  -L, --dereference          when showing file information for a symbolic
-                               link, show information for the file the link
-                               references rather than for the link itself
-  -m                         fill width with a comma separated list of entries
-    -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
-  -N, --literal              print entry names without quoting
-  -o                         like -l, but do not list group information
-  -p, --indicator-style=slash
-                             append / indicator to directories
-    -q, --hide-control-chars   print ? instead of nongraphic characters
-      --show-control-chars   show nongraphic characters as-is (the default,
-                               unless program is 'ls' and output is a terminal)
-  -Q, --quote-name           enclose entry names in double quotes
-      --quoting-style=WORD   use quoting style WORD for entry names:
-                               literal, locale, shell, shell-always,
-                               shell-escape, shell-escape-always, c, escape
-                               (overrides QUOTING_STYLE environment variable)
-          -r, --reverse              reverse order while sorting
-  -R, --recursive            list subdirectories recursively
-  -s, --size                 print the allocated size of each file, in blocks
-      -S                         sort by file size, largest first
-      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
-                               time (-t), version (-v), extension (-X)
-      --time=WORD            change the default of using modification times;
-                               access time (-u): atime, access, use;
-                               change time (-c): ctime, status;
-                               birth time: birth, creation;
-                             with -l, WORD determines which time to show;
-                             with --sort=time, sort by WORD (newest first)
-             --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
-    -t                         sort by time, newest first; see --time
-  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
-      -u                         with -lt: sort by, and show, access time;
-                               with -l: show access time and sort by name;
-                               otherwise: sort by access time, newest first
-  -U                         do not sort; list entries in directory order
-  -v                         natural sort of (version) numbers within text
-       -w, --width=COLS           set output width to COLS.  0 means no limit
-  -x                         list entries by lines instead of by columns
-  -X                         sort alphabetically by entry extension
-  -Z, --context              print any security context of each file
-  -1                         list one file per line.  Avoid '\n' with -q or -b
-            --help     display this help and exit
-          --version  output version information and exit
-   
-The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
-Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
-Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
-     
-The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
-FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
-then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
-TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
-Also the TIME_STYLE environment variable sets the default style to use.
- 
-Using color to distinguish file types is disabled both by default and
-with --color=never.  With --color=auto, ls emits color codes only when
-standard output is connected to a terminal.  The LS_COLORS environment
-variable can change the settings.  Use the dircolors command to set it.
-   
-Exit status:
- 0  if OK,
- 1  if minor problems (e.g., cannot access subdirectory),
- 2  if serious trouble (e.g., cannot access command-line argument).
- https://www.gnu.org/software/coreutils/ Report any translation bugs to <https://translationproject.org/team/>
-  or available locally via: info '(coreutils) %s%s'
-      Written by %s, %s, %s,
-and %s.
- Written by %s, %s, %s,
-%s, and %s.
-     Written by %s, %s, %s,
-%s, %s, and %s.
- Written by %s, %s, %s,
-%s, %s, %s, and %s.
-     Written by %s, %s, %s,
-%s, %s, %s, %s,
-and %s.
- Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, and %s.
-     License GPLv3+: GNU GPL version 3 or later <%s>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-      https://gnu.org/licenses/gpl.html       Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, %s, and others.
-     cannot determine device and inode of %s %s: not listing already-listed directory        invalid suffix in %s%s argument '%s'    A NULL argv[0] was passed through an exec system call.
- ignoring invalid value of environment variable QUOTING_STYLE: %s        ignoring invalid width in environment variable COLUMNS: %s      ignoring invalid tab size in environment variable TABSIZE: %s   abcdfghiklmnopqrstuvw:xABCDFGHI:LNQRST:UXZ1       - +FORMAT (e.g., +%H:%M) for a 'date'-style format
-   unparsable value for LS_COLORS environment variable     dev_ino_size <= obstack_object_size (&dev_ino_obstack)  //DIRED-OPTIONS// --quoting-style=%s
-   hash_get_n_entries (active_dir_set) == 0        dereference-command-line-symlink-to-dir ÍÌÌ=fff?ÍÌŒ?  €?  €_   _   A            ÿÿÿÿÿÿÿÿ>@      ` %m/%d/%y %Y-%m-%d %H:%M:%S    boÿÿ,oÿÿ<~ÿÿÓnÿÿ$oÿÿxnÿÿ5oÿÿ oÿÿ©jÿÿ©jÿÿ©jÿÿÒpÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿ½pÿÿ†pÿÿOqÿÿ±pÿÿ{qÿÿlpÿÿÀoÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿŸmÿÿ‡qÿÿImÿÿImÿÿ/qÿÿImÿÿ|lÿÿImÿÿ¥oÿÿImÿÿImÿÿImÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿ|lÿÿImÿÿImÿÿImÿÿImÿÿZoÿÿqÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿXqÿÿôpÿÿÑpÿÿLqÿÿ'qÿÿÅpÿÿ@qÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿŸlÿÿ6qÿÿIlÿÿIlÿÿ/pÿÿIlÿÿmÿÿIlÿÿ¥nÿÿIlÿÿIlÿÿIlÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿmÿÿIlÿÿIlÿÿIlÿÿIlÿÿZnÿÿÄnÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿ½nÿÿ†nÿÿLoÿÿ±nÿÿ{oÿÿlnÿÿÀmÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿœkÿÿktÿÿTtÿÿTtÿÿ^tÿÿTtÿÿDtÿÿTtÿÿ¢mÿÿTtÿÿTtÿÿTtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿDtÿÿTtÿÿTtÿÿTtÿÿTtÿÿWmÿÿú„ÿÿÏƒÿÿÏƒÿÿ'…ÿÿÏƒÿÿÌ„ÿÿÏƒÿÿÏƒÿÿÏƒÿÿ¬„ÿÿÏƒÿÿ”„ÿÿÏƒÿÿÏƒÿÿ…ÿÿÏƒÿÿÏƒÿÿÏƒÿÿQ„ÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿ½…ÿÿf…ÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿM…ÿÿ…ÿÿÏƒÿÿÏƒÿÿÏƒÿÿÌ„ÿÿÏƒÿÿÏƒÿÿÏƒÿÿ¬„ÿÿÏƒÿÿ”„ÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿÏƒÿÿQ„ÿÿÏƒÿÿÏƒÿÿ…ÿÿu…ÿÿ÷‚ÿÿ5…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ%…ÿÿ÷‚ÿÿE…ÿÿ÷‚ÿÿ÷‚ÿÿU…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿe…ÿÿ›…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ…ÿÿ……ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ5…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ%…ÿÿ÷‚ÿÿE…ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ÷‚ÿÿ…ÿÿö‹ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ™™ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿŒÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿWÿÿ5ÿÿµ”ÿÿ”ÿÿ¯‡ÿÿS“ÿÿÔˆÿÿ™ÿÿö˜ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿÍ–ÿÿ-•ÿÿ¯‡ÿÿæ˜ÿÿ¯‡ÿÿÏ˜ÿÿ±˜ÿÿš˜ÿÿ]˜ÿÿÔˆÿÿõ—ÿÿã—ÿÿˆ—ÿÿ`’ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿ¯‡ÿÿÿÿ®‹ÿÿì–ÿÿÿÿÿÿ¯‡ÿÿÔˆÿÿ®‹ÿÿ¯‡ÿÿÒŒÿÿ‘ŒÿÿyÿÿFÿÿÈÿÿ¯‡ÿÿÿÿ–ÿÿŒÿÿ!ÿÿŒÿÿO™ÿÿ¯‡ÿÿ0™ÿÿv—ÿÿş–ÿÿF“ÿÿŠÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿî˜ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÁ™ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿr˜ÿÿd˜ÿÿÉ˜ÿÿW˜ÿÿÀ…ÿÿ<˜ÿÿ±‰ÿÿ³™ÿÿ¥™ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿ—™ÿÿ.˜ÿÿÀ…ÿÿÿ–ÿÿÀ…ÿÿæ–ÿÿ{™ÿÿ±–ÿÿ‰™ÿÿ±‰ÿÿm™ÿÿŒ˜ÿÿ×˜ÿÿwÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿÀ…ÿÿ˜ÿÿÇ‰ÿÿI˜ÿÿ'™ÿÿ™ÿÿÀ…ÿÿ±‰ÿÿÇ‰ÿÿÀ…ÿÿ_™ÿÿQ™ÿÿC™ÿÿ5™ÿÿßŒÿÿÀ…ÿÿ·Œÿÿš˜ÿÿà‰ÿÿ8ÿÿ+Šÿÿh—ÿÿÀ…ÿÿ™ÿÿ­˜ÿÿ»˜ÿÿ_‘ÿÿ;h  ¬   drşÿœ  ´xşÿÄ  äxşÿÜ  $şÿä  *şÿ\  /şÿà  4şÿ”  9şÿ  >şÿÈ  Cşÿ!  HşÿP#  MşÿX$  TşÿX"  äœşÿ„  $şÿô  4şÿ  Tşÿ  tşÿ0  ”şÿD  ¤şÿX  ¡şÿ  Ä¡şÿ¤  ä¡şÿ¸  ô¡şÿÌ  T¢şÿà  t¢şÿü  d£şÿ  ¤şÿ@  ä¤şÿ„  Ä¥şÿĞ  ´¦şÿø  Ä§şÿ|  4©şÿ 	  Ôªşÿ,	  4±şÿ¤	  ³şÿğ	  ´³şÿ
-  ô³şÿ
-  4´şÿ,
-  ä´şÿ@
-  ô´şÿT
-  µşÿh
-  Äµşÿ|
-  t¶şÿ
-  TºşÿÔ
-  dºşÿè
-  „ºşÿü
-  4»şÿ  ä»şÿ$  $¼şÿ<  ä¼şÿP  D½şÿd  ¤½şÿx  d¾şÿŒ  ¿şÿ   d¿şÿ´  ´¿şÿÈ  dÀşÿÜ  Áşÿğ  ÄÁşÿ  Âşÿ  dÂşÿ,  Ãşÿ@  dÃşÿT  ´Ãşÿh  dÄşÿ|  4Ëşÿ°  „ËşÿÌ  Ìşÿè  äÍşÿ  Îşÿ0  $Ïşÿ  ¤ÏşÿÈ  $Ğşÿ   DÑşÿ`  4Òşÿ”  ”Óşÿà  dÔşÿ  ´Ôşÿ,  ¤ÕşÿX  $Öşÿ„  ÔÖşÿÌ  T×şÿø  Ô×şÿ$  ´ØşÿP  ”Ùşÿ|  Úşÿ¨  tÚşÿÔ  äÚşÿ   TÛşÿ,  $ÜşÿX  ôÜşÿ„  dİşÿ°  ÔİşÿÜ  ¤Şşÿ  ´Şşÿ  „ßşÿH  ”ßşÿ\  ôßşÿˆ  Tàşÿ´  áşÿà  Ôáşÿ  âşÿ4  4âşÿ\  ôâşÿˆ  ´ãşÿ´  Däşÿ   ÔäşÿL  äåşÿ¬  ôæşÿ  ´çşÿ<  Tèşÿp  ëşÿØ  ´ëşÿ  íşÿ`  ”íşÿ€  Tóşÿ(  Äóşÿ<  ÔôşÿP  tõşÿl  töşÿ°  $øşÿ   ôøşÿ,  „ùşÿ@  ÄúşÿT  Düşÿ°  4ışÿÜ  Tÿşÿ4  4ÿÿ¸  4ÿÿì  ÿÿP  ÿÿ”  Dÿÿ°  dÿÿÌ  Äÿÿô  ôÿÿ  ôÿÿX  Äÿÿ¤  ôÿÿğ  ”ÿÿ  4ÿÿH  Ôÿÿt  ÿÿ   ”ÿÿÜ  Dÿÿ(  ´.ÿÿX  Ô.ÿÿl  ô.ÿÿ€  $0ÿÿÀ  D4ÿÿ  9ÿÿ|  T9ÿÿ  ä9ÿÿä  :ÿÿø  t;ÿÿ\  t<ÿÿÌ  =ÿÿ   ´=ÿÿd   ÔJÿÿ$!  ôNÿÿ¬!  „Vÿÿ´"  TWÿÿ #  T^ÿÿp#  t`ÿÿ¼#  daÿÿ$  vÿÿx$  4{ÿÿè$  ä|ÿÿL%  ”ÿÿ˜%  „ ÿÿ(&  Ô ÿÿD&  £ÿÿt&         zR x        X—şÿ&    D    $   4   ÀlşÿP   FJw€ ?:*3$"       \   èrşÿ0              t    sşÿ@             Œ   (˜şÿ              $˜şÿ          ´   0˜şÿ          È   <˜şÿ          Ü   H˜şÿ	       4   ğ   D˜şÿf   BJŒD †D(ƒ‹
- KBBB      (  |šşÿ§          <  ›şÿ          P  $›şÿ          d   ›şÿR          x  l›şÿ    E†O      ”  p›şÿë       ,   ¨  Lœşÿ˜    BŒA†A ƒm
-ABD   @   Ø  ¼œşÿÑ    KBŒD †A(ƒG0…
-(A ABBDhÃÆÌÍ  H     XşÿÙ    BBŒA †A(ƒD0®
-(A ABBAJ(F ABB     h  ìşÿì          |  8wşÿ    A`     ´şÿ   BEE ŒD(†D0ƒi
-(E BBBHb
-(A BBBGd
-(E BBBA      ô  Ævşÿ    0ƒ†Œ   `     @Ÿşÿk   BBE B(ŒD0†D8ƒD@
-8F0A(B BBBK^8C0A(B BBB      x  Gvşÿ    @ƒ†Œ (   ˜  , şÿš   A†DƒN°}
-AAF t   Ä   ¡şÿ]   BDB B(ŒA0†A8ƒGĞÓ
-8A0A(B BBBA¶ØMàQèGğIĞy8A0A(B BBBH   <  ˆ§şÿÁ   BBB B(ŒA0†A8ƒGà|
-8A0A(B BBBI   ˆ  ©şÿ¡          œ  ¨©şÿ6          °  Ô©şÿ6          Ä   ªşÿ£          Ø  œªşÿ          ì  ˜ªşÿ             ¤ªşÿ¥            @«şÿ§       @   (  Ü«şÿ×   BBB ŒA(†D0ƒGPh
-0D(A BBBK    l  x¯şÿ          €  t¯şÿ          ”  €¯şÿ¥          ¨  °şÿ§          ¼  ¸°şÿ;    fT    Ô  à°şÿ¹          è  Œ±şÿV          ü  Ø±şÿV            $²şÿ¹          $  Ğ²şÿ­          8  l³şÿF          L  ¨³şÿF          `  ä³şÿ­          t  €´şÿ­          ˆ  µşÿ­          œ  ¸µşÿF          °  ôµşÿF          Ä  0¶şÿ­          Ø  Ì¶şÿF          ì  ·şÿF             D·şÿ­       0     à·şÿÁ   BGB B(ŒA0†C8ƒGÀ    H  |¾şÿH    EAR     d  °¾şÿw    D N
-F 0   €  ¿şÿŞ   BŒA†A ƒG0w
- AABJ    ´  ÀÀşÿ       \   È  ÌÀşÿ   FBŒA †A(ƒG0E
-(A ABBDZ
-(F ABBKg
-(G ABBM4   (  ŒÁşÿ|    FJŒA †B
-BBIMHB  4   `  ÔÁşÿ|    FEŒA †G
-BBIMHB  \   ˜  Âşÿ   FBŒA †A(ƒG0E
-(A ABBDZ
-(F ABBKg
-(G ABBM0   ø  ÜÂşÿë    BBŒD †G`©
- IDDG H   ,	  ˜ÃşÿZ   BBH E(ŒD0†G8ƒJPN
-8A0A(B BBBB  0   x	  ¬ÄşÿË    BBŒG ƒH`‘
- ABBG    ¬	  HÅşÿF    FŒ  (   Ä	  €Åşÿå    JŒA†A ƒXAT  (   ğ	  DÆşÿs    BŒA†A ƒP
-ABID   
-  ˜Æşÿ¨    BBŒA †D(ƒD@AHHPNHA@c
-(A ABBB (   d
-   Çşÿv    jŒA†D UGÆBÌ   (   
-  TÇşÿv    jŒA†D UGÆBÌ   (   ¼
-  ¨ÇşÿØ    °ŒA†D UGÆBÌ  (   è
-  \ÈşÿØ    °ŒA†D UGÆBÌ  (     Éşÿf    ^ŒA†D UGÆBÌ   (   @  TÉşÿf    ^ŒA†D UGÆBÌ   (   l  ˜Éşÿf    ^ŒA†D UGÆBÌ   (   ˜  ÜÉşÿf    ^ŒA†D UGÆBÌ   (   Ä   ÊşÿÌ    ¤ŒA†D UGÆBÌ  (   ğ  ÄÊşÿÌ    ¤ŒA†D UGÆBÌ  (     hËşÿf    ^ŒA†D UGÆBÌ   (   H  ¬Ëşÿf    ^ŒA†D UGÆBÌ   (   t  ğËşÿÌ    ¤ŒA†D UGÆBÌ        ”Ìşÿ	       (   ´  ÌşÿÌ    ¤ŒA†D UGÆBÌ     à  4Íşÿ	       (   ô  0ÍşÿV    RŒA†D UGÆBÌ   (      dÍşÿV    RŒA†D UGÆBÌ   (   L  ˜ÍşÿÀ    ˜ŒA†D UGÆBÌ  (   x  ,ÎşÿÀ    ˜ŒA†D UGÆBÌ  $   ¤  ÀÎşÿ.    FŒA†D UGB $   Ì  ÈÎşÿ.    FŒA†D UGB (   ô  ĞÎşÿ´    ŒŒA†D UGÆBÌ  (      dÏşÿ´    ŒŒA†D UGÆBÌ  H   L  øÏşÿŒ    FBB ŒI(†D0U
-(G BBBGD(A BBB  H   ˜  <ĞşÿŒ    FBB ŒD(†D0Z
-(G BBBGD(A BBB  \   ä  €Ğşÿ   FBB ŒA(†A0ƒE
-(A BBBHW
-(F BBBEt(D EBB \   D  0Ñşÿ   FBB ŒA(†A0ƒE
-(A BBBHW
-(F BBBEt(D EBB ,   ¤  àÑşÿ»    BŒA†A ƒr
-AGR   0   Ô  pÒşÿš    A†AƒG˜ L˜@IĞ@t
-AAAd     ÜÒşÿ¸   BEE B(ŒA0†D8ƒGpÌ
-8D0A(N BBBI
-8A0A(B BBBB   4   p  4Õşÿš    BŒA†A ƒa
-ABHfAB  L   ¨  œÕşÿ`   BBB ŒA(†D0ƒk
-(A BBBC{
-(A EEBH    ø  ¬Öşÿy    MŒ`
-A   ¤     ×şÿ¾   BHB B(ŒA0†D8ƒG˜Q J¨I°E¸BÀI^
-8A0A(B BBBA`
-˜E×˜E Y˜As
-˜Ev˜Y E¨B°IN
-˜B      À  $Üşÿi          Ô  €Üşÿ         è  |İşÿ™    LƒY
-K@      Şşÿ    BBI ŒE(†H0ƒGÀÑ
-0A(A BBBAL   H  ¼Şşÿ¦   FBB B(ŒA0†D8ƒLà)
-8D0A(B BBBE   (   ˜  àşÿÂ    FŒC†G°Q
-DBI   Ä  Ààşÿ†          Ø  <áşÿ?      <   ì  hâşÿt   BBŒA †G(ƒD
-(D ABBE      ,  ˜fşÿ    ƒ†Œ(   H  Œãşÿæ    FŒD†A ƒĞDB  8   t  Päşÿ   FBŒA †A(ƒD@R
-(A ABBJ    °  fşÿ    @ƒ†Œ €   Ì  æşÿÒ   FBB E(ŒD0†A8ƒJĞ`àsØAĞs
-8D0A(B BBBF ànØAĞ%àwØAĞ[àoØBĞ   0   P  tñşÿú   BŒA†D ƒGÀÁ
- DABJ`   „  @óşÿØ   BBB B(ŒA0†A8ƒDP
-8A0A(B BBBIT8F0A(B BBB   @   è  ¼ôşÿî    E†CƒL \
-AAAh
-AACKAA      ,  hõşÿ;    EAR     H  Œõşÿ    AƒS
-A$   d  õşÿQ    A†AƒD HAA   Œ  Èõşÿ/    Aƒh
-AD   ¨  Üõşÿñ   BŒA†A ƒ
-ABBn
-ABGa
-ABA H   ğ  ”÷şÿÏ    BBB B(ŒD0†A8ƒG@š
-8D0A(B BBBE H   <  øşÿ*   BBB B(ŒA0†C8ƒDP
-8D0A(B BBBA(   ˆ  üúşÿŸ    BŒA†C ƒl
-ABK(   ´  pûşÿ–    A†AƒF@V
-AAH (   à  äûşÿŸ    BŒA†C ƒl
-ABK(     Xüşÿ>    FŒA†G Z
-JBE  8   8  lüşÿr    BEŒD †I(ƒD0N
-(A ABBA H   t  °üşÿ¨   BBB B(ŒA0†E8ƒG`v
-8A0A(B BBBK,   À   ÿÿd   A†CBEGŒKƒ
-A   ğ  Tÿÿ            `ÿÿ       <     lÿÿ(   FDB ŒA(†A0ƒÏ
-(A BBBD   T   X  \ÿÿ   BBB B(ŒA0†A8ƒG¸ L¸@IAS
-8A0A(B BBBE   `   °  $ÿÿÌ   FBB E(ŒD0†A8ƒGPaXC`kXAPD
-8D0A(B BBBD°XC`qXAP      ÿÿ7       4   (  ¼ÿÿ…    FŒD†A ƒZ
-ABHQAB     `  n`şÿ     ƒ†Œ      |  øÿÿ&       `     ÿÿW   FBB B(ŒA0†A8ƒD@›
-8A0A(B BBBIT
-8F0A(B BBBE l   ô  ÿÿú    FIŒA †A(ƒJ0~
-(D ABBFZ
-(D ABBEP
-(D ABBG@(A DBB  8   d   ÿÿ    FBŒA †A(ƒG0G
-(D ABBG X      ôÿÿ¦    BEB ŒA(†G0~
-(D BBBGR
-(C BBBET(G BBB œ   ü  Hÿÿ   BBB B(ŒA0†A8ƒG¸ Lğ&ƒø&Q€'mø&Fğ&§
-8A0A(B BBBKÃø&G€'eø&Ağ&éø&H€'Fˆ'E'Nğ&æø&L€'Hˆ'B'Iğ&   œ  7^şÿ    ğ&ƒ†Œ„   ¼  ¨)ÿÿ   OIB B(ŒA0†A8ƒD`
-8AÃ0AÆ(BÌ BÍBÎBÏE
-8A0A(B BBBD8FÃ0AÆ(BÌ BÍBÎBÏ¨   D  @-ÿÿ…   BBE E(ŒA0†A8ƒGĞJØJàrØAĞ
-8D0A(B BBBOb
-8A0A(B BBBD>
-8A0A(B BBBE¿
-8D0A(B BBBEX   ğ  ô\şÿ   FBB B(ŒA0†A8ƒD°l
-8A0A(B BBBAÂ
-¸WÀf  H   L  È3ÿÿÍ    FJE E(ŒA0†D8ƒD@Œ
-8D0A(B BBBD L   ˜  L4ÿÿû   FBB B(ŒA0†A8ƒGÀÁ
-8D0A(B BBBE      è  ğ[şÿ    Àƒ†ŒH     Ü:ÿÿ    FEB B(ŒA0†A8ƒHp]
-8D0A(B BBBEH   T  °<ÿÿæ    FBB B(ŒD0†D8ƒDP¬
-8D0A(B BBBG L      T=ÿÿœ   FEI E(ŒD0†A8ƒG€¶
-8D0A(B BBBA      ğ  íZşÿ    €ƒ†Œl     „Qÿÿ.   FBB E(ŒA0†D8ƒD ¨C°a¨A Ó
-8D0A(B BBBBQ¨C°S¨A `   €  DVÿÿ¥   FBB E(ŒD0†A8ƒG`«hEpThA`bhKpFhA`O
-8D0A(B BBBHH   ä  Wÿÿ«   FEE E(ŒA0†D8ƒDp¤
-8D0A(B BBBA Œ   0   ô[ÿÿî   FEE E(ŒA0†A8ƒGĞ
-
-8D0A(B BBBJÊØ
-Wà
-Dè
-Eğ
-]Ğ
- Ø
-Wà
-Dè
-Eğ
-SĞ
-ãØ
-aà
-Dè
-Bğ
-SĞ
-     À   TzÿÿJ    Hw
-A  ,   Ü   ˆzÿÿ"   FŒDƒJÀë
-ABF       !  ˆ|ÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿ        B     Q                      ¯       °      Ğ¯      À°      °‚      à‚      À‚      ƒ      €±       ²      ²      °³      ğœ      Ğ›      p      ğ      `­       ®      À­      à®      €      Ğ€      À       ‚       ˆ      Pˆ      0ˆ       ‰                                      `§      p¬      Ğ§      P­      àŒ      €      0      0       ¤       ¥       ¥      €¦      °Š      ğ‰      ‹      p‹      @¨       ©      °¨      ğ©            à      à      0      Àª       «      0«      €¬      à      0Œ      0‘      €‘      aœ     T     Y     „œ                                     ]     b     h     r                                           {          …     ‹     ]          –     “                             š     ¢     §     ®     ¹     À     É             ×     f›     İ     á     ç     î     ô             ]     áœ     Óœ     ı     ›                             „Ÿ                     a       y                      b       Ÿ                     d       Ÿ                     D       Ÿ                     †       !Ÿ                     ‡       B                     h       9Ÿ                     i       ?Ÿ                     k       IŸ                     n       YŸ                     G       bŸ                     q       uŸ                     r       Óœ                     s       ¶œ                    w       }Ÿ                     A       ˆŸ                     B       r                     F       h                     „       Q                            —Ÿ                     H       °Ä                     ƒ       °Ÿ                    ˆ       µŸ                    I                           Š       ¼Ÿ                     L       ÈŸ                     N       ĞŸ                     Q                           ‹       ÛŸ                     R       èœ                    …       åŸ                     Œ       Úœ                           øŸ                    T       áœ                                                        ñœ                    ‚       ùœ                    ‰                                                         Z                             €       %                      ~ÿÿÿ    ›                     }ÿÿÿ                                    jœ     *      -      rŸ     ‹     0      3      6      9      Z     <      ?      B      "      E      H      K      N      6Ÿ     Q      T      W      Z      ]                                      ÈŸ     `      f      s      €      	›     ”      y      „œ     œ                                  *              @             4q     õşÿo    °             ˆ                    
-       ¦                                          X            `	                           È*             è             à      	                            ûÿÿo          şÿÿo    (      ÿÿÿo           ğÿÿo    .      ùÿÿo    Ç                                                                                       ˜                     @@      P@      `@      p@      €@      @       @      °@      À@      Ğ@      à@      ğ@       A      A       A      0A      @A      PA      `A      pA      €A      A       A      °A      ÀA      ĞA      àA      ğA       B      B       B      0B      @B      PB      `B      pB      €B      B       B      °B      ÀB      ĞB      àB      ğB       C      C       C      0C      @C      PC      `C      pC      €C      C       C      °C      ÀC      ĞC      àC      ğC       D      D       D      0D      @D      PD      `D      pD      €D      D       D      °D      ÀD      ĞD      àD      ğD       E      E       E      0E      @E      PE      `E      pE      €E      E       E      °E      ÀE      ĞE      àE      ğE       F      F       F      0F      @F      PF      `F      pF                                                                                                                                                    ÿÿÿÿ?                                                                                                                      ™                                     ¤             ‰™                             ›                                            §             ­             ¼             ³             ¹             ¹                                             ¿             ³             Å             Ë             Ñ             ×             İ             ã                             é      í      ÷                            @4     `"     /usr/lib/debug/.dwz/x86_64-linux-gnu/coreutils.debug ÃL4¸‚„5@%™P»•ËÇ_İ   7f49cafa98c11d63e619e7e40352f855249c13.debug    "l„ .shstrtab .interp .note.gnu.property .note.gnu.build-id .note.ABI-tag .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt .init .plt.got .plt.sec .text .fini .rodata .eh_frame_hdr .eh_frame .ctors .dtors .data.rel.ro .dynamic .data .bss .gnu_debugaltlink .gnu_debuglink                                                                                                                                        8      8      0                              &             h      h      $                              9             Œ      Œ                                     G   öÿÿo       °      °      L                             Q                           ˆ                          Y             ˆ      ˆ      ¦                             a   ÿÿÿo       .      .      ö                            n   şÿÿo       (      (      À                            }             è      è      à                           ‡      B       È*      È*      `	                          ‘              @       @      %                              Œ             0@      0@      P                            —             €F      €F      0                                           °F      °F      @                            ©             ğL      ğL      A$                            ¯             4q     4q                                   µ              €      €     ÌM                              ½             ÌÍ     ÌÍ     l                             Ë             8Ó     8Ó      !                             Õ                                                        Ü                                                      ã                          x
-                              ğ             ˜     ˜
-     À                           ›             X     X                                  ù                          x                              ÿ             €"     x     À                                                   x     I                                                   Ä     4                                                    ø     %                             [?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ [H[2J]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ clear[K[K[K[K[Kclea[K[K[K[K^C[?2004l[?2004h[?2004l
-[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ clea[K[K[K[K[H[2J]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ clear
-[?2004l[H[2J[3J[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ exit
-[?2004lexit
-
-Script done on 2023-11-27 13:30:38+02:00 [COMMAND_EXIT_CODE="0"]

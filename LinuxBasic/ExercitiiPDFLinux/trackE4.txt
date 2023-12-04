@@ -1,482 +1,0 @@
-Script started on 2023-11-28 14:11:27+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="204" LINES="49"]
-[?2004h]0;xeldor@Ubuntu22: ~/Desktop/exer[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop/exer[00m$ cd ~/Downloads/linux-exercises//[Kchem/
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ ls
-[?2004lcommentsExe.txt  [0m[01;32mcp2k.out[0m  [01;32mcp2k.xyz[0m  [01;32mdimer.log[0m  [01;32mdimer_scan.log[0m  [01;32mfreq.log[0m  times
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep Te[K[KTEMPERATURE cp2k.out
-[?2004l INITIAL [01;31m[KTEMPERATURE[m[K[K]                =                                 300.000
- [01;31m[KTEMPERATURE[m[K [K]              =                     305.326              305.326
- [01;31m[KTEMPERATURE[m[K [K]              =                     323.124              314.225
- [01;31m[KTEMPERATURE[m[K [K]              =                     347.442              325.297
- [01;31m[KTEMPERATURE[m[K [K]              =                     368.720              336.153
- [01;31m[KTEMPERATURE[m[K [K]              =                     377.405              344.403
- [01;31m[KTEMPERATURE[m[K [K]              =                     368.690              348.451
- [01;31m[KTEMPERATURE[m[K [K]              =                     344.999              347.958
- [01;31m[KTEMPERATURE[m[K [K]              =                     314.601              343.788
- [01;31m[KTEMPERATURE[m[K [K]              =                     287.757              337.563
- [01;31m[KTEMPERATURE[m[K [K]              =                     272.845              331.091
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep TEMPERATURE sp[K[Kcp2k.out | awk '{a+=$4:[K; p[K[Kprint $4 [K, NR[K[K[KNR,a/NR}'
-[?2004l300.000 1 300
-305.326 2 302.663
-323.124 3 309.483
-347.442 4 318.973
-368.720 5 328.922
-377.405 6 337.003
-368.690 7 341.53
-344.999 8 341.963
-314.601 9 338.923
-287.757 10 333.806
-272.845 11 328.264
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ cat cp2k.xyz | sort -n -ki [K[K 2 [K | head
-[?2004l  H        -0.5305550000        3.6122210000       14.7086020000
-  H        -0.5099810000        4.6930730000       22.7955390000
-  H        -0.3297560000        8.5010670000        4.8782520000
-  H        -0.3241760000       15.1038460000        1.5773540000
-  H        -0.0748410000        0.8127580000        0.0296070000
-  H        -0.0458740000       21.3572900000        6.8759690000
-    1536
- i =        0, time =        0.000, E =     -8807.9524412500
-  H         0.0614840000        4.2880610000       11.2611580000
-  H         0.1497510000        6.9271230000       21.0598550000
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ SS[K[Kgnuplot
-[?2004lCommand 'gnuplot' not found, but can be installed with:
-sudo apt install gnuplot-nox  # version 5.4.2+dfsg2-2, or
-sudo apt install gnuplot-qt   # version 5.4.2+dfsg2-2
-sudo apt install gnuplot-x11  # version 5.4.2+dfsg2-2
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ sudo apt [K-get update
-[?2004l[sudo] password for xeldor: 
-0% [Working]            Hit:1 http://ro.archive.ubuntu.com/ubuntu jammy InRelease
-0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.82)]                                                                           Get:2 http://ro.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-                                                                           0% [2 InRelease 14.0 kB/119 kB 12%] [Waiting for headers]                                                         Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-0% [2 InRelease 54.3 kB/119 kB 46%] [3 InRelease 13.8 kB/110 kB 13%]                                                                    0% [3 InRelease 13.8 kB/110 kB 13%]                                   Hit:4 http://ro.archive.ubuntu.com/ubuntu jammy-backports InRelease
-0% [3 InRelease 13.8 kB/110 kB 13%]0% [3 InRelease 42.1 kB/110 kB 38%]                                   Get:5 http://ro.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [536 kB]
-0% [5 Packages 4961 B/536 kB 1%] [3 InRelease 53.3 kB/110 kB 48%]0% [5 Packages 129 kB/536 kB 24%] [3 InRelease 84.4 kB/110 kB 76%]                                                                  0% [5 Packages 195 kB/536 kB 36%]31% [5 Packages 374 kB/536 kB 70%]                                  34% [Working]34% [5 Packages store 0 B] [Waiting for headers]                                                Get:6 http://ro.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1200 kB]
-34% [5 Packages store 0 B] [6 Packages 4959 B/1200 kB 0%]                                                         36% [6 Packages 62.2 kB/1200 kB 5%]50% [6 Packages 808 kB/1200 kB 67%]                                   58% [Waiting for headers]                         Get:7 http://ro.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [252 kB]
-58% [7 Translation-en 276 B/252 kB 0%]58% [6 Packages store 0 B] [7 Translation-en 2876 B/252 kB 1%]                                                              62% [7 Translation-en 216 kB/252 kB 86%]                                        Get:8 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1003 kB]
-                                        63% [8 Packages 2864 B/1003 kB 0%]63% [7 Translation-en store 0 B] [8 Packages 5464 B/1003 kB 1%]                                                               64% [8 Packages 65.3 kB/1003 kB 7%]78% [8 Packages 785 kB/1003 kB 78%]                                   82% [Waiting for headers]                         Get:9 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [667 kB]
-82% [9 Packages 765 B/667 kB 0%]82% [8 Packages store 0 B] [9 Packages 765 B/667 kB 0%]                                                       87% [9 Packages 230 kB/667 kB 35%]                                  95% [Waiting for headers]                         Get:10 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [221 kB]
-96% [10 Translation-en 1574 B/221 kB 1%]96% [9 Packages store 0 B] [10 Translation-en 1574 B/221 kB 1%]                                                               99% [10 Translation-en 155 kB/221 kB 70%]                                         100% [Working]100% [10 Translation-en store 0 B]                                  100% [Working]              Fetched 4109 kB in 3s (1253 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 37%Reading package lists... 37%Reading package lists... 52%Reading package lists... 52%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 67%Reading package lists... 70%Reading package lists... 70%Reading package lists... 71%Reading package lists... 71%Reading package lists... 72%Reading package lists... 73%Reading package lists... 73%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 78%Reading package lists... 78%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ sudo apt [K-get upd[Kgrade
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-Calculating upgrade... 0%Calculating upgrade... 50%Calculating upgrade... Done
-The following packages have been kept back:
-  gjs libgjs0g
-0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ sudo apt install [K[K[K[K[K[K[K[K[K-get install gnuplot
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-The following additional packages will be installed:
-  aglfn gnuplot-data gnuplot-qt libdouble-conversion3 liblua5.4-0 libmd4c0 libpcre2-16-0 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5printsupport5 libqt5svg5 libqt5widgets5 libwxbase3.0-0v5
-  libwxgtk3.0-gtk3-0v5 libxcb-xinerama0 libxcb-xinput0 qt5-gtk-platformtheme qttranslations5-l10n
-Suggested packages:
-  gnuplot-doc qt5-image-formats-plugins qtwayland5
-The following NEW packages will be installed:
-  aglfn gnuplot gnuplot-data gnuplot-qt libdouble-conversion3 liblua5.4-0 libmd4c0 libpcre2-16-0 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5printsupport5 libqt5svg5 libqt5widgets5
-  libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 libxcb-xinerama0 libxcb-xinput0 qt5-gtk-platformtheme qttranslations5-l10n
-0 upgraded, 21 newly installed, 0 to remove and 2 not upgraded.
-Need to get 18.7 MB of archives.
-After this operation, 71.6 MB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-0% [Working]            Get:1 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 libdouble-conversion3 amd64 3.1.7-4 [39.0 kB]
-0% [1 libdouble-conversion3 12.7 kB/39.0 kB 33%]                                                1% [Working]            Get:2 http://ro.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpcre2-16-0 amd64 10.39-3ubuntu0.1 [203 kB]
-1% [2 libpcre2-16-0 2317 B/203 kB 1%]                                     3% [Waiting for headers]                        Get:3 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5core5a amd64 5.15.3+dfsg-2ubuntu0.2 [2006 kB]
-3% [3 libqt5core5a 190 B/2006 kB 0%]6% [3 libqt5core5a 689 kB/2006 kB 34%]9% [3 libqt5core5a 1386 kB/2006 kB 69%]                                       12% [Waiting for headers]                         Get:4 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 libmd4c0 amd64 0.4.8-1 [42.0 kB]
-12% [4 libmd4c0 4235 B/42.0 kB 10%]                                   14% [Waiting for headers]                         Get:5 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5dbus5 amd64 5.15.3+dfsg-2ubuntu0.2 [222 kB]
-14% [5 libqt5dbus5 944 B/222 kB 0%]                                   16% [Waiting for headers]                         Get:6 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5network5 amd64 5.15.3+dfsg-2ubuntu0.2 [731 kB]
-16% [6 libqt5network5 2175 B/731 kB 0%]19% [6 libqt5network5 709 kB/731 kB 97%]                                        20% [Waiting for headers]                         Get:7 http://ro.archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xinerama0 amd64 1.14-3ubuntu3 [5414 B]
-20% [7 libxcb-xinerama0 1887 B/5414 B 35%]                                          21% [Working]             Get:8 http://ro.archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xinput0 amd64 1.14-3ubuntu3 [34.3 kB]
-21% [8 libxcb-xinput0 1392 B/34.3 kB 4%]                                        22% [Waiting for headers]                         Get:9 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5gui5 amd64 5.15.3+dfsg-2ubuntu0.2 [3722 kB]
-22% [9 libqt5gui5 573 B/3722 kB 0%]25% [9 libqt5gui5 705 kB/3722 kB 19%]28% [9 libqt5gui5 1418 kB/3722 kB 38%]31% [9 libqt5gui5 2130 kB/3722 kB 57%]34% [9 libqt5gui5 2842 kB/3722 kB 76%]37% [9 libqt5gui5 3565 kB/3722 kB 96%]                                      39% [Waiting for headers]                         Get:10 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5widgets5 amd64 5.15.3+dfsg-2ubuntu0.2 [2561 kB]
-39% [10 libqt5widgets5 1736 B/2561 kB 0%]42% [10 libqt5widgets5 699 kB/2561 kB 27%]45% [10 libqt5widgets5 1416 kB/2561 kB 55%]                                                                                                                                                    1367 kB/s 7s48% [10 libqt5widgets5 2118 kB/2561 kB 83%]                                                                                                                                                    1367 kB/s 7s50% [Waiting for headers]                                                                                                                                                                      1367 kB/s 6s                                                                                                                                                                                                           Get:11 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5svg5 amd64 5.15.3-1 [149 kB]
-50% [11 libqt5svg5 1238 B/149 kB 1%]                                                                                                                                                           1367 kB/s 6s52% [Working]                                                                                                                                                                                  1367 kB/s 6s                                                                                                                                                                                                           Get:12 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 aglfn all 1.7+git20191031.4036a9c-2 [30.6 kB]
-52% [12 aglfn 4096 B/30.6 kB 13%]                                                                                                                                                              1367 kB/s 6s53% [Working]                                                                                                                                                                                  1367 kB/s 6s                                                                                                                                                                                                           Get:13 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 gnuplot-data all 5.4.2+dfsg2-2 [75.3 kB]
-53% [13 gnuplot-data 2318 B/75.3 kB 3%]                                                                                                                                                        1367 kB/s 6s54% [Waiting for headers]                                                                                                                                                                      1367 kB/s 6s                                                                                                                                                                                                           Get:14 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 liblua5.4-0 amd64 5.4.4-1 [152 kB]
-54% [14 liblua5.4-0 2153 B/152 kB 1%]                                                                                                                                                          1367 kB/s 6s56% [Waiting for headers]                                                                                                                                                                      1367 kB/s 6s                                                                                                                                                                                                           Get:15 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5printsupport5 amd64 5.15.3+dfsg-2ubuntu0.2 [214 kB]
-56% [15 libqt5printsupport5 1972 B/214 kB 1%]                                                                                                                                                  1367 kB/s 6s58% [Waiting for headers]                                                                                                                                                                      1367 kB/s 6s                                                                                                                                                                                                           Get:16 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 libwxbase3.0-0v5 amd64 3.0.5.1+dfsg-4 [881 kB]
-58% [16 libwxbase3.0-0v5 1781 B/881 kB 0%]                                                                                                                                                     1367 kB/s 6s61% [16 libwxbase3.0-0v5 751 kB/881 kB 85%]                                                                                                                                                    1367 kB/s 5s63% [Waiting for headers]                                                                                                                                                                      1367 kB/s 5s                                                                                                                                                                                                           Get:17 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 libwxgtk3.0-gtk3-0v5 amd64 3.0.5.1+dfsg-4 [4368 kB]
-63% [17 libwxgtk3.0-gtk3-0v5 1588 B/4368 kB 0%]                                                                                                                                                1367 kB/s 5s66% [17 libwxgtk3.0-gtk3-0v5 758 kB/4368 kB 17%]                                                                                                                                               1367 kB/s 5s69% [17 libwxgtk3.0-gtk3-0v5 1494 kB/4368 kB 34%]                                                                                                                                              1367 kB/s 4s72% [17 libwxgtk3.0-gtk3-0v5 2249 kB/4368 kB 51%]                                                                                                                                              1367 kB/s 3s75% [17 libwxgtk3.0-gtk3-0v5 2994 kB/4368 kB 69%]                                                                                                                                              1367 kB/s 3s79% [17 libwxgtk3.0-gtk3-0v5 3748 kB/4368 kB 86%]                                                                                                                                              1367 kB/s 2s82% [Working]                                                                                                                                                                                  1367 kB/s 2s                                                                                                                                                                                                           Get:18 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 gnuplot-qt amd64 5.4.2+dfsg2-2 [1156 kB]
-82% [18 gnuplot-qt 0 B/1156 kB 0%]                                                                                                                                                             1367 kB/s 2s85% [18 gnuplot-qt 752 kB/1156 kB 65%]                                                                                                                                                         1367 kB/s 1s88% [Waiting for headers]                                                                                                                                                                      1367 kB/s 1s                                                                                                                                                                                                           Get:19 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 gnuplot all 5.4.2+dfsg2-2 [3576 B]
-88% [19 gnuplot 3576 B/3576 B 100%]                                                                                                                                                            1367 kB/s 1s89% [Working]                                                                                                                                                                                  1367 kB/s 1s                                                                                                                                                                                                           Get:20 http://ro.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 qt5-gtk-platformtheme amd64 5.15.3+dfsg-2ubuntu0.2 [130 kB]
-89% [20 qt5-gtk-platformtheme 21 B/130 kB 0%]                                                                                                                                                  1367 kB/s 1s91% [Waiting for headers]                                                                                                                                                                      1367 kB/s 1s                                                                                                                                                                                                           Get:21 http://ro.archive.ubuntu.com/ubuntu jammy/universe amd64 qttranslations5-l10n all 5.15.3-1 [1983 kB]
-91% [21 qttranslations5-l10n 2110 B/1983 kB 0%]                                                                                                                                                1367 kB/s 1s94% [21 qttranslations5-l10n 751 kB/1983 kB 38%]                                                                                                                                               1431 kB/s 0s97% [21 qttranslations5-l10n 1513 kB/1983 kB 76%]                                                                                                                                              1431 kB/s 0s100% [Working]                                                                                                                                                                                 1431 kB/s 0s                                                                                                                                                                                                           Fetched 18.7 MB in 13s (1407 kB/s)
-Selecting previously unselected package libdouble-conversion3:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209726 files and directories currently installed.)
-Preparing to unpack .../00-libdouble-conversion3_3.1.7-4_amd64.deb ...
-Unpacking libdouble-conversion3:amd64 (3.1.7-4) ...
-Selecting previously unselected package libpcre2-16-0:amd64.
-Preparing to unpack .../01-libpcre2-16-0_10.39-3ubuntu0.1_amd64.deb ...
-Unpacking libpcre2-16-0:amd64 (10.39-3ubuntu0.1) ...
-Selecting previously unselected package libqt5core5a:amd64.
-Preparing to unpack .../02-libqt5core5a_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5core5a:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libmd4c0:amd64.
-Preparing to unpack .../03-libmd4c0_0.4.8-1_amd64.deb ...
-Unpacking libmd4c0:amd64 (0.4.8-1) ...
-Selecting previously unselected package libqt5dbus5:amd64.
-Preparing to unpack .../04-libqt5dbus5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5dbus5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libqt5network5:amd64.
-Preparing to unpack .../05-libqt5network5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5network5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libxcb-xinerama0:amd64.
-Preparing to unpack .../06-libxcb-xinerama0_1.14-3ubuntu3_amd64.deb ...
-Unpacking libxcb-xinerama0:amd64 (1.14-3ubuntu3) ...
-Selecting previously unselected package libxcb-xinput0:amd64.
-Preparing to unpack .../07-libxcb-xinput0_1.14-3ubuntu3_amd64.deb ...
-Unpacking libxcb-xinput0:amd64 (1.14-3ubuntu3) ...
-Selecting previously unselected package libqt5gui5:amd64.
-Preparing to unpack .../08-libqt5gui5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5gui5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libqt5widgets5:amd64.
-Preparing to unpack .../09-libqt5widgets5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5widgets5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libqt5svg5:amd64.
-Preparing to unpack .../10-libqt5svg5_5.15.3-1_amd64.deb ...
-Unpacking libqt5svg5:amd64 (5.15.3-1) ...
-Selecting previously unselected package aglfn.
-Preparing to unpack .../11-aglfn_1.7+git20191031.4036a9c-2_all.deb ...
-Unpacking aglfn (1.7+git20191031.4036a9c-2) ...
-Selecting previously unselected package gnuplot-data.
-Preparing to unpack .../12-gnuplot-data_5.4.2+dfsg2-2_all.deb ...
-Unpacking gnuplot-data (5.4.2+dfsg2-2) ...
-Selecting previously unselected package liblua5.4-0:amd64.
-Preparing to unpack .../13-liblua5.4-0_5.4.4-1_amd64.deb ...
-Unpacking liblua5.4-0:amd64 (5.4.4-1) ...
-Selecting previously unselected package libqt5printsupport5:amd64.
-Preparing to unpack .../14-libqt5printsupport5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking libqt5printsupport5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package libwxbase3.0-0v5:amd64.
-Preparing to unpack .../15-libwxbase3.0-0v5_3.0.5.1+dfsg-4_amd64.deb ...
-Unpacking libwxbase3.0-0v5:amd64 (3.0.5.1+dfsg-4) ...
-Selecting previously unselected package libwxgtk3.0-gtk3-0v5:amd64.
-Preparing to unpack .../16-libwxgtk3.0-gtk3-0v5_3.0.5.1+dfsg-4_amd64.deb ...
-Unpacking libwxgtk3.0-gtk3-0v5:amd64 (3.0.5.1+dfsg-4) ...
-Selecting previously unselected package gnuplot-qt.
-Preparing to unpack .../17-gnuplot-qt_5.4.2+dfsg2-2_amd64.deb ...
-Unpacking gnuplot-qt (5.4.2+dfsg2-2) ...
-Selecting previously unselected package gnuplot.
-Preparing to unpack .../18-gnuplot_5.4.2+dfsg2-2_all.deb ...
-Unpacking gnuplot (5.4.2+dfsg2-2) ...
-Selecting previously unselected package qt5-gtk-platformtheme:amd64.
-Preparing to unpack .../19-qt5-gtk-platformtheme_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
-Unpacking qt5-gtk-platformtheme:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Selecting previously unselected package qttranslations5-l10n.
-Preparing to unpack .../20-qttranslations5-l10n_5.15.3-1_all.deb ...
-Unpacking qttranslations5-l10n (5.15.3-1) ...
-Setting up libdouble-conversion3:amd64 (3.1.7-4) ...
-Setting up libxcb-xinput0:amd64 (1.14-3ubuntu3) ...
-Setting up libpcre2-16-0:amd64 (10.39-3ubuntu0.1) ...
-Setting up libxcb-xinerama0:amd64 (1.14-3ubuntu3) ...
-Setting up qttranslations5-l10n (5.15.3-1) ...
-Setting up aglfn (1.7+git20191031.4036a9c-2) ...
-Setting up libqt5core5a:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libqt5dbus5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libmd4c0:amd64 (0.4.8-1) ...
-Setting up liblua5.4-0:amd64 (5.4.4-1) ...
-Setting up libwxbase3.0-0v5:amd64 (3.0.5.1+dfsg-4) ...
-Setting up gnuplot-data (5.4.2+dfsg2-2) ...
-Setting up libwxgtk3.0-gtk3-0v5:amd64 (3.0.5.1+dfsg-4) ...
-Setting up libqt5network5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libqt5gui5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libqt5widgets5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up qt5-gtk-platformtheme:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libqt5printsupport5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
-Setting up libqt5svg5:amd64 (5.15.3-1) ...
-Setting up gnuplot-qt (5.4.2+dfsg2-2) ...
-update-alternatives: using /usr/bin/gnuplot-qt to provide /usr/bin/gnuplot (gnuplot) in auto mode
-Setting up gnuplot (5.4.2+dfsg2-2) ...
-Processing triggers for man-db (2.10.2-1) ...
-Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ gnuplot
-[?2004l
-	G N U P L O T
-	Version 5.4 patchlevel 2    last modified 2021-06-01 
-
-	Copyright (C) 1986-1993, 1998, 2004, 2007-2021
-	Thomas Williams, Colin Kelley and many others
-
-	gnuplot home:     http://www.gnuplot.info
-	faq, bugs, etc:   type "help FAQ"
-	immediate help:   type "help"  (plot window: hit 'h')
-
-Terminal type is now 'qt'
-gnuplot> plot 'times [21G' using 0:5 with points
-Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
-gnuplot> plot 'times [21G' using 0.[30G[K:5 with lines
-gnuplot> exit
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ ^[[200~grep "FT P" cp2k.out~[K[C[1P[1P[1P[1P[1P[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > d[Kenergy[KyD
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ more energyD 
-[?2004l ENERGY DRIFT PER ATOM [K]    =         -0.810224161417E+02   0.000000000000E+00
- ENERGY DRIFT PER ATOM [K]    =         -0.815420472781E+02  -0.407710236391E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.824299570660E+02  -0.546573347814E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.833261399911E+02  -0.618245360838E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.837312158207E+02  -0.662058720312E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.833953761061E+02  -0.690707893770E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.824858460216E+02  -0.709872260405E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.814135930568E+02  -0.722905219175E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.805659451301E+02  -0.732100133856E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.801594119474E+02  -0.739049532418E+02
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ gnuploy [K[Kt 
-[?2004l
-	G N U P L O T
-	Version 5.4 patchlevel 2    last modified 2021-06-01 
-
-	Copyright (C) 1986-1993, 1998, 2004, 2007-2021
-	Thomas Williams, Colin Kelley and many others
-
-	gnuplot home:     http://www.gnuplot.info
-	faq, bugs, etc:   type "help FAQ"
-	immediate help:   type "help"  (plot window: hit 'h')
-
-Terminal type is now 'qt'
-gnuplot> ploy [14G[13G[Kt 'times [21G'u[22G[K[21G[K[20G[K[19G[K[18G[K[17G[K[16G[K[15G[K'energyD' using 0:5 with points
-         warning: Skipping data file with no valid points
-                                             ^
-         x range is invalid
-
-gnuplot> [10Gplot 'energyD' using 0:5 with points[45G[K[44G[K[43G[K[42G[K[41G[K[40G[Klines
-         warning: Skipping data file with no valid points
-                                            ^
-         x range is invalid
-
-gnuplot> gnuplot> plot 'energyD' using 0:5 with lines5 [40Gpoints5[33G[P [32G[P [31G[P [31G[1@1 [32G[1@: [33G[1@2 [35G[1@ w
-         warning: Skipping data file with no valid points
-                                              ^
-         x range is invalid
-
-gnuplot> [10Gplot 'energyD' using 1:2  with points[31G0:5 with lines[K5[33G[P [32G[P [31G[P [31G[1@1 [32G[1@: [33G[1@2 [35G[1@ w
-         warning: Skipping data file with no valid points
-                                             ^
-         x range is invalid
-
-gnuplot> [10Gplot 'energyD' using 1:2  with lines[31G[P:[31G[1@0:
-         warning: Skipping data file with no valid points
-                                             ^
-         x range is invalid
-
-gnuplot> plot "[15G[K;[15G[K'energyD' usign 0:1 with pi[41G[Koints
-              ^
-         Bad data on line 1 of file energyD
-
-gnuplot> [10Gplot 'energyD' usign 0:1 with points[28Gng 0:2  with lines2[33G[P [33G[1@1 
-         warning: Skipping data file with no valid points
-                                             ^
-         x range is invalid
-
-gnuplot> quit
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ gunpo[K[K[K[K[Khead energyD 
-[?2004l ENERGY DRIFT PER ATOM [K]    =         -0.810224161417E+02   0.000000000000E+00
- ENERGY DRIFT PER ATOM [K]    =         -0.815420472781E+02  -0.407710236391E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.824299570660E+02  -0.546573347814E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.833261399911E+02  -0.618245360838E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.837312158207E+02  -0.662058720312E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.833953761061E+02  -0.690707893770E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.824858460216E+02  -0.709872260405E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.814135930568E+02  -0.722905219175E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.805659451301E+02  -0.732100133856E+02
- ENERGY DRIFT PER ATOM [K]    =         -0.801594119474E+02  -0.739049532418E+02
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ gnuplot
-[?2004l
-	G N U P L O T
-	Version 5.4 patchlevel 2    last modified 2021-06-01 
-
-	Copyright (C) 1986-1993, 1998, 2004, 2007-2021
-	Thomas Williams, Colin Kelley and many others
-
-	gnuplot home:     http://www.gnuplot.info
-	faq, bugs, etc:   type "help FAQ"
-	immediate help:   type "help"  (plot window: hit 'h')
-
-Terminal type is now 'qt'
-gnuplot> plot 'energyD' usign[29G[K[28G[Kng 0:2 with points
-         warning: Skipping data file with no valid points
-                                             ^
-         x range is invalid
-
-gnuplot> [10Gplot 'energyD' using 0:2 with points[45G[K[44G[K[43G[K[42G[K[41G[K[40G[Klines
-         warning: Skipping data file with no valid points
-                                            ^
-         x range is invalid
-
-gnuplot> quit
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ awk [K[K[K[Kgrep te[K[KTEMPERATURE cp2k..out[K[K[K[Kout
-[?2004l INITIAL [01;31m[KTEMPERATURE[m[K[K]                =                                 300.000
- [01;31m[KTEMPERATURE[m[K [K]              =                     305.326              305.326
- [01;31m[KTEMPERATURE[m[K [K]              =                     323.124              314.225
- [01;31m[KTEMPERATURE[m[K [K]              =                     347.442              325.297
- [01;31m[KTEMPERATURE[m[K [K]              =                     368.720              336.153
- [01;31m[KTEMPERATURE[m[K [K]              =                     377.405              344.403
- [01;31m[KTEMPERATURE[m[K [K]              =                     368.690              348.451
- [01;31m[KTEMPERATURE[m[K [K]              =                     344.999              347.958
- [01;31m[KTEMPERATURE[m[K [K]              =                     314.601              343.788
- [01;31m[KTEMPERATURE[m[K [K]              =                     287.757              337.563
- [01;31m[KTEMPERATURE[m[K [K]              =                     272.845              331.091
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep TEMPERATURE cp2k.out | awk 'a[K{a+=$4;print $4,NR,a/NR} '
-[?2004l300.000 1 300
-305.326 2 302.663
-323.124 3 309.483
-347.442 4 318.973
-368.720 5 328.922
-377.405 6 337.003
-368.690 7 341.53
-344.999 8 341.963
-314.601 9 338.923
-287.757 10 333.806
-272.845 11 328.264
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep TEMPERATURE cp2k.out | awk '{a+=$4;print $4,NR,a/NR}'[K[A]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep TEMPERATURE cp2k.out | awk '{a+=$4;print $4,NR,a/NR}'[K]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ grep TEMPERATURE cp2k.out | awk '{a+=$4;print $4,NR,a/NR}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[1@/[1@T[1@E[1@M[1@P[1@E[1@R[1@A[1@T[1@U[1@E[1P[1@R[1@E[1@?[1P[1@/[C[C[C[C[C[C[C[1@n[1@+[1@+[1@;[C[C[C[C[C[C[C[C[C[C[C[1P,a/NR}'[1P,a/NR}'n,a/NR}'[C[C[C[C[C[1P}'[1P}'n}'[C[C cp2k.oo[Kiu[K[Kut
-[?2004l300.000 1 300
-305.326 2 302.663
-323.124 3 309.483
-347.442 4 318.973
-368.720 5 328.922
-377.405 6 337.003
-368.690 7 341.53
-344.999 8 341.963
-314.601 9 338.923
-287.757 10 333.806
-272.845 11 328.264
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ awk '/TEMPERATURE/{a+=$4;n++;print $4,n,a/n}' cp2k.out > temperature.txt
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ gnuplot
-[?2004l
-	G N U P L O T
-	Version 5.4 patchlevel 2    last modified 2021-06-01 
-
-	Copyright (C) 1986-1993, 1998, 2004, 2007-2021
-	Thomas Williams, Colin Kelley and many others
-
-	gnuplot home:     http://www.gnuplot.info
-	faq, bugs, etc:   type "help FAQ"
-	immediate help:   type "help"  (plot window: hit 'h')
-
-Terminal type is now 'qt'
-gnuplot> plot 'temperature_dat[30G[K[29G[K[28G[K[27G[K.txt' using 2:1 with points title 'Temperature'
-Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
-gnuplot> ^[[A[10G[Kreplot 'temperature.txt' using 2:3 with lines title A[62G[K'Avarage[69G[K[68G[K[67G[K[66G[K[65G[K[64G[K[63G[KCumulative Average'
-gnuplot> plot --help
-         undefined variable: help
-
-gnuplot> man plot
-         ^
-         invalid command
-
-gnuplot> plot -h
-         undefined variable: h
-
-gnuplot> quit
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ ps
-[?2004l    PID TTY          TIME CMD
-   7091 pts/1    00:00:00 bash
-   8490 pts/1    00:00:00 ps
-[?2004h]0;xeldor@Ubuntu22: ~/Downloads/linux-exercises/chem[01;32mxeldor@Ubuntu22[00m:[01;34m~/Downloads/linux-exercises/chem[00m$ pa[K[Kcd..[K[K ~
-[?2004l[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ wget ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-[?2004l--2023-11-28 17:37:16--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-           => ‘hsa.gff3’
-Resolving mirbase.org (mirbase.org)... 130.88.97.249
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:39:28--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 2) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:41:40--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 3) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:43:55--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 4) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:46:09--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 5) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:48:25--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 6) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:50:41--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 7) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:52:59--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 8) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:55:17--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try: 9) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:57:36--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:10) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 17:59:56--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:11) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:02:15--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:12) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:04:34--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:13) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:06:54--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:14) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:09:13--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:15) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:11:32--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:16) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:13:51--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:17) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:16:11--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:18) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:18:30--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:19) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Retrying.
-
---2023-11-28 18:20:49--  ftp://mirbase.org/pub/mirbase/CURRENT/genomes/hsa.gff3
-  (try:20) => ‘hsa.gff3’
-Connecting to mirbase.org (mirbase.org)|130.88.97.249|:21... failed: Connection timed out.
-Giving up.
-
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ [K]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ quit
-[?2004lCommand 'quit' not found, but can be installed with:
-sudo snap install quit
-[?2004h]0;xeldor@Ubuntu22: ~[01;32mxeldor@Ubuntu22[00m:[01;34m~[00m$ exit
-[?2004lexit
-
-Script done on 2023-11-29 08:39:52+02:00 [COMMAND_EXIT_CODE="127"]

@@ -1,0 +1,19 @@
+installs the OpenSSH server (sshd)
+port 22 for ssh
+in the case bellow servicename ssh :)))
+sudo systemctl status [service_name] 	(check status of a service)
+systemctl stop [service_name] 		(stop a service)
+systemctl start [service_name] 		(start a service)
+
+(check if the port on which ssh listens -22- is open in the firewall)
+Enabling/Disabling: Use 
+ufw enable 	-to activate the firewall and 
+ufw disable 	-to deactivate it.
+
+Setting Rules: Rules can be added to allow or deny incoming and outgoing traffic based on criteria like port number, protocol, and source/destination IP addresses. Commands like 
+ufw allow [service] and 
+ufw deny [service] are used for this purpose.
+
+Status Check: 
+ufw status -shows the current rules and their statuses (active/inactive).
+sudo ufw allow ssh

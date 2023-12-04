@@ -1,0 +1,2363 @@
+Script started on 2023-11-27 13:40:09+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;xeldor@Ubuntu22: ~/Desktop[01;32mxeldor@Ubuntu22[00m:[01;34m~/Desktop[00m$ cd /bin 
+[?2004l[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ networkchuck
+[?2004l GET				      mkisofs
+ HEAD				      mknod
+ POST				      mksquashfs
+ VBoxAudioTest			      mktemp
+ VBoxClient			      mkzftree
+ VBoxClient-all			      mmcli
+ VBoxControl			      mokutil
+ VBoxDRMClient			      monitor-sensor
+ VGAuthService			      more
+ X				      mount
+ X11				      mountpoint
+ Xephyr				      mousetweaks
+ Xorg				      mscompress
+ Xwayland			      msexpand
+'['				      mt
+ aa-enabled			      mt-gnu
+ aa-exec			      mtr
+ aa-features-abi		      mtr-packet
+ aconnect			      mtrace
+ acpi_listen			      mv
+ add-apt-repository		      namei
+ addpart			      nano
+ addr2line			      nautilus
+ airscan-discover		      nautilus-autorun-software
+ alsabat			      nautilus-sendto
+ alsaloop			      nawk
+ alsamixer			      nc
+ alsatplg			      nc.openbsd
+ alsaucm			      ncurses5-config
+ amidi				      ncurses6-config
+ amixer				      ncursesw5-config
+ apg				      ncursesw6-config
+ apgbfm				      neqn
+ aplay				      netcat
+ aplaymidi			      networkchuch
+ apport-bug			      networkchuck
+ apport-cli			      networkctl
+ apport-collect			      networkd-dispatcher
+ apport-unpack			      newgrp
+ appres				      ngettext
+ appstreamcli			      nice
+ apropos			      nisdomainname
+ apt				      nl
+ apt-add-repository		      nm
+ apt-cache			      nm-applet
+ apt-cdrom			      nm-connection-editor
+ apt-config			      nm-online
+ apt-extracttemplates		      nmcli
+ apt-ftparchive			      nmtui
+ apt-get			      nmtui-connect
+ apt-key			      nmtui-edit
+ apt-mark			      nmtui-hostname
+ apt-sortpkgs			      nohup
+ aptdcon			      notify-send
+ apturl				      nproc
+ apturl-gtk			      nroff
+ ar				      nsenter
+ arch				      nslookup
+ arecord			      nspr-config
+ arecordmidi			      nss-config
+ arm2hpdl			      nstat
+ as				      nsupdate
+ aseqdump			      ntfs-3g
+ aseqnet			      ntfs-3g.probe
+ aspell				      ntfscat
+ aspell-import			      ntfscluster
+ atobm				      ntfscmp
+ avahi-browse			      ntfsdecrypt
+ avahi-browse-domains		      ntfsfallocate
+ avahi-publish			      ntfsfix
+ avahi-publish-address		      ntfsinfo
+ avahi-publish-service		      ntfsls
+ avahi-resolve			      ntfsmove
+ avahi-resolve-address		      ntfsrecover
+ avahi-resolve-host-name	      ntfssecaudit
+ avahi-set-host-name		      ntfstruncate
+ avinfo				      ntfsusermap
+ awk				      ntfswipe
+ axfer				      numfmt
+ b2sum				      nvidia-detector
+ baobab				      oakdecode
+ base32				      obexctl
+ base64				      objcopy
+ basename			      objdump
+ basenc				      oclock
+ bash				      od
+ bashbug			      oem-getlogs
+ bc				      on_ac_power
+ bdftopcf			      oomctl
+ bdftruncate			      open
+ bitmap				      openssl
+ bluemoon			      openvt
+ bluetooth-sendto		      opldecode
+ bluetoothctl			      orca
+ bmtoa				      orca-dm-wrapper
+ boltctl			      os-prober
+ bootctl			      p11-kit
+ brltty				      pa-info
+ brltty-ctb			      pacat
+ brltty-trtxt			      pacmd
+ brltty-ttb			      pactl
+ broadwayd			      padsp
+ browse				      pager
+ btattach			      pamon
+ btmgmt				      paperconf
+ btmon				      paplay
+ bunzip2			      parec
+ busctl				      parecord
+ busybox			      partx
+ bwrap				      passwd
+ bzcat				      paste
+ bzcmp				      pasteurize
+ bzdiff				      pasuspender
+ bzegrep			      patch
+ bzexe				      pathchk
+ bzfgrep			      pax11publish
+ bzgrep				      pdb3
+ bzip2				      pdb3.10
+ bzip2recover			      pdf2dsc
+ bzless				      pdf2ps
+ bzmore				      pdfattach
+ c++				      pdfdetach
+ c++filt			      pdffonts
+ c89				      pdfimages
+ c89-gcc			      pdfinfo
+ c99				      pdfseparate
+ c99-gcc			      pdfsig
+ c_rehash			      pdftocairo
+ calibrate_ppa			      pdftohtml
+ canberra-gtk-play		      pdftoppm
+ cancel				      pdftops
+ captoinfo			      pdftotext
+ cat				      pdfunite
+ catman				      peekfd
+ cautious-launcher		      perl
+ cc				      perl5.34-x86_64-linux-gnu
+ cd-create-profile		      perl5.34.0
+ cd-fix-profile			      perlbug
+ cd-iccdump			      perldoc
+ cd-it8				      perli11ndoc
+ chacl				      perlivp
+ chage				      perlthanks
+ chardet			      pf2afm
+ chardetect			      pfbtopfa
+ chattr				      pgrep
+ chcon				      pic
+ check-language-support		      pico
+ cheese				      piconv
+ chfn				      pidof
+ chgrp				      pidwait
+ chmod				      pinentry
+ choom				      pinentry-curses
+ chown				      pinentry-gnome3
+ chrt				      pinentry-x11
+ chsh				      ping
+ chvt				      ping4
+ ciptool			      ping6
+ ckbcomp			      pinky
+ cksum				      pipewire
+ clear				      pipewire-media-session
+ clear_console			      pkaction
+ cmp				      pkcheck
+ codepage			      pkcon
+ col				      pkexec
+ colcrt				      pkg-config
+ colormgr			      pkill
+ colrm				      pkmon
+ column				      pkttyagent
+ comm				      pl2pm
+ compose			      pldd
+ corelist			      plog
+ cp				      plymouth
+ cpan				      pmap
+ cpan5.34-x86_64-linux-gnu	      png-fix-itxt
+ cpio				      pngfix
+ cpp				      pnm2ppa
+ cpp-11				      pod2html
+ crontab			      pod2man
+ csplit				      pod2text
+ ctstat				      pod2usage
+ cupstestppd			      podchecker
+ cut				      poff
+ cvt				      pon
+ cvtsudoers			      powerprofilesctl
+ dash				      ppdc
+ date				      ppdhtml
+ dbus-cleanup-sockets		      ppdi
+ dbus-daemon			      ppdmerge
+ dbus-monitor			      ppdpo
+ dbus-run-session		      pphs
+ dbus-send			      pr
+ dbus-update-activation-environment   precat
+ dbus-uuidgen			      preconv
+ dbxtool			      preunzip
+ dc				      prezip
+ dconf				      prezip-bin
+ dd				      print
+ ddstdecode			      printafm
+ deallocvt			      printenv
+ deb-systemd-helper		      printer-profile
+ deb-systemd-invoke		      printf
+ debconf			      prlimit
+ debconf-apt-progress		      pro
+ debconf-communicate		      prove
+ debconf-copydb			      prtstat
+ debconf-escape			      ps
+ debconf-set-selections		      ps2ascii
+ debconf-show			      ps2epsi
+ debian-distro-info		      ps2pdf
+ deja-dup			      ps2pdf12
+ delpart			      ps2pdf13
+ delv				      ps2pdf14
+ desktop-file-edit		      ps2pdfwr
+ desktop-file-install		      ps2ps
+ desktop-file-validate		      ps2ps2
+ devdump			      ps2txt
+ df				      psfaddtable
+ dfu-tool			      psfgettable
+ dh_bash-completion		      psfstriptable
+ dh_installxmlcatalogs		      psfxtable
+ dh_perl_openssl		      psicc
+ diff				      pslog
+ diff3				      pstree
+ dig				      pstree.x11
+ dir				      ptar
+ dircolors			      ptardiff
+ dirmngr			      ptargrep
+ dirmngr-client			      ptx
+ dirname			      pulseaudio
+ dirsplit			      pw-cat
+ distro-info			      pw-cli
+ dmesg				      pw-dot
+ dnsdomainname			      pw-dsdplay
+ do-release-upgrade		      pw-dump
+ domainname			      pw-link
+ dpkg				      pw-loopback
+ dpkg-architecture		      pw-metadata
+ dpkg-buildflags		      pw-mididump
+ dpkg-buildpackage		      pw-midiplay
+ dpkg-checkbuilddeps		      pw-midirecord
+ dpkg-deb			      pw-mon
+ dpkg-distaddfile		      pw-play
+ dpkg-divert			      pw-profiler
+ dpkg-genbuildinfo		      pw-record
+ dpkg-genchanges		      pw-reserve
+ dpkg-gencontrol		      pw-top
+ dpkg-gensymbols		      pw-v4l2
+ dpkg-maintscript-helper	      pwd
+ dpkg-mergechangelogs		      pwdx
+ dpkg-name			      py3clean
+ dpkg-parsechangelog		      py3compile
+ dpkg-query			      py3versions
+ dpkg-realpath			      pydoc3
+ dpkg-scanpackages		      pydoc3.10
+ dpkg-scansources		      pygettext3
+ dpkg-shlibdeps			      pygettext3.10
+ dpkg-source			      python3
+ dpkg-split			      python3-futurize
+ dpkg-statoverride		      python3-pasteurize
+ dpkg-trigger			      python3.10
+ dpkg-vendor			      pzstd
+ driverless			      qpdldecode
+ driverless-fax			      quirks-handler
+ du				      ranlib
+ dumpkeys			      rbash
+ duplicity			      rcp
+ dvipdf				      rctest
+ dwp				      rdiffdir
+ echo				      rdma
+ ed				      readelf
+ edit				      readlink
+ editor				      realpath
+ editres			      red
+ efibootdump			      remmina
+ efibootmgr			      remmina-file-wrapper
+ egrep				      remmina-gnome
+ eject				      remotinator
+ elfedit			      rendercheck
+ enc2xs				      renice
+ encguess			      reset
+ enchant-2			      resizecons
+ enchant-lsmod-2		      resizepart
+ env				      resolvectl
+ envsubst			      rev
+ eog				      rfcomm
+ eps2eps			      rgrep
+ eqn				      rhythmbox
+ esc-m				      rhythmbox-client
+ eutp				      rlogin
+ evince				      rm
+ evince-previewer		      rmdir
+ evince-thumbnailer		      rnano
+ ex				      routef
+ expand				      routel
+ expiry				      rpcgen
+ expr				      rrsync
+ factor				      rsh
+ faillog			      rstart
+ faked-sysv			      rstartd
+ faked-tcp			      rsync
+ fakeroot			      rsync-ssl
+ fakeroot-sysv			      rtstat
+ fakeroot-tcp			      run-mailcap
+ fallocate			      run-parts
+ false				      run-with-aspell
+ fc-cache			      runcon
+ fc-cat				      rview
+ fc-conflist			      rygel
+ fc-list			      sane-find-scanner
+ fc-match			      savelog
+ fc-pattern			      sbattach
+ fc-query			      sbkeysync
+ fc-scan			      sbsiglist
+ fc-validate			      sbsign
+ fgconsole			      sbvarsign
+ fgrep				      sbverify
+ file				      scanimage
+ file-roller			      scp
+ file2brl			      scp-dbus-service
+ fincore			      screendump
+ find				      script
+ findmnt			      scriptlive
+ firefox			      scriptreplay
+ flock				      sdiff
+ fmt				      sdptool
+ fold				      seahorse
+ fonttosfnt			      sed
+ foo2ddst			      see
+ foo2ddst-wrapper		      select-default-iwrap
+ foo2hbpl2			      select-editor
+ foo2hbpl2-wrapper		      sensible-browser
+ foo2hiperc			      sensible-editor
+ foo2hiperc-wrapper		      sensible-pager
+ foo2hp				      seq
+ foo2hp2600-wrapper		      session-migration
+ foo2lava			      sessreg
+ foo2lava-wrapper		      setarch
+ foo2oak			      setfacl
+ foo2oak-wrapper		      setfont
+ foo2qpdl			      setkeycodes
+ foo2qpdl-wrapper		      setleds
+ foo2slx			      setlogcons
+ foo2slx-wrapper		      setmetamode
+ foo2xqx			      setpci
+ foo2xqx-wrapper		      setpriv
+ foo2zjs			      setsid
+ foo2zjs-icc2ps			      setterm
+ foo2zjs-pstops			      setupcon
+ foo2zjs-wrapper		      setxkbmap
+ foomatic-rip			      sftp
+ fprintd-delete			      sg
+ fprintd-enroll			      sh
+ fprintd-list			      sha1sum
+ fprintd-verify			      sha224sum
+ free				      sha256sum
+ ftp				      sha384sum
+ funzip				      sha512sum
+ fuser				      shasum
+ fusermount			      shotwell
+ fusermount3			      showconsolefont
+ futurize			      showkey
+ fwupdagent			      showrgb
+ fwupdate			      shred
+ fwupdmgr			      shuf
+ fwupdtool			      simple-scan
+ g++				      size
+ g++-11				      skill
+ gamemoded			      slabtop
+ gamma4scanimage		      sleep
+ gapplication			      slogin
+ gatttool			      slxdecode
+ gcalccmd			      smproxy
+ gcc				      snap
+ gcc-11				      snapctl
+ gcc-ar				      snapfuse
+ gcc-ar-11			      snice
+ gcc-nm				      soelim
+ gcc-nm-11			      soffice
+ gcc-ranlib			      software-properties-gtk
+ gcc-ranlib-11			      sort
+ gcore				      sotruss
+ gcov				      spa-acp-tool
+ gcov-11			      spa-inspect
+ gcov-dump			      spa-json-dump
+ gcov-dump-11			      spa-monitor
+ gcov-tool			      spa-resample
+ gcov-tool-11			      spd-conf
+ gcr-viewer			      spd-say
+ gdb				      spdsend
+ gdb-add-index			      speaker-test
+ gdbtui				      speech-dispatcher
+ gdbus				      spice-vdagent
+ gdialog			      splain
+ gdk-pixbuf-csource		      split
+ gdk-pixbuf-pixdata		      splitfont
+ gdk-pixbuf-thumbnailer		      sprof
+ gdm-screenshot			      sqfscat
+ gdmflexiserver			      sqfstar
+ gedit				      ss
+ gencat				      ssh
+ genisoimage			      ssh-add
+ geqn				      ssh-agent
+ getconf			      ssh-argv0
+ geteltorito			      ssh-copy-id
+ getent				      ssh-keygen
+ getfacl			      ssh-keyscan
+ getkeycodes			      start-pulseaudio-x11
+ getopt				      startx
+ gettext			      stat
+ gettext.sh			      static-sh
+ ghostscript			      stdbuf
+ ginstall-info			      strace
+ gio				      strace-log-merge
+ gio-querymodules		      streamzip
+ gipddecode			      strings
+ git				      strip
+ git-receive-pack		      stty
+ git-shell			      su
+ git-upload-archive		      sudo
+ git-upload-pack		      sudoedit
+ gjs				      sudoreplay
+ gjs-console			      sum
+ gkbd-keyboard-display		      switcherooctl
+ glib-compile-schemas		      sync
+ gmake				      system-config-printer
+ gnome-calculator		      system-config-printer-applet
+ gnome-calendar			      systemctl
+ gnome-characters		      systemd
+ gnome-control-center		      systemd-analyze
+ gnome-disk-image-mounter	      systemd-ask-password
+ gnome-disks			      systemd-cat
+ gnome-extensions		      systemd-cgls
+ gnome-font-viewer		      systemd-cgtop
+ gnome-help			      systemd-cryptenroll
+ gnome-keyring			      systemd-delta
+ gnome-keyring-3		      systemd-detect-virt
+ gnome-keyring-daemon		      systemd-escape
+ gnome-language-selector	      systemd-hwdb
+ gnome-logs			      systemd-id128
+ gnome-power-statistics		      systemd-inhibit
+ gnome-session			      systemd-machine-id-setup
+ gnome-session-custom-session	      systemd-mount
+ gnome-session-inhibit		      systemd-notify
+ gnome-session-properties	      systemd-path
+ gnome-session-quit		      systemd-run
+ gnome-shell			      systemd-socket-activate
+ gnome-shell-extension-tool	      systemd-stdio-bridge
+ gnome-shell-perf-tool		      systemd-sysext
+ gnome-system-monitor		      systemd-sysusers
+ gnome-terminal			      systemd-tmpfiles
+ gnome-terminal.real		      systemd-tty-ask-password-agent
+ gnome-terminal.wrapper		      systemd-umount
+ gnome-text-editor		      tabs
+ gnome-thumbnail-font		      tac
+ gnome-todo			      tail
+ gnome-www-browser		      tar
+ gold				      taskset
+ gpasswd			      tbl
+ gpg				      tclsh
+ gpg-agent			      tclsh8.6
+ gpg-connect-agent		      tcltk-depends
+ gpg-wks-server			      tcpdump
+ gpg-zip			      tee
+ gpgcompose			      telnet
+ gpgconf			      telnet.netkit
+ gpgparsemail			      tempfile
+ gpgsm				      terminator
+ gpgsplit			      test
+ gpgtar				      thunderbird
+ gpgv				      tic
+ gpic				      tificc
+ gprof				      time
+ gpu-manager			      timedatectl
+ grdctl				      timeout
+ grep				      tload
+ gresource			      tnftp
+ groff				      toe
+ grog				      top
+ grops				      totem
+ grotty				      totem-video-thumbnailer
+ groups				      touch
+ grub-editenv			      tput
+ grub-file			      tr
+ grub-fstest			      tracepath
+ grub-glue-efi			      tracker3
+ grub-kbdcomp			      transicc
+ grub-menulst2cfg		      transmission-gtk
+ grub-mkfont			      transset
+ grub-mkimage			      troff
+ grub-mklayout			      true
+ grub-mknetdir			      truncate
+ grub-mkpasswd-pbkdf2		      trust
+ grub-mkrelpath			      tset
+ grub-mkrescue			      tsort
+ grub-mkstandalone		      tty
+ grub-mount			      tzselect
+ grub-ntldr-img			      ua
+ grub-render-label		      ubuntu-advantage
+ grub-script-check		      ubuntu-bug
+ grub-syslinux2cfg		      ubuntu-core-launcher
+ gs				      ubuntu-distro-info
+ gsbj				      ubuntu-drivers
+ gsdj				      ubuntu-report
+ gsdj500			      ubuntu-security-status
+ gsettings			      ucf
+ gslj				      ucfq
+ gslp				      ucfr
+ gsnd				      uclampset
+ gst-device-monitor-1.0		      ucs2any
+ gst-discoverer-1.0		      udevadm
+ gst-inspect-1.0		      udisksctl
+ gst-launch-1.0			      ul
+ gst-play-1.0			      umax_pp
+ gst-stats-1.0			      umount
+ gst-tester-1.0			      uname
+ gst-typefind-1.0		      unattended-upgrade
+ gstreamer-codec-install	      unattended-upgrades
+ gtbl				      uncompress
+ gtf				      unexpand
+ gtk-builder-tool		      unicode_start
+ gtk-encode-symbolic-svg	      unicode_stop
+ gtk-launch			      uniq
+ gtk-query-settings		      unity-scope-loader
+ gtk-update-icon-cache		      unlink
+ gtk4-builder-tool		      unlzma
+ gtk4-encode-symbolic-svg	      unmkinitramfs
+ gtk4-launch			      unopkg
+ gtk4-query-settings		      unshare
+ gtk4-update-icon-cache		      unsquashfs
+ gunzip				      unxz
+ gzexe				      unzip
+ gzip				      unzipsfx
+ h2ph				      unzstd
+ h2xs				      update-alternatives
+ hardlink			      update-desktop-database
+ hbpldecode			      update-manager
+ hciattach			      update-mime-database
+ hciconfig			      update-notifier
+ hcitool			      upower
+ hd				      uptime
+ head				      usb-creator-gtk
+ helpztags			      usb-devices
+ hex2hcd			      usb_printerid
+ hexdump			      usbhid-dump
+ hipercdecode			      usbreset
+ host				      users
+ hostid				      utmpdump
+ hostname			      uuidgen
+ hostnamectl			      uuidparse
+ hp-align			      vdir
+ hp-check			      vi
+ hp-clean			      view
+ hp-colorcal			      viewres
+ hp-config_usb_printer		      vim.tiny
+ hp-doctor			      vm-support
+ hp-firmware			      vmhgfs-fuse
+ hp-info			      vmstat
+ hp-levels			      vmtoolsd
+ hp-logcapture			      vmware-alias-import
+ hp-makeuri			      vmware-checkvm
+ hp-pkservice			      vmware-hgfsclient
+ hp-plugin			      vmware-namespace-cmd
+ hp-plugin-ubuntu		      vmware-rpctool
+ hp-probe			      vmware-toolbox-cmd
+ hp-query			      vmware-user
+ hp-scan			      vmware-user-suid-wrapper
+ hp-setup			      vmware-vgauth-cmd
+ hp-testpage			      vmware-vmblock-fuse
+ hp-timedate			      vmware-xferlogs
+ hwe-support-status		      vmwarectrl
+ i386				      vmwgfxctrl
+ i686-linux-gnu-pkg-config	      vstp
+ ibus				      w
+ ibus-daemon			      wall
+ ibus-setup			      watch
+ ibus-table-createdb		      watchgnupg
+ iceauth			      wc
+ ico				      wdctl
+ iconv				      wget
+ id				      whatis
+ iecset				      whereis
+ ijs_pxljr			      which
+ im-config			      which.debianutils
+ im-launch			      whiptail
+ info				      who
+ infobrowser			      whoami
+ infocmp			      whoopsie
+ infotocap			      whoopsie-preferences
+ inputattach			      wish
+ install			      wish8.6
+ install-info			      word-list-compress
+ install-printerdriver		      wpa_passphrase
+ instmodsh			      write
+ intel-virtual-output		      write.ul
+ ionice				      x-session-manager
+ ip				      x-terminal-emulator
+ ipcmk				      x-www-browser
+ ipcrm				      x11perf
+ ipcs				      x11perfcomp
+ ipod-read-sysinfo-extended	      x86_64
+ ipod-time-sync			      x86_64-linux-gnu-addr2line
+ ippfind			      x86_64-linux-gnu-ar
+ ipptool			      x86_64-linux-gnu-as
+ iptables-xml			      x86_64-linux-gnu-c++filt
+ ischroot			      x86_64-linux-gnu-cpp
+ isdv4-serial-debugger		      x86_64-linux-gnu-cpp-11
+ isdv4-serial-inputattach	      x86_64-linux-gnu-dwp
+ isodump			      x86_64-linux-gnu-elfedit
+ isoinfo			      x86_64-linux-gnu-g++
+ isovfy				      x86_64-linux-gnu-g++-11
+ ispell-wrapper			      x86_64-linux-gnu-gcc
+ join				      x86_64-linux-gnu-gcc-11
+ journalctl			      x86_64-linux-gnu-gcc-ar
+ jpgicc				      x86_64-linux-gnu-gcc-ar-11
+ json_pp			      x86_64-linux-gnu-gcc-nm
+ kbd_mode			      x86_64-linux-gnu-gcc-nm-11
+ kbdinfo			      x86_64-linux-gnu-gcc-ranlib
+ kbxutil			      x86_64-linux-gnu-gcc-ranlib-11
+ kernel-install			      x86_64-linux-gnu-gcov
+ kerneloops-submit		      x86_64-linux-gnu-gcov-11
+ keyring			      x86_64-linux-gnu-gcov-dump
+ kill				      x86_64-linux-gnu-gcov-dump-11
+ killall			      x86_64-linux-gnu-gcov-tool
+ kmod				      x86_64-linux-gnu-gcov-tool-11
+ kmodsign			      x86_64-linux-gnu-gold
+ l2ping				      x86_64-linux-gnu-gprof
+ l2test				      x86_64-linux-gnu-ld
+ laptop-detect			      x86_64-linux-gnu-ld.bfd
+ last				      x86_64-linux-gnu-ld.gold
+ lastb				      x86_64-linux-gnu-lto-dump-11
+ lastlog			      x86_64-linux-gnu-nm
+ lavadecode			      x86_64-linux-gnu-objcopy
+ lcf				      x86_64-linux-gnu-objdump
+ ld				      x86_64-linux-gnu-pkg-config
+ ld.bfd				      x86_64-linux-gnu-ranlib
+ ld.gold			      x86_64-linux-gnu-readelf
+ ldd				      x86_64-linux-gnu-size
+ less				      x86_64-linux-gnu-strings
+ lessecho			      x86_64-linux-gnu-strip
+ lessfile			      x86_64-pc-linux-gnu-pkg-config
+ lesskey			      xargs
+ lesspipe			      xauth
+ lexgrog			      xbiff
+ libnetcfg			      xbrlapi
+ libpng-config			      xcalc
+ libpng16-config		      xclipboard
+ libreoffice			      xclock
+ libwacom-list-devices		      xcmsdb
+ libwacom-list-local-devices	      xconsole
+ libwacom-show-stylus		      xcursorgen
+ libwacom-update-db		      xcutsel
+ link				      xdg-dbus-proxy
+ linkicc			      xdg-desktop-icon
+ linux-boot-prober		      xdg-desktop-menu
+ linux-check-removal		      xdg-email
+ linux-update-symlinks		      xdg-icon-resource
+ linux-version			      xdg-mime
+ linux32			      xdg-open
+ linux64			      xdg-screensaver
+ listres			      xdg-settings
+ ln				      xdg-user-dir
+ lnstat				      xdg-user-dirs-gtk-update
+ loadkeys			      xdg-user-dirs-update
+ loadunimap			      xditview
+ localc				      xdpyinfo
+ locale				      xdriinfo
+ locale-check			      xedit
+ localectl			      xev
+ localedef			      xeyes
+ lodraw				      xfd
+ loffice			      xfontsel
+ lofromtemplate			      xgamma
+ logger				      xgc
+ login				      xhost
+ loginctl			      xinit
+ logname			      xinput
+ loimpress			      xkbbell
+ lomath				      xkbcomp
+ look				      xkbevd
+ loweb				      xkbprint
+ lowntfs-3g			      xkbvleds
+ lowriter			      xkbwatch
+ lp				      xkeystone
+ lp_solve			      xkill
+ lpoptions			      xload
+ lpq				      xlogo
+ lpr				      xlsatoms
+ lprm				      xlsclients
+ lpstat				      xlsfonts
+ ls				      xmag
+ lsattr				      xman
+ lsb_release			      xmessage
+ lsblk				      xmodmap
+ lscpu				      xmore
+ lshw				      xprop
+ lsinitramfs			      xqxdecode
+ lsipc				      xrandr
+ lslocks			      xrdb
+ lslogins			      xrefresh
+ lsmem				      xset
+ lsmod				      xsetmode
+ lsns				      xsetpointer
+ lsof				      xsetroot
+ lspci				      xsetwacom
+ lspgpot			      xsm
+ lsusb				      xstdcmap
+ lto-dump-11			      xsubpp
+ luit				      xvidtune
+ lwp-download			      xvinfo
+ lwp-dump			      xwd
+ lwp-mirror			      xwininfo
+ lwp-request			      xwud
+ lzcat				      xxd
+ lzcmp				      xz
+ lzdiff				      xzcat
+ lzegrep			      xzcmp
+ lzfgrep			      xzdiff
+ lzgrep				      xzegrep
+ lzless				      xzfgrep
+ lzma				      xzgrep
+ lzmainfo			      xzless
+ lzmore				      xzmore
+ m2300w				      yelp
+ m2300w-wrapper			      yes
+ m2400w				      ypdomainname
+ make				      zcat
+ make-first-existing-target	      zcmp
+ mako-render			      zdiff
+ man				      zdump
+ man-recode			      zegrep
+ mandb				      zenity
+ manpath			      zfgrep
+ mapscrn			      zforce
+ mawk				      zgrep
+ mcookie			      zip
+ md5sum				      zipcloak
+ md5sum.textutils		      zipdetails
+ mdig				      zipgrep
+ memusage			      zipinfo
+ memusagestat			      zipnote
+ mesa-overlay-control.py	      zipsplit
+ mesg				      zjsdecode
+ migrate-pubring-from-classic-gpg     zless
+ mimeopen			      zmore
+ mimetype			      znew
+ min12xxw			      zstd
+ mk_modmap			      zstdcat
+ mkdir				      zstdgrep
+ mkfifo				      zstdless
+ mkfontdir			      zstdmt
+ mkfontscale
+[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ rm[K[Ksudo rm ls
+[?2004l[sudo] password for xeldor: 
+[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ ls
+[?2004lCommand 'ls' not found, but can be installed with:
+sudo apt install coreutils
+[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ networkchuck
+[?2004l GET				      mkisofs
+ HEAD				      mknod
+ POST				      mksquashfs
+ VBoxAudioTest			      mktemp
+ VBoxClient			      mkzftree
+ VBoxClient-all			      mmcli
+ VBoxControl			      mokutil
+ VBoxDRMClient			      monitor-sensor
+ VGAuthService			      more
+ X				      mount
+ X11				      mountpoint
+ Xephyr				      mousetweaks
+ Xorg				      mscompress
+ Xwayland			      msexpand
+'['				      mt
+ aa-enabled			      mt-gnu
+ aa-exec			      mtr
+ aa-features-abi		      mtr-packet
+ aconnect			      mtrace
+ acpi_listen			      mv
+ add-apt-repository		      namei
+ addpart			      nano
+ addr2line			      nautilus
+ airscan-discover		      nautilus-autorun-software
+ alsabat			      nautilus-sendto
+ alsaloop			      nawk
+ alsamixer			      nc
+ alsatplg			      nc.openbsd
+ alsaucm			      ncurses5-config
+ amidi				      ncurses6-config
+ amixer				      ncursesw5-config
+ apg				      ncursesw6-config
+ apgbfm				      neqn
+ aplay				      netcat
+ aplaymidi			      networkchuch
+ apport-bug			      networkchuck
+ apport-cli			      networkctl
+ apport-collect			      networkd-dispatcher
+ apport-unpack			      newgrp
+ appres				      ngettext
+ appstreamcli			      nice
+ apropos			      nisdomainname
+ apt				      nl
+ apt-add-repository		      nm
+ apt-cache			      nm-applet
+ apt-cdrom			      nm-connection-editor
+ apt-config			      nm-online
+ apt-extracttemplates		      nmcli
+ apt-ftparchive			      nmtui
+ apt-get			      nmtui-connect
+ apt-key			      nmtui-edit
+ apt-mark			      nmtui-hostname
+ apt-sortpkgs			      nohup
+ aptdcon			      notify-send
+ apturl				      nproc
+ apturl-gtk			      nroff
+ ar				      nsenter
+ arch				      nslookup
+ arecord			      nspr-config
+ arecordmidi			      nss-config
+ arm2hpdl			      nstat
+ as				      nsupdate
+ aseqdump			      ntfs-3g
+ aseqnet			      ntfs-3g.probe
+ aspell				      ntfscat
+ aspell-import			      ntfscluster
+ atobm				      ntfscmp
+ avahi-browse			      ntfsdecrypt
+ avahi-browse-domains		      ntfsfallocate
+ avahi-publish			      ntfsfix
+ avahi-publish-address		      ntfsinfo
+ avahi-publish-service		      ntfsls
+ avahi-resolve			      ntfsmove
+ avahi-resolve-address		      ntfsrecover
+ avahi-resolve-host-name	      ntfssecaudit
+ avahi-set-host-name		      ntfstruncate
+ avinfo				      ntfsusermap
+ awk				      ntfswipe
+ axfer				      numfmt
+ b2sum				      nvidia-detector
+ baobab				      oakdecode
+ base32				      obexctl
+ base64				      objcopy
+ basename			      objdump
+ basenc				      oclock
+ bash				      od
+ bashbug			      oem-getlogs
+ bc				      on_ac_power
+ bdftopcf			      oomctl
+ bdftruncate			      open
+ bitmap				      openssl
+ bluemoon			      openvt
+ bluetooth-sendto		      opldecode
+ bluetoothctl			      orca
+ bmtoa				      orca-dm-wrapper
+ boltctl			      os-prober
+ bootctl			      p11-kit
+ brltty				      pa-info
+ brltty-ctb			      pacat
+ brltty-trtxt			      pacmd
+ brltty-ttb			      pactl
+ broadwayd			      padsp
+ browse				      pager
+ btattach			      pamon
+ btmgmt				      paperconf
+ btmon				      paplay
+ bunzip2			      parec
+ busctl				      parecord
+ busybox			      partx
+ bwrap				      passwd
+ bzcat				      paste
+ bzcmp				      pasteurize
+ bzdiff				      pasuspender
+ bzegrep			      patch
+ bzexe				      pathchk
+ bzfgrep			      pax11publish
+ bzgrep				      pdb3
+ bzip2				      pdb3.10
+ bzip2recover			      pdf2dsc
+ bzless				      pdf2ps
+ bzmore				      pdfattach
+ c++				      pdfdetach
+ c++filt			      pdffonts
+ c89				      pdfimages
+ c89-gcc			      pdfinfo
+ c99				      pdfseparate
+ c99-gcc			      pdfsig
+ c_rehash			      pdftocairo
+ calibrate_ppa			      pdftohtml
+ canberra-gtk-play		      pdftoppm
+ cancel				      pdftops
+ captoinfo			      pdftotext
+ cat				      pdfunite
+ catman				      peekfd
+ cautious-launcher		      perl
+ cc				      perl5.34-x86_64-linux-gnu
+ cd-create-profile		      perl5.34.0
+ cd-fix-profile			      perlbug
+ cd-iccdump			      perldoc
+ cd-it8				      perli11ndoc
+ chacl				      perlivp
+ chage				      perlthanks
+ chardet			      pf2afm
+ chardetect			      pfbtopfa
+ chattr				      pgrep
+ chcon				      pic
+ check-language-support		      pico
+ cheese				      piconv
+ chfn				      pidof
+ chgrp				      pidwait
+ chmod				      pinentry
+ choom				      pinentry-curses
+ chown				      pinentry-gnome3
+ chrt				      pinentry-x11
+ chsh				      ping
+ chvt				      ping4
+ ciptool			      ping6
+ ckbcomp			      pinky
+ cksum				      pipewire
+ clear				      pipewire-media-session
+ clear_console			      pkaction
+ cmp				      pkcheck
+ codepage			      pkcon
+ col				      pkexec
+ colcrt				      pkg-config
+ colormgr			      pkill
+ colrm				      pkmon
+ column				      pkttyagent
+ comm				      pl2pm
+ compose			      pldd
+ corelist			      plog
+ cp				      plymouth
+ cpan				      pmap
+ cpan5.34-x86_64-linux-gnu	      png-fix-itxt
+ cpio				      pngfix
+ cpp				      pnm2ppa
+ cpp-11				      pod2html
+ crontab			      pod2man
+ csplit				      pod2text
+ ctstat				      pod2usage
+ cupstestppd			      podchecker
+ cut				      poff
+ cvt				      pon
+ cvtsudoers			      powerprofilesctl
+ dash				      ppdc
+ date				      ppdhtml
+ dbus-cleanup-sockets		      ppdi
+ dbus-daemon			      ppdmerge
+ dbus-monitor			      ppdpo
+ dbus-run-session		      pphs
+ dbus-send			      pr
+ dbus-update-activation-environment   precat
+ dbus-uuidgen			      preconv
+ dbxtool			      preunzip
+ dc				      prezip
+ dconf				      prezip-bin
+ dd				      print
+ ddstdecode			      printafm
+ deallocvt			      printenv
+ deb-systemd-helper		      printer-profile
+ deb-systemd-invoke		      printf
+ debconf			      prlimit
+ debconf-apt-progress		      pro
+ debconf-communicate		      prove
+ debconf-copydb			      prtstat
+ debconf-escape			      ps
+ debconf-set-selections		      ps2ascii
+ debconf-show			      ps2epsi
+ debian-distro-info		      ps2pdf
+ deja-dup			      ps2pdf12
+ delpart			      ps2pdf13
+ delv				      ps2pdf14
+ desktop-file-edit		      ps2pdfwr
+ desktop-file-install		      ps2ps
+ desktop-file-validate		      ps2ps2
+ devdump			      ps2txt
+ df				      psfaddtable
+ dfu-tool			      psfgettable
+ dh_bash-completion		      psfstriptable
+ dh_installxmlcatalogs		      psfxtable
+ dh_perl_openssl		      psicc
+ diff				      pslog
+ diff3				      pstree
+ dig				      pstree.x11
+ dir				      ptar
+ dircolors			      ptardiff
+ dirmngr			      ptargrep
+ dirmngr-client			      ptx
+ dirname			      pulseaudio
+ dirsplit			      pw-cat
+ distro-info			      pw-cli
+ dmesg				      pw-dot
+ dnsdomainname			      pw-dsdplay
+ do-release-upgrade		      pw-dump
+ domainname			      pw-link
+ dpkg				      pw-loopback
+ dpkg-architecture		      pw-metadata
+ dpkg-buildflags		      pw-mididump
+ dpkg-buildpackage		      pw-midiplay
+ dpkg-checkbuilddeps		      pw-midirecord
+ dpkg-deb			      pw-mon
+ dpkg-distaddfile		      pw-play
+ dpkg-divert			      pw-profiler
+ dpkg-genbuildinfo		      pw-record
+ dpkg-genchanges		      pw-reserve
+ dpkg-gencontrol		      pw-top
+ dpkg-gensymbols		      pw-v4l2
+ dpkg-maintscript-helper	      pwd
+ dpkg-mergechangelogs		      pwdx
+ dpkg-name			      py3clean
+ dpkg-parsechangelog		      py3compile
+ dpkg-query			      py3versions
+ dpkg-realpath			      pydoc3
+ dpkg-scanpackages		      pydoc3.10
+ dpkg-scansources		      pygettext3
+ dpkg-shlibdeps			      pygettext3.10
+ dpkg-source			      python3
+ dpkg-split			      python3-futurize
+ dpkg-statoverride		      python3-pasteurize
+ dpkg-trigger			      python3.10
+ dpkg-vendor			      pzstd
+ driverless			      qpdldecode
+ driverless-fax			      quirks-handler
+ du				      ranlib
+ dumpkeys			      rbash
+ duplicity			      rcp
+ dvipdf				      rctest
+ dwp				      rdiffdir
+ echo				      rdma
+ ed				      readelf
+ edit				      readlink
+ editor				      realpath
+ editres			      red
+ efibootdump			      remmina
+ efibootmgr			      remmina-file-wrapper
+ egrep				      remmina-gnome
+ eject				      remotinator
+ elfedit			      rendercheck
+ enc2xs				      renice
+ encguess			      reset
+ enchant-2			      resizecons
+ enchant-lsmod-2		      resizepart
+ env				      resolvectl
+ envsubst			      rev
+ eog				      rfcomm
+ eps2eps			      rgrep
+ eqn				      rhythmbox
+ esc-m				      rhythmbox-client
+ eutp				      rlogin
+ evince				      rm
+ evince-previewer		      rmdir
+ evince-thumbnailer		      rnano
+ ex				      routef
+ expand				      routel
+ expiry				      rpcgen
+ expr				      rrsync
+ factor				      rsh
+ faillog			      rstart
+ faked-sysv			      rstartd
+ faked-tcp			      rsync
+ fakeroot			      rsync-ssl
+ fakeroot-sysv			      rtstat
+ fakeroot-tcp			      run-mailcap
+ fallocate			      run-parts
+ false				      run-with-aspell
+ fc-cache			      runcon
+ fc-cat				      rview
+ fc-conflist			      rygel
+ fc-list			      sane-find-scanner
+ fc-match			      savelog
+ fc-pattern			      sbattach
+ fc-query			      sbkeysync
+ fc-scan			      sbsiglist
+ fc-validate			      sbsign
+ fgconsole			      sbvarsign
+ fgrep				      sbverify
+ file				      scanimage
+ file-roller			      scp
+ file2brl			      scp-dbus-service
+ fincore			      screendump
+ find				      script
+ findmnt			      scriptlive
+ firefox			      scriptreplay
+ flock				      sdiff
+ fmt				      sdptool
+ fold				      seahorse
+ fonttosfnt			      sed
+ foo2ddst			      see
+ foo2ddst-wrapper		      select-default-iwrap
+ foo2hbpl2			      select-editor
+ foo2hbpl2-wrapper		      sensible-browser
+ foo2hiperc			      sensible-editor
+ foo2hiperc-wrapper		      sensible-pager
+ foo2hp				      seq
+ foo2hp2600-wrapper		      session-migration
+ foo2lava			      sessreg
+ foo2lava-wrapper		      setarch
+ foo2oak			      setfacl
+ foo2oak-wrapper		      setfont
+ foo2qpdl			      setkeycodes
+ foo2qpdl-wrapper		      setleds
+ foo2slx			      setlogcons
+ foo2slx-wrapper		      setmetamode
+ foo2xqx			      setpci
+ foo2xqx-wrapper		      setpriv
+ foo2zjs			      setsid
+ foo2zjs-icc2ps			      setterm
+ foo2zjs-pstops			      setupcon
+ foo2zjs-wrapper		      setxkbmap
+ foomatic-rip			      sftp
+ fprintd-delete			      sg
+ fprintd-enroll			      sh
+ fprintd-list			      sha1sum
+ fprintd-verify			      sha224sum
+ free				      sha256sum
+ ftp				      sha384sum
+ funzip				      sha512sum
+ fuser				      shasum
+ fusermount			      shotwell
+ fusermount3			      showconsolefont
+ futurize			      showkey
+ fwupdagent			      showrgb
+ fwupdate			      shred
+ fwupdmgr			      shuf
+ fwupdtool			      simple-scan
+ g++				      size
+ g++-11				      skill
+ gamemoded			      slabtop
+ gamma4scanimage		      sleep
+ gapplication			      slogin
+ gatttool			      slxdecode
+ gcalccmd			      smproxy
+ gcc				      snap
+ gcc-11				      snapctl
+ gcc-ar				      snapfuse
+ gcc-ar-11			      snice
+ gcc-nm				      soelim
+ gcc-nm-11			      soffice
+ gcc-ranlib			      software-properties-gtk
+ gcc-ranlib-11			      sort
+ gcore				      sotruss
+ gcov				      spa-acp-tool
+ gcov-11			      spa-inspect
+ gcov-dump			      spa-json-dump
+ gcov-dump-11			      spa-monitor
+ gcov-tool			      spa-resample
+ gcov-tool-11			      spd-conf
+ gcr-viewer			      spd-say
+ gdb				      spdsend
+ gdb-add-index			      speaker-test
+ gdbtui				      speech-dispatcher
+ gdbus				      spice-vdagent
+ gdialog			      splain
+ gdk-pixbuf-csource		      split
+ gdk-pixbuf-pixdata		      splitfont
+ gdk-pixbuf-thumbnailer		      sprof
+ gdm-screenshot			      sqfscat
+ gdmflexiserver			      sqfstar
+ gedit				      ss
+ gencat				      ssh
+ genisoimage			      ssh-add
+ geqn				      ssh-agent
+ getconf			      ssh-argv0
+ geteltorito			      ssh-copy-id
+ getent				      ssh-keygen
+ getfacl			      ssh-keyscan
+ getkeycodes			      start-pulseaudio-x11
+ getopt				      startx
+ gettext			      stat
+ gettext.sh			      static-sh
+ ghostscript			      stdbuf
+ ginstall-info			      strace
+ gio				      strace-log-merge
+ gio-querymodules		      streamzip
+ gipddecode			      strings
+ git				      strip
+ git-receive-pack		      stty
+ git-shell			      su
+ git-upload-archive		      sudo
+ git-upload-pack		      sudoedit
+ gjs				      sudoreplay
+ gjs-console			      sum
+ gkbd-keyboard-display		      switcherooctl
+ glib-compile-schemas		      sync
+ gmake				      system-config-printer
+ gnome-calculator		      system-config-printer-applet
+ gnome-calendar			      systemctl
+ gnome-characters		      systemd
+ gnome-control-center		      systemd-analyze
+ gnome-disk-image-mounter	      systemd-ask-password
+ gnome-disks			      systemd-cat
+ gnome-extensions		      systemd-cgls
+ gnome-font-viewer		      systemd-cgtop
+ gnome-help			      systemd-cryptenroll
+ gnome-keyring			      systemd-delta
+ gnome-keyring-3		      systemd-detect-virt
+ gnome-keyring-daemon		      systemd-escape
+ gnome-language-selector	      systemd-hwdb
+ gnome-logs			      systemd-id128
+ gnome-power-statistics		      systemd-inhibit
+ gnome-session			      systemd-machine-id-setup
+ gnome-session-custom-session	      systemd-mount
+ gnome-session-inhibit		      systemd-notify
+ gnome-session-properties	      systemd-path
+ gnome-session-quit		      systemd-run
+ gnome-shell			      systemd-socket-activate
+ gnome-shell-extension-tool	      systemd-stdio-bridge
+ gnome-shell-perf-tool		      systemd-sysext
+ gnome-system-monitor		      systemd-sysusers
+ gnome-terminal			      systemd-tmpfiles
+ gnome-terminal.real		      systemd-tty-ask-password-agent
+ gnome-terminal.wrapper		      systemd-umount
+ gnome-text-editor		      tabs
+ gnome-thumbnail-font		      tac
+ gnome-todo			      tail
+ gnome-www-browser		      tar
+ gold				      taskset
+ gpasswd			      tbl
+ gpg				      tclsh
+ gpg-agent			      tclsh8.6
+ gpg-connect-agent		      tcltk-depends
+ gpg-wks-server			      tcpdump
+ gpg-zip			      tee
+ gpgcompose			      telnet
+ gpgconf			      telnet.netkit
+ gpgparsemail			      tempfile
+ gpgsm				      terminator
+ gpgsplit			      test
+ gpgtar				      thunderbird
+ gpgv				      tic
+ gpic				      tificc
+ gprof				      time
+ gpu-manager			      timedatectl
+ grdctl				      timeout
+ grep				      tload
+ gresource			      tnftp
+ groff				      toe
+ grog				      top
+ grops				      totem
+ grotty				      totem-video-thumbnailer
+ groups				      touch
+ grub-editenv			      tput
+ grub-file			      tr
+ grub-fstest			      tracepath
+ grub-glue-efi			      tracker3
+ grub-kbdcomp			      transicc
+ grub-menulst2cfg		      transmission-gtk
+ grub-mkfont			      transset
+ grub-mkimage			      troff
+ grub-mklayout			      true
+ grub-mknetdir			      truncate
+ grub-mkpasswd-pbkdf2		      trust
+ grub-mkrelpath			      tset
+ grub-mkrescue			      tsort
+ grub-mkstandalone		      tty
+ grub-mount			      tzselect
+ grub-ntldr-img			      ua
+ grub-render-label		      ubuntu-advantage
+ grub-script-check		      ubuntu-bug
+ grub-syslinux2cfg		      ubuntu-core-launcher
+ gs				      ubuntu-distro-info
+ gsbj				      ubuntu-drivers
+ gsdj				      ubuntu-report
+ gsdj500			      ubuntu-security-status
+ gsettings			      ucf
+ gslj				      ucfq
+ gslp				      ucfr
+ gsnd				      uclampset
+ gst-device-monitor-1.0		      ucs2any
+ gst-discoverer-1.0		      udevadm
+ gst-inspect-1.0		      udisksctl
+ gst-launch-1.0			      ul
+ gst-play-1.0			      umax_pp
+ gst-stats-1.0			      umount
+ gst-tester-1.0			      uname
+ gst-typefind-1.0		      unattended-upgrade
+ gstreamer-codec-install	      unattended-upgrades
+ gtbl				      uncompress
+ gtf				      unexpand
+ gtk-builder-tool		      unicode_start
+ gtk-encode-symbolic-svg	      unicode_stop
+ gtk-launch			      uniq
+ gtk-query-settings		      unity-scope-loader
+ gtk-update-icon-cache		      unlink
+ gtk4-builder-tool		      unlzma
+ gtk4-encode-symbolic-svg	      unmkinitramfs
+ gtk4-launch			      unopkg
+ gtk4-query-settings		      unshare
+ gtk4-update-icon-cache		      unsquashfs
+ gunzip				      unxz
+ gzexe				      unzip
+ gzip				      unzipsfx
+ h2ph				      unzstd
+ h2xs				      update-alternatives
+ hardlink			      update-desktop-database
+ hbpldecode			      update-manager
+ hciattach			      update-mime-database
+ hciconfig			      update-notifier
+ hcitool			      upower
+ hd				      uptime
+ head				      usb-creator-gtk
+ helpztags			      usb-devices
+ hex2hcd			      usb_printerid
+ hexdump			      usbhid-dump
+ hipercdecode			      usbreset
+ host				      users
+ hostid				      utmpdump
+ hostname			      uuidgen
+ hostnamectl			      uuidparse
+ hp-align			      vdir
+ hp-check			      vi
+ hp-clean			      view
+ hp-colorcal			      viewres
+ hp-config_usb_printer		      vim.tiny
+ hp-doctor			      vm-support
+ hp-firmware			      vmhgfs-fuse
+ hp-info			      vmstat
+ hp-levels			      vmtoolsd
+ hp-logcapture			      vmware-alias-import
+ hp-makeuri			      vmware-checkvm
+ hp-pkservice			      vmware-hgfsclient
+ hp-plugin			      vmware-namespace-cmd
+ hp-plugin-ubuntu		      vmware-rpctool
+ hp-probe			      vmware-toolbox-cmd
+ hp-query			      vmware-user
+ hp-scan			      vmware-user-suid-wrapper
+ hp-setup			      vmware-vgauth-cmd
+ hp-testpage			      vmware-vmblock-fuse
+ hp-timedate			      vmware-xferlogs
+ hwe-support-status		      vmwarectrl
+ i386				      vmwgfxctrl
+ i686-linux-gnu-pkg-config	      vstp
+ ibus				      w
+ ibus-daemon			      wall
+ ibus-setup			      watch
+ ibus-table-createdb		      watchgnupg
+ iceauth			      wc
+ ico				      wdctl
+ iconv				      wget
+ id				      whatis
+ iecset				      whereis
+ ijs_pxljr			      which
+ im-config			      which.debianutils
+ im-launch			      whiptail
+ info				      who
+ infobrowser			      whoami
+ infocmp			      whoopsie
+ infotocap			      whoopsie-preferences
+ inputattach			      wish
+ install			      wish8.6
+ install-info			      word-list-compress
+ install-printerdriver		      wpa_passphrase
+ instmodsh			      write
+ intel-virtual-output		      write.ul
+ ionice				      x-session-manager
+ ip				      x-terminal-emulator
+ ipcmk				      x-www-browser
+ ipcrm				      x11perf
+ ipcs				      x11perfcomp
+ ipod-read-sysinfo-extended	      x86_64
+ ipod-time-sync			      x86_64-linux-gnu-addr2line
+ ippfind			      x86_64-linux-gnu-ar
+ ipptool			      x86_64-linux-gnu-as
+ iptables-xml			      x86_64-linux-gnu-c++filt
+ ischroot			      x86_64-linux-gnu-cpp
+ isdv4-serial-debugger		      x86_64-linux-gnu-cpp-11
+ isdv4-serial-inputattach	      x86_64-linux-gnu-dwp
+ isodump			      x86_64-linux-gnu-elfedit
+ isoinfo			      x86_64-linux-gnu-g++
+ isovfy				      x86_64-linux-gnu-g++-11
+ ispell-wrapper			      x86_64-linux-gnu-gcc
+ join				      x86_64-linux-gnu-gcc-11
+ journalctl			      x86_64-linux-gnu-gcc-ar
+ jpgicc				      x86_64-linux-gnu-gcc-ar-11
+ json_pp			      x86_64-linux-gnu-gcc-nm
+ kbd_mode			      x86_64-linux-gnu-gcc-nm-11
+ kbdinfo			      x86_64-linux-gnu-gcc-ranlib
+ kbxutil			      x86_64-linux-gnu-gcc-ranlib-11
+ kernel-install			      x86_64-linux-gnu-gcov
+ kerneloops-submit		      x86_64-linux-gnu-gcov-11
+ keyring			      x86_64-linux-gnu-gcov-dump
+ kill				      x86_64-linux-gnu-gcov-dump-11
+ killall			      x86_64-linux-gnu-gcov-tool
+ kmod				      x86_64-linux-gnu-gcov-tool-11
+ kmodsign			      x86_64-linux-gnu-gold
+ l2ping				      x86_64-linux-gnu-gprof
+ l2test				      x86_64-linux-gnu-ld
+ laptop-detect			      x86_64-linux-gnu-ld.bfd
+ last				      x86_64-linux-gnu-ld.gold
+ lastb				      x86_64-linux-gnu-lto-dump-11
+ lastlog			      x86_64-linux-gnu-nm
+ lavadecode			      x86_64-linux-gnu-objcopy
+ lcf				      x86_64-linux-gnu-objdump
+ ld				      x86_64-linux-gnu-pkg-config
+ ld.bfd				      x86_64-linux-gnu-ranlib
+ ld.gold			      x86_64-linux-gnu-readelf
+ ldd				      x86_64-linux-gnu-size
+ less				      x86_64-linux-gnu-strings
+ lessecho			      x86_64-linux-gnu-strip
+ lessfile			      x86_64-pc-linux-gnu-pkg-config
+ lesskey			      xargs
+ lesspipe			      xauth
+ lexgrog			      xbiff
+ libnetcfg			      xbrlapi
+ libpng-config			      xcalc
+ libpng16-config		      xclipboard
+ libreoffice			      xclock
+ libwacom-list-devices		      xcmsdb
+ libwacom-list-local-devices	      xconsole
+ libwacom-show-stylus		      xcursorgen
+ libwacom-update-db		      xcutsel
+ link				      xdg-dbus-proxy
+ linkicc			      xdg-desktop-icon
+ linux-boot-prober		      xdg-desktop-menu
+ linux-check-removal		      xdg-email
+ linux-update-symlinks		      xdg-icon-resource
+ linux-version			      xdg-mime
+ linux32			      xdg-open
+ linux64			      xdg-screensaver
+ listres			      xdg-settings
+ ln				      xdg-user-dir
+ lnstat				      xdg-user-dirs-gtk-update
+ loadkeys			      xdg-user-dirs-update
+ loadunimap			      xditview
+ localc				      xdpyinfo
+ locale				      xdriinfo
+ locale-check			      xedit
+ localectl			      xev
+ localedef			      xeyes
+ lodraw				      xfd
+ loffice			      xfontsel
+ lofromtemplate			      xgamma
+ logger				      xgc
+ login				      xhost
+ loginctl			      xinit
+ logname			      xinput
+ loimpress			      xkbbell
+ lomath				      xkbcomp
+ look				      xkbevd
+ loweb				      xkbprint
+ lowntfs-3g			      xkbvleds
+ lowriter			      xkbwatch
+ lp				      xkeystone
+ lp_solve			      xkill
+ lpoptions			      xload
+ lpq				      xlogo
+ lpr				      xlsatoms
+ lprm				      xlsclients
+ lpstat				      xlsfonts
+ lsattr				      xmag
+ lsb_release			      xman
+ lsblk				      xmessage
+ lscpu				      xmodmap
+ lshw				      xmore
+ lsinitramfs			      xprop
+ lsipc				      xqxdecode
+ lslocks			      xrandr
+ lslogins			      xrdb
+ lsmem				      xrefresh
+ lsmod				      xset
+ lsns				      xsetmode
+ lsof				      xsetpointer
+ lspci				      xsetroot
+ lspgpot			      xsetwacom
+ lsusb				      xsm
+ lto-dump-11			      xstdcmap
+ luit				      xsubpp
+ lwp-download			      xvidtune
+ lwp-dump			      xvinfo
+ lwp-mirror			      xwd
+ lwp-request			      xwininfo
+ lzcat				      xwud
+ lzcmp				      xxd
+ lzdiff				      xz
+ lzegrep			      xzcat
+ lzfgrep			      xzcmp
+ lzgrep				      xzdiff
+ lzless				      xzegrep
+ lzma				      xzfgrep
+ lzmainfo			      xzgrep
+ lzmore				      xzless
+ m2300w				      xzmore
+ m2300w-wrapper			      yelp
+ m2400w				      yes
+ make				      ypdomainname
+ make-first-existing-target	      zcat
+ mako-render			      zcmp
+ man				      zdiff
+ man-recode			      zdump
+ mandb				      zegrep
+ manpath			      zenity
+ mapscrn			      zfgrep
+ mawk				      zforce
+ mcookie			      zgrep
+ md5sum				      zip
+ md5sum.textutils		      zipcloak
+ mdig				      zipdetails
+ memusage			      zipgrep
+ memusagestat			      zipinfo
+ mesa-overlay-control.py	      zipnote
+ mesg				      zipsplit
+ migrate-pubring-from-classic-gpg     zjsdecode
+ mimeopen			      zless
+ mimetype			      zmore
+ min12xxw			      znew
+ mk_modmap			      zstd
+ mkdir				      zstdcat
+ mkfifo				      zstdgrep
+ mkfontdir			      zstdless
+ mkfontscale			      zstdmt
+[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ sudo cp networkchuck ls
+[?2004l[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ ls
+[?2004l [0m[01;36mGET[0m                                  [01;36mmkisofs[0m
+ [01;36mHEAD[0m                                 [01;32mmknod[0m
+ [01;36mPOST[0m                                 [01;32mmksquashfs[0m
+ [01;36mVBoxAudioTest[0m                        [01;32mmktemp[0m
+ [01;36mVBoxClient[0m                           [01;32mmkzftree[0m
+ [01;36mVBoxClient-all[0m                       [01;32mmmcli[0m
+ [01;36mVBoxControl[0m                          [01;32mmokutil[0m
+ [01;36mVBoxDRMClient[0m                        [01;32mmonitor-sensor[0m
+ [01;32mVGAuthService[0m                        [01;32mmore[0m
+ [01;36mX[0m                                    [37;41mmount[0m
+ [01;36mX11[0m                                  [01;32mmountpoint[0m
+ [01;32mXephyr[0m                               [01;32mmousetweaks[0m
+ [01;32mXorg[0m                                 [01;32mmscompress[0m
+ [01;32mXwayland[0m                             [01;32mmsexpand[0m
+[01;32m'['[0m                                   [01;36mmt[0m
+ [01;32maa-enabled[0m                           [01;32mmt-gnu[0m
+ [01;32maa-exec[0m                              [01;32mmtr[0m
+ [01;32maa-features-abi[0m                      [01;32mmtr-packet[0m
+ [01;32maconnect[0m                             [01;32mmtrace[0m
+ [01;32macpi_listen[0m                          [01;32mmv[0m
+ [01;32madd-apt-repository[0m                   [01;32mnamei[0m
+ [01;32maddpart[0m                              [01;32mnano[0m
+ [01;36maddr2line[0m                            [01;32mnautilus[0m
+ [01;32mairscan-discover[0m                     [01;32mnautilus-autorun-software[0m
+ [01;32malsabat[0m                              [01;32mnautilus-sendto[0m
+ [01;32malsaloop[0m                             [01;36mnawk[0m
+ [01;32malsamixer[0m                            [01;36mnc[0m
+ [01;32malsatplg[0m                             [01;32mnc.openbsd[0m
+ [01;32malsaucm[0m                              [01;36mncurses5-config[0m
+ [01;32mamidi[0m                                [01;32mncurses6-config[0m
+ [01;32mamixer[0m                               [01;36mncursesw5-config[0m
+ [01;32mapg[0m                                  [01;32mncursesw6-config[0m
+ [01;32mapgbfm[0m                               [01;32mneqn[0m
+ [01;32maplay[0m                                [01;36mnetcat[0m
+ [01;32maplaymidi[0m                            [01;32mnetworkchuch[0m
+ [01;32mapport-bug[0m                           [01;32mnetworkchuck[0m
+ [01;32mapport-cli[0m                           [01;32mnetworkctl[0m
+ [01;36mapport-collect[0m                       [01;32mnetworkd-dispatcher[0m
+ [01;32mapport-unpack[0m                        [37;41mnewgrp[0m
+ [01;32mappres[0m                               [01;32mngettext[0m
+ [01;32mappstreamcli[0m                         [01;32mnice[0m
+ [01;36mapropos[0m                              [01;36mnisdomainname[0m
+ [01;32mapt[0m                                  [01;32mnl[0m
+ [01;36mapt-add-repository[0m                   [01;36mnm[0m
+ [01;32mapt-cache[0m                            [01;32mnm-applet[0m
+ [01;32mapt-cdrom[0m                            [01;32mnm-connection-editor[0m
+ [01;32mapt-config[0m                           [01;32mnm-online[0m
+ [01;32mapt-extracttemplates[0m                 [01;32mnmcli[0m
+ [01;32mapt-ftparchive[0m                       [01;32mnmtui[0m
+ [01;32mapt-get[0m                              [01;36mnmtui-connect[0m
+ [01;32mapt-key[0m                              [01;36mnmtui-edit[0m
+ [01;32mapt-mark[0m                             [01;36mnmtui-hostname[0m
+ [01;32mapt-sortpkgs[0m                         [01;32mnohup[0m
+ [01;32maptdcon[0m                              [01;32mnotify-send[0m
+ [01;32mapturl[0m                               [01;32mnproc[0m
+ [01;32mapturl-gtk[0m                           [01;32mnroff[0m
+ [01;36mar[0m                                   [01;32mnsenter[0m
+ [01;32march[0m                                 [01;32mnslookup[0m
+ [01;36marecord[0m                              [01;32mnspr-config[0m
+ [01;32marecordmidi[0m                          [01;32mnss-config[0m
+ [01;32marm2hpdl[0m                             [01;32mnstat[0m
+ [01;36mas[0m                                   [01;32mnsupdate[0m
+ [01;32maseqdump[0m                             [01;32mntfs-3g[0m
+ [01;32maseqnet[0m                              [01;32mntfs-3g.probe[0m
+ [01;32maspell[0m                               [01;32mntfscat[0m
+ [01;32maspell-import[0m                        [01;32mntfscluster[0m
+ [01;32matobm[0m                                [01;32mntfscmp[0m
+ [01;32mavahi-browse[0m                         [01;32mntfsdecrypt[0m
+ [01;36mavahi-browse-domains[0m                 [01;32mntfsfallocate[0m
+ [01;32mavahi-publish[0m                        [01;32mntfsfix[0m
+ [01;36mavahi-publish-address[0m                [01;32mntfsinfo[0m
+ [01;36mavahi-publish-service[0m                [01;32mntfsls[0m
+ [01;32mavahi-resolve[0m                        [01;32mntfsmove[0m
+ [01;36mavahi-resolve-address[0m                [01;32mntfsrecover[0m
+ [01;36mavahi-resolve-host-name[0m              [01;32mntfssecaudit[0m
+ [01;32mavahi-set-host-name[0m                  [01;32mntfstruncate[0m
+ [01;32mavinfo[0m                               [01;32mntfsusermap[0m
+ [01;36mawk[0m                                  [01;32mntfswipe[0m
+ [01;32maxfer[0m                                [01;32mnumfmt[0m
+ [01;32mb2sum[0m                                [01;32mnvidia-detector[0m
+ [01;32mbaobab[0m                               [01;32moakdecode[0m
+ [01;32mbase32[0m                               [01;32mobexctl[0m
+ [01;32mbase64[0m                               [01;36mobjcopy[0m
+ [01;32mbasename[0m                             [01;36mobjdump[0m
+ [01;32mbasenc[0m                               [01;32moclock[0m
+ [01;32mbash[0m                                 [01;32mod[0m
+ [01;32mbashbug[0m                              [01;32moem-getlogs[0m
+ [01;32mbc[0m                                   [01;36mon_ac_power[0m
+ [01;32mbdftopcf[0m                             [01;32moomctl[0m
+ [01;32mbdftruncate[0m                          [01;36mopen[0m
+ [01;32mbitmap[0m                               [01;32mopenssl[0m
+ [01;32mbluemoon[0m                             [01;32mopenvt[0m
+ [01;32mbluetooth-sendto[0m                     [01;32mopldecode[0m
+ [01;32mbluetoothctl[0m                         [01;32morca[0m
+ [01;32mbmtoa[0m                                [01;32morca-dm-wrapper[0m
+ [01;32mboltctl[0m                              [01;32mos-prober[0m
+ [01;32mbootctl[0m                              [01;32mp11-kit[0m
+ [01;32mbrltty[0m                               [01;32mpa-info[0m
+ [01;32mbrltty-ctb[0m                           [01;32mpacat[0m
+ [01;32mbrltty-trtxt[0m                         [01;32mpacmd[0m
+ [01;32mbrltty-ttb[0m                           [01;32mpactl[0m
+ [01;32mbroadwayd[0m                            [01;32mpadsp[0m
+ [01;36mbrowse[0m                               [01;36mpager[0m
+ [01;32mbtattach[0m                             [01;36mpamon[0m
+ [01;32mbtmgmt[0m                               [01;32mpaperconf[0m
+ [01;32mbtmon[0m                                [01;36mpaplay[0m
+ [01;32mbunzip2[0m                              [01;36mparec[0m
+ [01;32mbusctl[0m                               [01;36mparecord[0m
+ [01;32mbusybox[0m                              [01;32mpartx[0m
+ [01;32mbwrap[0m                                [37;41mpasswd[0m
+ [01;32mbzcat[0m                                [01;32mpaste[0m
+ [01;36mbzcmp[0m                                [01;36mpasteurize[0m
+ [01;32mbzdiff[0m                               [01;32mpasuspender[0m
+ [01;36mbzegrep[0m                              [01;32mpatch[0m
+ [01;32mbzexe[0m                                [01;32mpathchk[0m
+ [01;36mbzfgrep[0m                              [01;32mpax11publish[0m
+ [01;32mbzgrep[0m                               [01;36mpdb3[0m
+ [01;32mbzip2[0m                                [01;36mpdb3.10[0m
+ [01;32mbzip2recover[0m                         [01;32mpdf2dsc[0m
+ [01;36mbzless[0m                               [01;32mpdf2ps[0m
+ [01;32mbzmore[0m                               [01;32mpdfattach[0m
+ [01;36mc++[0m                                  [01;32mpdfdetach[0m
+ [01;36mc++filt[0m                              [01;32mpdffonts[0m
+ [01;36mc89[0m                                  [01;32mpdfimages[0m
+ [01;32mc89-gcc[0m                              [01;32mpdfinfo[0m
+ [01;36mc99[0m                                  [01;32mpdfseparate[0m
+ [01;32mc99-gcc[0m                              [01;32mpdfsig[0m
+ [01;32mc_rehash[0m                             [01;32mpdftocairo[0m
+ [01;32mcalibrate_ppa[0m                        [01;32mpdftohtml[0m
+ [01;32mcanberra-gtk-play[0m                    [01;32mpdftoppm[0m
+ [01;32mcancel[0m                               [01;32mpdftops[0m
+ [01;36mcaptoinfo[0m                            [01;32mpdftotext[0m
+ [01;32mcat[0m                                  [01;32mpdfunite[0m
+ [01;32mcatman[0m                               [01;32mpeekfd[0m
+ [01;32mcautious-launcher[0m                    [01;32mperl[0m
+ [01;36mcc[0m                                   [01;32mperl5.34-x86_64-linux-gnu[0m
+ [01;32mcd-create-profile[0m                    [01;32mperl5.34.0[0m
+ [01;32mcd-fix-profile[0m                       [01;32mperlbug[0m
+ [01;32mcd-iccdump[0m                           [01;32mperldoc[0m
+ [01;32mcd-it8[0m                               [01;32mperli11ndoc[0m
+ [01;32mchacl[0m                                [01;32mperlivp[0m
+ [30;43mchage[0m                                [01;32mperlthanks[0m
+ [01;36mchardet[0m                              [01;32mpf2afm[0m
+ [01;32mchardetect[0m                           [01;32mpfbtopfa[0m
+ [01;32mchattr[0m                               [01;32mpgrep[0m
+ [01;32mchcon[0m                                [01;32mpic[0m
+ [01;32mcheck-language-support[0m               [01;36mpico[0m
+ [01;32mcheese[0m                               [01;32mpiconv[0m
+ [37;41mchfn[0m                                 [01;36mpidof[0m
+ [01;32mchgrp[0m                                [01;32mpidwait[0m
+ [01;32mchmod[0m                                [01;36mpinentry[0m
+ [01;32mchoom[0m                                [01;32mpinentry-curses[0m
+ [01;32mchown[0m                                [01;32mpinentry-gnome3[0m
+ [01;32mchrt[0m                                 [01;36mpinentry-x11[0m
+ [37;41mchsh[0m                                 [01;32mping[0m
+ [01;32mchvt[0m                                 [01;36mping4[0m
+ [01;32mciptool[0m                              [01;36mping6[0m
+ [01;32mckbcomp[0m                              [01;32mpinky[0m
+ [01;32mcksum[0m                                [01;32mpipewire[0m
+ [01;32mclear[0m                                [01;32mpipewire-media-session[0m
+ [01;32mclear_console[0m                        [01;32mpkaction[0m
+ [01;32mcmp[0m                                  [01;32mpkcheck[0m
+ [01;32mcodepage[0m                             [01;32mpkcon[0m
+ [01;32mcol[0m                                  [37;41mpkexec[0m
+ [01;32mcolcrt[0m                               [01;32mpkg-config[0m
+ [01;32mcolormgr[0m                             [01;36mpkill[0m
+ [01;32mcolrm[0m                                [01;32mpkmon[0m
+ [01;32mcolumn[0m                               [01;32mpkttyagent[0m
+ [01;32mcomm[0m                                 [01;32mpl2pm[0m
+ [01;36mcompose[0m                              [01;32mpldd[0m
+ [01;32mcorelist[0m                             [01;32mplog[0m
+ [01;32mcp[0m                                   [01;32mplymouth[0m
+ [01;32mcpan[0m                                 [01;32mpmap[0m
+ [01;32mcpan5.34-x86_64-linux-gnu[0m            [01;32mpng-fix-itxt[0m
+ [01;32mcpio[0m                                 [01;32mpngfix[0m
+ [01;36mcpp[0m                                  [01;32mpnm2ppa[0m
+ [01;36mcpp-11[0m                               [01;32mpod2html[0m
+ [30;43mcrontab[0m                              [01;32mpod2man[0m
+ [01;32mcsplit[0m                               [01;32mpod2text[0m
+ [01;36mctstat[0m                               [01;32mpod2usage[0m
+ [01;32mcupstestppd[0m                          [01;32mpodchecker[0m
+ [01;32mcut[0m                                  [01;32mpoff[0m
+ [01;32mcvt[0m                                  [01;32mpon[0m
+ [01;32mcvtsudoers[0m                           [01;32mpowerprofilesctl[0m
+ [01;32mdash[0m                                 [01;32mppdc[0m
+ [01;32mdate[0m                                 [01;32mppdhtml[0m
+ [01;32mdbus-cleanup-sockets[0m                 [01;32mppdi[0m
+ [01;32mdbus-daemon[0m                          [01;32mppdmerge[0m
+ [01;32mdbus-monitor[0m                         [01;32mppdpo[0m
+ [01;32mdbus-run-session[0m                     [01;32mpphs[0m
+ [01;32mdbus-send[0m                            [01;32mpr[0m
+ [01;32mdbus-update-activation-environment[0m   [01;32mprecat[0m
+ [01;32mdbus-uuidgen[0m                         [01;32mpreconv[0m
+ [01;32mdbxtool[0m                              [01;32mpreunzip[0m
+ [01;32mdc[0m                                   [01;32mprezip[0m
+ [01;32mdconf[0m                                [01;32mprezip-bin[0m
+ [01;32mdd[0m                                   [01;36mprint[0m
+ [01;32mddstdecode[0m                           [01;32mprintafm[0m
+ [01;32mdeallocvt[0m                            [01;32mprintenv[0m
+ [01;32mdeb-systemd-helper[0m                   [01;32mprinter-profile[0m
+ [01;32mdeb-systemd-invoke[0m                   [01;32mprintf[0m
+ [01;32mdebconf[0m                              [01;32mprlimit[0m
+ [01;32mdebconf-apt-progress[0m                 [01;36mpro[0m
+ [01;32mdebconf-communicate[0m                  [01;32mprove[0m
+ [01;32mdebconf-copydb[0m                       [01;32mprtstat[0m
+ [01;32mdebconf-escape[0m                       [01;32mps[0m
+ [01;32mdebconf-set-selections[0m               [01;32mps2ascii[0m
+ [01;32mdebconf-show[0m                         [01;32mps2epsi[0m
+ [01;32mdebian-distro-info[0m                   [01;32mps2pdf[0m
+ [01;32mdeja-dup[0m                             [01;32mps2pdf12[0m
+ [01;32mdelpart[0m                              [01;32mps2pdf13[0m
+ [01;32mdelv[0m                                 [01;32mps2pdf14[0m
+ [01;36mdesktop-file-edit[0m                    [01;32mps2pdfwr[0m
+ [01;32mdesktop-file-install[0m                 [01;32mps2ps[0m
+ [01;32mdesktop-file-validate[0m                [01;32mps2ps2[0m
+ [01;32mdevdump[0m                              [01;36mps2txt[0m
+ [01;32mdf[0m                                   [01;36mpsfaddtable[0m
+ [01;32mdfu-tool[0m                             [01;36mpsfgettable[0m
+ [01;32mdh_bash-completion[0m                   [01;36mpsfstriptable[0m
+ [01;32mdh_installxmlcatalogs[0m                [01;32mpsfxtable[0m
+ [01;32mdh_perl_openssl[0m                      [01;32mpsicc[0m
+ [01;32mdiff[0m                                 [01;32mpslog[0m
+ [01;32mdiff3[0m                                [01;32mpstree[0m
+ [01;32mdig[0m                                  [01;36mpstree.x11[0m
+ [01;32mdir[0m                                  [01;32mptar[0m
+ [01;32mdircolors[0m                            [01;32mptardiff[0m
+ [01;32mdirmngr[0m                              [01;32mptargrep[0m
+ [01;32mdirmngr-client[0m                       [01;32mptx[0m
+ [01;32mdirname[0m                              [01;32mpulseaudio[0m
+ [01;32mdirsplit[0m                             [01;32mpw-cat[0m
+ [01;36mdistro-info[0m                          [01;32mpw-cli[0m
+ [01;32mdmesg[0m                                [01;32mpw-dot[0m
+ [01;36mdnsdomainname[0m                        [01;36mpw-dsdplay[0m
+ [01;32mdo-release-upgrade[0m                   [01;32mpw-dump[0m
+ [01;36mdomainname[0m                           [01;32mpw-link[0m
+ [01;32mdpkg[0m                                 [01;32mpw-loopback[0m
+ [01;32mdpkg-architecture[0m                    [01;32mpw-metadata[0m
+ [01;32mdpkg-buildflags[0m                      [01;32mpw-mididump[0m
+ [01;32mdpkg-buildpackage[0m                    [01;36mpw-midiplay[0m
+ [01;32mdpkg-checkbuilddeps[0m                  [01;36mpw-midirecord[0m
+ [01;32mdpkg-deb[0m                             [01;32mpw-mon[0m
+ [01;32mdpkg-distaddfile[0m                     [01;36mpw-play[0m
+ [01;32mdpkg-divert[0m                          [01;32mpw-profiler[0m
+ [01;32mdpkg-genbuildinfo[0m                    [01;36mpw-record[0m
+ [01;32mdpkg-genchanges[0m                      [01;32mpw-reserve[0m
+ [01;32mdpkg-gencontrol[0m                      [01;32mpw-top[0m
+ [01;32mdpkg-gensymbols[0m                      [01;32mpw-v4l2[0m
+ [01;32mdpkg-maintscript-helper[0m              [01;32mpwd[0m
+ [01;32mdpkg-mergechangelogs[0m                 [01;32mpwdx[0m
+ [01;32mdpkg-name[0m                            [01;32mpy3clean[0m
+ [01;32mdpkg-parsechangelog[0m                  [01;32mpy3compile[0m
+ [01;32mdpkg-query[0m                           [01;36mpy3versions[0m
+ [01;32mdpkg-realpath[0m                        [01;36mpydoc3[0m
+ [01;32mdpkg-scanpackages[0m                    [01;32mpydoc3.10[0m
+ [01;32mdpkg-scansources[0m                     [01;36mpygettext3[0m
+ [01;32mdpkg-shlibdeps[0m                       [01;32mpygettext3.10[0m
+ [01;32mdpkg-source[0m                          [01;36mpython3[0m
+ [01;32mdpkg-split[0m                           [01;32mpython3-futurize[0m
+ [01;32mdpkg-statoverride[0m                    [01;32mpython3-pasteurize[0m
+ [01;32mdpkg-trigger[0m                         [01;32mpython3.10[0m
+ [01;32mdpkg-vendor[0m                          [01;32mpzstd[0m
+ [01;36mdriverless[0m                           [01;32mqpdldecode[0m
+ [01;36mdriverless-fax[0m                       [01;32mquirks-handler[0m
+ [01;32mdu[0m                                   [01;36mranlib[0m
+ [01;32mdumpkeys[0m                             [01;36mrbash[0m
+ [01;32mduplicity[0m                            [01;36mrcp[0m
+ [01;32mdvipdf[0m                               [01;32mrctest[0m
+ [01;36mdwp[0m                                  [01;32mrdiffdir[0m
+ [01;32mecho[0m                                 [01;32mrdma[0m
+ [01;32med[0m                                   [01;36mreadelf[0m
+ [01;36medit[0m                                 [01;32mreadlink[0m
+ [01;36meditor[0m                               [01;32mrealpath[0m
+ [01;32meditres[0m                              [01;32mred[0m
+ [01;32mefibootdump[0m                          [01;32mremmina[0m
+ [01;32mefibootmgr[0m                           [01;32mremmina-file-wrapper[0m
+ [01;32megrep[0m                                [01;32mremmina-gnome[0m
+ [01;32meject[0m                                [01;32mremotinator[0m
+ [01;36melfedit[0m                              [01;32mrendercheck[0m
+ [01;32menc2xs[0m                               [01;32mrenice[0m
+ [01;32mencguess[0m                             [01;36mreset[0m
+ [01;32menchant-2[0m                            [01;32mresizecons[0m
+ [01;32menchant-lsmod-2[0m                      [01;32mresizepart[0m
+ [01;32menv[0m                                  [01;32mresolvectl[0m
+ [01;32menvsubst[0m                             [01;32mrev[0m
+ [01;32meog[0m                                  [01;32mrfcomm[0m
+ [01;32meps2eps[0m                              [01;32mrgrep[0m
+ [01;32meqn[0m                                  [01;32mrhythmbox[0m
+ [01;32mesc-m[0m                                [01;32mrhythmbox-client[0m
+ [01;32meutp[0m                                 [01;36mrlogin[0m
+ [01;32mevince[0m                               [01;32mrm[0m
+ [01;32mevince-previewer[0m                     [01;32mrmdir[0m
+ [01;32mevince-thumbnailer[0m                   [01;36mrnano[0m
+ [01;36mex[0m                                   [01;32mroutef[0m
+ [01;32mexpand[0m                               [01;32mroutel[0m
+ [30;43mexpiry[0m                               [01;32mrpcgen[0m
+ [01;32mexpr[0m                                 [01;32mrrsync[0m
+ [01;32mfactor[0m                               [01;36mrsh[0m
+ [01;32mfaillog[0m                              [01;32mrstart[0m
+ [01;32mfaked-sysv[0m                           [01;32mrstartd[0m
+ [01;32mfaked-tcp[0m                            [01;32mrsync[0m
+ [01;36mfakeroot[0m                             [01;32mrsync-ssl[0m
+ [01;32mfakeroot-sysv[0m                        [01;36mrtstat[0m
+ [01;32mfakeroot-tcp[0m                         [01;32mrun-mailcap[0m
+ [01;32mfallocate[0m                            [01;32mrun-parts[0m
+ [01;32mfalse[0m                                [01;32mrun-with-aspell[0m
+ [01;32mfc-cache[0m                             [01;32mruncon[0m
+ [01;32mfc-cat[0m                               [01;36mrview[0m
+ [01;32mfc-conflist[0m                          [01;32mrygel[0m
+ [01;32mfc-list[0m                              [01;32msane-find-scanner[0m
+ [01;32mfc-match[0m                             [01;32msavelog[0m
+ [01;32mfc-pattern[0m                           [01;32msbattach[0m
+ [01;32mfc-query[0m                             [01;32msbkeysync[0m
+ [01;32mfc-scan[0m                              [01;32msbsiglist[0m
+ [01;32mfc-validate[0m                          [01;32msbsign[0m
+ [01;32mfgconsole[0m                            [01;32msbvarsign[0m
+ [01;32mfgrep[0m                                [01;32msbverify[0m
+ [01;32mfile[0m                                 [01;32mscanimage[0m
+ [01;32mfile-roller[0m                          [01;32mscp[0m
+ [01;32mfile2brl[0m                             [01;32mscp-dbus-service[0m
+ [01;32mfincore[0m                              [01;32mscreendump[0m
+ [01;32mfind[0m                                 [01;32mscript[0m
+ [01;32mfindmnt[0m                              [01;32mscriptlive[0m
+ [01;32mfirefox[0m                              [01;32mscriptreplay[0m
+ [01;32mflock[0m                                [01;32msdiff[0m
+ [01;32mfmt[0m                                  [01;32msdptool[0m
+ [01;32mfold[0m                                 [01;32mseahorse[0m
+ [01;32mfonttosfnt[0m                           [01;32msed[0m
+ [01;32mfoo2ddst[0m                             [01;36msee[0m
+ [01;32mfoo2ddst-wrapper[0m                     [01;32mselect-default-iwrap[0m
+ [01;32mfoo2hbpl2[0m                            [01;32mselect-editor[0m
+ [01;32mfoo2hbpl2-wrapper[0m                    [01;32msensible-browser[0m
+ [01;32mfoo2hiperc[0m                           [01;32msensible-editor[0m
+ [01;32mfoo2hiperc-wrapper[0m                   [01;32msensible-pager[0m
+ [01;32mfoo2hp[0m                               [01;32mseq[0m
+ [01;32mfoo2hp2600-wrapper[0m                   [01;32msession-migration[0m
+ [01;32mfoo2lava[0m                             [01;32msessreg[0m
+ [01;32mfoo2lava-wrapper[0m                     [01;32msetarch[0m
+ [01;32mfoo2oak[0m                              [01;32msetfacl[0m
+ [01;32mfoo2oak-wrapper[0m                      [01;32msetfont[0m
+ [01;32mfoo2qpdl[0m                             [01;32msetkeycodes[0m
+ [01;32mfoo2qpdl-wrapper[0m                     [01;32msetleds[0m
+ [01;32mfoo2slx[0m                              [01;32msetlogcons[0m
+ [01;32mfoo2slx-wrapper[0m                      [01;32msetmetamode[0m
+ [01;32mfoo2xqx[0m                              [01;32msetpci[0m
+ [01;32mfoo2xqx-wrapper[0m                      [01;32msetpriv[0m
+ [01;32mfoo2zjs[0m                              [01;32msetsid[0m
+ [01;36mfoo2zjs-icc2ps[0m                       [01;32msetterm[0m
+ [01;32mfoo2zjs-pstops[0m                       [01;32msetupcon[0m
+ [01;32mfoo2zjs-wrapper[0m                      [01;32msetxkbmap[0m
+ [01;36mfoomatic-rip[0m                         [01;32msftp[0m
+ [01;32mfprintd-delete[0m                       [01;36msg[0m
+ [01;32mfprintd-enroll[0m                       [01;36msh[0m
+ [01;32mfprintd-list[0m                         [01;32msha1sum[0m
+ [01;32mfprintd-verify[0m                       [01;32msha224sum[0m
+ [01;32mfree[0m                                 [01;32msha256sum[0m
+ [01;36mftp[0m                                  [01;32msha384sum[0m
+ [01;32mfunzip[0m                               [01;32msha512sum[0m
+ [01;32mfuser[0m                                [01;32mshasum[0m
+ [01;36mfusermount[0m                           [01;32mshotwell[0m
+ [37;41mfusermount3[0m                          [01;32mshowconsolefont[0m
+ [01;36mfuturize[0m                             [01;32mshowkey[0m
+ [01;36mfwupdagent[0m                           [01;32mshowrgb[0m
+ [01;32mfwupdate[0m                             [01;32mshred[0m
+ [01;32mfwupdmgr[0m                             [01;32mshuf[0m
+ [01;32mfwupdtool[0m                            [01;32msimple-scan[0m
+ [01;36mg++[0m                                  [01;36msize[0m
+ [01;36mg++-11[0m                               [01;32mskill[0m
+ [01;32mgamemoded[0m                            [01;32mslabtop[0m
+ [01;32mgamma4scanimage[0m                      [01;32msleep[0m
+ [01;32mgapplication[0m                         [01;36mslogin[0m
+ [01;32mgatttool[0m                             [01;32mslxdecode[0m
+ [01;32mgcalccmd[0m                             [01;32msmproxy[0m
+ [01;36mgcc[0m                                  [01;32msnap[0m
+ [01;36mgcc-11[0m                               [01;36msnapctl[0m
+ [01;36mgcc-ar[0m                               [01;32msnapfuse[0m
+ [01;36mgcc-ar-11[0m                            [01;36msnice[0m
+ [01;36mgcc-nm[0m                               [01;32msoelim[0m
+ [01;36mgcc-nm-11[0m                            [01;36msoffice[0m
+ [01;36mgcc-ranlib[0m                           [01;32msoftware-properties-gtk[0m
+ [01;36mgcc-ranlib-11[0m                        [01;32msort[0m
+ [01;32mgcore[0m                                [01;32msotruss[0m
+ [01;36mgcov[0m                                 [01;32mspa-acp-tool[0m
+ [01;36mgcov-11[0m                              [01;32mspa-inspect[0m
+ [01;36mgcov-dump[0m                            [01;32mspa-json-dump[0m
+ [01;36mgcov-dump-11[0m                         [01;32mspa-monitor[0m
+ [01;36mgcov-tool[0m                            [01;32mspa-resample[0m
+ [01;36mgcov-tool-11[0m                         [01;32mspd-conf[0m
+ [01;32mgcr-viewer[0m                           [01;32mspd-say[0m
+ [01;32mgdb[0m                                  [01;32mspdsend[0m
+ [01;32mgdb-add-index[0m                        [01;32mspeaker-test[0m
+ [01;32mgdbtui[0m                               [01;32mspeech-dispatcher[0m
+ [01;32mgdbus[0m                                [01;32mspice-vdagent[0m
+ [01;32mgdialog[0m                              [01;32msplain[0m
+ [01;32mgdk-pixbuf-csource[0m                   [01;32msplit[0m
+ [01;32mgdk-pixbuf-pixdata[0m                   [01;32msplitfont[0m
+ [01;32mgdk-pixbuf-thumbnailer[0m               [01;32msprof[0m
+ [01;32mgdm-screenshot[0m                       [01;36msqfscat[0m
+ [01;32mgdmflexiserver[0m                       [01;36msqfstar[0m
+ [01;32mgedit[0m                                [01;32mss[0m
+ [01;32mgencat[0m                               [01;32mssh[0m
+ [01;32mgenisoimage[0m                          [01;32mssh-add[0m
+ [01;36mgeqn[0m                                 [30;43mssh-agent[0m
+ [01;32mgetconf[0m                              [01;32mssh-argv0[0m
+ [01;32mgeteltorito[0m                          [01;32mssh-copy-id[0m
+ [01;32mgetent[0m                               [01;32mssh-keygen[0m
+ [01;32mgetfacl[0m                              [01;32mssh-keyscan[0m
+ [01;32mgetkeycodes[0m                          [01;32mstart-pulseaudio-x11[0m
+ [01;32mgetopt[0m                               [01;32mstartx[0m
+ [01;32mgettext[0m                              [01;32mstat[0m
+ [01;32mgettext.sh[0m                           [01;36mstatic-sh[0m
+ [01;36mghostscript[0m                          [01;32mstdbuf[0m
+ [01;36mginstall-info[0m                        [01;32mstrace[0m
+ [01;32mgio[0m                                  [01;32mstrace-log-merge[0m
+ [01;36mgio-querymodules[0m                     [01;32mstreamzip[0m
+ [01;32mgipddecode[0m                           [01;36mstrings[0m
+ [01;32mgit[0m                                  [01;36mstrip[0m
+ [01;36mgit-receive-pack[0m                     [01;32mstty[0m
+ [01;32mgit-shell[0m                            [37;41msu[0m
+ [01;36mgit-upload-archive[0m                   [37;41msudo[0m
+ [01;36mgit-upload-pack[0m                      [01;36msudoedit[0m
+ [01;36mgjs[0m                                  [01;32msudoreplay[0m
+ [01;32mgjs-console[0m                          [01;32msum[0m
+ [01;32mgkbd-keyboard-display[0m                [01;32mswitcherooctl[0m
+ [01;36mglib-compile-schemas[0m                 [01;32msync[0m
+ [01;36mgmake[0m                                [01;32msystem-config-printer[0m
+ [01;32mgnome-calculator[0m                     [01;32msystem-config-printer-applet[0m
+ [01;32mgnome-calendar[0m                       [01;32msystemctl[0m
+ [01;36mgnome-characters[0m                     [01;36msystemd[0m
+ [01;32mgnome-control-center[0m                 [01;32msystemd-analyze[0m
+ [01;32mgnome-disk-image-mounter[0m             [01;32msystemd-ask-password[0m
+ [01;32mgnome-disks[0m                          [01;32msystemd-cat[0m
+ [01;32mgnome-extensions[0m                     [01;32msystemd-cgls[0m
+ [01;32mgnome-font-viewer[0m                    [01;32msystemd-cgtop[0m
+ [01;36mgnome-help[0m                           [01;32msystemd-cryptenroll[0m
+ [01;36mgnome-keyring[0m                        [01;32msystemd-delta[0m
+ [01;32mgnome-keyring-3[0m                      [01;32msystemd-detect-virt[0m
+ [01;32mgnome-keyring-daemon[0m                 [01;32msystemd-escape[0m
+ [01;32mgnome-language-selector[0m              [01;32msystemd-hwdb[0m
+ [01;32mgnome-logs[0m                           [01;32msystemd-id128[0m
+ [01;32mgnome-power-statistics[0m               [01;32msystemd-inhibit[0m
+ [01;32mgnome-session[0m                        [01;32msystemd-machine-id-setup[0m
+ [01;32mgnome-session-custom-session[0m         [01;32msystemd-mount[0m
+ [01;32mgnome-session-inhibit[0m                [01;32msystemd-notify[0m
+ [01;32mgnome-session-properties[0m             [01;32msystemd-path[0m
+ [01;32mgnome-session-quit[0m                   [01;32msystemd-run[0m
+ [01;32mgnome-shell[0m                          [01;32msystemd-socket-activate[0m
+ [01;32mgnome-shell-extension-tool[0m           [01;32msystemd-stdio-bridge[0m
+ [01;32mgnome-shell-perf-tool[0m                [01;32msystemd-sysext[0m
+ [01;32mgnome-system-monitor[0m                 [01;32msystemd-sysusers[0m
+ [01;32mgnome-terminal[0m                       [01;32msystemd-tmpfiles[0m
+ [01;32mgnome-terminal.real[0m                  [01;32msystemd-tty-ask-password-agent[0m
+ [01;32mgnome-terminal.wrapper[0m               [01;36msystemd-umount[0m
+ [01;36mgnome-text-editor[0m                    [01;32mtabs[0m
+ [01;32mgnome-thumbnail-font[0m                 [01;32mtac[0m
+ [01;32mgnome-todo[0m                           [01;32mtail[0m
+ [01;36mgnome-www-browser[0m                    [01;32mtar[0m
+ [01;36mgold[0m                                 [01;32mtaskset[0m
+ [37;41mgpasswd[0m                              [01;32mtbl[0m
+ [01;32mgpg[0m                                  [01;36mtclsh[0m
+ [01;32mgpg-agent[0m                            [01;32mtclsh8.6[0m
+ [01;32mgpg-connect-agent[0m                    [01;32mtcltk-depends[0m
+ [01;32mgpg-wks-server[0m                       [01;32mtcpdump[0m
+ [01;32mgpg-zip[0m                              [01;32mtee[0m
+ [01;32mgpgcompose[0m                           [01;36mtelnet[0m
+ [01;32mgpgconf[0m                              [01;32mtelnet.netkit[0m
+ [01;32mgpgparsemail[0m                         [01;32mtempfile[0m
+ [01;32mgpgsm[0m                                [01;32mterminator[0m
+ [01;32mgpgsplit[0m                             [01;32mtest[0m
+ [01;32mgpgtar[0m                               [01;36mthunderbird[0m
+ [01;32mgpgv[0m                                 [01;32mtic[0m
+ [01;36mgpic[0m                                 [01;32mtificc[0m
+ [01;36mgprof[0m                                [01;32mtime[0m
+ [01;32mgpu-manager[0m                          [01;32mtimedatectl[0m
+ [01;32mgrdctl[0m                               [01;32mtimeout[0m
+ [01;32mgrep[0m                                 [01;32mtload[0m
+ [01;32mgresource[0m                            [01;32mtnftp[0m
+ [01;32mgroff[0m                                [01;32mtoe[0m
+ [01;32mgrog[0m                                 [01;32mtop[0m
+ [01;32mgrops[0m                                [01;32mtotem[0m
+ [01;32mgrotty[0m                               [01;32mtotem-video-thumbnailer[0m
+ [01;32mgroups[0m                               [01;32mtouch[0m
+ [01;32mgrub-editenv[0m                         [01;32mtput[0m
+ [01;32mgrub-file[0m                            [01;32mtr[0m
+ [01;32mgrub-fstest[0m                          [01;32mtracepath[0m
+ [01;32mgrub-glue-efi[0m                        [01;32mtracker3[0m
+ [01;32mgrub-kbdcomp[0m                         [01;32mtransicc[0m
+ [01;32mgrub-menulst2cfg[0m                     [01;32mtransmission-gtk[0m
+ [01;32mgrub-mkfont[0m                          [01;32mtransset[0m
+ [01;32mgrub-mkimage[0m                         [01;32mtroff[0m
+ [01;32mgrub-mklayout[0m                        [01;32mtrue[0m
+ [01;32mgrub-mknetdir[0m                        [01;32mtruncate[0m
+ [01;32mgrub-mkpasswd-pbkdf2[0m                 [01;32mtrust[0m
+ [01;32mgrub-mkrelpath[0m                       [01;32mtset[0m
+ [01;32mgrub-mkrescue[0m                        [01;32mtsort[0m
+ [01;32mgrub-mkstandalone[0m                    [01;32mtty[0m
+ [01;32mgrub-mount[0m                           [01;32mtzselect[0m
+ [01;36mgrub-ntldr-img[0m                       [01;36mua[0m
+ [01;32mgrub-render-label[0m                    [01;32mubuntu-advantage[0m
+ [01;32mgrub-script-check[0m                    [01;36mubuntu-bug[0m
+ [01;32mgrub-syslinux2cfg[0m                    [01;36mubuntu-core-launcher[0m
+ [01;32mgs[0m                                   [01;32mubuntu-distro-info[0m
+ [01;32mgsbj[0m                                 [01;32mubuntu-drivers[0m
+ [01;32mgsdj[0m                                 [01;32mubuntu-report[0m
+ [01;32mgsdj500[0m                              [01;32mubuntu-security-status[0m
+ [01;32mgsettings[0m                            [01;32mucf[0m
+ [01;32mgslj[0m                                 [01;32mucfq[0m
+ [01;32mgslp[0m                                 [01;32mucfr[0m
+ [01;32mgsnd[0m                                 [01;32muclampset[0m
+ [01;32mgst-device-monitor-1.0[0m               [01;32mucs2any[0m
+ [01;32mgst-discoverer-1.0[0m                   [01;32mudevadm[0m
+ [01;32mgst-inspect-1.0[0m                      [01;32mudisksctl[0m
+ [01;32mgst-launch-1.0[0m                       [01;32mul[0m
+ [01;32mgst-play-1.0[0m                         [01;32mumax_pp[0m
+ [01;32mgst-stats-1.0[0m                        [37;41mumount[0m
+ [01;32mgst-tester-1.0[0m                       [01;32muname[0m
+ [01;32mgst-typefind-1.0[0m                     [01;32munattended-upgrade[0m
+ [01;36mgstreamer-codec-install[0m              [01;36munattended-upgrades[0m
+ [01;36mgtbl[0m                                 [01;32muncompress[0m
+ [01;32mgtf[0m                                  [01;32munexpand[0m
+ [01;32mgtk-builder-tool[0m                     [01;32municode_start[0m
+ [01;32mgtk-encode-symbolic-svg[0m              [01;32municode_stop[0m
+ [01;32mgtk-launch[0m                           [01;32muniq[0m
+ [01;32mgtk-query-settings[0m                   [01;32munity-scope-loader[0m
+ [01;32mgtk-update-icon-cache[0m                [01;32munlink[0m
+ [01;32mgtk4-builder-tool[0m                    [01;36munlzma[0m
+ [01;32mgtk4-encode-symbolic-svg[0m             [01;32munmkinitramfs[0m
+ [01;32mgtk4-launch[0m                          [01;32munopkg[0m
+ [01;32mgtk4-query-settings[0m                  [01;32munshare[0m
+ [01;32mgtk4-update-icon-cache[0m               [01;32munsquashfs[0m
+ [01;32mgunzip[0m                               [01;36munxz[0m
+ [01;32mgzexe[0m                                [01;32munzip[0m
+ [01;32mgzip[0m                                 [01;32munzipsfx[0m
+ [01;32mh2ph[0m                                 [01;36munzstd[0m
+ [01;32mh2xs[0m                                 [01;32mupdate-alternatives[0m
+ [01;32mhardlink[0m                             [01;32mupdate-desktop-database[0m
+ [01;32mhbpldecode[0m                           [01;32mupdate-manager[0m
+ [01;32mhciattach[0m                            [01;32mupdate-mime-database[0m
+ [01;32mhciconfig[0m                            [01;32mupdate-notifier[0m
+ [01;32mhcitool[0m                              [01;32mupower[0m
+ [01;36mhd[0m                                   [01;32muptime[0m
+ [01;32mhead[0m                                 [01;32musb-creator-gtk[0m
+ [01;32mhelpztags[0m                            [01;32musb-devices[0m
+ [01;32mhex2hcd[0m                              [01;32musb_printerid[0m
+ [01;32mhexdump[0m                              [01;32musbhid-dump[0m
+ [01;32mhipercdecode[0m                         [01;32musbreset[0m
+ [01;32mhost[0m                                 [01;32musers[0m
+ [01;32mhostid[0m                               [01;32mutmpdump[0m
+ [01;32mhostname[0m                             [01;32muuidgen[0m
+ [01;32mhostnamectl[0m                          [01;32muuidparse[0m
+ [01;36mhp-align[0m                             [01;32mvdir[0m
+ [01;36mhp-check[0m                             [01;36mvi[0m
+ [01;36mhp-clean[0m                             [01;36mview[0m
+ [01;36mhp-colorcal[0m                          [01;32mviewres[0m
+ [01;36mhp-config_usb_printer[0m                [01;32mvim.tiny[0m
+ [01;36mhp-doctor[0m                            [01;32mvm-support[0m
+ [01;36mhp-firmware[0m                          [01;32mvmhgfs-fuse[0m
+ [01;36mhp-info[0m                              [01;32mvmstat[0m
+ [01;36mhp-levels[0m                            [01;32mvmtoolsd[0m
+ [01;36mhp-logcapture[0m                        [01;32mvmware-alias-import[0m
+ [01;36mhp-makeuri[0m                           [01;32mvmware-checkvm[0m
+ [01;36mhp-pkservice[0m                         [01;32mvmware-hgfsclient[0m
+ [01;36mhp-plugin[0m                            [01;32mvmware-namespace-cmd[0m
+ [01;32mhp-plugin-ubuntu[0m                     [01;32mvmware-rpctool[0m
+ [01;36mhp-probe[0m                             [01;32mvmware-toolbox-cmd[0m
+ [01;36mhp-query[0m                             [01;36mvmware-user[0m
+ [01;36mhp-scan[0m                              [37;41mvmware-user-suid-wrapper[0m
+ [01;36mhp-setup[0m                             [01;32mvmware-vgauth-cmd[0m
+ [01;36mhp-testpage[0m                          [01;32mvmware-vmblock-fuse[0m
+ [01;36mhp-timedate[0m                          [01;32mvmware-xferlogs[0m
+ [01;32mhwe-support-status[0m                   [01;32mvmwarectrl[0m
+ [01;36mi386[0m                                 [01;32mvmwgfxctrl[0m
+ [01;36mi686-linux-gnu-pkg-config[0m            [01;32mvstp[0m
+ [01;32mibus[0m                                 [01;32mw[0m
+ [01;32mibus-daemon[0m                          [30;43mwall[0m
+ [01;32mibus-setup[0m                           [01;32mwatch[0m
+ [01;32mibus-table-createdb[0m                  [01;32mwatchgnupg[0m
+ [01;32miceauth[0m                              [01;32mwc[0m
+ [01;32mico[0m                                  [01;32mwdctl[0m
+ [01;32miconv[0m                                [01;32mwget[0m
+ [01;32mid[0m                                   [01;32mwhatis[0m
+ [01;32miecset[0m                               [01;32mwhereis[0m
+ [01;32mijs_pxljr[0m                            [01;36mwhich[0m
+ [01;32mim-config[0m                            [01;32mwhich.debianutils[0m
+ [01;32mim-launch[0m                            [01;32mwhiptail[0m
+ [01;32minfo[0m                                 [01;32mwho[0m
+ [01;36minfobrowser[0m                          [01;32mwhoami[0m
+ [01;32minfocmp[0m                              [01;32mwhoopsie[0m
+ [01;36minfotocap[0m                            [01;32mwhoopsie-preferences[0m
+ [01;32minputattach[0m                          [01;36mwish[0m
+ [01;32minstall[0m                              [01;32mwish8.6[0m
+ [01;32minstall-info[0m                         [01;32mword-list-compress[0m
+ [01;32minstall-printerdriver[0m                [01;32mwpa_passphrase[0m
+ [01;32minstmodsh[0m                            [01;36mwrite[0m
+ [01;32mintel-virtual-output[0m                 [30;43mwrite.ul[0m
+ [01;32mionice[0m                               [01;36mx-session-manager[0m
+ [01;32mip[0m                                   [01;36mx-terminal-emulator[0m
+ [01;32mipcmk[0m                                [01;36mx-www-browser[0m
+ [01;32mipcrm[0m                                [01;32mx11perf[0m
+ [01;32mipcs[0m                                 [01;32mx11perfcomp[0m
+ [01;32mipod-read-sysinfo-extended[0m           [01;36mx86_64[0m
+ [01;32mipod-time-sync[0m                       [01;32mx86_64-linux-gnu-addr2line[0m
+ [01;32mippfind[0m                              [01;32mx86_64-linux-gnu-ar[0m
+ [01;32mipptool[0m                              [01;32mx86_64-linux-gnu-as[0m
+ [01;36miptables-xml[0m                         [01;32mx86_64-linux-gnu-c++filt[0m
+ [01;32mischroot[0m                             [01;36mx86_64-linux-gnu-cpp[0m
+ [01;32misdv4-serial-debugger[0m                [01;32mx86_64-linux-gnu-cpp-11[0m
+ [01;32misdv4-serial-inputattach[0m             [01;32mx86_64-linux-gnu-dwp[0m
+ [01;32misodump[0m                              [01;32mx86_64-linux-gnu-elfedit[0m
+ [01;32misoinfo[0m                              [01;36mx86_64-linux-gnu-g++[0m
+ [01;32misovfy[0m                               [01;32mx86_64-linux-gnu-g++-11[0m
+ [01;32mispell-wrapper[0m                       [01;36mx86_64-linux-gnu-gcc[0m
+ [01;32mjoin[0m                                 [01;32mx86_64-linux-gnu-gcc-11[0m
+ [01;32mjournalctl[0m                           [01;36mx86_64-linux-gnu-gcc-ar[0m
+ [01;32mjpgicc[0m                               [01;32mx86_64-linux-gnu-gcc-ar-11[0m
+ [01;32mjson_pp[0m                              [01;36mx86_64-linux-gnu-gcc-nm[0m
+ [01;32mkbd_mode[0m                             [01;32mx86_64-linux-gnu-gcc-nm-11[0m
+ [01;32mkbdinfo[0m                              [01;36mx86_64-linux-gnu-gcc-ranlib[0m
+ [01;32mkbxutil[0m                              [01;32mx86_64-linux-gnu-gcc-ranlib-11[0m
+ [01;32mkernel-install[0m                       [01;36mx86_64-linux-gnu-gcov[0m
+ [01;32mkerneloops-submit[0m                    [01;32mx86_64-linux-gnu-gcov-11[0m
+ [01;32mkeyring[0m                              [01;36mx86_64-linux-gnu-gcov-dump[0m
+ [01;32mkill[0m                                 [01;32mx86_64-linux-gnu-gcov-dump-11[0m
+ [01;32mkillall[0m                              [01;36mx86_64-linux-gnu-gcov-tool[0m
+ [01;32mkmod[0m                                 [01;32mx86_64-linux-gnu-gcov-tool-11[0m
+ [01;32mkmodsign[0m                             [01;36mx86_64-linux-gnu-gold[0m
+ [01;32ml2ping[0m                               [01;32mx86_64-linux-gnu-gprof[0m
+ [01;32ml2test[0m                               [01;36mx86_64-linux-gnu-ld[0m
+ [01;32mlaptop-detect[0m                        [01;32mx86_64-linux-gnu-ld.bfd[0m
+ [01;32mlast[0m                                 [01;32mx86_64-linux-gnu-ld.gold[0m
+ [01;36mlastb[0m                                [01;32mx86_64-linux-gnu-lto-dump-11[0m
+ [01;32mlastlog[0m                              [01;32mx86_64-linux-gnu-nm[0m
+ [01;32mlavadecode[0m                           [01;32mx86_64-linux-gnu-objcopy[0m
+ [01;32mlcf[0m                                  [01;32mx86_64-linux-gnu-objdump[0m
+ [01;36mld[0m                                   [01;36mx86_64-linux-gnu-pkg-config[0m
+ [01;36mld.bfd[0m                               [01;32mx86_64-linux-gnu-ranlib[0m
+ [01;36mld.gold[0m                              [01;32mx86_64-linux-gnu-readelf[0m
+ [01;32mldd[0m                                  [01;32mx86_64-linux-gnu-size[0m
+ [01;32mless[0m                                 [01;32mx86_64-linux-gnu-strings[0m
+ [01;32mlessecho[0m                             [01;32mx86_64-linux-gnu-strip[0m
+ [01;36mlessfile[0m                             [01;32mx86_64-pc-linux-gnu-pkg-config[0m
+ [01;32mlesskey[0m                              [01;32mxargs[0m
+ [01;32mlesspipe[0m                             [01;32mxauth[0m
+ [01;32mlexgrog[0m                              [01;32mxbiff[0m
+ [01;32mlibnetcfg[0m                            [01;32mxbrlapi[0m
+ [01;36mlibpng-config[0m                        [01;32mxcalc[0m
+ [01;32mlibpng16-config[0m                      [01;32mxclipboard[0m
+ [01;36mlibreoffice[0m                          [01;32mxclock[0m
+ [01;32mlibwacom-list-devices[0m                [01;32mxcmsdb[0m
+ [01;32mlibwacom-list-local-devices[0m          [01;32mxconsole[0m
+ [01;32mlibwacom-show-stylus[0m                 [01;32mxcursorgen[0m
+ [01;32mlibwacom-update-db[0m                   [01;32mxcutsel[0m
+ [01;32mlink[0m                                 [01;32mxdg-dbus-proxy[0m
+ [01;32mlinkicc[0m                              [01;32mxdg-desktop-icon[0m
+ [01;32mlinux-boot-prober[0m                    [01;32mxdg-desktop-menu[0m
+ [01;32mlinux-check-removal[0m                  [01;32mxdg-email[0m
+ [01;32mlinux-update-symlinks[0m                [01;32mxdg-icon-resource[0m
+ [01;32mlinux-version[0m                        [01;32mxdg-mime[0m
+ [01;36mlinux32[0m                              [01;32mxdg-open[0m
+ [01;36mlinux64[0m                              [01;32mxdg-screensaver[0m
+ [01;32mlistres[0m                              [01;32mxdg-settings[0m
+ [01;32mln[0m                                   [01;32mxdg-user-dir[0m
+ [01;32mlnstat[0m                               [01;32mxdg-user-dirs-gtk-update[0m
+ [01;32mloadkeys[0m                             [01;32mxdg-user-dirs-update[0m
+ [01;32mloadunimap[0m                           [01;32mxditview[0m
+ [01;32mlocalc[0m                               [01;32mxdpyinfo[0m
+ [01;32mlocale[0m                               [01;32mxdriinfo[0m
+ [01;32mlocale-check[0m                         [01;32mxedit[0m
+ [01;32mlocalectl[0m                            [01;32mxev[0m
+ [01;32mlocaledef[0m                            [01;32mxeyes[0m
+ [01;32mlodraw[0m                               [01;32mxfd[0m
+ [01;32mloffice[0m                              [01;32mxfontsel[0m
+ [01;32mlofromtemplate[0m                       [01;32mxgamma[0m
+ [01;32mlogger[0m                               [01;32mxgc[0m
+ [01;32mlogin[0m                                [01;32mxhost[0m
+ [01;32mloginctl[0m                             [01;32mxinit[0m
+ [01;32mlogname[0m                              [01;32mxinput[0m
+ [01;32mloimpress[0m                            [01;32mxkbbell[0m
+ [01;32mlomath[0m                               [01;32mxkbcomp[0m
+ [01;32mlook[0m                                 [01;32mxkbevd[0m
+ [01;32mloweb[0m                                [01;32mxkbprint[0m
+ [01;32mlowntfs-3g[0m                           [01;32mxkbvleds[0m
+ [01;32mlowriter[0m                             [01;32mxkbwatch[0m
+ [01;32mlp[0m                                   [01;32mxkeystone[0m
+ [01;32mlp_solve[0m                             [01;32mxkill[0m
+ [01;32mlpoptions[0m                            [01;32mxload[0m
+ [01;32mlpq[0m                                  [01;32mxlogo[0m
+ [01;32mlpr[0m                                  [01;32mxlsatoms[0m
+ [01;32mlprm[0m                                 [01;32mxlsclients[0m
+ [01;32mlpstat[0m                               [01;32mxlsfonts[0m
+ [01;32mls[0m                                   [01;32mxmag[0m
+ [01;32mlsattr[0m                               [01;32mxman[0m
+ [01;32mlsb_release[0m                          [01;32mxmessage[0m
+ [01;32mlsblk[0m                                [01;32mxmodmap[0m
+ [01;32mlscpu[0m                                [01;32mxmore[0m
+ [01;32mlshw[0m                                 [01;32mxprop[0m
+ [01;32mlsinitramfs[0m                          [01;32mxqxdecode[0m
+ [01;32mlsipc[0m                                [01;32mxrandr[0m
+ [01;32mlslocks[0m                              [01;32mxrdb[0m
+ [01;32mlslogins[0m                             [01;32mxrefresh[0m
+ [01;32mlsmem[0m                                [01;32mxset[0m
+ [01;36mlsmod[0m                                [01;32mxsetmode[0m
+ [01;32mlsns[0m                                 [01;32mxsetpointer[0m
+ [01;32mlsof[0m                                 [01;32mxsetroot[0m
+ [01;32mlspci[0m                                [01;32mxsetwacom[0m
+ [01;32mlspgpot[0m                              [01;32mxsm[0m
+ [01;32mlsusb[0m                                [01;32mxstdcmap[0m
+ [01;36mlto-dump-11[0m                          [01;32mxsubpp[0m
+ [01;32mluit[0m                                 [01;32mxvidtune[0m
+ [01;32mlwp-download[0m                         [01;32mxvinfo[0m
+ [01;32mlwp-dump[0m                             [01;32mxwd[0m
+ [01;32mlwp-mirror[0m                           [01;32mxwininfo[0m
+ [01;32mlwp-request[0m                          [01;32mxwud[0m
+ [01;36mlzcat[0m                                [01;32mxxd[0m
+ [01;36mlzcmp[0m                                [01;32mxz[0m
+ [01;36mlzdiff[0m                               [01;36mxzcat[0m
+ [01;36mlzegrep[0m                              [01;36mxzcmp[0m
+ [01;36mlzfgrep[0m                              [01;32mxzdiff[0m
+ [01;36mlzgrep[0m                               [01;36mxzegrep[0m
+ [01;36mlzless[0m                               [01;36mxzfgrep[0m
+ [01;36mlzma[0m                                 [01;32mxzgrep[0m
+ [01;32mlzmainfo[0m                             [01;32mxzless[0m
+ [01;36mlzmore[0m                               [01;32mxzmore[0m
+ [01;32mm2300w[0m                               [01;32myelp[0m
+ [01;32mm2300w-wrapper[0m                       [01;32myes[0m
+ [01;32mm2400w[0m                               [01;36mypdomainname[0m
+ [01;32mmake[0m                                 [01;32mzcat[0m
+ [01;32mmake-first-existing-target[0m           [01;32mzcmp[0m
+ [01;32mmako-render[0m                          [01;32mzdiff[0m
+ [01;32mman[0m                                  [01;32mzdump[0m
+ [01;32mman-recode[0m                           [01;32mzegrep[0m
+ [01;32mmandb[0m                                [01;32mzenity[0m
+ [01;32mmanpath[0m                              [01;32mzfgrep[0m
+ [01;32mmapscrn[0m                              [01;32mzforce[0m
+ [01;32mmawk[0m                                 [01;32mzgrep[0m
+ [01;32mmcookie[0m                              [01;32mzip[0m
+ [01;32mmd5sum[0m                               [01;32mzipcloak[0m
+ [01;36mmd5sum.textutils[0m                     [01;32mzipdetails[0m
+ [01;32mmdig[0m                                 [01;32mzipgrep[0m
+ [01;32mmemusage[0m                             [01;32mzipinfo[0m
+ [01;32mmemusagestat[0m                         [01;32mzipnote[0m
+ [01;32mmesa-overlay-control.py[0m              [01;32mzipsplit[0m
+ [01;32mmesg[0m                                 [01;32mzjsdecode[0m
+ [01;32mmigrate-pubring-from-classic-gpg[0m     [01;32mzless[0m
+ [01;32mmimeopen[0m                             [01;32mzmore[0m
+ [01;32mmimetype[0m                             [01;32mznew[0m
+ [01;32mmin12xxw[0m                             [01;32mzstd[0m
+ [01;32mmk_modmap[0m                            [01;36mzstdcat[0m
+ [01;32mmkdir[0m                                [01;32mzstdgrep[0m
+ [01;32mmkfifo[0m                               [01;32mzstdless[0m
+ [01;32mmkfontdir[0m                            [01;36mzstdmt[0m
+ [01;32mmkfontscale[0m
+[?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ cat cat
+[?2004lELF          >    p7      @       ‚          @ 8  @         @       @       @       Ø      Ø                                                                                        x      x                                           6<      6<                    `       `       `      À      À                   àz      àŠ      àŠ      ˆ      Ø                   @|      @Œ      @Œ      °      °                   8      8      8      0       0                    h      h      h      D       D              Såtd   8      8      8      0       0              Påtd   °m      °m      °m      ´       ´              Qåtd                                                  Råtd   àz      àŠ      àŠ                           /lib64/ld-linux-x86-64.so.2               GNU   À          € À                   GNU D¯‹1wu7;wƒûĞØ</çòn         GNU                      >                >       ÑeÎm                            4                     F                                           P                      9                      n                     ’                      R                     Y                     g                      @                     ¢                     ‹                      ç                                                               /                      ò                      ×                      ¼                      ­                                          f                     ’                      ?                                          Œ                      ó                     b                      	                     Æ                     ë                      ­                      Ş                      ®                      v                     r                      K                     „                      V                      y                      7                     Í                      ¹                                          J                                           î                     ˜                      "                      Û                     Z                     ?                     Ÿ                      ½                      /                                          &                     Õ                                          _                        "                    __cxa_finalize __libc_start_main __cxa_atexit dcgettext __errno_location error abort nl_langinfo read __fpending fileno __freading fflush fclose lseek fseeko __fprintf_chk fputc_unlocked __stack_chk_fail setlocale strlen __memcpy_chk strcmp __ctype_get_mb_cur_max memcmp __ctype_b_loc mbrtowc iswprint mbsinit realloc memset free malloc stdout _exit stderr strrchr strncmp program_invocation_name __progname_full bindtextdomain getopt_long __printf_chk fputs_unlocked fstat getpagesize optind open posix_fadvise stpcpy memmove ioctl program_invocation_short_name __progname fwrite libc.so.6 GLIBC_2.3 GLIBC_2.33 GLIBC_2.3.4 GLIBC_2.4 GLIBC_2.34 GLIBC_2.2.5 _ITM_deregisterTMCloneTable __gmon_start__ _ITM_registerTMCloneTable                                                                      F         ii   P     ³‘–   Z     ti	   e     ii   q     ´‘–   {     ui	   †       ‹             ía       ‹             ıa      @‹             b      `‹             b      €‹             #b       ‹             -b      À‹             7b      à‹             @b       Œ             Eb                         H                    P             @      X             ,      `             1      ˜                                         ¨                    °                    ¸         #           À         $           È         7           Ğ         9           Ø         >           à         =                                                                                            (         	           0         
+           8                    @                    H                    P                    X                    `                    h                    p                    x                    €                    ˆ                                        ˜                                         ¨                    °                    ¸                    À                    È                    Ğ                    Ø                     à         !           è         "           ğ         %           ø         &                     '                    (                    )                    *                     +           (         ,           0         -           8         .           @         0           H         1           P         2           X         3           `         4           h         5           p         6           x         8           €         :           ˆ         ;                    <                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   óúHƒìH‹©o  H…ÀtÿĞè…  èÀ;  HƒÄÃ           ÿ5Âm  òÿ%Ãm   óúh    òéáÿÿÿóúh   òéÑÿÿÿóúh   òéÁÿÿÿóúh   òé±ÿÿÿóúh   òé¡ÿÿÿóúh   òé‘ÿÿÿóúh   òéÿÿÿóúh   òéqÿÿÿóúh   òéaÿÿÿóúh	   òéQÿÿÿóúh
+   òéAÿÿÿóúh   òé1ÿÿÿóúh   òé!ÿÿÿóúh   òéÿÿÿóúh   òéÿÿÿóúh   òéñşÿÿóúh   òéáşÿÿóúh   òéÑşÿÿóúh   òéÁşÿÿóúh   òé±şÿÿóúh   òé¡şÿÿóúh   òé‘şÿÿóúh   òéşÿÿóúh   òéqşÿÿóúh   òéaşÿÿóúh   òéQşÿÿóúh   òéAşÿÿóúh   òé1şÿÿóúh   òé!şÿÿóúh   òéşÿÿóúh   òéşÿÿóúh   òéñıÿÿóúh    òéáıÿÿóúh!   òéÑıÿÿóúh"   òéÁıÿÿóúh#   òé±ıÿÿóúh$   òé¡ıÿÿóúh%   òé‘ıÿÿóúh&   òéıÿÿóúh'   òéqıÿÿóúh(   òéaıÿÿóúh)   òéQıÿÿóúh*   òéAıÿÿóúh+   òé1ıÿÿóúh,   òé!ıÿÿóúh-   òéıÿÿóúh.   òéıÿÿóúh/   òéñüÿÿóúh0   òéáüÿÿóúh1   òéÑüÿÿóúòÿ%ml  D  óúòÿ%j  D  óúòÿ%…j  D  óúòÿ%}j  D  óúòÿ%uj  D  óúòÿ%mj  D  óúòÿ%ej  D  óúòÿ%]j  D  óúòÿ%Uj  D  óúòÿ%Mj  D  óúòÿ%Ej  D  óúòÿ%=j  D  óúòÿ%5j  D  óúòÿ%-j  D  óúòÿ%%j  D  óúòÿ%j  D  óúòÿ%j  D  óúòÿ%j  D  óúòÿ%j  D  óúòÿ%ıi  D  óúòÿ%õi  D  óúòÿ%íi  D  óúòÿ%åi  D  óúòÿ%İi  D  óúòÿ%Õi  D  óúòÿ%Íi  D  óúòÿ%Åi  D  óúòÿ%½i  D  óúòÿ%µi  D  óúòÿ%­i  D  óúòÿ%¥i  D  óúòÿ%i  D  óúòÿ%•i  D  óúòÿ%i  D  óúòÿ%…i  D  óúòÿ%}i  D  óúòÿ%ui  D  óúòÿ%mi  D  óúòÿ%ei  D  óúòÿ%]i  D  óúòÿ%Ui  D  óúòÿ%Mi  D  óúòÿ%Ei  D  óúòÿ%=i  D  óúòÿ%5i  D  óúòÿ%-i  D  óúòÿ%%i  D  óúòÿ%i  D  óúòÿ%i  D  óúòÿ%i  D  óúòÿ%i  D  èëüÿÿf.„     óúAWAVAUATUSHìˆ  L‹6‰|$HH‰t$@dH‹%(   H‰„$x  1ÀM…ö„‡  ¾/   L‰÷è–ıÿÿH‰ÃH…ÀtHHhH‰èL)ğHƒø~8H{úº   H5™9  è‰üÿÿ…Àuº   H5Œ9  H‰ïI‰îènüÿÿ…À„®  H‹h  H5X9  1í¿   L=ê8  L‰5Cj  L-œc  L‰0L%:  HE  è&şÿÿH569  L‰ÿèwüÿÿL‰ÿèOüÿÿH=ø2  è#4  ÆD$' ÆD$N ÆD$| ÆD$O ÆD$M f.„     H‹t$@‹|$HE1ÀL‰éL‰âè‰üÿÿƒøÿ„”  ƒøv  ƒø@~aƒèAƒø5‡   HcƒHØ>ÿàÆD$'ÆD$Në°ÆD$'½   ÆD$NëŸÆD$'ë˜ÆD$'½   ëŒÆD$|ë…ÆD$Mé{ÿÿÿ½   éqÿÿÿ=}ÿÿÿuAH‹Kg  HƒìLô8  L9  j H
+9  H½7  H‹8H5Á7  1Àè°  1ÿè‰ıÿÿ=~ÿÿÿ…X  º   H5ú;  1ÿèkûÿÿL‰ò¿   L5†7  H‰Æ1ÀèâüÿÿH‹Óf  º   1ÿH5í;  H‹+è5ûÿÿH‰ÇH‰îè
+üÿÿH‹+º   1ÿH5ù;  èûÿÿH‰îH‰ÇèéûÿÿH‹+º   1ÿH5<  èóúÿÿH‰îH‰ÇèÈûÿÿH‹+º   1ÿH5?=  èÒúÿÿH‰îH‰Çè§ûÿÿH‹+º   1ÿH5ö=  è±úÿÿH‰îH‰Çè†ûÿÿH‹+º   1ÿH5>  èúÿÿH‰îH¬$à   H‰Çè]ûÿÿL‹%ög  º   1ÿH5>  ècúÿÿL‰áL‰â¿   H‰Æ1ÀèŞûÿÿHğ6  H(7  L‰¼$ğ   H‰„$è   Hâ6  H5«6  H‰„$ø   Hâ6  H‰Œ$  Hö6  H‰„$   HÎ6  H‰Œ$   Hâ6  H‰´$à   H‰„$  H‰„$  H‰„$(  H‰Œ$0  H‰„$8  HÇ„$@      HÇ„$H      L‰÷è†úÿÿ…ÀtH‹uHƒÅH…öuçL‹mº   H5{6  1ÿM…í„  èeùÿÿL%–=  ¿   Hn5  H‰ÆL‰á1ÀèÕúÿÿ¿   1öè¹úÿÿH‰ÇH…Àtº   H5B6  è øÿÿ…À…B  1ÿº   H5+6  èùÿÿL‰âL‰ñ¿   H‰Æ1ÀL%±5  èyúÿÿM9õH_5  LEàº   H5w=  1ÿèÈøÿÿ¿   L‰áL‰êH‰Æ1ÀèCúÿÿ1ÿè¬úÿÿH„$à   ¿   H‰ÆH‰D$pèâúÿÿ…Àˆ
+  L‹¼$  H¸  şÿÿÿÿI—  şÿH9Â¸   LGøèPúÿÿH=î4  ÆD$~ H˜H‰=Ûe  H‰D$`H‹„$à   ÆD$}H‰„$€   H‹„$è   H‰„$ˆ   ‹„$ø   % ğ  ‰D$x¶D$M
+D$NˆD$H‹c  HcH‰L$P9L$H~H‹D$@H‹L$PH‹<ÈH‰=je  €?-„ã  1ö1Àèˆùÿÿ‰Ne  A‰Ä…ÀˆÈ  H‹t$pD‰çèúùÿÿ…Àˆ(  H‹Œ$  D‰çH¸  şÿÿÿÿH‘  şÿH9Â¸   HFÁ1Ò1ö¹   H‰D$(èøÿÿ|$x €  „Y  €|$ u¶D$'@èu€|$| „  H‹\$`H\$(H‰ßè[øÿÿH‰D$XH…Àu	H…Û…W	  L‹t$`H‹L$(KD>HˆH‰ßè-øÿÿH…ÀH‰D$hH‰Æ”ÂH…Û•À„Â… 	  MnÿL‰ñ1ÒÆD$LN4.Ll$XD‹%Kd  L‰ğL‰öM‰şH÷ñL‰èH)Ö1ÒH÷ñH‰t$J>I‰÷H‰L$I)ÕI]L‰l$H‰\$8L‰,$fD  L9|$†¶  H;$†  Ç„$œ       €|$L ……  L‰ûH+\$…+  D‹-Ìc  H‹T$(H‹t$D‰ïè  Hƒøÿ„g  H…À„   H‹|$H‹\$8HøH‰$Æ 
+H‰øD¶(A€ı
+„vÿÿÿE…äx€|$M tèu
+  H‹5b  L‰ÿèÆõÿÿI‰Ç€|$' tR‰èƒğëD  A€ı~wbEˆ/IƒÇD¶+HƒÃA€ıwåA€ı	u„Àt{AÆ	IƒÇëŞ¸^I  IƒÇfA‰GşD¶+HƒÃA€ı	u@„íußA€ı
+„•   Eˆ/IƒÇëÚ@ A€ıtR¹M-  fA‰A€ıŸv[A€ıÿ„Q  AƒÅ€IƒÇEˆoÿéuÿÿÿ„     A€ı
+tJAƒÅ@AÆ^IƒÇEˆoÿéRÿÿÿD  ¾^?  IƒÇfA‰wşé:ÿÿÿD  Aƒí@AÆG^IƒÇEˆoÿéÿÿÿfA¼ÿÿÿÿL9|$‡JşÿÿL‹l$f.„     L‰öL‰ïè•+  I9Æ…  MõL‰úL)êI9ÖvŞL‹|$L‰îH‰T$0L‰ÿèöÿÿH‹T$0M<H;$‡ûıÿÿAƒÄHSE…ä~IAƒüt€|$| A¼   …  €|$O u+€|$M t$H‰T$0L‰ÿè·  H‹5X`  èôÿÿH‹T$0I‰Ç €|$N L‰øtAÆ$HƒÀÆ 
+LxH‰ØH‰Óéèıÿÿ@ º^?  IƒÇfA‰Wşé"şÿÿD  D‹-Ua  1À¾T  H”$œ   D‰ïèBôÿÿ…Àx‹¼$œ   …ÿ…_ıÿÿéEıÿÿf.„     èûòÿÿH‰Ã‹ ƒø_”Áƒø”ÂÑˆL$L…v  ƒø&wH¹  H @   H£Ár«H‹=â`  M‰÷H´$    HÇ„$       HÇ„$¨       HÇ„$°       HÇ„$¸       HÇ„$À       HÇ„$È       HÇ„$Ğ       è>'  º   H5‚0  1ÿI‰ÅèØòÿÿ‹3L‰é1ÿH‰Â1ÀèwôÿÿH‹|$h¶L$LD‰%>`   L$}èıñÿÿH‹|$XèóñÿÿH‹,`  €8-„Ç   ‹=`  è(óÿÿ…Àˆ‘  HƒD$PH‹D$P9D$H|úÿÿ€|$~ …ÿ  ¶D$}ƒğ¶ÀH‹”$x  dH+%(   …Ó  HÄˆ  []A\A]A^A_Ã@ D¶+H‰ÓéüÿÿL‹|$H‰ŞL‰ÿèü(  H9Ã„¼ûÿÿèş  fD  ÆD$L é@şÿÿD¶gE…ä…úÿÿÇb_      ÆD$~éúÿÿ€x „Bÿÿÿé*ÿÿÿH‹=F_  M‡÷¸   H´$    HÇ„$       HÁà:H‰„$¨   HÇ„$°       HÇ„$¸       HÇ„$À       HÇ„$È       HÇ„$Ğ       è%  I‰Åèµğÿÿ1ÿL‰éHì.  ‹01ÀèàòÿÿL+t$…  ÆD$L éTşÿÿM‡÷L‰óH+\$…å   ÆD$Lé9şÿÿH‹„$€   H9„$à   …‘ùÿÿH‹„$ˆ   H9„$è   …{ùÿÿ1öº   D‰çè5ñÿÿH;„$  ^ùÿÿH‹=@^  è›&  º   H5!.  1ÿI‰Äè•ğÿÿL‰á1ö1ÿH‰Â1Àè4òÿÿÆD$} é×ıÿÿH‹=^  è^&  I‰ÄèÖïÿÿL‰áH.  1ÿ‹01ÀèòÿÿÆD$} é¤ıÿÿÆD$OÆD$MéØóÿÿH‹á[  LsL‰0é?óÿÿH‹|$H‰Şè'  H9Ã„ÿÿÿéşÿÿH‹|$L‰öèí&  I9Æ„ÏşÿÿéìıÿÿH‹=x]  èÓ%  I‰ÄèKïÿÿL‰áH„-  1ÿ‹01ÀèvñÿÿÆD$} é<ıÿÿH‹D$(I9ÇICÇI‰ÆH‹D$`HXÿM$L‰çèÈğÿÿH…ÀH‰D$X”ÂM…ä•À ÂA‰Ô…»  H\$X1ÒH‰ØH÷t$`H)Óë%„     H…À„Â   H‰ÆH‰ßè<&  I9Å…¬  ‹=É\  L‰òH‰Şè’  I‰ÅHƒøÿuÉH‹=²\  ¸   H´$    HÇ„$       HÇ„$°       HÁà:H‰„$¨   HÇ„$¸       HÇ„$À       HÇ„$È       HÇ„$Ğ       è#  I‰Åè$îÿÿL‰éH],  1ÿ‹01ÀèOğÿÿD d$}éèûÿÿA¼   ëîº   H5e*  1ÿèzîÿÿI‰ÄèâíÿÿL‰â¿   ‹01Àèğÿÿ1ÿèúîÿÿ…À‰òûÿÿº   H5ü+  1ÿè?îÿÿI‰Äè§íÿÿL‰â¿   ‹01ÀèÖïÿÿº   H5ú2  1ÿèîÿÿL‰ñ¾   H‰ÂH‹ÁY  H‹81Àèğÿÿ¿   èíïÿÿº   H5S+  1ÿèÚíÿÿI‰ÄèBíÿÿL‰â¿   ‹01Àèqïÿÿèì  H‹uY  º7   ¾   H=ô-  H‹è¬ïÿÿè÷ìÿÿº   H5o)  1ÿè„íÿÿI‰ÄèììÿÿL‰â¿   ‹01Àèïÿÿè–íÿÿèaíÿÿL%’1  ¿   Hj)  H‰ÆL‰á1ÀèÑîÿÿ¿   1öèµîÿÿH‰ÇH…Àtº   H5>*  èœìÿÿ…Àu;º   H5-*  1ÿèíÿÿL‰âL‰ñ¿   H‰Æ1ÀL-)  èyîÿÿL%¥)  éôÿÿL- )  H‹+1ÿº   H5%1  èÀìÿÿH‰ÇH‰îè•íÿÿé˜óÿÿóú1íI‰Ñ^H‰âHƒäğPTE1À1ÉH=ïÿÿÿX  ôf.„     H=ÁX  HºX  H9øtH‹æW  H…Àt	ÿà€    Ã€    H=‘X  H5ŠX  H)şH‰ğHÁî?HÁøHÆHÑştH‹ÍW  H…ÀtÿàfD  Ã€    óú€=eX   u{UHƒ=²W   H‰åATStH‹=ÓW  è&ëÿÿH¯R  H°R  H)ÃI‰ÄH‹3X  HÁûHƒëH9Øs!fD  HƒÀH‰X  AÿÄH‹
+X  H9Øråèÿÿÿ[A\ÆîW  ]Ã@ Ã€    óúé'ÿÿÿ€    H‹©W  HsW  ëHƒèÆ@0H9Áw¶€ú8ëƒÂˆÃD  H9W  H9Áv,HQÿÆAÿ1H‰eW  H‹VW  H9ĞvHƒèH‰FW  ÃD  ÆW  >H‰Êë×ff.„     H‰øH‰÷¾òƒîAD¶@ƒş‡¶   AƒàßA8Ğ@”Æ@„ötA¸   „ÒuD‰ÀÃE1ÀD‰ÀÃ¾Ñ¶pƒêAƒú‡   ƒæß@8Î”Â„ÒtØA¸   „ÉtÊH9øtÅ¹	   ëf.„     HƒÁ@8òu5D¶Aq¿D‰ÊƒşwAƒÁ ƒÂ D¶EP¿D‰ÆAƒúwAƒÀ ƒÆ „ÒuÂE9ÁA”ÀE¶ÀéfÿÿÿfD8Â@”ÆéIÿÿÿ@ @8ñ”ÂéqÿÿÿD  ATº   H5Ö%  1ÿèëéÿÿI‰ÄèSéÿÿL‰â¿   ‹01Àè‚ëÿÿfPXº   H5²%  1ÿHƒìè·éÿÿ‹=¥U  H]'  1öH‰Á1ÀèNëÿÿèùèÿÿf„     U‰õSH‰û¿   HƒìèËêÿÿH…ÀtdH‰Ç¶ „ÀtZƒàß<UuD¶Gƒàß<TuH¶Gƒàß<Fu=€-u7€8u1€ u+€;`HC%  H-%  HEÂHƒÄ[]Ã<Gu¶Gƒàß<Bt"ƒı	H%  H%  HEÂHƒÄ[]ÃfD  €1uØ€8uÒ€0uÌ€3uÆ€0uÀ1É1ÒH5Û$  èÒıÿÿ…Àt¬€;`HÀ$  H²$  HEÂHƒÄ[]ÃfAUA‰ıATUH‰õSH‰ÓHƒìD  H‰ÚH‰îD‰ïè:éÿÿI‰ÄH…Ày"èİçÿÿ‹ ƒøtŞHû  ğvƒøu»  ğëÉHƒÄL‰à[]A\A]ÃfAVAUATUH‰ıSèĞçÿÿ‹] H‰ïI‰ÄèBéÿÿƒã H‰ï…Àxwèséÿÿ…ÀuOH‰ïègéÿÿ…À…   H‰ïè7éÿÿ…ÀtOè^çÿÿH‰ïD‹0I‰Åè°çÿÿE…öt?E‰u …ÛtC ¸ÿÿÿÿ[]A\A]A^ÃfH‰ïèØèÿÿ1öº   ‰ÇèèÿÿHƒøÿu•H‰ïèlçÿÿ…Û…œ   …ÀtÅM…äu»èöæÿÿ[]ƒ8	A\•ÀA]A^¶À÷ØÃf÷E    „dÿÿÿH‹EH9Etº   1öH‰ïèéÿÿéFÿÿÿD  H‹E H9E(uİHƒ}H uÖH‰ïèGèÿÿ1öº   ‰Çè‰çÿÿHƒøÿ„ÿÿÿƒe ïH‰…   é ÿÿÿ€    …À… ÿÿÿè[æÿÿÇ     éÿÿÿAWI‰ËAVAUATUH‰ıSHìX  L‰„$À   L‰Œ$È   „Àt@)„$Ğ   )Œ$à   )”$ğ   )œ$   )¤$  )¬$   )´$0  )¼$@  dH‹%(   H‰„$˜   1ÀL”$    1ÿE1ÀH„$  ÇD$     º    HŒ$  ÇD$$0   1ÛHt$@H‰D$(L‰T$0ë-D  ‰ĞA¸   ƒÂLĞH‹ H‰ŞH…Àt+HƒÃHƒû
+„Ö  ƒú/vÓH‰È¿   HƒÁH‹ H‰ŞH…ÀuÕ@„ÿtH‰L$(E„Àt‰T$ M‰ÙLÒ!  H‰ï1ÀHÔ!  HÑ!  ¾   è¹çÿÿ1ÿº   H5Å!  è†åÿÿA¸ä  ¾   H‰ïH‰ÁHÎ.  1Àè‡çÿÿH‰î¿
+   èZæÿÿ1ÿº   H5|#  èGåÿÿ¾   H‰ïH$  H‰Â1ÀèNçÿÿH‰î¿
+   è!æÿÿHƒû	‡’   H0*  HcšHĞ>ÿàL‹L$xL‹D$p1ÿº   H‹L$hH5‘$  L‹|$`L‹t$XL‹l$PL‰L$H‹\$HL‹d$@L‰D$H‰$è½äÿÿH‰ÂPL‹L$¾   H‰ï1ÀAQL‹D$M‰éAPH‹L$I‰ØQL‰áAWAVè©æÿÿHƒÄ0H‹„$˜   dH+%(   …G  HÄX  []A\A]A^A_ÃL‹L$xL‹D$pº   H5$  L‹”$€   H‹L$hL‹|$`L‹t$XL‰L$L‹l$PH‹\$HL‰T$L‰D$L‹d$@H‰$1ÿèäÿÿL‹T$H‰ÂARé>ÿÿÿL‹d$@1ÿº   H5"   èßãÿÿ¾   H‰ïH‰ÂL‰á1Àèêåÿÿé@ÿÿÿH‹\$HL‹d$@1ÿº   H5û  è¨ãÿÿI‰ØL‰á¾   H‰ÂH‰ï1Àè°åÿÿéÿÿÿL‹l$PH‹\$H1ÿº   L‹d$@H5Ó  èiãÿÿM‰éI‰Ø¾   H‰ÂL‰áH‰ï1ÀènåÿÿéÄşÿÿº   H5E"  1ÿL‹t$XL‹l$PH‹\$HL‹d$@è"ãÿÿAPH‰ÂAV¾   H‰ïM‰éI‰ØL‰á1Àè#åÿÿ^_éwşÿÿL‹|$`º   H5"  1ÿL‹t$XL‹l$PH‹\$HL‹d$@èĞâÿÿAWH‰Âë¬H‹L$hº   H5"  1ÿL‹|$`L‹t$XL‹l$PH‹\$HH‰$L‹d$@è”âÿÿQH‰ÂH‹L$M‰éI‰Ø¾   H‰ï1ÀQL‰áAWAVèäÿÿHƒÄ éàıÿÿL‹D$pH‹L$hº   1ÿH5Å!  L‹|$`L‹t$XL‹l$PH‹\$HL‰D$H‰$L‹d$@è&âÿÿL‹D$H‰ÂAPëŠM‰ÙL,  H‰ï1ÀH.  H+  ¾   èäÿÿº   H5!  1ÿèàáÿÿA¸ä  ¾   H‰ïH‰ÁH(+  1ÀèáãÿÿH‰î¿
+   è´âÿÿº   H5Ø  1ÿè¡áÿÿHz   ¾   H‰ïH‰Â1Àè¨ãÿÿH‰î¿
+   è{âÿÿL‹L$xL‹D$pº   L‹”$€   H‹L$hH5h!  L‹|$`L‹t$XL‰L$L‹l$PH‹\$HL‰T$L‰D$L‹d$@H‰$éıÿÿèRáÿÿfAT1ö1ÿUHì  dH‹%(   H‰„$  1ÀèzâÿÿH…À„‰   H‰ÇH‰ÅE1äèáÿÿH=   v+H‹„$  dH+%(   ueHÄ  D‰à]A\Ãf.„     H‰çHP¹  H‰îè¬áÿÿ€<$CH‰ÇtH5  èwáÿÿ…ÀA•Äë¤€    €|$ t–ëÜ€    E1äëˆèàÿÿff.„      AWA‰ËAVIÇÆÿÿÿÿAUI‰ıATI‰ôUSHìÈ   H‹„$   H‰¼$˜   H‰T$H‰„$   H‹„$  D‰D$xL‰L$H‰„$ˆ   dH‹%(   H‰„$¸   1ÀD  D‰\$ èæßÿÿ‹\$xD‹\$ H‰D$XƒãAƒû
+‡+âÿÿHü$  D‰ØHc‚HĞ>ÿàAƒû
+tbH-!  1ÿº   D‰\$ H‰îè†ßÿÿD‹\$ H9èH‰„$   „7  H-s  1ÿº   D‰\$ H‰îèUßÿÿD‹\$ H9èH‰„$ˆ   „é  E1ÿ…Û„c  …ÛH‹œ$ˆ   D‰\$ ½   •D$&H‰ßè3ßÿÿH‰\$HD‹\$ H‰D$ÆD$ 1öÆD$| HÇD$P    @ˆl$%M‰âM‰ôM‰îE‰İA‰óE1É„     M9á@•ÅIƒüÿuH‹D$B€< @•Å@„í„¹  AƒıH‹|$•À"D$%JA‰À„ÿ  H‹D$H…À„q
+  JIƒüÿuBHƒøv<L‰T$@Dˆ\$8L‰L$0H‰T$(DˆD$'èsŞÿÿL‹T$@D¶\$8L‹L$0H‹T$(I‰ÄD¶D$'L9â‡
+  H‹T$H‹t$HH‰ßL‰T$8Dˆ\$0L‰L$(DˆD$'èÖŞÿÿD¶D$'L‹L$(…ÀD¶\$0L‹T$8…Ø	  €|$& …v  ¶€û?Y  „ÛˆD  €û?‡;  H-#  ¶ÃHc‚HĞ>ÿà@ D‰ÁD  D‰Å1ÀA‰È‰ÙfD  H‹t$H…öt‰ÊÀê¶Ò‹–Óêƒâu	E„À„„  Aƒı”Â€|$& ‰Ğ…  D‰Øƒğ Ğt/M9úvCÆ>'IWI9ÒvCÆD>$IWI9ÒvCÆD>'IƒÇA‰ÃM9×sCÆ>\IƒÇIƒÁM9×sCˆ>¶D$ IƒÇ¾    @„íDÆˆD$ éşÿÿfD  €û|uV1íAƒı”À€|$& ‰Â„´   „À„¬   ¶l$%M‰õA»   M‰æM‰Ô‰è„À…z  ƒd$xıHÇD$    é¬üÿÿ@ E1ÀHƒ|$X…b  f„     L‰T$8Dˆ\$0L‰L$(DˆD$'è·ŞÿÿD¶D$'L‹L$(¿   H‰Â¶ÃD¶\$0L‹T$8H‹öDB@@•Å”Â"T$%„Ò…Ş   Aƒı”Â‰Ù¶D$%ƒğĞ„oşÿÿ1À€|$& …bşÿÿfE„À…|şÿÿƒğIƒÁD!Øé   …Û…Ñ  HÑ  ÆD$& ½   1öH‰D$HA»   A¿   HÇD$   ÆD$| ÆD$ HÇD$P    M…ä„˜üÿÿAÆE "éüÿÿÆD$&½   Hv  E1ÿA»   HÇD$   H‰D$HéLüÿÿÆD$& ½   E1ÿHÇD$    HÇD$H    é(üÿÿ…Û„  ÆD$&1íë¨H  ÆD$&½   E1ÿHÇD$   A»   H‰D$HéêûÿÿÆD$& 1íE1ÿHÇD$    HÇD$H    éÉûÿÿE1ÀAƒı„Ø	  Aƒıu*öD$xt#IAL9àsH‹t$B€|?„k  f„     1Ò1í¹?   ésşÿÿE1ÀAƒı„M	  @ˆl$|1Ò¹'   éUşÿÿ¹r   1íAƒı”Â€|$& ‰Ğ„òüÿÿf„     ¶l$%E‰ëM‰õM‰æM‰Ô!è„À„†ıÿÿƒd$xıè+ÚÿÿHÇD$    H‰D$X½   H  ÆD$& 1öA»   H‰D$HA¿   HÇD$   ÆD$| ÆD$ HÇD$P    M…ä„Õúÿÿ1Àé6  D  ¹f   Aƒı”À€|$& u1íé€üÿÿAƒı¹b   ”À€|$& tæ¶l$&E‰ëM‰õM‰æM‰Ô!èéFÿÿÿ¹n   1íé
+ÿÿÿ¹a   ë­€|$& …™  E1ÀAƒıD‰Ø”Âƒğ Ğ„M	  M9úvCÆ>'IOI9ÊvCÆD>$IOI9ÊvCÆD>'IwI9ò‡#	  IƒÇA‰Ã1í¹0   éûÿÿ¹#   D‰ÀM…É…ü  ‰ËéüÿÿD  E1À¹	   »t    €|$% …   1í1À€|$& …ûÿÿé¹üÿÿ¹v   1íé@şÿÿD‰Á»    éğúÿÿ¶€û?Ì   „Ûˆ÷ûÿÿ€û?‡îûÿÿHà  ¶ÃHc‚HĞ>ÿà¹   »f   ë‹¹	   »t   Aƒı”À"D$&A‰À„mÿÿÿésûÿÿ¹   »b   éYÿÿÿ€|$% …¶şÿÿE1À1ÉöD$x„IÿÿÿIƒÁé-ùÿÿ¹   »v   é&ÿÿÿ»    éûÿÿ¹   »r   ë¹
+   »n   ëƒ¹   »a   éõşÿÿD  €ûzs€û@„%ûÿÿK¿¸   HºÿÿÿSÿÿÿHÓàH…Ğ…tûÿÿ©   ¤…¦úÿÿ€û\…óúÿÿAƒı„  ¶T$%"T$&Hƒ|$ •À ÂA‰Ğ…  ¹\   éşÿÿ€    €û}„‡  ß  ¹~   €û~„3şÿÿHƒ|$X„§úÿÿH„$°   HÇ„$°       H‰D$`Iƒüÿu7H‹|$L‰T$8Dˆ\$0L‰L$(DˆD$'èúÖÿÿL‹T$8L‹L$(D¶\$0D¶D$'I‰ÄH„$¬   DˆD$}1ÿH‰D$8L‰L$0L‰d$(Dˆ\$@ˆl$'L‰¼$€   L‰T$pD‰l$@L‰t$hL‹t$`ˆ\$~H‰ûH‹D$0H‹l$(L‰ñH‹|$8L<H‹D$L)ıN,8H‰êL‰îè™ÖÿÿI‰ÄHƒøı†l  H…í„c  èõÿÿ„À„  Iƒüÿ„_  Iƒüş„v  ƒ|$@u€|$& …ˆ  ‹¼$¬   è4Øÿÿ¿    …À¶D$'DÇL‰÷LãˆD$'èØÿÿ…À„Xÿÿÿ¶l$'H‰ßD¶D$}L‹L$0L‹d$(‰êD¶\$¶\$~L‹¼$€   L‹t$hƒòL‹T$pD‹l$@"T$%Hƒÿ†^ùÿÿH‰ù@ˆl$'H‹|$1ö¶l$&LÉé¶   D  Aƒı@”Æ‰ğ@„í…ÿ  D‰Øƒğ@ ğt/M9úvCÆ>'IwI9òvCÆD>$IwI9òvCÆD>'IƒÇA‰ÃM9úvCÆ>\IGI9Âv‰ØÀèƒÀ0CˆD>IGI9Âv‰ØÀèƒàƒÀ0CˆD>ƒãIƒÁIƒÇƒÃ0L9É†’  ‰ÖM9úvCˆ>B¶IƒÇ„Ò…Gÿÿÿ‰ğƒğD!ØE„ÀtM9úvCÆ>\IƒÇIƒÁL9É†%  „À„i  M9úvCÆ>'IGI9ÂvCÆD>'IƒÇE1ÀE1Ûë‘¹{   €û{…d÷ÿÿIƒüÿ„™  f.„     Iƒü„6ûÿÿfD  Aƒı”Â1íéøÿÿf¶€û?X„Ûˆx÷ÿÿ€û?‡o÷ÿÿHd  ¶ÃHc‚HĞ>ÿà 1Éé9öÿÿf„     E1À1íéíöÿÿE1À¹#   éÉúÿÿ1Ééûÿÿf€ûzŸ   €û@„÷ÿÿK¿¸   HºÿÿÿSÿÿÿHÓà1ÉH…Ğ…Şõÿÿ‰ÙE1À©   ¤…Nÿÿÿ€û\…àöÿÿ¶|$&@„|$%„i  Hƒ|$ „]  IƒÁD‰Ø1í¹\    „À„$öÿÿM9úvCÆ>'IGI9ÂvCÆD>'IƒÇE1Ûéÿõÿÿ €û}t{~*1À€û~…nöÿÿM…É„  ¹~   AƒıA‰À”Â1íéÈöÿÿE1À¹{   €û{„‚şÿÿ¹|   €û|„˜şÿÿé.öÿÿ ¹}   Iƒüÿ…qşÿÿH‹D$€x …rşÿÿéùÿÿD  E1À¹}   é7şÿÿ €ûzC€û@„åõÿÿK¿¸   HºÿÿÿSÿÿÿHÓàD‰ÁH…Ğ…©ôÿÿ‰Ù©   ¤…şÿÿéÉşÿÿ€    €û}„wÿÿÿ~D‰À€û~„#ÿÿÿéõÿÿ¹{   €û{„Âıÿÿ¹|   €û|„Øıÿÿénõÿÿ¶|$&Aƒı”ÀM…ÿ‰ú”Á!Â„Ñ…}  ƒ÷‰ú@ ø„ñ  €|$| „ä  €|$  …  M…ÒM‰õ¶l$%D‰Ş”ÀHƒ|$P M‰æ•Â Ğ„ë  L‹d$PˆD$|H†  A¿   A»   AÆE 'ÆD$& HÇD$   H‰D$Hédòÿÿ €|$& „üıÿÿ¶l$%E‰ëM‰õM‰æM‰Ô‰èé†ôÿÿD  €|$& uÜM…Ò„  Hƒ|$P …  L‰T$PE1Ò@ˆl$|IƒÇ1ÀE1Û¹'   éxóÿÿ@ €|$& uœ1í1À¹?   é_óÿÿ M…ä„ùúÿÿIƒüÿ…¡úÿÿH‰ßD¶D$}L‹L$01íL‹d$(D¶\$¶\$~L‹¼$€   L‹t$hL‹T$pD‹l$@¶T$%éñúÿÿ@ Iƒü†núÿÿH‹D$J4 JT8Lşë HƒÂH9Ö„Kúÿÿ¶ƒè[<!wéH¿+      H£ÇsÙ¶l$%L‹t$(L‹l$hL‹d$p@„í…ïõÿÿƒd$xı1íèĞÿÿHÇD$    H‰D$XéíõÿÿD  L‰şM9úvD‰ØAÆ6\A‰ÃL~Aƒı„É   IA¹0   L9àsH‹D$B¶DˆD$'ƒè0<	†¯   ¶D$%ƒğĞ‰è½    „ òÿÿéòÿÿM9úvCÆ>'IGI9ÂvCÆD>\IGI9Â†aşÿÿCÆD>'éVşÿÿ¶l$'‰ÙéüÿÿE‰ëM‰õM‰æM‰Ôé–òÿÿ¶T$%1íé°ùÿÿ¶l$'‰ÙéòÿÿA¶} A¼   ‰¼$¬   éùÿÿE1ÀéEúÿÿ‰è¹0   1íé„ñÿÿM9úvCÆ>0HFI9ÂvAÆD60L~¹0   é*ÿÿÿH‹”$   ¶„À„ŠïÿÿfD  M9üvCˆD= IƒÇB¶:„ÀuééhïÿÿL‹d$(H‰ßL‰øL‹L$0D¶D$}¶\$~H‰úD¶\$L‹¼$€   L‹t$hL‹T$pD‹l$@H‹L$L9àrëD  HƒÂII9Äv€< uíH‰×¶T$%1íé£øÿÿ¶€ù>‡‘óÿÿHº    ‚£ pHÓêƒâ…ï   1í¹?   éğñÿÿH 
+  ÆD$&½   E1ÿHÇD$   H‰D$HéÔîÿÿ‰ÂH‹D$HH…Àt0„Òt,¶„Ét%H‹´$˜   L‰úL)øI9ÒvˆHƒÂ¶„ÉuìI‰×M9ú‡Å   H‹„$¸   dH+%(   …£  HÄÈ   L‰ø[]A\A]A^A_ÃE‰ëM‰õM‰æM‰Ôé·ğÿÿD‰ŞH‰Çè»ãÿÿD‹\$ H‰„$ˆ   éúíÿÿD‰ŞH‰ÇèãÿÿD‹\$ H‰„$   é¬íÿÿ€|$& u®M9úvCÆ>?IWI9ÒvCÆD>"IWI9ÒvCÆD>"IWI9ÒvCÆD>?IƒÇ1Ò1íI‰Áé'ıÿÿH‹„$˜   BÆ8 é)ÿÿÿE‰ëM‰õM‰æM‰ÔAƒû„òÿÿéğÿÿ¶T$|éÁşÿÿè¢ÌÿÿA½   E1ÿHÇD$   H‰D$XH|  H‰D$HöD$xu,M‰õM‰æL‹d$Péˆğÿÿ¶l$%M‰õM‰æM‰Ô@„í…òÿÿé(üÿÿ¶D$ L‹T$PÆD$| E1ÛHÇD$P    ˆD$&ˆD$%é9íÿÿ…Ût0H  ÆD$&1íE1ÿHÇD$   H‰D$Héèìÿÿ¹\   1íéƒñÿÿ1íéÑñÿÿèÌÿÿAƒıD‰Å¹~   A‰À”Âé®ïÿÿ‰Ù1íéWñÿÿ@ AWAVI‰şAUATUSH‰óHƒì(èËÿÿD‹%€7  H‹-¹7  I‰Å‹ ‰D$E…ä\H”7  H9Å„#  H‰ï¾   èÎÌÿÿH‰ÅH…À„4  H‰-{7  º   Icü1öD)âHÁçHcÒH|= HÁâè©ËÿÿÇ7     D‹cH‹u LKL‰òL‹}‹ÿs0ÿs(AƒÌE‰àL‰ÿL‰L$(H‰t$ è›êÿÿY^H‹t$H9ÆwzHpHT7  L‹L$I9ÇH‰u tL‰ÿH‰t$L‰L$èÊÿÿH‹t$L‹L$H‰÷L‰L$H‰t$èÈËÿÿH‹t$L‹L$H…ÀI‰ÇuH…öucL‰}‹L‰òE‰àÿs0L‰ÿÿs(èêÿÿXZ‹D$A‰E HƒÄ(L‰ø[]A\A]A^A_Ã ¿   ènËÿÿH‰ÅH…ÀtfoN6  H‰-W6  E éÓşÿÿèIàÿÿf„     HƒìHdH‹%(   H‰D$81ÀH‰æHÇ$   H¸       H‰D$HÇD$    HÇD$    HÇD$     HÇD$(    HÇD$0    è şÿÿH‹T$8dH+%(   uHƒÄHÃèÆÉÿÿfD  óúH‹5  ATH‹8è;áÿÿ…Àt?º   H5O  1ÿèdÉÿÿI‰ÄèÌÈÿÿ1ÿL‰áH  ‹01Àè÷Êÿÿ‹=55  èÌÈÿÿ@ H‹ñ4  H‹8èéàÿÿ…ÀuA\Ã‹=5  è§Èÿÿ€    AVE1öAUI‰õATI‰üUSH…ötcf.„     L‰íD  H‰êL‰æ¿   èˆÈÿÿH‰ÃH…ÀyHè;Èÿÿ‹ ƒøtÜƒøuHı  ğv½  ğëÇ€    HƒûÿtIŞIÜI)İu§[L‰ğ]A\A]A^Ã uäèñÇÿÿÇ    L‰ğ[]A\A]A^Ãf.„     D  óúH‹=4  1öé.Êÿÿf.„     @ óúH‹õ.  Hƒøÿt/UH‰åSHã.  Hƒì€    ÿĞH‹CøHƒëHƒøÿuğH‹]øÉÃfÃ   óúHƒìèßÛÿÿHƒÄÃ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            write error memory exhausted â€™ ¡¯ " ' ¡e â€˜ GB18030 GNU coreutils cat %s (%s) %s
+ (C) Written by %s.
+ Written by %s and %s.
+ Written by %s, %s, and %s.
+ POSIX ` [ /.libs/ lt- /usr/share/locale test invocation Multi-call invocation sha224sum sha2 utilities sha256sum sha384sum sha512sum 
+%s online help: <%s>
+ en_ Full documentation <%s%s>
+ Richard M. Stallman Torbjorn Granlund 8.32 benstuvAET standard output %s: input file is output file cannot do ioctl on %s closing standard input number-nonblank number squeeze-blank show-nonprinting show-ends show-tabs show-all help version    License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+      https://gnu.org/licenses/gpl.html       Written by %s, %s, %s,
+and %s.
+ Written by %s, %s, %s,
+%s, and %s.
+     Written by %s, %s, %s,
+%s, %s, and %s.
+ Written by %s, %s, %s,
+%s, %s, %s, and %s.
+     Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+ Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+     Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+     A NULL argv[0] was passed through an exec system call.
+ Usage: %s [OPTION]... [FILE]...
+        Concatenate FILE(s) to standard output.
+        
+With no FILE, or when FILE is -, read standard input.
+ 
+  -A, --show-all           equivalent to -vET
+  -b, --number-nonblank    number nonempty output lines, overrides -n
+  -e                       equivalent to -vE
+  -E, --show-ends          display $ at end of each line
+  -n, --number             number all output lines
+  -s, --squeeze-blank      suppress repeated empty output lines
+    -t                       equivalent to -vT
+  -T, --show-tabs          display TAB characters as ^I
+  -u                       (ignored)
+  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
+           --help     display this help and exit
+          --version  output version information and exit
+   
+Examples:
+  %s f - g  Output f's contents, then standard input, then g's contents.
+  %s        Copy standard input to standard output.
+        https://www.gnu.org/software/coreutils/ Report any translation bugs to <https://translationproject.org/team/>
+  or available locally via: info '(coreutils) %s%s'
+      Try '%s --help' for more information.
+                          [ÖÿÿéÖÿÿ×ÿÿU×ÿÿ—×ÿÿä×ÿÿØÿÿ{ØÿÿÚÕÿÿ„ÖÿÿÊßÿÿ”ßÿÿ¤îÿÿ;ßÿÿŒßÿÿàŞÿÿßÿÿhßÿÿÛÿÿÛÿÿÛÿÿ:áÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿ%áÿÿîàÿÿ·áÿÿáÿÿãáÿÿÔàÿÿ(àÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿŞÿÿïáÿÿ±İÿÿ±İÿÿ—áÿÿ±İÿÿäÜÿÿ±İÿÿàÿÿ±İÿÿ±İÿÿ±İÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿäÜÿÿ±İÿÿ±İÿÿ±İÿÿ±İÿÿÂßÿÿkáÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿÀáÿÿ\áÿÿ9áÿÿ´áÿÿáÿÿ-áÿÿ¨áÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿİÿÿáÿÿ±Üÿÿ±Üÿÿ—àÿÿ±Üÿÿtİÿÿ±Üÿÿßÿÿ±Üÿÿ±Üÿÿ±Üÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿtİÿÿ±Üÿÿ±Üÿÿ±Üÿÿ±ÜÿÿÂŞÿÿ,ßÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿ%ßÿÿîŞÿÿ´ßÿÿßÿÿãßÿÿÔŞÿÿ(ŞÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÜÿÿÓäÿÿ¼äÿÿ¼äÿÿÆäÿÿ¼äÿÿ¬äÿÿ¼äÿÿ
+Şÿÿ¼äÿÿ¼äÿÿ¼äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¬äÿÿ¼äÿÿ¼äÿÿ¼äÿÿ¼äÿÿ¿İÿÿ|»ÿÿfÉÿÿfÉÿÿfÉÿÿu»ÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿ±»ÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿEÇÿÿfÉÿÿfÉÿÿp»ÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿ§»ÿÿfÉÿÿfÉÿÿfÉÿÿfÉÿÿ »ÿÿ”»ÿÿ,»ÿÿ»ÿÿ                    Copyright %s %d Free Software Foundation, Inc.  ;´      €²ÿÿè   °µÿÿ  Àµÿÿ(  à¸ÿÿŒ  ğ¸ÿÿ˜  ÀÉÿÿĞ    Ëÿÿ@  €ËÿÿT  pÌÿÿh   Ìÿÿ€  àÌÿÿœ  ĞÍÿÿà  0Îÿÿ  Ïÿÿh  PÕÿÿ   Öÿÿ<  Àêÿÿ¬  `ìÿÿ  àìÿÿ,  `íÿÿL  îÿÿø             zR x        èÈÿÿ&    D    $   4   ±ÿÿ0   FJw€ ?:*3$"       \   ˜´ÿÿ              t   ´ÿÿ              Œ   ¸Éÿÿt              $Êÿÿë          ´    Ëÿÿ.    BŒ     Ì   Ëÿÿ7    AAR  @   è   <Ëÿÿî    A†CƒL \
+AAAh
+AAGKAA   4   ,  èËÿÿ^    BEŒA †D(ƒG0A(D ABBL   d  Ìÿÿ`   BBB ŒA(†D0ƒk
+(A BBBC{
+(A EEBH ¤   ´   Íÿÿ¾   BEB B(ŒA0†D8ƒG˜Q J¨I°E¸BÀI^
+8A0A(B BBBA`
+˜E×˜E Y˜As
+˜Ev˜Y E¨B°IN
+˜B   (   \  8ÒÿÿÂ    BŒE†G°Q
+DBKL   ˆ  ÜÒÿÿœ   BEI E(ŒD0†A8ƒG€º
+8D0A(B BBBA      Ø  Lµÿÿ    €ƒ†Œ`   ø  çÿÿ—   BBE B(ŒA0†A8ƒG`•hCpZhA`whFpFhA`L
+8D0A(B BBBD   \  Hèÿÿz    DPp
+A    x  ¬èÿÿy    MŒ`
+A   H   ˜  éÿÿ¡    BEE ŒD(†A0ƒi
+(D BBBDQ(A BBB\   ä  P´ÿÿĞ   FBB B(ŒA0†A8ƒGÀ¬
+ÈPĞfR	
+8A0A(B BBBE         D  éÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿ        ía                      b       ıa                      n       b                      s       b                      v       #b                      E       -b                      T       7b                      A       @b                      ~ÿÿÿ    Eb                      }ÿÿÿ                                           F                            $\      õşÿo    °             À	             Ø      
+       ×                                          ğ             °                           È             ˆ             @      	                            ûÿÿo          şÿÿo          ÿÿÿo           ğÿÿo    ˜      ùÿÿo                                                                                           @Œ                      @       P       `       p       €                      °       À       Ğ       à       ğ        !      !       !      0!      @!      P!      `!      p!      €!      !       !      °!      À!      Ğ!      à!      ğ!       "      "       "      0"      @"      P"      `"      p"      €"      "       "      °"      À"      Ğ"      à"      ğ"       #      #       #      0#      @#      P#                                                                                                                                                           0	                           @      ,      1      /usr/lib/debug/.dwz/x86_64-linux-gnu/coreutils.debug ÃL4¸‚„5@%™P»•ËÇ_İ   af8b317775373b1a7783fbd0d83c2fe7f21f6e.debug    û=7 .shstrtab .interp .note.gnu.property .note.gnu.build-id .note.ABI-tag .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt .init .plt.got .plt.sec .text .fini .rodata .eh_frame_hdr .eh_frame .ctors .dtors .data.rel.ro .dynamic .data .bss .gnu_debugaltlink .gnu_debuglink                                                                                                                                        8      8      0                              &             h      h      $                              9             Œ      Œ                                     G   öÿÿo       °      °      $                             Q             Ø      Ø      è                          Y             À	      À	      ×                             a   ÿÿÿo       ˜      ˜      ~                            n   şÿÿo                   p                            }             ˆ      ˆ      @                           ‡      B       È      È      °                          ‘                             %                              Œ             0       0       0                            —             `#      `#                                                 p#      p#                                   ©             &      &      ‘5                             ¯             $\      $\                                    µ              `       `      ¯                              ½             °m      °m      ´                              Ë             hn      hn      X                             Õ             àŠ      àz                                    Ü             ğŠ      ğz                                    ã              ‹       {      @                              ğ             @Œ      @|      °                           ›             ğ      ğ}      ø                            ù                     €      h                              ÿ             €      h€      8                                                   h€      I                                                   ´€      4                                                    è€      %                             [?2004h]0;xeldor@Ubuntu22: /bin[01;32mxeldor@Ubuntu22[00m:[01;34m/bin[00m$ exit
+[?2004lexit
+
+Script done on 2023-11-27 13:42:48+02:00 [COMMAND_EXIT_CODE="0"]

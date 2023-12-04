@@ -1,0 +1,91 @@
+1. am testat
+cele 2 comenzi 
+m-am uitat prin continut
+
+2. am testat comanda 
+cea mai reusita varianta a fost 
+grep "E(" dimer.log
+
+3. Yes capitalized (uppercase)
+ *** 09:15:35 WARNING in qs_initial_guess:calculate_first_density_matrix ***
+
+4.
+----3 Maximum Force yes
+----same result
+----more results but weaker quality
+----2 Displacement yes
+----more results weaker quality
+----better results
+
+last one is the closest to the similar display display 
+
+
+5. 
+checked for warnings and errors and found 
+grep -i "warning" freq.log ->  Warning -- This program may not be used in any manner that
+
+grep -A 4 "Converged?" freq.log Converged NO
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.020735     0.000450     NO 
+ RMS     Force            0.011140     0.000300     NO 
+ Maximum Displacement     0.052363     0.001800     NO 
+ RMS     Displacement     0.028382     0.001200     NO 
+
+
+
+I found more frequencies but it didnt seems to be quite right ( ex: low low harmonic )
+grep "Frequencies" freq.log 
+ Frequencies --   1776.4309              3892.9592              4035.7251
+
+
+no final message 
+no successful completed
+but solved 2
+ Solved reduced A of dimension    24 with     3 vectors.
+ Solved reduced A of dimension    39 with     6 vectors.
+
+ 6.
+ am rulat comanda 
+ cate sunt 
+     512    2048   33280
+512 linii
+1536 linii
+1538 linii
+
+grep -E "O|H|Os" cp2k.xyz | wc -l
+
+7.grep "FT P" cp2k.out
+
+8. #PLOT 1
+plot: an unrecognized command `0x20' was encountered in the input
+plot: the input file `times' could not be parsed
+
+same for points same for lines
+
+plots - gnuplots dont work i installed them with plotutils
+
+
+9.
+
+grep TEMPERATURE cp2k.out | awk '{a+=$4;print $4,NR,a/NR}'
+
+
+300.000 1 300
+305.326 2 302.663
+323.124 3 309.483
+347.442 4 318.973
+368.720 5 328.922
+377.405 6 337.003
+368.690 7 341.53
+344.999 8 341.963
+314.601 9 338.923
+287.757 10 333.806
+272.845 11 328.264
+
+10.
+awk '$1 == "O"' cp2k.xyz | sort -k4,4n | head -1
+
+  O         0.1516300000       19.8187510000        0.0402800000
+
+11.
+Connection problems

@@ -1,0 +1,14 @@
+xeldor@Ubuntu22:~$ echo "Hello world!" > output.txt
+xeldor@Ubuntu22:~$ cat output.txt 
+Hello world!
+xeldor@Ubuntu22:~$ grep "Hello" output.txt 
+Hello world!
+xeldor@Ubuntu22:~$ grep "world" output.txt 
+Hello world!
+xeldor@Ubuntu22:~$ grep "lo wo" output.txt 
+Hello world!
+xeldor@Ubuntu22:~$ sed -i 's/Hello/Welcome/' output.txt 
+xeldor@Ubuntu22:~$ cat output.txt 
+Welcome world!
+xeldor@Ubuntu22:~$ awk '{print $1}' output.txt 
+Welcome
