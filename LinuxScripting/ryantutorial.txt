@@ -1,0 +1,496 @@
+--What is a Bash Script?
+(cFScript.sh  is a script created later by me to reduce the number of touch chmod and subl (open in sublime text editor) to create shell files to execute)
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./myscript.sh
+bash: ./myscript.sh: Permission denied
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls -l myscript.sh
+-rw-rw-r-- 1 xeldor xeldor 0 Dec  8 10:12 myscript.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 myscript.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls -l myscript.sh 
+-rwxr-xr-x 1 xeldor xeldor 0 Dec  8 10:12 myscript.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl myscript.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./myscript.sh 
+Hello World!
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $PATH
+/home/xeldor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cd ~
+xeldor@Ubuntu22:~$ /home/xeldor/workspaceGITHUB/Internship-Project/LinuxScripting/myscript.sh 
+Hello World!
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ bash myscript.sh 
+Hello World!
+
+
+--Variables!
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./mycopy.sh ./projects/file1.data ./results.data
+Details for ./results.data
+-rw-rw-r-- 1 xeldor xeldor 5 Dec  8 10:22 ./results.data
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./simplevariables.sh 
+Hello Fred
+
+ModemManager		       fonts		login.defs	     rpc
+NetworkManager		       fprintd.conf	logrotate.conf	     rsyslog.conf
+....
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ myvar=Hello World
+Command 'World' not found, did you mean:
+  command 'world' from snap world (4.0)
+See 'snap info <snapname>' for additional versions.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ myvar='Hello World'
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $myvar
+Hello World
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ newvar="More $myvar"
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $newvar 
+More Hello World
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ newvar='More $myvar'
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $newvar 
+More $myvar
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ myvar=$( ls /etc | wc -l )
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo There are $myvar entries in the directory /etc
+There are 226 entries in the directory /etc
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls
+bashcrc      counter_v2.sh  projects             ryantutorial.txt
+bashcrc.sh   log.txt        replace.sh           script1.sh
+bashcrc.txt  mycopy.sh      replacement_log.txt  script2.sh
+counter.sh   myscript.sh    results.data         simplevariables.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ myvar=$( ls )
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $myvar
+bashcrc bashcrc.sh bashcrc.txt counter.sh counter_v2.sh log.txt mycopy.sh myscript.sh projects replace.sh replacement_log.txt results.data ryantutorial.txt script1.sh script2.sh simplevariables.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ 
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./script1.sh
+./script1.sh :: var1 : blah, var2 : foo
+./script2.sh :: var1 : blah, var2 :
+./script1.sh :: var1 : blah, var2 : foo
+
+
+--Input
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ read var1
+Topic
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $var1
+Topic
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch introduction.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 introduction.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl introduction.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./introduction.sh 
+Hello, who am i talking to?
+Alex
+It's nice to meet you Alex
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch login.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 login.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl login.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./login.sh
+Username: Alex
+Password: 
+Thankyou Alex we now have your login details
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch cars.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 cars.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl cars.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cars.sh 
+What cars do you like?
+ToyotaSupra BMW Mercedes-Benz
+Your first car was: ToyotaSupra
+Your second car was: BMW
+Your third car was: Mercedes-Benz
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cars.sh 
+What cars do you like?
+Koenigsegg Jaguar Bentley Maserati
+Your first car was: Koenigsegg
+Your second car was: Jaguar
+Your third car was: Bentley Maserati
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch summary
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl summary
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat /dev/stdin
+what
+what
+hei
+hei
+^C
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat salesdata.txt
+cat: salesdata.txt: No such file or directory
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch salesdata.txt | subl salesdata.txt
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat salesdata.txt 
+Fred apples 20 December 4
+Susy oranges 5 December 7
+Mark watermelons 12 December 10
+Terry peaches 7 December 15xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat salesdata.txt  | ./ summary 
+bash: ./: Is a directory
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat salesdata.txt  | ./summary 
+bash: ./summary: Permission denied
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 summary 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat salesdata.txt  | ./summary 
+./summary: line 1: !/bin/bash: No such file or directory
+Here is a summary of the sales data:
+====================================
+
+apples 20
+oranges 5
+peaches 7
+watermelons 12
+
+
+--Arithmetic!
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch let_example.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod +x let_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl let_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./let_example.sh 15
+9
+9
+10
+20
+45
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch expr_example.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod +x expr_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls
+bashcrc      counter_v2.sh    login.sh     replacement_log.txt  script2.sh
+bashcrc.sh   expr_example.sh  mycopy.sh    results.data         simplevariables.sh
+bashcrc.txt  introduction.sh  myscript.sh  ryantutorial.txt     summary
+cars.sh      let_example.sh   projects     salesdata.txt
+counter.sh   log.txt          replace.sh   script1.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl expr_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./expr_example.sh 12
+9
+5 + 4
+5+4
+60
+1
+7
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch expansion_example.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod +x expansion_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl expansion_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./expansion_example.sh 
+9
+8
+11
+12
+13
+16
+20
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch length_example.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 length_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl length_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./length_example.sh 
+11
+4
+
+
+--If Statements
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch if_example.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod 755 if_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl if_example.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_example.sh 
+./if_example.sh: line 4: [: -gt: unary operator expected
+Fri Dec  8 11:28:29 EET 2023
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_example.sh  15
+Fri Dec  8 11:28:41 EET 2023
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_example.sh  150
+Hey that's a large number.
+/home/xeldor/workspaceGITHUB/Internship-Project/LinuxScripting
+Fri Dec  8 11:28:46 EET 2023
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ test 001 = 1
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $?
+1
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ test 001 -eq 1
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $?
+0
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch myfile
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ test -s myfile
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $?
+1
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls /etc > myfile
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ test -s myfile
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ echo $?
+0
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch nested_if.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ chmod +x nested_if.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ subl nested_if.sh 
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./nested_if.sh 11
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./nested_if.sh 50
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./nested_if.sh 102
+Hey that's a large number.
+And is also an even number.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./nested_if.sh 111
+Hey that's a large number.
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch else.sh; chmod +x else.sh;subl else.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./else.sh salesdata.txt 
+     1	Fred apples 20 December 4
+     2	Susy oranges 5 December 7
+     3	Mark watermelons 12 December 10
+     4	Terry peaches 7 December 15
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch if_elif.sh; chmod +x if_elif.sh; subl if_elif.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_elif.sh 17 no
+You may not go to the party.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_elif.sh 17
+./if_elif.sh: line 7: [: ==: unary operator expected
+You may not go to the party.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_elif.sh 18 yes
+You may go to the party.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_elif.sh 16 yes
+You may go to the party but be back before midnight.
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./if_elif.sh 21 no
+You may go to the party.
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch and.sh or.sh ; chmod +x and.sh or.sh ; subl and.sh or.sh
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch case.sh disk_useage.sh ; chmod +x case.sh disk_useage.sh ; subl case.sh disk_useage.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./case.sh start
+starting
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./case.sh restart
+restarting
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./case.sh blahh
+don't know
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./disk_useage.sh 
+There could be a problem in the near future
+
+
+--Loops
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./while_loop.sh 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+All done
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch until_loop.sh; chmod 755 until_loop.sh; subl until_loop.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./until_loop.sh 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+All done
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./for_loop.sh 
+Stan
+Kyle
+Cartman
+All done
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./for_loop_series.sh 
+1
+2
+3
+4
+5
+All done
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./for_loop_stepping.sh 
+10
+8
+6
+4
+2
+0
+All done
+./for_loop_alternate_syntax.sh 
+1
+2
+3
+4
+5
+All done
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh convert_html_to_php
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls
+and.sh                        for_loop_series.sh    or.sh
+bashcrc                       for_loop.sh           projects
+bashcrc.sh                    for_loop_stepping.sh  replacement_log.txt
+bashcrc.txt                   gol.txt               replace.sh
+cars.sh                       if_elif.sh            results.data
+case.sh                       if_example.sh         ryantutorial.txt
+cFScript.sh                   introduction.sh       salesdata.txt
+convert_html_to_php.sh        length_example.sh     script1.sh
+counter.sh                    let_example.sh        script2.sh
+counter_v2.sh                 login.sh              simplevariables.sh
+disk_useage.sh                log.txt               summary
+else.sh                       mycopy.sh             until_loop.sh
+expansion_example.sh          myfile                while_loop.sh
+expr_example.sh               myscript.sh
+for_loop_alternate_syntax.sh  nested_if.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat convert_html_to_php.sh 
+#!/bin/bash
+# Make a php copy of any html files
+
+for value in $1/*.html
+do
+cp $value $1/$( basename -s .html $value ).php
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh copy_files
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh copy_check
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh  select_example
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./select_example.sh 
+1) Kyle
+2) Cartman
+3) Stan
+4) Quit
+Select character: 1
+Hello Kyle
+Select character: 2
+Hello Cartman
+Select character: 3
+Hello Stan
+Select character: 4
+Bye
+
+
+--Functions
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh function_example
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./function_example.sh 
+Hello I am a function, the type with ()
+Hello I am a function, the type with ()
+The type with function
+The type with function
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh arguments_example
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./arguments_example.sh 
+Hello Mars
+Hello Jupiter
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh return_status_example
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./return_status_example.sh 
+Hello Mars
+Hello Jupiter
+The previous fuction has a return value of 5
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh return_hack
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ touch myfile.txt ; subl myfile.txt
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ cat myfile.txt
+Tomato
+Lettuce
+Capsicum
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./return_hack.sh myfile.txt
+The file myfile.txt has 3 in it
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh local_variables
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./local_variables.sh 
+Before function call: var1 is global 1 : var2 is global 2
+Inside function: var1 is local 1 : var2 is global 2
+After function call: var1 is global 1 : var2 is 2 changed again
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./cFScript.sh override
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ls
+and.sh                  else.sh                       local_variables.sh   return_hack.sh
+arguments_example.sh    expansion_example.sh          login.sh             return_status_example.sh
+bashcrc                 expr_example.sh               log.txt              ryantutorial.txt
+bashcrc.sh              for_loop_alternate_syntax.sh  mycopy.sh            salesdata.txt
+bashcrc.txt             for_loop_series.sh            myfile               script1.sh
+cars.sh                 for_loop.sh                   myfile.txt           script2.sh
+case.sh                 for_loop_stepping.sh          myscript.sh          select_example.sh
+cFScript.sh             function_example.sh           nested_if.sh         simplevariables.sh
+convert_html_to_php.sh  gol.txt                       or.sh                summary
+copy_check.sh           if_elif.sh                    override.sh          until_loop.sh
+copy_files.sh           if_example.sh                 projects             while_loop.sh
+counter.sh              introduction.sh               replacement_log.txt
+counter_v2.sh           length_example.sh             replace.sh
+disk_useage.sh          let_example.sh                results.data
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./override.sh 
+total 324K
+-rwxrwxr-x 1 xeldor xeldor   91 dec  8 12:01 and.sh
+-rwxrwxr-x 1 xeldor xeldor  132 dec  8 15:08 arguments_example.sh
+-rw-rw-r-- 1 xeldor xeldor 5,8K dec  8 10:08 bashcrc
+-rwxrwxr-x 1 xeldor xeldor  786 dec  8 10:08 bashcrc.sh
+-rw-rw-r-- 1 xeldor xeldor  535 dec  7 13:24 bashcrc.txt
+-rwxr-xr-x 1 xeldor xeldor  195 dec  8 10:43 cars.sh
+-rwxrwxr-x 1 xeldor xeldor  427 dec  8 12:07 case.sh
+-rwxrwxr-x 1 xeldor xeldor  191 dec  8 14:44 cFScript.sh
+-rwxrwxr-x 1 xeldor xeldor  126 dec  8 14:45 convert_html_to_php.sh
+-rwxrwxr-x 1 xeldor xeldor  162 dec  8 14:53 copy_check.sh
+-rwxrwxr-x 1 xeldor xeldor  217 dec  8 14:52 copy_files.sh
+-rwxrwxr-x 1 xeldor xeldor  321 dec  7 12:42 counter.sh
+-rwxrwxr-x 1 xeldor xeldor  736 dec  7 12:53 counter_v2.sh
+-rwxrwxr-x 1 xeldor xeldor  453 dec  8 12:10 disk_useage.sh
+-rwxrwxr-x 1 xeldor xeldor   78 dec  8 11:49 else.sh
+-rwxrwxr-x 1 xeldor xeldor  247 dec  8 11:16 expansion_example.sh
+-rwxrwxr-x 1 xeldor xeldor  422 dec  8 11:12 expr_example.sh
+-rwxrwxr-x 1 xeldor xeldor  141 dec  8 14:33 for_loop_alternate_syntax.sh
+-rwxrwxr-x 1 xeldor xeldor   94 dec  8 13:42 for_loop_series.sh
+-rwxrwxr-x 1 xeldor xeldor  113 dec  8 13:39 for_loop.sh
+-rwxrwxr-x 1 xeldor xeldor  109 dec  8 13:46 for_loop_stepping.sh
+-rwxrwxr-x 1 xeldor xeldor  210 dec  8 15:07 function_example.sh
+-rw-rw-r-- 1 xeldor xeldor    0 dec  8 11:54 gol.txt
+-rwxrwxr-x 1 xeldor xeldor  221 dec  8 11:56 if_elif.sh
+-rwxr-xr-x 1 xeldor xeldor  105 dec  8 11:28 if_example.sh
+-rwxr-xr-x 1 xeldor xeldor  128 dec  8 10:36 introduction.sh
+-rwxr-xr-x 1 xeldor xeldor  101 dec  8 11:18 length_example.sh
+-rwxrwxr-x 1 xeldor xeldor  207 dec  8 11:03 let_example.sh
+-rwxrwxr-x 1 xeldor xeldor  361 dec  8 15:40 local_variables.sh
+-rwxr-xr-x 1 xeldor xeldor  164 dec  8 10:41 login.sh
+-rw-rw-r-- 1 xeldor xeldor  97K dec  7 13:58 log.txt
+-rwxr-xr-x 1 xeldor xeldor  107 dec  8 10:19 mycopy.sh
+-rw-rw-r-- 1 xeldor xeldor 2,2K dec  8 11:36 myfile
+-rw-rw-r-- 1 xeldor xeldor   24 dec  8 15:23 myfile.txt
+-rwxr-xr-x 1 xeldor xeldor   32 dec  8 10:14 myscript.sh
+-rwxrwxr-x 1 xeldor xeldor  181 dec  8 11:44 nested_if.sh
+-rwxrwxr-x 1 xeldor xeldor  104 dec  8 12:00 or.sh
+-rwxrwxr-x 1 xeldor xeldor   83 dec  8 15:46 override.sh
+drwxrwxr-x 2 xeldor xeldor 4,0K dec  8 10:21 projects
+-rw-rw-r-- 1 xeldor xeldor  471 dec  7 13:58 replacement_log.txt
+-rwxrwxr-x 1 xeldor xeldor  432 dec  7 13:57 replace.sh
+-rw-rw-r-- 1 xeldor xeldor    5 dec  8 10:22 results.data
+-rwxrwxr-x 1 xeldor xeldor  160 dec  8 15:22 return_hack.sh
+-rwxrwxr-x 1 xeldor xeldor  199 dec  8 15:15 return_status_example.sh
+-rw-rw-r-- 1 xeldor xeldor  17K dec  8 15:42 ryantutorial.txt
+-rw-rw-r-- 1 xeldor xeldor  111 dec  8 10:52 salesdata.txt
+-rwxrwxr-x 1 xeldor xeldor  234 dec  6 09:32 script1.sh
+-rwxrwxr-x 1 xeldor xeldor  168 dec  6 09:34 script2.sh
+-rwxrwxr-x 1 xeldor xeldor  194 dec  8 14:59 select_example.sh
+-rwxr-xr-x 1 xeldor xeldor  140 dec  5 16:06 simplevariables.sh
+-rwxr-xr-x 1 xeldor xeldor  177 dec  8 10:50 summary
+-rwxr-xr-x 1 xeldor xeldor  121 dec  8 13:35 until_loop.sh
+-rwxrwxr-x 1 xeldor xeldor  127 dec  8 13:15 while_loop.sh
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ ./center_message.sh Hello there
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              Hello there
+
+
+
+
+
+
+
+
+
+
+
+
+xeldor@Ubuntu22:~/workspaceGITHUB/Internship-Project/LinuxScripting$ 

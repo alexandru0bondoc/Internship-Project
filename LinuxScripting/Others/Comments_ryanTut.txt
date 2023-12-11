@@ -1,0 +1,508 @@
+------Credits to https://ryanstutorials.net/bash-scripting-tutorial ------
+
+Bash Scripting Tutorial
+Bash(Bourne Again SHell) open source version of the Bourne Shell 1989
+Bash it is the default shell on the most Linux distros and macOS (also a version has also been made available for Windows 10)
+
+
+What is a Bash Script
+
+#! - (Shebang)
+#  - Anything after # is not executed (Comment)
+
+name of a command -> Bash tries to find it in a series of directories stored in variable called $PATH (that's why we put ./ before a script [not declared in PATH])
+
+when echo $PATH 
+directories are separated by :
+/bin/bash is the path to the interpreter (or program)
+
+every time #!/bin/bash on the very first line
+no spaces standard in the first line
+cmd line sensitive to spaces
+
+Variables - (Temporary stores of information)
+
+read a variable 	-> $variable
+setting a variable	-> varible=value (no space or $ here)
+they can be uppercase, lowercase, mixture
+anywhere in the script
+
+Command line arguments
+
+$0 			-name of the Bash scrip
+$1 			-first argument
+$2 			-second argmuent
+$1-$9  		-(first 9 arguments to the bash script)
+$# 			-how many arguments were passed to the bash script
+$@			-all the arguments supplied to the bash script
+$?			-the exit status of the most recently run process
+$$			-the process id of the current script
+$USER		-the username of the user running the script
+$SECONDS	-the number of seconds since the script was started
+$RANDOM		-returns a different random number each time is it referred to
+$LINENO		-returns the current line number in the Bash script
+
+with the env command it can be seen other variables on the system
+echo command with no arguments - (a good way to get a blank line on the screen to help space things out)
+
+echo - print a specific message on the screen
+run the command echo this time with no arguments. This is a good way to get a blank line on the screen to help space things out.
+echo is not needed to make use of variables and is only used when you wish to print a specific message to the screen. (Pretty much all commands print output to the screen as default so you don't need to put echo in front of them.)
+inside quotes is considered as a single item
+
+''			-Single quotes will treat every character literally.
+""		-Double quotes will allow you to do substitution (that is include variables within the setting of the value).
+
+Command substitution allows us to take the output of a command or program (what would normally be printed to the screen) and save it as the value of a variable. To do this we place it within brackets, preceded by a $ sign.
+
+myvar=$( ls /etc | wc -l )
+
+Command substitution is nice and simple if the output of the command is a single word or line. 
+If the output goes over several lines then the newlines are simply removed and all the output ends up on a single line.
+
+The idea is that variables are limited to the process they were created in. Normally this isn't an issue but sometimes, for instance, a script may run another script as one of its commands. If we want the variable to be available to the second script then we need to export the variable.
+
+
+$1, $2, ...
+The first, second, etc command line arguments to the script.
+variable=value
+To set a value for a variable. Remember, no spaces on either side of =
+Quotes " '
+Double will do variable substitution, single will not.
+variable=$( command )
+Save the output of a command into a variable
+export var1
+Make the variable var1 available to child processes.
+
+
+
+Formatting
+The presence or absence of spaces is important.
+Manageability
+If a particular value is used several times within a script (eg a file or directory name) then using a variable can make it easier to manage.
+
+
+
+shuf - Randomly shuffles the input lines(or words)
+
+Extras:
+spacing required outside and inside the if statement
+grep -o (only those maching parts of a matching line)
+	 -w (only lines containing matches that form the whole words)
+	 -e (patterns - regex)
+
+inside the grep CURLY BRACES FOR VARIABLE 
+yes - {${1}\\}
+no \{$1}\
+
+\\b\\w\\{${1}\\}\\b -> \b\w\{N\}\b
+\\ escaping for basshand escabing for grep
+Use {variable or any argument} for a better clarity yes the {}
+
+
+Parameter expansion:(examples)
+${variable##pattern}: This is a form of parameter expansion in Bash. It removes the longest match of pattern from the start of the value in variable.
+${base_filename##*.}, the pattern *. matches the longest string that ends with a period .
+
+${variable%pattern}: This form of parameter expansion removes the shortest match of pattern from the end of the value in variable
+When you use ${variable%.*}, it matches and removes the shortest string from the end of variable that starts with a period . and continues to the end of the string. This is commonly used to strip the file extension from a filename.
+
+Basic Expansion:
+	{variable}: The value of variable.
+
+Length of a String:
+	${#variable}: Length of the value in variable.
+
+Substring Extraction:
+	${variable:offset}: Extracts substring from variable starting at offset.
+	${variable:offset:length}: Extracts length characters of substring from variable starting at offset.
+
+Substring Removal (Prefix and Suffix):
+	${variable#pattern}: Remove shortest match of pattern from the start.
+	${variable##pattern}: Remove longest match of pattern from the start.
+	${variable%pattern}: Remove shortest match of pattern from the end.
+	${variable%%pattern}: Remove longest match of pattern from the end.
+
+Search and Replace:
+	${variable/pattern/string}: Replace first match of pattern with string.
+	${variable//pattern/string}: Replace all matches of pattern with string.
+	${variable/#pattern/string}: If pattern matches the beginning of variable, replace it with string.
+	${variable/%pattern/string}: If pattern matches the end of variable, replace it with string.
+
+Default Values:
+	${variable:-default}: If variable is unset or null, use default.
+	${variable-default}: If variable is unset, use default.
+	${variable:=default}: If variable is unset or null, set it to default.
+	${variable=default}: If variable is unset, set it to default.
+	${variable:+alt_value}: If variable is set, use alt_value, otherwise null.
+	${variable+alt_value}: If variable is set, use alt_value, otherwise use variable.
+
+Case Modification (Bash 4.0+):
+	${variable^}: Uppercase first character.
+	${variable^^}: Uppercase all characters.
+	${variable,}: Lowercase first character.
+	${variable,,}: Lowercase all characters.
+
+Indirect Expansion:
+	${!variable}: Expands to the value of the variable whose name is held in variable.
+
+Remove Pattern (Bash 4.3+):
+	${variable@operator}: Apply pattern removal based on operator (e.g., Q, E, P, A).
+
+
+
+In Bash scripting, the shift command is used to manipulate the position of positional parameters (arguments). When you call a script or a function with arguments, these arguments are accessible within the script or function as $1, $2, $3, and so on. $1 refers to the first argument, $2 to the second, and so on.
+
+    Before shift: $1 is "searchString", $2 is "file1", $3 is "file2", ...
+    After shift: $1 is "file1", $2 is "file2", $3 is "file3", ...
+
+{63..69} = from 63 to 69
+sed -n "${i}p" "text" - print the current line from a text
+${i}s - substitute
+
+The -z flag causes test to check wheter a string is empty. returns true if the string is empty
+
+
+read
+-p (prompt)	output the string PROMPT without a trailing newline before
+    		attempting to read
+-s (input silent) do not echo input coming from a terminal
+
+read split input in whitespace
+
+
+Bash accomodates piping and redirection by way of special files. Each process gets it's own set of files (one for STDIN, STDOUT and STDERR respectively) and they are linked when piping or redirection is invoked. Each process gets the following files:
+
+    STDIN - /proc/<processID>/fd/0
+    STDOUT - /proc/<processID>/fd/1
+    STDERR - /proc/<processID>/fd/2
+
+To make life more convenient the system creates some shortcuts for us:
+
+    STDIN - /dev/stdin or /proc/self/fd/0
+    STDOUT - /dev/stdout or /proc/self/fd/1
+    STDERR - /dev/stderr or /proc/self/fd/2
+
+fd in the paths above stands for file descriptor.
+
+
+So we now have 3 methods for getting input from the user:
+
+    Command line arguments
+    Read input during script execution
+    Accept data that has been redirected into the Bash script via STDIN
+
+Which method is best depends on the situation.
+
+Use Arguments: When you have predefined, fixed data that needs to be passed to the script, typically used for configurations, file paths, or specific options.
+(Use for fixed, predefined data passed to the script.)
+
+
+Read Input: When you want interactive input from the user during the execution of the script, such as asking for user choices, preferences, or additional data not known beforehand.
+(Use for interactive user input during script execution.)
+
+Accept Data via STDIN: When you want to process data piped from another command or from a file, which is useful in shell scripting for chaining commands and integrating with other scripts or system commands.
+(Use for processing piped data from other commands or files.)
+
+
+    Ease of use - which of these methods will make it easiest for users to use my script?
+    Security - Is there sensitive data which I should handle appropriately?
+    Robustness - Can I make it so that my scripts operation is intuitive and flexible and also make it harder to make simple mistakes?
+
+
+
+read varName
+    Read input from the user and store it in the variable varName.
+/dev/stdin
+    A file you can read to get the STDIN for the Bash script
+
+let is a builtin function of Bash that allows us to do simple arithmetic. It follows the basic format:
+
+let <arithmetic expression>
+
+
+arithmetic 
+let a=5+4 because no space 
+let "a = $1 * 30" spaces but with quotes => more readable
+
+a++ its possible
+
++, -, \*, / 	addition, subtraction, multiply, divide
+var++ 	Increase the variable var by 1
+var-- 	Decrease the variable var by 1
+% 	Modulus (Return the remainder after division)
+
+Some characters have a special meaning to Bash so we must escape them (put a backslash in front of) to remove their special meaning.  \* ( because no quotes )
+
+expr is similar to let except instead of saving the result to a variable it instead prints the answer. Unlike let you don't need to enclose the expression in quotes. You also must have spaces between the items of the expression. It is also common to use expr within command substitution to save the output to a variable.
+
+expr item1 operator item2
+
+In the section on Variables we saw that we could save the output of a command easily to a variable. It turns out that this mechanism is also able to do basic arithmetic for us if we tweak the syntax a little. We do so by using double brackets like so:
+
+$(( expression ))
+
+This isn't really arithmetic but it can be quite useful. If you want to find out the lengh of a variable (how many characters) you can do the following:
+
+${#variable}
+
+
+let expression
+    Make a variable equal to an expression.
+expr expression
+    print out the result of the expression.
+$(( expression ))
+    Return the result of the expression.
+${#var}
+    Return the length of the variable var.
+
+Arithmetic
+    There are several ways in which to do arithmetic in Bash scripts. Double parentheses is the preferred method.
+Formatting
+    When doing arithmetic, the presence or absence of spaces (and quotes) is often important.
+
+A basic if statement effectively says, if a particular test is true, then perform a given set of actions. If it is not true then don't perform those actions. If follows the format below:
+
+if [ <some test> ]
+then
+<commands>
+fi
+
+
+The square brackets ( [ ] ) in the if statement above are actually a reference to the command test. This means that all of the operators that test allows may be used here as well. Look up the man page for test to see all of the possible operators (there are quite a few) but some of the more common ones are listed below.
+Operator 	Description
+! EXPRESSION 	The EXPRESSION is false.
+-n STRING 	The length of STRING is greater than zero.
+-z STRING 	The lengh of STRING is zero (ie it is empty).
+STRING1 = STRING2 	STRING1 is equal to STRING2
+STRING1 != STRING2 	STRING1 is not equal to STRING2
+INTEGER1 -eq INTEGER2 	INTEGER1 is numerically equal to INTEGER2
+INTEGER1 -gt INTEGER2 	INTEGER1 is numerically greater than INTEGER2
+INTEGER1 -lt INTEGER2 	INTEGER1 is numerically less than INTEGER2
+-d FILE 	FILE exists and is a directory.
+-e FILE 	FILE exists.
+-r FILE 	FILE exists and the read permission is granted.
+-s FILE 	FILE exists and it's size is greater than zero (ie. it is not empty).
+-w FILE 	FILE exists and the write permission is granted.
+-x FILE 	FILE exists and the execute permission is granted.
+
+FILE above we are actually meaning a path.
+[ 001 = 1 ] will return false as = does a string comparison 
+numerical comparison meaning [ 001 -eq 1 ] will return true
+
+$?			-the exit status of the most recently run process
+
+In most programming languages, 0 is considered false and non-zero values (often 1) are considered true. This is a standard inherited from C and followed by many languages. However, there are exceptions and variations:
+
+Languages where 0 is False and 1 is True:
+
+    C
+    C++
+    Java
+    JavaScript
+    PHP
+    Python
+    Ruby
+    Swift
+    Perl
+    Go
+
+In Bash and other shell scripting environments, especially in terms of exit statuses of commands and functions, a 0 exit status is considered a success (which can be interpreted as true in logical expressions), while any non-zero exit status is considered a failure (or false).
+
+
+Indenting
+
+You'll notice that in the if statement above we indented the commands that were run if the statement was true. This is referred to as indenting and is an important part of writing good, clean code (in any language, not just Bash scripts). The aim is to improve readability and make it harder for us to make simple, silly mistakes. There aren't any rules regarding indenting in Bash so you may indent or not indent however you like and your scripts will still run exactly the same. I would highly recommend you do indent your code however (especially as your scripts get larger) otherwise you will find it increasingly difficult to see the structure in your scripts.
+
+You can nest as many if statements as you like but as a general rule of thumb if you need to nest more than 3 levels deep you should probably have a think about reorganising your logic.
+
+Sometimes we want to perform a certain set of actions if a statement is true, and another set of actions if it is false. We can accommodate this with the else mechanism.
+
+if [ <some test> ]
+then
+<commands>
+else
+<other commands>
+fi
+
+nl - number lines of files
+{Customizable Line Numbering: You can control how the lines are numbered (e.g., skipping empty lines, starting from a specific number, etc.).
+
+Formatting Options: nl allows various formatting options for the line numbers, such as the field width of the line number, the number separator, and the numbering style (e.g., right-justified, left-justified, zero-padded).
+
+Section Delimiting: It can number lines differently based on defined sections within the file.
+
+Compatibility with Other Commands:nl is often used in combination with other Unix commands in pipelines, making it a versatile tool for processing text in shell scripts or command line operations.}
+
+Sometimes we may have a series of conditions that may lead to different paths.
+
+if [ <some test> ]
+then
+<commands>
+elif [ <some test> ]
+then
+<different commands>
+else
+<other commands>
+fi 
+
+
+    and - &&
+    or - ||
+
+
+    Sometimes we may wish to take different paths based upon a variable matching a series of patterns. We could use a series of if and elif statements but that would soon grow to be unweildly. Fortunately there is a case statement which can make things cleaner. It's a little hard to explain so here are some examples to illustrate:
+
+case <variable> in
+<pattern 1>)
+<commands>
+;;
+<pattern 2>)
+<other commands>
+;;
+esac
+
+3 types of loops 
+-while loops
+-until loops
+-for loops
+
+They say, while an expression is true, keep executing these lines of code. They have the following format:
+
+(THIS IS TRUE -> FALSE exit)
+while [ <some test> ]
+do
+<commands>
+done
+
+The until loop is fairly similar to the while loop. The difference is that it will execute the commands within it until the test becomes true.
+
+(THIS IS FALSE -> TRUE exit)
+until [ <some test> ]
+do
+<commands>
+done
+
+'Why bother having the two different kinds of loops?'. We don't necessarily. The while loop would be able to handle every scenario. Sometimes, however, it just makes it a little easier to read if we phrase it with until rather than while. Think about the following statement:
+
+Leave the towel on the line until it's dry.
+
+We could have said:
+
+Leave the towel on the line while it is not dry.
+
+Or:
+
+Leave the towel on the line while it is wet.
+
+The for loop is a little bit different to the previous two loops. What it does is say for each of the items in a given list, perform the given set of commands. It has the following syntax.
+
+for var in <list>
+do
+<commands>
+done
+
+series of numbers 	Ex: {1..5}
+any number you like for both the starting value and ending value. The first value may also be larger than the second in which case it will count down.
+
+It is also possible to specify a value to increase or decrease by each time. You do this by adding another two dots ( .. ) and the value to step by.
+{10..0..2}
+
+One of the more useful applications of for loops is in the processing of a set of files. To do this we may use wildcards. Let's say we want to convert a series of .html files over to .php files.
+
+Controlling Loops: Break and Continue
+
+Most of the time your loops are going to through in a smooth and ordely manner. Sometimes however we may need to intervene and alter their running slightly. There are two statements we may issue to do this.
+
+Break
+The break statement tells Bash to leave the loop straight away. It may be that there is a normal situation that should cause the loop to end but there are also exceptional situations in which it should end as well. For instance, maybe we are copying files but if the free disk space get's below a certain level we should stop copying.
+
+Continue
+The continue statement tells Bash to stop running through this iteration of the loop and begin the next iteration. Sometimes there are circumstances that stop us from going any further. For instance, maybe we are using the loop to process a series of files but if we happen upon a file which we don't have the read permission for we should not try to process it.
+
+The select mechanism allows you to create a simple menu system. It has the following format:
+
+select var in <list>
+do
+<commands>
+done
+
+When invoked it will take all the items in list (similar to other loops this is a space separated set of items) and present them on the screen with a number before each item. A prompt will be printed after this allowing the user to select a number. When they select a number and hit enter the corresponding item will be assigned to the variable var and the commands between do and done are run. Once finished a prompt will be displayed again so the user may select another option.
+
+A few points to note:
+
+    No error checking is done. If the user enters something other than a number or a number not corresponding to an item then var becomes null (empty)
+    If the user hits enter without entering any data then the list of options will be displayed again.
+    The loop will end when an EOF signal is entered or the break statement is issued.
+    You may change the system variable PS3 to change the prompt that is displayed.
+
+PS3='Select character: '
+Change the value of the system variable PS3 so that the prompt is set to something a little more descriptive. (By default it is #?)
+
+Creating a function is fairly easy. They may be written in two different formats:
+
+function_name () {
+<commands>
+}
+
+or
+
+function function_name {
+<commands>
+}
+
+A few points to note:
+
+    Either of the above methods of specifying a function is valid. Both operate the same and there is no advantage or disadvantage to one over the other. It's really just personal preference.
+    In other programming languages it is common to have arguments passed to the function listed inside the brackets (). In Bash they are there only for decoration and you never put anything inside them.
+    The function definition ( the actual function itself) must appear in the script before any calls to the function.
+
+
+Passing Arguments
+
+It is often the case that we would like the function to process some data for us. We may send data to the function in a similar way to passing command line arguments to a script. We supply the arguments directly after the function name. Within the function they are accessible as $1, $2, etc.
+
+Return Values
+
+Most other programming languages have the concept of a return value for functions, a means for the function to send data back to the original calling location. Bash functions don't allow us to do this. They do however allow us to set a return status. Similar to how a program or command exits with an exit status which indicates whether it succeeded or not. We use the keyword return to indicate a return status.
+
+The return status doesn't have to be hardcoded. It may be a variable
+
+
+num_lines=$( lines_in_file $1 )
+We use command substitution to take what would normally be printed to the screen and assign it to the variable num_lines
+
+
+
+Scope refers to which parts of a script can see which variables. By default a variable is global. This means that it is visible everywhere in the script. We may also create a variable as a local variable. When we create a local variable within a function, it is only visible within that function. To do that we use the keyword local in front of the variable the first time we set it's value.
+
+local var_name=<var_value>
+
+It is generally considered good practice to use local variables within functions so as to keep everything within the function contained. This way variables are safer from being inadvertently modified by another part of the script which happens to have a variable with the same name (or vice versa).
+
+
+TPut
+
+tput is a command which allows you to control the cursor on the terminal and the format of content that is printed. It is quite a powerful and complex tool so I'll introduce some of the basics here but leave it up to you to do further research.
+
+Here is an example printing a message in the center of the screen.
+
+Remember there are 3 ways in which you may supply data to a Bash script:
+
+    As command line arguments
+    Redirected in as STDIN
+    Read interactively during script execution
+    
+Your script may use one or a combination of these but should always aim to be the most convenient for the user.
+
+Command line arguments are good as they will be retained in the users history making it easy for them to rerun commands. Command line arguments are also convenient when the script is not run directly by the user (eg, as part of another script or a cron task etc).
+
+Redirected from STDIN is good when your script is behaving like a filter and just modifying or reformatting data that is fed to it.
+
+Reading interactively is good when you don't know what data may be required until the script is already running. eg. You may need to clarify some suspicious or erroneous input. Passwords are also ideally asked for this way so they aren't kept as plain text in the users history.
+
+
+    Indent your code and space it out well so that different sections are easily distinguished.
+    Name variables and functions with descriptive names so it is clear what they represent and do.
+    Use comments where appropriate to explain a bit of code who's operation is not immediately obvious.
+
