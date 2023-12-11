@@ -1,15 +1,15 @@
 #!/bin/bash
-# Dbus monitor status battery change
 
-sudo dbus-monitor --system | grep -A 1 "string \"OnBattery\"" |
-while read -r line
+while :
 do
-    if [[ ${line} == *"boolean"* ]]; then
-        status=$(echo $line | awk '{print $3}')
-        if [[ $status == "true" ]]; then
-            echo "This machine is currently using the battery"
-        else
-            echo "This machine is currently plugged in"
-        fi
-    fi
+STATE=$(sudo dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower/devices/DisplayDevice org.freedesktop.DBus.Properties.Get string:"org.freedesktop.UPower.Device" string:"State")
+value=$(echo ${STATE} | awk '{print $NF}')
+case "$value" in
+	*1*)
+	echo "This machine is currently plugged in"
+	;;
+	*2*)
+	echo "This machine is currently using the battery"
+	;;
+esac
 done
