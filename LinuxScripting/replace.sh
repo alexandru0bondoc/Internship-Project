@@ -3,12 +3,20 @@
 inputFile="./log.txt"
 outputFile="replacement_log.txt"
 
-for i in {63..69}; do
-    # Extract the 6th word from the line
-    originalWord=$(sed -n "${i}p" "$inputFile" | awk '{print $6}')
-    
-    # Replace the 6th word with "AUTOMATION" in the line
-    sed -i "${i}s/\b$originalWord\b/AUTOMATION/" "$inputFile"
+luckyWord="AUTOMATION"
 
-    echo "$originalWord was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]" >> "$outputFile"
+for i in {63..72}; do
+# Keep evidence - index for the replacement letter
+    index=$((i-63))
+
+# Extract the 6th word from the line
+    originalWord=$(sed -n "${i}p" "${inputFile}" | awk '{print $6}')
+    
+# Extract the letter from the luckyWord
+    letter=$(echo ${luckyWord} | cut -c$((index+1)))
+
+# Replace the 6th word with "AUTOMATION" in the line
+    sed -i "${i}s/\b$originalWord\b/${letter}/" "${inputFile}"
+
+    echo "$originalWord was replaced with the letter: $letter" >> "${outputFile}"
 done

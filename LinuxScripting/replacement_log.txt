@@ -1,7 +1,10 @@
-printk was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-printk was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-printk was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-printk was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-printk was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-rcu was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
-SLUB was replaced with the letter: [A, U, T, O, M, A, T, I, O, N]
+printk was replaced with the letter: A
+printk was replaced with the letter: U
+printk was replaced with the letter: T
+printk was replaced with the letter: O
+printk was replaced with the letter: M
+rcu was replaced with the letter: A
+SLUB was replaced with the letter: T
+mem was replaced with the letter: I
+Memory was replaced with the letter: O
+SLUB was replaced with the letter: N
